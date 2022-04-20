@@ -11,6 +11,7 @@ from pyedictor import fetch
 from pylexibank import Lexeme
 import lingpy
 
+LANGUAGES = "Matses|Matis|Marubo|Shipibo_Konibo|Kapanawa|Shanenawa|Yawanawa|Nukini|Poyanawa|Iskonawa|Chakobo|Kakataibo|Kaxarari|Mastanawa|Chaninawa|Sharanawa|Amawaka|Nawa|Marinawa|Yaminawa|Kashinawa_P|Kashinawa_B|Araona|Katukina|Pakawara|Kanamari".split("|")
 
 @attr.s
 class CustomLanguage(Language):
@@ -46,7 +47,8 @@ class Dataset(BaseDataset):
         args.log.info('updating ...')
         with open(self.raw_dir.joinpath("pano.tsv"), "w",
                 encoding="utf-8") as f:
-            f.write(fetch("pano", base_url="https://digling.org/edictor"))
+            f.write(fetch("pano", base_url="https://digling.org/edictor",
+                languages=LANGUAGES))
 
     def cmd_makecldf(self, args):
         """
@@ -62,8 +64,10 @@ class Dataset(BaseDataset):
                     Spanish_Gloss=concept["SPANISH"]
                     )
             concepts[concept["ENGLISH"]] = idx
-
-        languages = args.writer.add_languages()
+    
+        for language in self.languages:
+            if language["ID"] in LANGUAGES:
+                args.writer.add_language(**language)
         sources = {}
         for language in self.languages:
             sources[language["ID"]] = language["Source"]

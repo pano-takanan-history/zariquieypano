@@ -13,7 +13,7 @@
         {
             "rdf:about": "https://github.com/lexibank/zariquieypano",
             "rdf:type": "prov:Entity",
-            "dc:created": "c161bdb",
+            "dc:created": "8371802",
             "dc:title": "Repository"
         },
         {
@@ -57,7 +57,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
-            "dc:extent": 5131,
+            "dc:extent": 4372,
             "tableSchema": {
                 "columns": [
                     {
@@ -168,7 +168,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 30,
+            "dc:extent": 26,
             "tableSchema": {
                 "columns": [
                     {
