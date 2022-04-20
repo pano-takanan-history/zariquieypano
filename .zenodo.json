@@ -1,0 +1,23 @@
+{
+    "title": "CLDF dataset reflecting Zariquiey et al.'s \"Annotated Wordlists of Pano\" from 2022",
+    "creators": [],
+    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>+++.</p>\n</blockquote>",
+    "access_right": "open",
+    "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+    ],
+    "license": {
+        "id": "CC-BY-4.0"
+    },
+    "contributors": [],
+    "upload_type": "dataset",
+    "communities": [
+        {
+            "identifier": "calc"
+        },
+        {
+            "identifier": "lexibank"
+        }
+    ]
+}
