@@ -33,6 +33,15 @@ class CustomLexeme(Lexeme):
     Motivation_Structure = attr.ib(default=None)
 
 
+def desegment(tokens):
+    out = []
+    for t in tokens:
+        if '.' in t:
+            out += t.split('.')
+        else:
+            out += [t]
+    return out
+
 
 class Dataset(BaseDataset):
     dir = Path(__file__).parent
@@ -61,7 +70,9 @@ class Dataset(BaseDataset):
             args.writer.add_concept(
                     ID=idx,
                     Name=concept["ENGLISH"],
-                    Spanish_Gloss=concept["SPANISH"]
+                    Spanish_Gloss=concept["SPANISH"],
+                    Concepticon_ID=concept["CONCEPTICON_ID"],
+                    Concepticon_Gloss=concept["CONCEPTICON_GLOSS"]
                     )
             concepts[concept["ENGLISH"]] = idx
     
@@ -79,10 +90,10 @@ class Dataset(BaseDataset):
                     Language_ID=wl[idx, "doculect"],
                     Value=wl[idx, "value"],
                     Form=wl[idx, "form"],
-                    Segments=wl[idx, "tokens"],
+                    Segments=desegment(wl[idx, "tokens"]),
                     Cognacy=wl[idx, 'cogid'],
-                    Partial_Cognacy=wl[idx, "cogids"],
-                    Motivation_Structure=wl[idx, "morphemes"],
+                    Partial_Cognacy=str(wl[idx, "cogids"]) or 0,
+                    Motivation_Structure=" ".join(wl[idx, "morphemes"]),
                     Source=sources[wl[idx, "doculect"]]
                     )
 

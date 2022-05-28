@@ -1,183 +1,182 @@
 ID,Name,Concepticon_ID,Concepticon_Gloss,Spanish_Gloss
-1_i,I,,,yo
-2_all,all,,,todos
-3_animal,animal,,,animal
-4_ashes,ashes,,,ceniza
-5_backofbody,back [of body],,,espalda
-6_bad,bad,,,malo
-7_barkoftree,bark [of tree],,,corteza
-8_belly,belly,,,barriga
-9_big,big,,,grande
-10_bird,bird,,,pajaro
-11_bite,bite,,,morder
-12_black,black,,,negro
-13_blood,blood,,,sangre
-14_blowwind,blow [wind],,,soplar
-15_bone,bone,,,hueso
-16_breathe,breathe,,,respirar
-17_burntrv,burn [tr. v.],,,quemar
-18_child,child,,,niño
-19_cloud,cloud,,,nube
-20_coldweather,cold [weather],,,frio
-21_come,come,,,venir
-22_countverb,count [verb],,,contar
-23_cutverb,cut [verb],,,cortar
-24_daydaytime,day [daytime],,,dia (de dia)
-25_die,die,,,morir
-26_dig,dig,,,cavar escarbar
-27_dirty,dirty,,,sucio
-28_dog,dog,,,perro
-29_drinkverb,drink [verb],,,beber tomar
-30_dryadjv,dry [adj./v.],,,seco
-31_dullknife,dull [knife],,,desafilado embotado
-32_dust,dust,,,polvo
-33_ear,ear,,,oreja
-34_earthsoil,earth [soil],,,tierra
-35_eat,eat,,,comer
-36_egg,egg,,,huevo
-37_eye,eye,,,ojo
-38_falldrop,fall [drop],,,caer(-se)
-39_far,far,,,lejos
-40_fatgrease,fat (grease),,,grasa
-41_father,father,,,padre
-42_fearverb,fear [verb],,,temer
-43_featherlarge,feather [large],,,pluma
-44_few,few,,,pocos
-45_fight,fight,,,pelear luchar
-46_fire,fire,,,fuego
-47_fishnoun,fish [noun],,,pez pescado
-48_float,float,,,flotar rebalsar
-49_flow,flow,,,fluir
-50_flower,flower,,,flor
-51_flyverb,fly [verb],,,volar
-52_fog,fog,,,neblina
-53_foot,foot,,,pie
-54_fruitberry,fruit (berry),,,fruta
-55_give,give,,,dar
-56_good,good,,,bueno
-57_grass,grass,,,hierba
-58_greencolor,green [color],,,verde
-59_guts,guts,,,tripas intestinos
-60_hair,hair,,,cabello pelo
-61_hand,hand,,,mano
-62_he,he,,,el
-63_head,head,,,cabeza
-64_hear,hear,,,oir
-65_heart,heart,,,corazon
-66_heavy,heavy,,,pesado
-67_here,here,,,aqui aca
-68_hit,hit,,,golpear pegar
-69_holdinhand,hold [in hand],,,agarrar sostener
-70_howinterr,how [interr.],,,como
-71_hunt,hunt,,,cazar
-72_husband,husband,,,esposo marido
-73_kill,kill,,,matar
-74_knowfacts,know [facts],,,saber
-75_lake,lake,,,lago
-76_laugh,laugh,,,reir
-77_leaf,leaf,,,hoja
-78_leg,leg,,,pierna
-79_liebelyingdown,lie [be lying down],,,echar(-se)
-80_live,live,,,vivir
-81_liver,liver,,,higado
-82_long,long,,,largo
-83_louse,louse,,,piojo
-84_manmale,man [male],,,hombre
-85_many,many,,,muchos
-86_meatflesh,meat (flesh),,,carne
-87_mother,mother,,,madre
-88_mountain,mountain,,,montaña (hill = cerro loma)
-89_mouth,mouth,,,boca
-90_name,name,,,nombre
-91_narrow,narrow,,,angosto estrecho
-92_near,near,,,cerca
-93_neck,neck,,,cuello
-94_new,new,,,nuevo
-95_night,night,,,noche
-96_nose,nose,,,nariz
-97_oldadj,old [adj.],,,viejo
-98_one,one,,,uno
-99_other,other,,,otro
-100_personhuman,person (human),,,persona
-101_play,play,,,jugar
-102_pull,pull,,,jalar
-103_push,push,,,empujar
-104_rain,rain,,,lluvia
-105_red,red,,,rojo
-106_river,river,,,rio
-107_roadpath,road (path),,,carretera (camino trocha sendero)
-108_root,root,,,raiz
-109_ropecord,rope (cord),,,cuerda soga
-110_rottenlog,rotten [log],,,podrido
-111_rub,rub,,,sobar frotar
-112_salt,salt,,,sal
-113_sand,sand,,,arena
-114_say,say,,,decir
-115_scratchanitch,scratch [an itch],,,rascar
-116_see,see,,,ver
-117_seed,seed,,,semilla
-118_sew,sew,,,coser
-119_sharpknife,sharp [knife],,,filudo filoso
-120_short,short,,,corto bajo (vertical)
-121_sing,sing,,,cantar
-122_sit,sit,,,sentar(-se)
-123_skinofperson,skin [of person],,,piel
-124_sky,sky,,,cielo
-125_sleep,sleep,,,dormir
-126_small,small,,,pequeño
-127_smelltrv,smell [tr. v.],,,oler
-128_smokenoun,smoke [noun],,,humo
-129_smooth,smooth,,,liso
-130_snake,snake,,,culebra
-131_some,some,,,algunos
-132_spitverb,spit [verb],,,escupir
-133_split,split,,,partir hender
-134_squeeze,squeeze,,,apretar
-135_staborpierce,stab [or pierce],,,penetrar (perforando)
-136_stand,stand,,,parar(-se)
-137_star,star,,,estrella
-138_stickofwood,stick [of wood],,,palo
-139_stone,stone,,,piedra
-140_straight,straight,,,recto derecho
-141_suck,suck,,,chupar
-142_sun,sun,,,sol
-143_swell,swell,,,hinchar
-144_swim,swim,,,nadar
-145_tail,tail,,,rabo cola
-146_they,they,,,ellos
-147_thick,thick,,,grueso
-148_thin,thin,,,delgado
-149_think,think,,,pensar
-150_this,this,,,este
-151_thouyou,thou [you],,,usted tu
-152_throw,throw,,,tirar lanzar
-153_tieverb,tie [verb],,,atar amarrar
-154_tongue,tongue,,,lengua
-155_toothfront,tooth [front],,,diente
-156_tree,tree,,,arbol
-157_turnintrv,turn [intr. v.],,,voltear(se) girar
-158_two,two,,,dos
-159_vomitverb,vomit [verb],,,vomitar
-160_walk,walk,,,caminar andar (more general)
-161_warmhotweather,warm (hot weather),,,caliente
-162_wash,wash,,,lavar
-163_water,water,,,agua
-164_we,we,,,nosotros
-165_wet,wet,,,mojado
-166_whatinterr,what [interr.],,,que
-167_wheninterr,when [interr.],,,cuando
-168_whereinterr,where [interr.],,,donde
-169_white,white,,,blanco
-170_whointerr,who [interr.],,,quien
-171_wide,wide,,,ancho
-172_wife,wife,,,esposa
-173_windbreeze,wind [breeze],,,viento
-174_wing,wing,,,ala
-175_wipe,wipe,,,limpiar enjugar
-176_woman,woman,,,mujer
-177_woodsforest,woods (forest),,,bosque (= monte in Peru)
-178_wormieearthworm,worm (i.e. earthworm),,,lombriz (gusano = grub)
-179_yeyouall,ye [you all],,,ustedes vosotros
-180_year,year,,,año
-181_yellow,yellow,,,amarillo
-182_,ɨ,,,yo
+1_i,I,1209,I,yo
+2_all,all,98,ALL,todos
+3_animal,animal,619,ANIMAL,animal
+4_ashes,ashes,646,ASH,ceniza
+5_backofbody,back [of body],2323,BACK (PART),espalda
+6_bad,bad,1292,BAD,malo
+7_barkoftree,bark [of tree],1204,BARK,corteza
+8_belly,belly,1251,BELLY,barriga
+9_big,big,1202,BIG,grande
+10_bird,bird,937,BIRD,pajaro
+11_bite,bite,1403,BITE,morder
+12_black,black,163,BLACK,negro
+13_blood,blood,946,BLOOD,sangre
+14_blowwind,blow [wind],175,BLOW (OF WIND),soplar
+15_bone,bone,1394,BONE,hueso
+16_breathe,breathe,1407,BREATHE,respirar
+17_burntrv,burn [tr. v.],141,BURN (SOMETHING),quemar
+18_child,child,1304,CHILD (YOUNG HUMAN),niño
+19_cloud,cloud,1489,CLOUD,nube
+20_coldweather,cold [weather],2483,COLD (OF WEATHER),frio
+21_come,come,1446,COME,venir
+22_countverb,count [verb],1420,COUNT,contar
+23_cutverb,cut [verb],1432,CUT,cortar
+24_daydaytime,day [daytime],1225,DAY (NOT NIGHT),dia (de dia)
+25_die,die,1494,DIE,morir
+26_dig,dig,1418,DIG,cavar escarbar
+27_dirty,dirty,1230,DIRTY,sucio
+28_dog,dog,2009,DOG,perro
+29_drinkverb,drink [verb],1401,DRINK,beber tomar
+30_dryadjv,dry [adj./v.],1398,DRY,seco
+31_dullknife,dull [knife],379,BLUNT,desafilado embotado
+32_dust,dust,2,DUST,polvo
+33_ear,ear,1247,EAR,oreja
+34_earthsoil,earth [soil],1228,EARTH (SOIL),tierra
+35_eat,eat,1336,EAT,comer
+36_egg,egg,744,EGG,huevo
+37_eye,eye,1248,EYE,ojo
+38_falldrop,fall [drop],1280,FALL,caer(-se)
+39_far,far,1406,FAR,lejos
+40_fatgrease,fat (grease),323,FAT (ORGANIC SUBSTANCE),grasa
+41_father,father,1217,FATHER,padre
+42_fearverb,fear [verb],1419,FEAR (BE AFRAID),temer
+43_featherlarge,feather [large],1201,FEATHER,pluma
+44_few,few,1242,FEW,pocos
+45_fight,fight,1423,FIGHT,pelear luchar
+46_fire,fire,221,FIRE,fuego
+47_fishnoun,fish [noun],227,FISH,pez pescado
+48_float,float,1574,FLOAT,flotar rebalsar
+49_flow,flow,2003,FLOW,fluir
+50_flower,flower,239,FLOWER,flor
+51_flyverb,fly [verb],1441,FLY (MOVE THROUGH AIR),volar
+52_fog,fog,249,FOG,neblina
+53_foot,foot,1301,FOOT,pie
+54_fruitberry,fruit (berry),1507,FRUIT,fruta
+55_give,give,1447,GIVE,dar
+56_good,good,1035,GOOD,bueno
+57_grass,grass,606,GRASS,hierba
+58_greencolor,green [color],1425,GREEN,verde
+59_guts,guts,1334,GUTS,tripas intestinos
+60_hair,hair,1040,HAIR,cabello pelo
+61_hand,hand,1277,HAND,mano
+62_he,he,1211,HE,el
+63_head,head,1256,HEAD,cabeza
+64_hear,hear,1408,HEAR,oir
+65_heart,heart,1223,HEART,corazon
+66_heavy,heavy,1210,HEAVY,pesado
+67_here,here,136,HERE,aqui aca
+68_hit,hit,1433,HIT,golpear pegar
+69_holdinhand,hold [in hand],1448,HOLD,agarrar sostener
+70_howinterr,how [interr.],1239,HOW,como
+71_hunt,hunt,1435,HUNT,cazar
+72_husband,husband,1200,HUSBAND,esposo marido
+73_kill,kill,1417,KILL,matar
+74_knowfacts,know [facts],1410,KNOW (SOMETHING),saber
+75_lake,lake,624,LAKE,lago
+76_laugh,laugh,1355,LAUGH,reir
+77_leaf,leaf,628,LEAF,hoja
+78_leg,leg,1297,LEG,pierna
+79_liebelyingdown,lie [be lying down],215,LIE DOWN,echar(-se)
+80_live,live,1422,BE ALIVE,vivir
+81_liver,liver,1224,LIVER,higado
+82_long,long,1203,LONG,largo
+83_louse,louse,1392,LOUSE,piojo
+84_manmale,man [male],1554,MAN,hombre
+85_many,many,1198,MANY,muchos
+86_meatflesh,meat (flesh),634,MEAT,carne
+87_mother,mother,1216,MOTHER,madre
+88_mountain,mountain,639,MOUNTAIN,montaña (hill = cerro loma)
+89_mouth,mouth,674,MOUTH,boca
+90_name,name,1405,NAME,nombre
+91_narrow,narrow,1267,NARROW,angosto estrecho
+92_near,near,1942,NEAR,cerca
+93_neck,neck,1333,NECK,cuello
+94_new,new,1231,NEW,nuevo
+95_night,night,1233,NIGHT,noche
+96_nose,nose,1221,NOSE,nariz
+97_oldadj,old [adj.],1229,OLD,viejo
+98_one,one,1493,ONE,uno
+99_other,other,197,OTHER,otro
+100_personhuman,person (human),683,PERSON,persona
+101_play,play,1413,PLAY,jugar
+102_pull,pull,1455,PULL,jalar
+103_push,push,1452,PUSH,empujar
+104_rain,rain,658,RAIN (PRECIPITATION),lluvia
+105_red,red,156,RED,rojo
+106_river,river,666,RIVER,rio
+107_roadpath,road (path),667,ROAD,carretera (camino trocha sendero)
+108_root,root,670,ROOT,raiz
+109_ropecord,rope (cord),362,STRING,cuerda soga
+110_rottenlog,rotten [log],1728,ROTTEN,podrido
+111_rub,rub,1449,RUB,sobar frotar
+112_salt,salt,1274,SALT,sal
+113_sand,sand,671,SAND,arena
+114_say,say,1458,SAY,decir
+115_scratchanitch,scratch [an itch],1436,SCRATCH,rascar
+116_see,see,1409,SEE,ver
+117_seed,seed,714,SEED,semilla
+118_sew,sew,1457,SEW,coser
+119_sharpknife,sharp [knife],1396,SHARP,filudo filoso
+120_short,short,1645,SHORT,corto bajo (vertical)
+121_sing,sing,1261,SING,cantar
+122_sit,sit,1649,SIT DOWN,sentar(-se)
+123_skinofperson,skin [of person],2613,SKIN (HUMAN),piel
+124_sky,sky,1732,SKY,cielo
+125_sleep,sleep,1585,SLEEP,dormir
+126_small,small,1246,SMALL,pequeño
+127_smelltrv,smell [tr. v.],1586,SMELL (PERCEIVE),oler
+128_smokenoun,smoke [noun],778,SMOKE (EXHAUST),humo
+129_smooth,smooth,1234,SMOOTH,liso
+130_snake,snake,730,SNAKE,culebra
+131_some,some,1241,SOME,algunos
+132_spitverb,spit [verb],1440,SPIT,escupir
+133_split,split,1437,SPLIT,partir hender
+134_squeeze,squeeze,1414,SQUEEZE,apretar
+135_staborpierce,stab [or pierce],1434,STAB,penetrar (perforando)
+136_stand,stand,570,STAND UP,parar(-se)
+137_star,star,1430,STAR,estrella
+138_stickofwood,stick [of wood],1295,STICK,palo
+139_stone,stone,857,STONE,piedra
+140_straight,straight,1404,STRAIGHT,recto derecho
+141_suck,suck,1421,SUCK,chupar
+142_sun,sun,1343,SUN,sol
+143_swell,swell,1573,SWELL,hinchar
+144_swim,swim,1439,SWIM,nadar
+145_tail,tail,1220,TAIL,rabo cola
+146_they,they,817,THEY,ellos
+147_thick,thick,1244,THICK,grueso
+148_thin,thin,1400,THIN (SLIM),delgado
+149_think,think,2271,THINK,pensar
+150_this,this,1214,THIS,este
+151_thouyou,thou [you],1215,THOU,usted tu
+152_throw,throw,1456,THROW,tirar lanzar
+153_tieverb,tie [verb],1917,TIE,atar amarrar
+154_tongue,tongue,1205,TONGUE,lengua
+155_toothfront,tooth [front],1380,TOOTH,diente
+156_tree,tree,906,TREE,arbol
+157_turnintrv,turn [intr. v.],1588,TURN,voltear(se) girar
+158_two,two,1498,TWO,dos
+159_vomitverb,vomit [verb],1278,VOMIT,vomitar
+160_walk,walk,1443,WALK,caminar andar (more general)
+161_warmhotweather,warm (hot weather),2110,WARM (OF WEATHER),caliente
+162_wash,wash,1453,WASH,lavar
+163_water,water,948,WATER,agua
+164_we,we,1212,WE,nosotros
+165_wet,wet,1726,WET,mojado
+166_whatinterr,what [interr.],1236,WHAT,que
+167_wheninterr,when [interr.],1238,WHEN,cuando
+168_whereinterr,where [interr.],1237,WHERE,donde
+169_white,white,1335,WHITE,blanco
+170_whointerr,who [interr.],1235,WHO,quien
+171_wide,wide,1243,WIDE,ancho
+172_wife,wife,1199,WIFE,esposa
+173_windbreeze,wind [breeze],960,WIND,viento
+174_wing,wing,1257,WING,ala
+175_wipe,wipe,1454,WIPE,limpiar enjugar
+176_woman,woman,962,WOMAN,mujer
+177_woodsforest,woods (forest),420,FOREST,bosque (= monte in Peru)
+178_wormieearthworm,worm (i.e. earthworm),2350,EARTHWORM,lombriz (gusano = grub)
+179_yeyouall,ye [you all],1213,YOU,ustedes vosotros
+180_year,year,1226,YEAR,año
+181_yellow,yellow,1424,YELLOW,amarillo
