@@ -92,8 +92,8 @@ class Dataset(BaseDataset):
                     Form=wl[idx, "form"],
                     Segments=desegment(wl[idx, "tokens"]),
                     Cognacy=wl[idx, 'cogid'],
-                    Partial_Cognacy=str(wl[idx, "cogids"]) or 0,
-                    Motivation_Structure=" ".join(wl[idx, "morphemes"]),
+                    Partial_Cognacy=str(lingpy.basictypes.ints(wl[idx, "cogids"])) or 0,
+                    Motivation_Structure=str(lingpy.basictypes.strings(wl[idx, "morphemes"])) or "?",
                     Source=sources[wl[idx, "doculect"]]
                     )
 
