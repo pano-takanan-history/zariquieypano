@@ -1,589 +1,497 @@
-ID	DOCULECT	CONCEPT	VALUE	FORM	TOKENS	NOTE	MORPHEMES	COGID	BODY	BODYID
-729	Matses	back [of body]	katʂo	katʂo	k a + ʈʂ o		back _tso	32	['back', '_tso']	16
-730	Matis	back [of body]	kaʂuku	kaʂuku	k a + ʂ u k u		back _suku	32	['back', '_suku']	15
-731	Marubo	back [of body]	kaʂu	kaʂu	k a + ʂ u		back _ʂu	32	['back', '_ʂu']	19
-732	Katukina	back [of body]	pimana	pimana	p i + m a n a		shoulder _above	30	['shoulder', '_above']	109
-733	Kanamari	back [of body]	kaʃo	kaʃo	k a + ʃ o		back _ʃo	32	['back', '_ʃo']	20
-734	Shipibo_Konibo	back [of body]	pɨka	pɨka	p ɨ + k a		shoulder _ka	30	['shoulder', '_ka']	110
-735	Kapanawa	back [of body]	pɨka	pɨka	p ɨ + k a		shoulder _ka	30	['shoulder', '_ka']	110
-736	Shanenawa	back [of body]	pustʃi	pɨstʃi	p ɨ + s tʃ i		shoulder _stʃi	30	['shoulder', '_stʃi']	112
-737	Nukini	back [of body]	puʃi	pɨʃi	p ɨ + tʃ i		shoulder _ʧi	30	['shoulder', '_ʧi']	115
-738	Poyanawa	back [of body]	pɨti	pɨti	p ɨ + t i		shoulder _ti	30	['shoulder', '_ti']	113
-739	Iskonawa	back [of body]	pɨʧi	pɨʧi	p ɨ + tʃ i		shoulder _ʧi	30	['shoulder', '_ʧi']	115
-740	Iskonawa	back [of body]	katɨ	katɨ	k a + t ɨ		back _tɨ	32	['back', '_tɨ']	17
-741	Chakobo	back [of body]	katɨ	katɨ	k a + t ɨ		back _tɨ	32	['back', '_tɨ']	17
-742	Kakataibo	back [of body]	kaʂo	kaʂo	k a + ʂ o		back _ʂo	32	['back', '_ʂo']	18
-743	Kaxarari	back [of body]	katapu	katapu	k a + t a p u		back _root	32	['back', '_root']	14
-744	Mastanawa	back [of body]	piʧi	piʧi	p i + tʃ i		shoulder _ʧi	30	['shoulder', '_ʧi']	115
-745	Chaninawa	back [of body]	pɨʂaβati	pɨʂaβati	p ɨ + ʂ a β a t i		shoulder _ʂaβati	30	['shoulder', '_ʂaβati']	114
-746	Sharanawa	back [of body]	pɨmiti	pɨmiti	p ɨ + m i t i		shoulder _miti	30	['shoulder', '_miti']	111
-747	Amawaka	back [of body]	katɨ	katɨ	k a + t ɨ		back _tɨ	32	['back', '_tɨ']	17
-748	Nawa	back [of body]	pɨʧi	pɨʧi	p ɨ + tʃ i		shoulder _ʧi	30	['shoulder', '_ʧi']	115
-749	Marinawa	back [of body]	pɨʧi	pɨʧi	p ɨ + tʃ i		shoulder _ʧi	30	['shoulder', '_ʧi']	115
-750	Yaminawa	back [of body]	piʧi	pɨʧi	p ɨ + tʃ i		shoulder _ʧi	30	['shoulder', '_ʧi']	115
-751	Kashinawa_P	back [of body]	pɨʧi	pɨʧi	p ɨ + tʃ i		shoulder _ʧi	30	['shoulder', '_ʧi']	115
-752	Araona	back [of body]	bebakʷa	bebakʷa	b e b a kʷ a		?	31	['?']	2
-753	Araona	back [of body]	besese	besese	b e s e s e		?	31	['?']	2
-702	Matses	belly	puku	puku	p u k u		guts	54	['guts']	49
-703	Matis	belly	puku	puku	p u k u		guts	54	['guts']	49
-704	Marubo	belly	pustu	pustu	p u s t u		paunch	1553	['paunch']	105
-705	Katukina	belly	pustu	pustu	p u s t u		paunch	1553	['paunch']	105
-706	Kanamari	belly	posto	posto	p o s t o		paunch	1553	['paunch']	105
-707	Shipibo_Konibo	belly	puku	puku	p u k u		guts	54	['guts']	49
-708	Kapanawa	belly	puku	puku	p u k u		guts	54	['guts']	49
-709	Shanenawa	belly	pustu	pustu	p u s t u		paunch	1553	['paunch']	105
-710	Yawanawa	belly	pustu	pustu	p u s t u		paunch	1553	['paunch']	105
-711	Nukini	belly	naβa	naβa	n a β a		width	55	['width']	127
-712	Nukini	belly	puhtu	puhtu	p u h t u		paunch	1553	['paunch']	105
-713	Poyanawa	belly	dahβa	dahβa	d a h β a		width	55	['width']	127
-714	Iskonawa	belly	nahβa	nahβa	n a h β a		width	55	['width']	127
-715	Chakobo	belly	takɨpɨ	takɨpɨ	t a k ɨ p ɨ		?	58	['?']	2
-716	Pakawara	belly	puku	puku	p u k u		guts	54	['guts']	49
-717	Kakataibo	belly	puku	puku	p u k u		guts	54	['guts']	49
-718	Kaxarari	belly	turu	turu	t u r u		rounded	60	['rounded']	106
-719	Mastanawa	belly	ʂaʔi	ʂaʔi	ʂ a ʔ i		?	61	['?']	2
-720	Chaninawa	belly	pusto	pusto	p u s t u		paunch	1553	['paunch']	105
-721	Sharanawa	belly	namɨn	namɨn	n a m ɨ n		insides	62	['insides']	76
-722	Amawaka	belly	puku	puku	p u k u		guts	54	['guts']	49
-723	Nawa	belly	atu	atu	a t u		intestines	1554	['intestines']	77
-724	Marinawa	belly	pustu	pustu	p u s t u		paunch	1553	['paunch']	105
-725	Yaminawa	belly	pustu	pustu	p u s t u		paunch	1553	['paunch']	105
-726	Kashinawa_P	belly	pustu	pustu	p u s t u		paunch	1553	['paunch']	105
-727	Kashinawa_B	belly	pustu	pustu	p u s t u		paunch	1553	['paunch']	105
-728	Araona	belly	ese	ese	e s e		?	56	['?']	2
-1077	Matses	blood	intak	intak	i n + t a k		blood_short _tak	105	['blood_short', '_tak']	23
-1078	Matis	blood	imi	imi	i m i		blood	106	['blood']	22
-1079	Marubo	blood	imi	imi	i m i		blood	106	['blood']	22
-1080	Katukina	blood	himi	himi	h i m i		blood	106	['blood']	22
-1081	Shipibo_Konibo	blood	himi	himi	h i m i		blood	106	['blood']	22
-1082	Kapanawa	blood	himi	himi	h i m i		blood	106	['blood']	22
-1083	Shanenawa	blood	imi	imi	i m i		blood	106	['blood']	22
-1084	Yawanawa	blood	imi	imi	i m i		blood	106	['blood']	22
-1085	Nukini	blood	imĩ	imĩ	i m ĩ		blood	106	['blood']	22
-1086	Poyanawa	blood	imbi	imbi	i m b i		blood	106	['blood']	22
-1087	Iskonawa	blood	imi	imi	i m i		blood	106	['blood']	22
-1088	Chakobo	blood	himi	himi	h i m i		blood	106	['blood']	22
-1089	Pakawara	blood	himi	himi	h i m i		blood	106	['blood']	22
-1090	Kakataibo	blood	imi	imi	i m i		blood	106	['blood']	22
-1091	Kaxarari	blood	himi	himi	h i m i		blood	106	['blood']	22
-1092	Mastanawa	blood	ibi	ibi	i b i		blood	106	['blood']	22
-1093	Chaninawa	blood	ibi	ibi	i b i		blood	106	['blood']	22
-1094	Sharanawa	blood	ibi	ibi	i b i		blood	106	['blood']	22
-1095	Amawaka	blood	himbi	himbi	h i m b i		blood	106	['blood']	22
-1096	Nawa	blood	ibi	ibi	i b i		blood	106	['blood']	22
-1097	Marinawa	blood	inbi	inbi	i n b i		blood	106	['blood']	22
-1098	Yaminawa	blood	ibi	ibi	i b i		blood	106	['blood']	22
-1099	Kashinawa_P	blood	himi	himi	h i m i		blood	106	['blood']	22
-1100	Kashinawa_B	blood	himi	himi	h i m i		blood	106	['blood']	22
-1101	Araona	blood	ami	ami	a m i		?	106	['?']	2
-1007	Matses	bone	kanite	kanite	k a + n i t e		back _nite	121	['back', '_nite']	13
-1008	Matis	bone	wiʃpo	wiʃpo	w i ʃ p o		shinbone	122	['shinbone']	108
-1009	Marubo	bone	ʂau	ʂau	ʂ a u		bone	125	['bone']	25
-1010	Katukina	bone	xau	xau	x/ʂ a u		bone	125	['bone']	25
-1011	Shipibo_Konibo	bone	ʂau	ʂau	ʂ a u		bone	125	['bone']	25
-1012	Kapanawa	bone	ʂaw	ʂaw	ʂ a w		bone	125	['bone']	25
-1013	Shanenawa	bone	ʂaw	ʂaw	ʂ a w		bone	125	['bone']	25
-1014	Yawanawa	bone	ʂau	ʂau	ʂ a u		bone	125	['bone']	25
-1015	Nukini	bone	hau	hau	h a u		bone	125	['bone']	25
-1016	Poyanawa	bone	haw	haw	h a w		bone	125	['bone']	25
-1017	Iskonawa	bone	haw	haw	h a w		bone	125	['bone']	25
-1018	Chakobo	bone	ʂau	ʂau	ʂ a u		bone	125	['bone']	25
-1019	Pakawara	bone	ʂau	ʂau	ʂ a u		bone	125	['bone']	25
-1020	Kakataibo	bone	ʂo	ʂo	ʂ o		bone	125	['bone']	25
-1021	Kaxarari	bone	ʂahu	ʂahu	ʂ a h u		bone	125	['bone']	25
-1022	Mastanawa	bone	ʂaw	ʂaw	ʂ a w		bone	125	['bone']	25
-1023	Chaninawa	bone	ʂau	ʂau	ʂ a u		bone	125	['bone']	25
-1024	Sharanawa	bone	ʂau	ʂau	ʂ a u		bone	125	['bone']	25
-1025	Amawaka	bone	çaw	çaw	ç a w		bone	125	['bone']	25
-1026	Nawa	bone	ʂaw	ʂaw	ʂ a w		bone	125	['bone']	25
-1027	Marinawa	bone	ʂaw	ʂaw	ʂ a w		bone	125	['bone']	25
-1028	Yaminawa	bone	ʂaw	ʂaw	ʂ a w		bone	125	['bone']	25
-1029	Kashinawa_P	bone	ʂaw	ʂaw	ʂ a w		bone	125	['bone']	25
-1030	Kashinawa_B	bone	ʂau	ʂau	ʂ a u		bone	125	['bone']	25
-1031	Araona	bone	e-c̷oa	ec̷oa	e tʃ o a		?	125	['?']	2
-514	Matses	ear	paβiate	paβiate	p a + β i a t e		ear _biate	310	['ear', '_biate']	33
-515	Matis	ear	paβɨʂan	paβɨʂan	p a + β ɨ ʂ a n		pa _bisan	310	['pa', '_bisan']	104
-516	Marubo	ear	pantʃu	pantʃu	p a n + tʃ u		ear _tʃu	310	['ear', '_tʃu']	35
-517	Katukina	ear	pantxu	pantxu	p a n + tx/ʈʂ u		ear _tʃu	310	['ear', '_tʃu']	35
-518	Kanamari	ear	pãtʃo	pãtʃo	p a n + tʃ o		ear _tʃu	310	['ear', '_tʃu']	35
-519	Shipibo_Konibo	ear	paβiki	paβiki	p a + β i k i		ear _binki	310	['ear', '_binki']	34
-520	Kapanawa	ear	paβinki	paβinki	p a + β i n k i		ear _binki	310	['ear', '_binki']	34
-521	Shanenawa	ear	pahinki	pahinki	p a + h i n k i		ear _binki	310	['ear', '_binki']	34
-522	Yawanawa	ear	pahinki	pahinki	p a + h i n k i		ear _binki	310	['ear', '_binki']	34
-523	Nukini	ear	paβiki	paβiki	p a + β i k i		ear _binki	310	['ear', '_binki']	34
-524	Poyanawa	ear	pabĩki	pabĩki	p a + b ĩ k i		ear _binki	310	['ear', '_binki']	34
-525	Iskonawa	ear	paβinki	paβinki	p a + β i n k i		ear _binki	310	['ear', '_binki']	34
-526	Chakobo	ear	pa?uki	paʔuki	p a + ʔ u k i		ear _ʔuki	310	['ear', '_ʔuki']	36
-527	Pakawara	ear	pa?uki	paʔuki	p a + ʔ u k i		ear _ʔuki	310	['ear', '_ʔuki']	36
-528	Kakataibo	ear	paβi	paβi	p a + β i		ear _βi	310	['ear', '_βi']	37
-529	Kaxarari	ear	isãkili	isãkili	i s + ã k i l i		temple _ãkili	267	['temple', '_ãkili']	123
-530	Mastanawa	ear	paʧu	paʧu	p a + tʃ u		ear _tʃu	310	['ear', '_tʃu']	35
-531	Chaninawa	ear	dikati	dikati	d i k a + t i		hear _ti	313	['hear', '_ti']	75
-532	Sharanawa	ear	pat͡ʃu	pat͡ʃu	p a + tʃ u		ear _tʃu	310	['ear', '_tʃu']	35
-533	Amawaka	ear	pawinki	pawinki	p a + w i n k i		ear _binki	310	['ear', '_binki']	34
-534	Nawa	ear	paʧu	paʧu	p a + tʃ u		ear _tʃu	310	['ear', '_tʃu']	35
-535	Nawa	ear	dikati	dikati	d i k a + t i		hear _ti	313	['hear', '_ti']	75
-536	Marinawa	ear	paɸiki	paɸiki	p a + ɸ i k i		ear _binki	310	['ear', '_binki']	34
-537	Yaminawa	ear	paʧu	paʧu	p a + tʃ u		ear _tʃu	310	['ear', '_tʃu']	35
-538	Kashinawa_P	ear	paβinki	paβinki	p a + β i n k i		ear _binki	310	['ear', '_binki']	34
-539	Kashinawa_B	ear	paβĩki	paβĩki	p a + β ĩ k i		ear _binki	310	['ear', '_binki']	34
-540	Araona	ear	e-iza-ha	eizaha	e i z a h a		?	267	['?']	2
-541	Matses	eye	ɨʂɨ	ɨʂɨ	ɨ ʂ ɨ		seed	332	['seed']	107
-542	Matis	eye	βɨdu	βɨdu	β ɨ + d u		eye _ɾu	330	['eye', '_ɾu']	41
-543	Marubo	eye	βɨru	βɨru	β ɨ + r u		eye _ɾu	330	['eye', '_ɾu']	41
-544	Katukina	eye	βiru	βiru	β i + r u		eye _ɾu	330	['eye', '_ɾu']	41
-545	Kanamari	eye	mβɨru	mβɨru	m β ɨ + r u		eye _ɾu	330	['eye', '_ɾu']	41
-546	Shipibo_Konibo	eye	βɨru	βɨru	β ɨ + r u		eye _ɾu	330	['eye', '_ɾu']	41
-547	Kapanawa	eye	βɨru	βɨru	β ɨ + r u		eye _ɾu	330	['eye', '_ɾu']	41
-548	Shanenawa	eye	ɸɨru	ɸɨru	ɸ ɨ + r u		eye _ɾu	330	['eye', '_ɾu']	41
-549	Yawanawa	eye	βɨru	βɨru	β ɨ + r u		eye _ɾu	330	['eye', '_ɾu']	41
-550	Nukini	eye	βɨrɨ	βɨrɨ	β ɨ + r u		eye _ɾu	330	['eye', '_ɾu']	41
-551	Poyanawa	eye	βɨru	βɨru	β ɨ + r u		eye _ɾu	330	['eye', '_ɾu']	41
-552	Iskonawa	eye	βɨɾu	βɨɾu	β ɨ + ɾ u		eye _ɾu	330	['eye', '_ɾu']	41
-553	Chakobo	eye	βɨru	βɨru	β ɨ + r u		eye _ɾu	330	['eye', '_ɾu']	41
-554	Pakawara	eye	wɨru	wɨru	w ɨ + r u		eye _ɾu	330	['eye', '_ɾu']	41
-555	Kakataibo	eye	βɨro	βɨro	β ɨ + ɾ u		eye _ɾo	330	['eye', '_ɾo']	40
-556	Kaxarari	eye	wɨtʃɨwɨ	wɨtʃɨwɨ	w ɨ + tʃ u w ɨ		eye _tʃɨwɨ	330	['eye', '_tʃɨwɨ']	39
-557	Kaxarari	eye	βutʃu	βutʃu	β ɨ + tʃ u		eye _tʃu	241	['eye', '_tʃu']	38
-558	Mastanawa	eye	ɸɨɾu	ɸɨɾu	ɸ ɨ + ɾ u		eye _ɾu	330	['eye', '_ɾu']	41
-559	Chaninawa	eye	ɸɨɾu	ɸɨɾu	β ɨ + ɾ u		eye _ɾu	330	['eye', '_ɾu']	41
-560	Sharanawa	eye	ɸɨɾu	ɸɨɾu	ɸ ɨ + ɾ u		eye _ɾu	330	['eye', '_ɾu']	41
-561	Amawaka	eye	βɨɾu	βɨɾu	β ɨ + ɾ u		eye _ɾu	330	['eye', '_ɾu']	41
-562	Nawa	eye	ɸɨɾu	ɸɨɾu	ɸ ɨ + ɾ u		eye _ɾu	330	['eye', '_ɾu']	41
-563	Marinawa	eye	ɸwɨɾu	ɸwɨɾu	ɸ ɨ + ɾ u		eye _ɾu	330	['eye', '_ɾu']	41
-564	Yaminawa	eye	ɸɨɾu	ɸɨɾu	ɸ ɨ + ɾ u		eye _ɾu	330	['eye', '_ɾu']	41
-565	Kashinawa_P	eye	βɨɾu	βɨɾu	β ɨ + ɾ u		eye _ɾu	330	['eye', '_ɾu']	41
-566	Kashinawa_B	eye	βɨdu	βɨdu	β ɨ + d u		eye _ɾu	330	['eye', '_ɾu']	41
-567	Araona	eye	e-toa	etoa	e t o a		?	331	['?']	2
-1057	Matses	fat (grease)	βɨtʃi	βɨtʃi	β ɨ tʃ i		fat	358	['fat']	43
-1058	Matis	fat (grease)	ʂɨnio	ʂɨnio	ʂ ɨ n i + o		fat _o	358	['fat', '_o']	42
-1059	Marubo	fat (grease)	ʂɨni	ʂɨni	ʂ ɨ n i		fat	358	['fat']	43
-1060	Katukina	fat (grease)	xene	xene	x/ʂ e n e		fat	358	['fat']	43
-1061	Shipibo_Konibo	fat (grease)	ʂɨni	ʂɨni	ʂ ɨ n i		fat	358	['fat']	43
-1062	Kapanawa	fat (grease)	ʂɨni	ʂɨni	ʂ ɨ n i		fat	358	['fat']	43
-1063	Shanenawa	fat (grease)	ʂɨni	ʂɨni	ʂ ɨ n i		fat	358	['fat']	43
-1064	Poyanawa	fat (grease)	hɨndi	hɨndi	h ɨ ⁿd i		fat	358	['fat']	43
-1065	Iskonawa	fat (grease)	hɨni	hɨni	h ɨ n i		fat	358	['fat']	43
-1066	Chakobo	fat (grease)	ʂɨni	ʂɨni	ʂ ɨ n i		fat	358	['fat']	43
-1067	Kakataibo	fat (grease)	ʂɨni	ʂɨni	ʂ ɨ n i		fat	358	['fat']	43
-1068	Mastanawa	fat (grease)	ʃidi	ʃidi	ʃ i d i		fat	358	['fat']	43
-1069	Chaninawa	fat (grease)	ʂɨdi	ʂɨdi	ʂ ɨ d i		fat	358	['fat']	43
-1070	Sharanawa	fat (grease)	ʂɨdi	ʂɨdi	ʂ ɨ d i		fat	358	['fat']	43
-1071	Amawaka	fat (grease)	çɨndi	çɨndi	ç ɨ ⁿd i		fat	358	['fat']	43
-1072	Nawa	fat (grease)	ʂɨdi	ʂɨdi	ʂ ɨ d i		fat	358	['fat']	43
-1073	Marinawa	fat (grease)	ʂɨndi	ʂɨndi	ʂ ɨ ⁿd i		fat	358	['fat']	43
-1074	Yaminawa	fat (grease)	ʂɨdi	ʂɨdi	ʂ ɨ d i		fat	358	['fat']	43
-1075	Kashinawa_P	fat (grease)	ʂɨni	ʂɨni	ʂ ɨ n i		fat	358	['fat']	43
-1076	Araona	fat (grease)	etsei	etsei	e ts e i		?	358	['?']	2
-909	Matses	feather [large]	podo	podo	p o d o		arm/podo	312	['arm/podo']	11
-910	Matis	feather [large]	podo	podo	p o d o		leaf	312	['leaf']	80
-911	Marubo	feather [large]	pɨi	pɨi	p ɨ + i		leaf _i	375	['leaf', '_i']	78
-912	Katukina	feather [large]	rani	rani	r a n i		body_hair	376	['body_hair']	24
-913	Kanamari	feather [large]	pɨ?i	pɨʔi	p ɨ + ʔ i		arm _ʔi	375	['arm', '_ʔi']	10
-914	Shipibo_Konibo	feather [large]	pɨi	pɨi	p ɨ + i		leaf _i	375	['leaf', '_i']	78
-915	Kapanawa	feather [large]	pɨi	pɨi	p ɨ + i		leaf _i	375	['leaf', '_i']	78
-916	Shanenawa	feather [large]	pɨj	pɨj	p ɨ + j		arm _j	375	['arm', '_j']	5
-917	Yawanawa	feather [large]	pɨi	pɨi	p ɨ + i		arm _i	375	['arm', '_i']	4
-918	Nukini	feather [large]	kɨru	kɨru	k ɨ r u		?	380	['?']	2
-919	Poyanawa	feather [large]	pɨi	pɨi	p ɨ + i		arm _i	375	['arm', '_i']	4
-920	Iskonawa	feather [large]	pɨi	pɨi	p ɨ + i		leaf _i	375	['leaf', '_i']	78
-921	Chakobo	feather [large]	pɨ?i	pɨʔi	p ɨ + ʔ i		arm _ʔi	375	['arm', '_ʔi']	10
-922	Pakawara	feather [large]	puhi	puhi	p u + h i		arm/pu _hi	375	['arm/pu', '_hi']	12
-923	Kakataibo	feather [large]	pɨi	pɨi	p ɨ + i		arm _i	375	['arm', '_i']	4
-924	Kaxarari	feather [large]	pii	pii	p i + i		arm _i	375	['arm', '_i']	4
-925	Mastanawa	feather [large]	ʂupu	ʂupu	ʂ u p u		cotton	378	['cotton']	32
-926	Chaninawa	feather [large]	pɨi	pɨi	p ɨ + i		arm _i	375	['arm', '_i']	4
-927	Sharanawa	feather [large]	ʂupu	ʂupu	ʂ u p u		cotton	378	['cotton']	32
-928	Amawaka	feather [large]	pɨʔi	pɨʔi	p ɨ + ʔ i		arm _ʔi	375	['arm', '_ʔi']	10
-929	Nawa	feather [large]	ɾadi	ɾadi	ɾ a d i		body_hair	376	['body_hair']	24
-930	Marinawa	feather [large]	ɾandi	ɾandi	ɾ a ⁿd i		body_hair	376	['body_hair']	24
-931	Yaminawa	feather [large]	pɨj	pɨj	p ɨ + j		arm _j	375	['arm', '_j']	5
-932	Kashinawa_P	feather [large]	pɨj	pɨj	p ɨ + j		leaf _j	375	['leaf', '_j']	79
-933	Kashinawa_B	feather [large]	pɨi	pɨi	p ɨ + i		leaf _i	375	['leaf', '_i']	78
-934	Araona	feather [large]	e-iɲa	eiɲa	e i ɲ a		?	377	['?']	2
-835	Matses	foot	taɨ	taɨ	t a + ɨ		foot _ɨ	483	['foot', '_ɨ']	47
-836	Matis	foot	taɨ	taɨ	t a + ɨ		foot _ɨ	483	['foot', '_ɨ']	47
-837	Marubo	foot	taɨ	taɨ	t a + ɨ		foot _ɨ	483	['foot', '_ɨ']	47
-838	Katukina	foot	tae	tae	t a + e		foot _ɨ	483	['foot', '_ɨ']	47
-839	Kanamari	foot	ta?ɨ	taʔɨ	t a + ʔ ɨ		foot _ʔɨ	483	['foot', '_ʔɨ']	48
-840	Shipibo_Konibo	foot	taɨ	taɨ	t a + ɨ		foot _ɨ	483	['foot', '_ɨ']	47
-841	Kapanawa	foot	taɨ	taɨ	t a + ɨ		foot _ɨ	483	['foot', '_ɨ']	47
-842	Shanenawa	foot	taɨ	taɨ	t a + ɨ		foot _ɨ	483	['foot', '_ɨ']	47
-843	Yawanawa	foot	taɨ	taɨ	t a + ɨ		foot _ɨ	483	['foot', '_ɨ']	47
-844	Nukini	foot	taɨ	taɨ	t a + ɨ		foot _ɨ	483	['foot', '_ɨ']	47
-845	Poyanawa	foot	taɨ	taɨ	t a + ɨ		foot _ɨ	483	['foot', '_ɨ']	47
-846	Iskonawa	foot	taɨ	taɨ	t a + ɨ		foot _ɨ	483	['foot', '_ɨ']	47
-847	Chakobo	foot	ta?ɨ	taʔɨ	t a + ʔ ɨ		foot _ʔɨ	483	['foot', '_ʔɨ']	48
-848	Pakawara	foot	ta?ɨ	taʔɨ	t a + ʔ ɨ		foot _ʔɨ	483	['foot', '_ʔɨ']	48
-849	Kakataibo	foot	taɨ	taɨ	t a + ɨ		foot _ɨ	483	['foot', '_ɨ']	47
-850	Kaxarari	foot	taɨ	taɨ	t a + ɨ		foot _ɨ	483	['foot', '_ɨ']	47
-851	Mastanawa	foot	taɨ	taɨ	t a + ɨ		foot _ɨ	483	['foot', '_ɨ']	47
-852	Chaninawa	foot	taɨ	taɨ	t a + ɨ		foot _ɨ	483	['foot', '_ɨ']	47
-853	Sharanawa	foot	taɨ	taɨ	t a + ɨ		foot _ɨ	483	['foot', '_ɨ']	47
-854	Amawaka	foot	taʔɨ	taʔɨ	t a + ʔ ɨ		foot _ʔɨ	483	['foot', '_ʔɨ']	48
-855	Nawa	foot	taɨ	taɨ	t a + ɨ		foot _ɨ	483	['foot', '_ɨ']	47
-856	Marinawa	foot	uʂpaɾu	uʂpaɾu	u ʂ p a ɾ u		?	485	['?']	2
-857	Yaminawa	foot	taɨ	taɨ	t a + ɨ		foot _ɨ	483	['foot', '_ɨ']	47
-858	Kashinawa_P	foot	taɨ	taɨ	t a + ɨ		foot _ɨ	483	['foot', '_ɨ']	47
-859	Kashinawa_B	foot	taɨ	taɨ	t a + ɨ		foot _ɨ	483	['foot', '_ɨ']	47
-860	Araona	foot	wac̷i	wac̷i	w a tʃ i		?	484	['?']	2
-960	Matses	guts	puku	puku	p u k u		stomach	534	['stomach']	119
-961	Matis	guts	puku	puku	p u k u		stomach	534	['stomach']	119
-962	Marubo	guts	puku	puku	p u k u		stomach	534	['stomach']	119
-963	Katukina	guts	puku	puku	p u k u		stomach	534	['stomach']	119
-964	Shipibo_Konibo	guts	puku	puku	p u k u		stomach	534	['stomach']	119
-965	Kapanawa	guts	puku	puku	p u k u		stomach	534	['stomach']	119
-966	Shanenawa	guts	puku	puku	p u k u		stomach	534	['stomach']	119
-967	Yawanawa	guts	puku	puku	p u k u		stomach	534	['stomach']	119
-968	Nukini	guts	puku	puku	p u k u		stomach	534	['stomach']	119
-969	Poyanawa	guts	βɨtɨh	βɨtɨh	β ɨ t ɨ h		?	536	['?']	2
-970	Iskonawa	guts	puku	puku	p u k u		stomach	534	['stomach']	119
-971	Chakobo	guts	puku	puku	p u k u		stomach	534	['stomach']	119
-972	Kakataibo	guts	puku	puku	p u k u		stomach	534	['stomach']	119
-973	Mastanawa	guts	puʔu	puʔu	p u ʔ u		stomach	534	['stomach']	119
-974	Chaninawa	guts	puku	puku	p u k u		stomach	534	['stomach']	119
-975	Sharanawa	guts	puku	puku	p u k u		stomach	534	['stomach']	119
-976	Amawaka	guts	puku	puku	p u k u		stomach	534	['stomach']	119
-977	Nawa	guts	puku	puku	p u k u		stomach	534	['stomach']	119
-978	Marinawa	guts	puku	puku	p u k u		stomach	534	['stomach']	119
-979	Yaminawa	guts	puʔu	puʔu	p u ʔ u		stomach	534	['stomach']	119
-980	Kashinawa_P	guts	puku	puku	p u k u		stomach	534	['stomach']	119
-981	Araona	guts	e-c̷ama	ec̷ama	e tʃ a m a		?	535	['?']	2
-488	Matses	hair	βu	βu	m a + n ë d a i d		head _nëdaid	539	['head', '_nëdaid']	69
-489	Matis	hair	ʂakkete	ʂakkete	ʂ a k + k e + t e		? _-:suffix/ke _-:suffix/te	543	['?', '_-:suffix/ke', '_-:suffix/te']	1
-490	Marubo	hair	βu	βu	β u		hair	539	['hair']	54
-491	Katukina	hair	βuu	βuu	β u		hair	539	['hair']	54
-492	Kanamari	hair	βuu	βuu	β u		hair	539	['hair']	54
-493	Shipibo_Konibo	hair	βu	βu	β u		hair	539	['hair']	54
-494	Kapanawa	hair	βu	βu	β u		hair	539	['hair']	54
-495	Shanenawa	hair	ɸu	ɸu	ɸ u		hair	539	['hair']	54
-496	Yawanawa	hair	βu	βu	β u		hair	539	['hair']	54
-497	Nukini	hair	βu	βu	β u		hair	539	['hair']	54
-498	Poyanawa	hair	βu	βu	β u		hair	539	['hair']	54
-499	Iskonawa	hair	βu	βu	β u		hair	539	['hair']	54
-500	Chakobo	hair	βu	βu	β u		hair	539	['hair']	54
-501	Pakawara	hair	wuu	wuu	w uː		hair	539	['hair']	54
-502	Kakataibo	hair	βu	βu	β u		hair	539	['hair']	54
-503	Kaxarari	hair	wɨʂkatʃani	wɨʂkatʃani	w u + ʂ k a + tʃ a n i		hair _ʂka bodyhair	542	['hair', '_ʂka', 'bodyhair']	52
-504	Mastanawa	hair	fuʔu	fuʔu	f u ʔ u		hair	539	['hair']	54
-505	Chaninawa	hair	ɸu	ɸu	ɸ u		hair	539	['hair']	54
-506	Sharanawa	hair	ɸu	ɸu	ɸ u		hair	539	['hair']	54
-507	Amawaka	hair	βu	βu	β u		hair	539	['hair']	54
-508	Nawa	hair	ɸuʔu	ɸuʔu	ɸ u ʔ u		hair	539	['hair']	54
-509	Marinawa	hair	ɸuʔu	ɸuʔu	ɸ u ʔ u		hair	539	['hair']	54
-510	Yaminawa	hair	hu	hu	ɸ u		hair	539	['hair']	54
-511	Kashinawa_P	hair	βu	βu	β u		hair	539	['hair']	54
-512	Kashinawa_B	hair	βu	βu	β u		hair	539	['hair']	54
-513	Araona	hair	šoa-iɲa	šoaiɲa	ʃ o a i ɲ a		?	494	['?']	2
-882	Matses	hand	mɨdante	mɨdante	m ɨ + d a n t e		hand _dante	546	['hand', '_dante']	55
-883	Matis	hand	mɨkɨn	mɨkɨn	m ɨ + k ɨ n		hand _kin	546	['hand', '_kin']	58
-884	Marubo	hand	mɨβi	mɨβi	m ɨ + β i		hand _βi	546	['hand', '_βi']	67
-885	Katukina	hand	meβi	meβi	m e + β i		hand _βi	546	['hand', '_βi']	67
-886	Kanamari	hand	mwɨβi	mɨβi	mʷ ɨ + β i		hand _βi	546	['hand', '_βi']	67
-887	Shipibo_Konibo	hand	mɨkɨn	mɨkɨn	m ɨ + k ɨ n		hand _kɨn	546	['hand', '_kɨn']	61
-888	Kapanawa	hand	mɨkɨn	mɨkɨn	m ɨ + k ɨ n		hand _kɨn	546	['hand', '_kɨn']	61
-889	Shanenawa	hand	mɨɸi	mɨɸi	m ɨ + ɸ i		hand _ɸi	546	['hand', '_ɸi']	65
-890	Yawanawa	hand	mɨhi	mɨhi	m ɨ + h i		hand _hi	546	['hand', '_hi']	56
-891	Nukini	hand	mɨwi	mɨwi	m ɨ + w i		hand _wi	546	['hand', '_wi']	64
-892	Poyanawa	hand	mɨkɨn	mɨkɨn	m ɨ + k ɨ n		hand _kɨn	546	['hand', '_kɨn']	61
-893	Iskonawa	hand	mɨˀβi	mɨˀβi	m ɨ + β i		hand _βi	546	['hand', '_βi']	67
-894	Chakobo	hand	mɨkɨnɨ	mɨkɨnɨ	m ɨ + k ɨ n ɨ		hand _kɨnɨ	546	['hand', '_kɨnɨ']	63
-895	Pakawara	hand	mɨkɨna	mɨkɨna	m ɨ + k ɨ n a		hand _kɨna	546	['hand', '_kɨna']	62
-896	Kakataibo	hand	mɨkɨn	mɨkɨn	m ɨ + k ɨ n		hand _kɨn	546	['hand', '_kɨn']	61
-897	Kaxarari	hand	mɨkɨlɨ	mɨkɨlɨ	m ɨ + k ɨ l ɨ		hand _kɨlɨ	546	['hand', '_kɨlɨ']	60
-898	Mastanawa	hand	bɨɸi	bɨɸi	b ɨ + ɸ i		hand _ɸi	546	['hand', '_ɸi']	65
-899	Chaninawa	hand	βɨkɨ	βɨkɨ	β ɨ + k ɨ		hand _kɨ	546	['hand', '_kɨ']	59
-900	Chaninawa	hand	βɨɸi	βɨɸi	β ɨ + ɸ i		hand _ɸi	546	['hand', '_ɸi']	65
-901	Sharanawa	hand	bɨɸi	bɨɸi	b ɨ + ɸ i		hand _ɸi	546	['hand', '_ɸi']	65
-902	Amawaka	hand	mɨkɨn	mɨkɨn	m ɨ + k ɨ n		hand _kɨn	546	['hand', '_kɨn']	61
-903	Nawa	hand	bɨkɨ	bɨkɨ	b ɨ + k ɨ		hand _kɨ	546	['hand', '_kɨ']	59
-904	Marinawa	hand	bɨkɨ	bɨkɨ	b ɨ + k ɨ		hand _kɨ	546	['hand', '_kɨ']	59
-905	Yaminawa	hand	mɨʔɨ	mɨʔɨ	m ɨ + ʔ ɨ		hand _ʔɨ	546	['hand', '_ʔɨ']	66
-906	Kashinawa_P	hand	mɨki	mɨki	m ɨ + k i		hand _ki	546	['hand', '_ki']	57
-907	Kashinawa_B	hand	mɨ̃kɨ̃	mɨ̃kɨ̃	m ɨ̃ + k ɨ̃		hand _kɨn	546	['hand', '_kɨn']	61
-908	Araona	hand	e-me	eme	e m e		hand/eme	546	['hand/eme']	68
-461	Matses	head	mapi	mapi	m a + p i		head _pi	554	['head', '_pi']	70
-462	Matis	head	maʂo	maʂo	m a + ʂ o		head _ʂo	554	['head', '_ʂo']	74
-463	Marubo	head	mapu	mapu	m a + p u		head _pu	554	['head', '_pu']	71
-464	Katukina	head	mapu	mapu	m a + p u		head _pu	554	['head', '_pu']	71
-465	Kanamari	head	mapu	mapu	m a + p u		head _pu	554	['head', '_pu']	71
-466	Shipibo_Konibo	head	mapu	mapu	m a + p u		head _pu	554	['head', '_pu']	71
-467	Kapanawa	head	mapu	mapu	m a + p u		head _pu	554	['head', '_pu']	71
-468	Shanenawa	head	mapu	mapu	m a + p u		head _pu	554	['head', '_pu']	71
-469	Yawanawa	head	mapu	mapu	m a + p u		head _pu	554	['head', '_pu']	71
-470	Nukini	head	mapu	mapu	m a + p u		head _pu	554	['head', '_pu']	71
-471	Poyanawa	head	βuhka	βuhka	β u + h k a		hair _hka	555	['hair', '_hka']	50
-472	Iskonawa	head	βuhka	βuhka	β u + h k a		hair _hka	555	['hair', '_hka']	50
-473	Chakobo	head	mapu	mapu	m a + p u		head _pu	554	['head', '_pu']	71
-474	Pakawara	head	mapu	mapu	m a + p u		head _pu	554	['head', '_pu']	71
-475	Kakataibo	head	maʂka	maʂka	m a + ʂ k a		head _ʂka	555	['head', '_ʂka']	73
-476	Kaxarari	head	wɨʂkata	wɨʂkata	w u + ʂ k a + t a		hair _ʂka _ta	555	['hair', '_ʂka', '_ta']	51
-477	Mastanawa	head	bapu	bapu	b a + p u		head _pu	554	['head', '_pu']	71
-478	Chaninawa	head	βasakati	βasakati	β a + s a k a + t i		head _saka _ti	555	['head', '_saka', '_ti']	72
-479	Sharanawa	head	bapu	bapu	b a + p u		head _pu	554	['head', '_pu']	71
-480	Amawaka	head	mapu	mapu	m a + p u		head _pu	554	['head', '_pu']	71
-481	Nawa	head	ba:pu	ba:pu	b aː + p u		head _pu	554	['head', '_pu']	71
-482	Marinawa	head	bapu	bapu	b a + p u		head _pu	554	['head', '_pu']	71
-483	Marinawa	head	ɸuʂka	ɸuʂka	ɸ u + ʂ k a		hair _ʂka	555	['hair', '_ʂka']	53
-484	Yaminawa	head	bapu	bapu	b a + p u		head _pu	554	['head', '_pu']	71
-485	Kashinawa_P	head	βuʂka	βuʂka	β u + ʂ k a		hair _ʂka	555	['hair', '_ʂka']	53
-486	Kashinawa_B	head	βuʂka	βuʂka	β u + ʂ k a		hair _ʂka	555	['hair', '_ʂka']	53
-487	Araona	head	e-šoa	ešoa	e ʃ o a		?	556	['?']	2
-935	Matses	heart	winte	uinte	u i n + t e		breathe _-:suffix/te	566	['breathe', '_-:suffix/te']	26
-936	Matis	heart	winte	uinte	u i n + t e		breathe _-:suffix/te	566	['breathe', '_-:suffix/te']	26
-937	Marubo	heart	winti	winti	w i n + t i		breathe _ti	566	['breathe', '_ti']	27
-938	Katukina	heart	winti	winti	w i n + t i		breathe _ti	566	['breathe', '_ti']	27
-939	Shipibo_Konibo	heart	huinti	huinti	h u i n + t i		breathe _ti	566	['breathe', '_ti']	27
-940	Kapanawa	heart	hwinti	hwinti	h u i n + t i		breathe _ti	566	['breathe', '_ti']	27
-941	Shanenawa	heart	uinti	uinti	u i n + t i		breathe _ti	566	['breathe', '_ti']	27
-942	Yawanawa	heart	ũĩti	ũĩti	ũ ĩ + t i		breathe _ti	566	['breathe', '_ti']	27
-943	Nukini	heart	kɨpĩ	kɨpĩ	k ɨ p ĩ		?	569	['?']	2
-944	Poyanawa	heart	ũĩti	ũĩti	ũ ĩ + t i		breathe _ti	566	['breathe', '_ti']	27
-945	Iskonawa	heart	ũĩti	ũĩti	ũ ĩ + t i		breathe _ti	566	['breathe', '_ti']	27
-946	Chakobo	heart	huiti	huiti	h u i + t i		breathe _ti	566	['breathe', '_ti']	27
-947	Pakawara	heart	huwiti	huwiti	h u w i + t i		breathe _ti	566	['breathe', '_ti']	27
-948	Kakataibo	heart	nuitu	nuitu	n u i + t u		breathe _tu	566	['breathe', '_tu']	28
-949	Kaxarari	heart	hɨya	hɨya	h ɨ j a		?	570	['?']	2
-950	Mastanawa	heart	uɨnti	uɨnti	u ɨ n + t i		breathe _ti	566	['breathe', '_ti']	27
-951	Chaninawa	heart	uĩti	uĩti	u ĩ + t i		breathe _ti	566	['breathe', '_ti']	27
-952	Sharanawa	heart	ũĩti	ũĩti	ũ ĩ + t i		breathe _ti	566	['breathe', '_ti']	27
-953	Amawaka	heart	huinti	huinti	h u i n + t i		breathe _ti	566	['breathe', '_ti']	27
-954	Nawa	heart	uɨnti	uɨnti	u ɨ n + t i		breathe _ti	566	['breathe', '_ti']	27
-955	Marinawa	heart	uɨnti	uɨnti	u ɨ n + t i		breathe _ti	566	['breathe', '_ti']	27
-956	Yaminawa	heart	uwɨti	uwɨti	u w ɨ + t i		breathe _ti	566	['breathe', '_ti']	27
-957	Kashinawa_P	heart	ɸujnti	ɸujnti	ɸ u j n + t i		breathe _ti	566	['breathe', '_ti']	27
-958	Kashinawa_B	heart	huĩti	huĩti	h u ĩ + t i		breathe _ti	566	['breathe', '_ti']	27
-959	Araona	heart	mosoho	mosoho	m o s o h o		?	568	['?']	2
-802	Matses	leg	nidte	nidte	n i d + t e		stand _-:suffix/te	688	['stand', '_-:suffix/te']	118
-803	Matis	leg	tawi	tawi	t a + w i		foot _wi	687	['foot', '_wi']	46
-804	Marubo	leg	kiʃi	kiʃi	k i + ʃ i		thigh _ʃi	682	['thigh', '_ʃi']	125
-805	Marubo	leg	itaʂɨ	itaʂɨ	i + t a ʂ ɨ		calf _taʃ	683	['calf', '_taʃ']	31
-806	Katukina	leg	kixu	kixu	k i + x/ʂ u		thigh _xu	682	['thigh', '_xu']	124
-807	Kanamari	leg	hitaʃ	hitaʃ	h i + t a ʃ		calf _taʃ	683	['calf', '_taʃ']	31
-808	Kanamari	leg	kiʃi	kiʃi	k i + ʃ i		thigh _ʃi	682	['thigh', '_ʃi']	125
-809	Shipibo_Konibo	leg	kiʃi	kiʃi	k i + ʃ i		thigh _ʃi	682	['thigh', '_ʃi']	125
-810	Shipibo_Konibo	leg	witaʂ	witaʂ	w i + t a ʂ		calf _taʃ	683	['calf', '_taʃ']	31
-811	Kapanawa	leg	kiʃi	kiʃi	k i + ʃ i		thigh _ʃi	682	['thigh', '_ʃi']	125
-812	Kapanawa	leg	witaʂ	witaʂ	w i + t a ʂ		calf _taʃ	683	['calf', '_taʃ']	31
-813	Shanenawa	leg	taɨ	taɨ	t a + ɨ		foot _ɨ	687	['foot', '_ɨ']	47
-814	Yawanawa	leg	βitaʃ	βitaʃ	β i + t a ʃ		calf _taʃ	683	['calf', '_taʃ']	31
-815	Nukini	leg	βiʃta	βiʃta	β i + ʃ t a		calf _taʃ	683	['calf', '_taʃ']	31
-816	Iskonawa	leg	kiʃi	kiʃi	k i + ʃ i		thigh _ʃi	682	['thigh', '_ʃi']	125
-817	Chakobo	leg	wiku	wiku	w i + k u		calf _ku	686	['calf', '_ku']	30
-818	Pakawara	leg	wiku	wiku	w i + k u		calf _taʃ	686	['calf', '_taʃ']	31
-819	Kakataibo	leg	kisi	kisi	k i + s i		thigh _ʃi	682	['thigh', '_ʃi']	125
-820	Kaxarari	leg	witaʂɨ	witaʂɨ	w i + t a ʂ ɨ		calf _taʃ	683	['calf', '_taʃ']	31
-821	Mastanawa	leg	kiʃi	kiʃi	k i + ʃ i		thigh _ʃi	682	['thigh', '_ʃi']	125
-822	Chaninawa	leg	kiʃi	kiʃi	k i + ʃ i		thigh _ʃi	682	['thigh', '_ʃi']	125
-823	Sharanawa	leg	kiʃi	kiʃi	k i + ʃ i		thigh _ʃi	682	['thigh', '_ʃi']	125
-824	Sharanawa	leg	ɸitaʂɨ	ɸitaʂɨ	ɸ i + t a ʂ ɨ		calf _taʃ	683	['calf', '_taʃ']	31
-825	Amawaka	leg	kiʃi	kiʃi	k i + ʃ i		thigh _ʃi	682	['thigh', '_ʃi']	125
-826	Nawa	leg	kiʃi	kiʃi	k i + ʃ i		thigh _ʃi	682	['thigh', '_ʃi']	125
-827	Nawa	leg	ɸitaʂ	ɸitaʂ	ɸ i + t a ʂ		calf _taʃ	683	['calf', '_taʃ']	31
-828	Marinawa	leg	kiʃi	kiʃi	k i + ʃ i		tthigh _ʃi	682	['tthigh', '_ʃi']	126
-829	Marinawa	leg	ɸitaʃi	ɸitaʃi	ɸ i + t a ʃ i		calf _taʃ	683	['calf', '_taʃ']	31
-830	Yaminawa	leg	kiʃi	kiʃi	k i + ʃ i		thigh _ʃi	682	['thigh', '_ʃi']	125
-831	Kashinawa_P	leg	kiʃi	kiʃi	k i + ʃ i		thigh _ʃi	682	['thigh', '_ʃi']	125
-832	Kashinawa_B	leg	kiʂi	kiʂi	k i + ʂ i		thigh _ʃi	682	['thigh', '_ʃi']	125
-833	Araona	leg	tiǰada	tiǰada	t i dʒ a d a		?	685	['?']	2
-834	Araona	leg	eta	eta	e t a		?	684	['?']	2
-982	Matses	liver	isese	isese	i s e s e		?	709	['?']	2
-983	Matis	liver	takua	takua	t a kʷ a		liver	708	['liver']	81
-984	Marubo	liver	taka	taka	t a k a		liver	708	['liver']	81
-985	Katukina	liver	taka	taka	t a k a		liver	708	['liver']	81
-986	Shipibo_Konibo	liver	taka	taka	t a k a		liver	708	['liver']	81
-987	Kapanawa	liver	taka	taka	t a k a		liver	708	['liver']	81
-988	Shanenawa	liver	taka	taka	t a k a		liver	708	['liver']	81
-989	Yawanawa	liver	taka	taka	t a k a		liver	708	['liver']	81
-990	Nukini	liver	taka	taka	t a k a		liver	708	['liver']	81
-991	Poyanawa	liver	taka	taka	t a k a		liver	708	['liver']	81
-992	Iskonawa	liver	taka	taka	t a k a		liver	708	['liver']	81
-993	Chakobo	liver	taka	taka	t a k a		liver	708	['liver']	81
-994	Pakawara	liver	taka	taka	t a k a		liver	708	['liver']	81
-995	Kakataibo	liver	takwa	takwa	t a kʷ a		liver	708	['liver']	81
-996	Kaxarari	liver	taka	taka	t a k a		liver	708	['liver']	81
-997	Mastanawa	liver	taʔa	taʔa	t a ʔ a		liver	708	['liver']	81
-998	Chaninawa	liver	taka	taka	t a k a		liver	708	['liver']	81
-999	Sharanawa	liver	taka	taka	t a k a		liver	708	['liver']	81
-1000	Amawaka	liver	tança	tança	t a n ç a		liver	708	['liver']	81
-1001	Nawa	liver	taka	taka	t a k a		liver	708	['liver']	81
-1002	Marinawa	liver	taka	taka	t a k a		liver	708	['liver']	81
-1003	Yaminawa	liver	taʔa	taʔa	t a ʔ a		liver	708	['liver']	81
-1004	Kashinawa_P	liver	taka	taka	t a k a		liver	708	['liver']	81
-1005	Kashinawa_B	liver	taka	taka	t a k a		liver	708	['liver']	81
-1006	Araona	liver	takʷa	takʷa	t a kʷ a		?	708	['?']	2
-1032	Matses	meat (flesh)	nami	nami	n a m i		flesh/meat	747	['flesh/meat']	44
-1033	Matis	meat (flesh)	nami	nami	n a m i		flesh/meat	747	['flesh/meat']	44
-1034	Marubo	meat (flesh)	nami	nami	n a m i		flesh/meat	747	['flesh/meat']	44
-1035	Katukina	meat (flesh)	nami	nami	n a m i		flesh/meat	747	['flesh/meat']	44
-1036	Shipibo_Konibo	meat (flesh)	nami	nami	n a m i		flesh/meat	747	['flesh/meat']	44
-1037	Kapanawa	meat (flesh)	nami	nami	n a m i		flesh/meat	747	['flesh/meat']	44
-1038	Shanenawa	meat (flesh)	nami	nami	n a m i		flesh/meat	747	['flesh/meat']	44
-1039	Yawanawa	meat (flesh)	nami	nami	n a m i		flesh/meat	747	['flesh/meat']	44
-1040	Nukini	meat (flesh)	nami	nami	n a m i		flesh/meat	747	['flesh/meat']	44
-1041	Poyanawa	meat (flesh)	nambi	nambi	n a m b i		flesh/meat	747	['flesh/meat']	44
-1042	Iskonawa	meat (flesh)	nami	nami	n a m i		flesh/meat	747	['flesh/meat']	44
-1043	Chakobo	meat (flesh)	nami	nami	n a m i		flesh/meat	747	['flesh/meat']	44
-1044	Pakawara	meat (flesh)	nami	nami	n a m i		flesh/meat	747	['flesh/meat']	44
-1045	Kakataibo	meat (flesh)	nami	nami	n a m i		flesh/meat	747	['flesh/meat']	44
-1046	Kaxarari	meat (flesh)	lami	lami	l a m i		flesh/meat	747	['flesh/meat']	44
-1047	Mastanawa	meat (flesh)	dabi	dabi	d a b i		flesh/meat	747	['flesh/meat']	44
-1048	Chaninawa	meat (flesh)	dabi	dabi	d a b i		flesh/meat	747	['flesh/meat']	44
-1049	Sharanawa	meat (flesh)	dabi	dabi	d a b i		flesh/meat	747	['flesh/meat']	44
-1050	Amawaka	meat (flesh)	nambi	nambi	n a m b i		flesh/meat	747	['flesh/meat']	44
-1051	Nawa	meat (flesh)	dabi	dabi	d a b i		flesh/meat	747	['flesh/meat']	44
-1052	Marinawa	meat (flesh)	danbi	danbi	d a n b i		flesh/meat	747	['flesh/meat']	44
-1053	Yaminawa	meat (flesh)	dabi	dabi	d a b i		flesh/meat	747	['flesh/meat']	44
-1054	Kashinawa_P	meat (flesh)	nami	nami	n a m i		flesh/meat	747	['flesh/meat']	44
-1055	Kashinawa_B	meat (flesh)	nami	nami	n a m i		flesh/meat	747	['flesh/meat']	44
-1056	Araona	meat (flesh)	emi	emi	e m i		?	747	['?']	2
-674	Matses	neck	tɨnite	tɨnite	t ɨ + n i t e		neck _nite	810	['neck', '_nite']	88
-675	Matis	neck	tɨtun	tɨtun	t ɨ + t u n		neck _tun	810	['neck', '_tun']	92
-676	Marubo	neck	tɨʂu	tɨʂu	t ɨ + ʂ u		neck _ʂu	810	['neck', '_ʂu']	94
-677	Katukina	neck	tispun	tispun	t i + s p u n		neck _spun	810	['neck', '_spun']	90
-678	Kanamari	neck	taʃu	taʃu	t ɨ + ʃ u		neck _ʂu	810	['neck', '_ʂu']	94
-679	Shipibo_Konibo	neck	tɨʂu	tɨʂu	t ɨ + ʂ u		neck _ʂu	810	['neck', '_ʂu']	94
-680	Kapanawa	neck	tɨʂu	tɨʂu	t ɨ + ʂ u		neck _ʂu	810	['neck', '_ʂu']	94
-681	Shanenawa	neck	tɨʂɨ	tɨʂɨ	t ɨ + ʂ u		neck _ʂu	810	['neck', '_ʂu']	94
-682	Yawanawa	neck	tɨʃu	tɨʃu	t ɨ + ʃ u		neck _ʂu	810	['neck', '_ʂu']	94
-683	Nukini	neck	nipika	nipika	n i p i k a		?	804	['?']	2
-684	Nukini	neck	tukɨ	tɨkɨ	t ɨ + k ɨ		neck _kɨ	810	['neck', '_kɨ']	86
-685	Poyanawa	neck	tɨhu	tɨhu	t ɨ + h u		neck _ʂu	810	['neck', '_ʂu']	94
-686	Iskonawa	neck	tɨhu	tɨhu	t ɨ + h u		neck _ʂu	810	['neck', '_ʂu']	94
-687	Chakobo	neck	tɨpuku	tɨpuku	t ɨ + p u k u		neck _puku	810	['neck', '_puku']	89
-688	Pakawara	neck	tikana	tikana	t i + k a n a		neck _kana	810	['neck', '_kana']	85
-689	Kakataibo	neck	tɨʂa	tɨʂa	t ɨ + ʂ a		neck _ʂa	810	['neck', '_ʂa']	93
-690	Kaxarari	neck	tɨiwi	tɨiwi	t ɨ + i w i		neck truck	810	['neck', 'truck']	95
-691	Mastanawa	neck	tɨʂu	tɨʂu	t ɨ + ʂ u		neck _ʂu	810	['neck', '_ʂu']	94
-692	Chaninawa	neck	tɨsto	tɨsto	t ɨ + s t o		neck _sto	810	['neck', '_sto']	91
-693	Sharanawa	neck	tɨʂu	tɨʂu	t ɨ + ʂ u		neck _ʂu	810	['neck', '_ʂu']	94
-694	Amawaka	neck	çau	çau	t ɨ + ç u		neck _ʂu	806	['neck', '_ʂu']	94
-695	Nawa	neck	tɨʂu	tɨʂu	t ɨ + ʂ u		neck _ʂu	810	['neck', '_ʂu']	94
-696	Nawa	neck	tɨmaʂka	tɨmaʂka	t ɨ + m a ʂ k a		neck _maʂka	810	['neck', '_maʂka']	87
-697	Marinawa	neck	tɨʂu	tɨʂu	t ɨ + ʂ u		neck _ʂu	810	['neck', '_ʂu']	94
-698	Yaminawa	neck	tɨʂu	tɨʂu	t ɨ + ʂ u		neck _ʂu	810	['neck', '_ʂu']	94
-699	Kashinawa_P	neck	tɨʂu	tɨʂu	t ɨ + ʂ u		neck _ʂu	810	['neck', '_ʂu']	94
-700	Kashinawa_B	neck	tɨʂu	tɨʂu	t ɨ + ʂ u		neck _ʂu	810	['neck', '_ʂu']	94
-701	Araona	neck	nala	nala	n a l a		?	811	['?']	2
-568	Matses	nose	dɨβiate	dɨβiate	d ɨ + β i a t e		nose _biate	830	['nose', '_biate']	96
-569	Matis	nose	dɨʂan	dɨʂan	d ɨ + ʂ a n		nose _san	830	['nose', '_san']	100
-570	Marubo	nose	rɨkin	rɨkin	r ɨ + k i n		nose _kin	830	['nose', '_kin']	98
-571	Katukina	nose	renkin	renkin	r ɨ + k i n		nose _kin	830	['nose', '_kin']	98
-572	Kanamari	nose	rɨkĩ	rɨkĩ	r ɨ + k ĩ		nose _kin	830	['nose', '_kin']	98
-573	Shipibo_Konibo	nose	rɨkin	rɨkin	r ɨ + k i n		nose _kin	830	['nose', '_kin']	98
-574	Kapanawa	nose	rɨkin	rɨkin	r ɨ + k i n		nose _kin	830	['nose', '_kin']	98
-575	Shanenawa	nose	rɨkin	rɨkin	r ɨ + k i n		nose _kin	830	['nose', '_kin']	98
-576	Yawanawa	nose	rɨkin	rɨkin	r ɨ + k i n		nose _kin	830	['nose', '_kin']	98
-577	Nukini	nose	rɨ̃kɨ̃	rɨ̃kɨ̃	r ɨ̃ + k ɨ̃		nose _kɨn	830	['nose', '_kɨn']	99
-578	Poyanawa	nose	rɨnkĩ	rɨnkĩ	r ɨ + k ĩ		nose _kin	830	['nose', '_kin']	98
-579	Iskonawa	nose	ɾɨnkĩ	ɾɨnkĩ	ɾ ɨ + k ĩ		nose _kin	830	['nose', '_kin']	98
-580	Chakobo	nose	rɨʂaki	rɨʂaki	r ɨ + ʂ a k i		nose _ʂaki	830	['nose', '_ʂaki']	101
-581	Pakawara	nose	rɨkina	rɨkina	r ɨ + k i n a		nose _kin	830	['nose', '_kin']	98
-582	Kakataibo	nose	rɨkin	rɨkin	r ɨ + k i n		nose _kin	830	['nose', '_kin']	98
-583	Kaxarari	nose	tʃɨkani	tʃɨkani	r ɨ + k a n i		nose _kani	830	['nose', '_kani']	97
-584	Mastanawa	nose	ɾɨʧuʔu	ɾɨʧuʔu	ɾ ɨ + tʃ u ʔ u		nose _ʧuku	830	['nose', '_ʧuku']	103
-585	Chaninawa	nose	ɾɨki	ɾɨki	ɾ ɨ + k i		nose _kin	830	['nose', '_kin']	98
-586	Sharanawa	nose	ɾɨt͡ʃuku	ɾɨt͡ʃuku	ɾ ɨ + tʃ u k u		nose _ʧuku	830	['nose', '_ʧuku']	103
-587	Amawaka	nose	ɾɨ(n)kin	ɾɨkin	ɾ ɨ + k i n		nose _kin	830	['nose', '_kin']	98
-588	Nawa	nose	ɾɨʧa	ɾɨʧa	ɾ ɨ + tʃ a		nose _ʧa	830	['nose', '_ʧa']	102
-589	Marinawa	nose	ɾɨʧuku	ɾɨʧuku	ɾ ɨ + tʃ u k u		nose _ʧuku	830	['nose', '_ʧuku']	103
-590	Yaminawa	nose	ɾɨʧuʔu	ɾɨʧuʔu	ɾ ɨ + tʃ u ʔ u		nose _ʧuku	830	['nose', '_ʧuku']	103
-591	Kashinawa_P	nose	dɨki	dɨki	d ɨ + k i		nose _kin	830	['nose', '_kin']	98
-592	Kashinawa_P	nose	ɾɨki	ɾɨki	ɾ ɨ + k i		nose _kin	830	['nose', '_kin']	98
-593	Kashinawa_B	nose	dɨkĩ	dɨkĩ	d ɨ + k ĩ		nose _kin	830	['nose', '_kin']	98
-594	Araona	nose	ewi	ewi	e w i		?	831	['?']	2
-754	Matses	skin [of person]	βitsi	βitsi	β i ts i		skin	49	['skin']	116
-755	Matis	skin [of person]	βidtsi	βidtsi	β i ts i		skin	1063	['skin']	116
-756	Marubo	skin [of person]	ɨʂpi	ɨʂpi	ɨ ʂ p i		skin/ɨʂpi	1065	['skin/ɨʂpi']	117
-757	Katukina	skin [of person]	wixiβi	wixiβi	w i tʃ i β i		skin	1063	['skin']	116
-758	Shipibo_Konibo	skin [of person]	βitʃi	βitʃi	β i tʃ i		skin	1063	['skin']	116
-759	Kapanawa	skin [of person]	βitʃi	βitʃi	β i tʃ i		skin	1063	['skin']	116
-760	Shanenawa	skin [of person]	ɸitʃi	ɸitʃi	ɸ i tʃ i		skin	1063	['skin']	116
-761	Yawanawa	skin [of person]	βitʃi	βitʃi	β i tʃ i		skin	1063	['skin']	116
-762	Nukini	skin [of person]	βiʃi	βiʃi	β i ʃ i		skin	1063	['skin']	116
-763	Iskonawa	skin [of person]	βiʧi	βiʧi	β i tʃ i		skin	1063	['skin']	116
-764	Iskonawa	skin [of person]	haka	haka	h a k a		bark	1062	['bark']	21
-765	Chakobo	skin [of person]	βitʃi	βitʃi	β i tʃ i		skin	1063	['skin']	116
-766	Pakawara	skin [of person]	witʃi	witʃi	w i tʃ i		skin	1063	['skin']	116
-767	Kakataibo	skin [of person]	ʂaka	ʂaka	ʂ a k a		bark	1062	['bark']	21
-768	Kaxarari	skin [of person]	witʃi	witʃi	w i tʃ i		skin	1063	['skin']	116
-769	Mastanawa	skin [of person]	ɸiʧi	ɸiʧi	ɸ i tʃ i		skin	1063	['skin']	116
-770	Chaninawa	skin [of person]	ɸit͡ʃi	ɸit͡ʃi	ɸ i tʃ i		skin	1063	['skin']	116
-771	Sharanawa	skin [of person]	ɸit͡ʃi	ɸit͡ʃi	ɸ i tʃ i		skin	1063	['skin']	116
-772	Amawaka	skin [of person]	punj̃ã	çaka	ç a k a		skin	1064	['skin']	116
-773	Nawa	skin [of person]	ɸiʧi	ɸiʧi	ɸ i tʃ i		skin	49	['skin']	116
-774	Marinawa	skin [of person]	ɸiʧi	ɸiʧi	ɸ i tʃ i		skin	1063	['skin']	116
-775	Yaminawa	skin [of person]	ɸiʧi	ɸiʧi	ɸ i tʃ i		skin	1063	['skin']	116
-776	Kashinawa_P	skin [of person]	βiʧi	βiʧi	β i tʃ i		skin	1063	['skin']	116
-777	Kashinawa_B	skin [of person]	βitʃi	βitʃi	β i tʃ i		skin	1063	['skin']	116
-778	Araona	skin [of person]	biki	biki	b i k i		skin	1063	['skin']	116
-779	Matses	tail	inkuente	inkuente	i n + k u e n t e		tail _kuente	1258	['tail', '_kuente']	122
-780	Matis	tail	ina	ina	i n + a		tail _-:suffix/a	1253	['tail', '_-:suffix/a']	120
-781	Marubo	tail	ina	ina	i n + a		tail _a	1253	['tail', '_a']	121
-782	Kanamari	tail	hina	hina	h i n + a		tail _a	1253	['tail', '_a']	121
-783	Shipibo_Konibo	tail	hina	hina	h i n + a		tail _a	1253	['tail', '_a']	121
-784	Kapanawa	tail	hina	hina	h i n + a		tail _a	1253	['tail', '_a']	121
-785	Shanenawa	tail	ina	ina	i n + a		tail _a	1253	['tail', '_a']	121
-786	Yawanawa	tail	ina	ina	i n + a		tail _a	1253	['tail', '_a']	121
-787	Poyanawa	tail	βãti	βãti	β ã t i		?	1256	['?']	2
-788	Iskonawa	tail	ina	ina	i n + a		tail _a	1253	['tail', '_a']	121
-789	Chakobo	tail	hina	hina	h i n + a		tail _a	1253	['tail', '_a']	121
-790	Kakataibo	tail	ina	ina	i n + a		tail _a	1253	['tail', '_a']	121
-791	Kaxarari	tail	tʃina	tʃina	tʃ i n + a		tail _a	1614	['tail', '_a']	121
-792	Mastanawa	tail	ida	ida	i d + a		tail _a	1253	['tail', '_a']	121
-793	Chaninawa	tail	ida	ida	i d + a		tail _a	1253	['tail', '_a']	121
-794	Sharanawa	tail	i:da	i:da	iː d + a		tail _a	1253	['tail', '_a']	121
-795	Amawaka	tail	hinda	hinda	h i ⁿd + a		tail _a	1253	['tail', '_a']	121
-796	Nawa	tail	ʦimaʂa	ʦimaʂa	ts i + m a ʂ a		buttock _masa	1257	['buttock', '_masa']	29
-797	Marinawa	tail	inda	inda	i ⁿd + a		tail _a	1253	['tail', '_a']	121
-798	Yaminawa	tail	tɨdɨ	tɨdɨ	t ɨ d ɨ		?	1616	['?']	2
-799	Kashinawa_P	tail	hina	hina	h i n + a		tail _a	1253	['tail', '_a']	121
-800	Kashinawa_B	tail	hina	hina	h i n + a		tail _a	1253	['tail', '_a']	121
-801	Araona	tail	siča	siča	s i tʃ a		?	1254	['?']	2
-621	Matses	tongue	ana	ana	a n + a		mouth/tongue _-:suffix/a	1330	['mouth/tongue', '_-:suffix/a']	82
-622	Matis	tongue	ana	ana	a n + a		mouth/tongue _-:suffix/a	1330	['mouth/tongue', '_-:suffix/a']	82
-623	Marubo	tongue	ana rɨβu	ana rɨβu	a n + a + r ɨ β u		mouth/tongue _a tip	1331	['mouth/tongue', '_a', 'tip']	83
-624	Katukina	tongue	ana	ana	a n + a		mouth/tongue _a	1330	['mouth/tongue', '_a']	84
-625	Kanamari	tongue	hana	hana	h a n + a		mouth/tongue _a	1330	['mouth/tongue', '_a']	84
-626	Shipibo_Konibo	tongue	hana	hana	h a n + a		mouth/tongue _a	1330	['mouth/tongue', '_a']	84
-627	Kapanawa	tongue	hana	hana	h a n + a		mouth/tongue _a	1330	['mouth/tongue', '_a']	84
-628	Shanenawa	tongue	ana	ana	a n + a		mouth/tongue _a	1330	['mouth/tongue', '_a']	84
-629	Yawanawa	tongue	ana	ana	a n + a		mouth/tongue _a	1330	['mouth/tongue', '_a']	84
-630	Nukini	tongue	anã	anã	a n + a		mouth/tongue _a	1330	['mouth/tongue', '_a']	84
-631	Poyanawa	tongue	anda	anda	a ⁿd + a		mouth/tongue _a	1330	['mouth/tongue', '_a']	84
-632	Iskonawa	tongue	ana	ana	a n + a		mouth/tongue _a	1330	['mouth/tongue', '_a']	84
-633	Chakobo	tongue	hana	hana	h a n + a		mouth/tongue _a	1330	['mouth/tongue', '_a']	84
-634	Pakawara	tongue	hana	hana	h a n + a		mouth/tongue _a	1330	['mouth/tongue', '_a']	84
-635	Kakataibo	tongue	ana	ana	a n + a		mouth/tongue _a	1330	['mouth/tongue', '_a']	84
-636	Kaxarari	tongue	hana	hana	h a n + a		mouth/tongue _a	1330	['mouth/tongue', '_a']	84
-637	Mastanawa	tongue	ada	ada	a d + a		mouth/tongue _a	1330	['mouth/tongue', '_a']	84
-638	Chaninawa	tongue	a:da	a:da	a d + a		mouth/tongue _a	1330	['mouth/tongue', '_a']	84
-639	Sharanawa	tongue	ada	ada	a d + a		mouth/tongue _a	1330	['mouth/tongue', '_a']	84
-640	Amawaka	tongue	handa	handa	h a ⁿd + a		mouth/tongue _a	1330	['mouth/tongue', '_a']	84
-641	Nawa	tongue	a:da	a:da	a d + a		mouth/tongue _a	1330	['mouth/tongue', '_a']	84
-642	Marinawa	tongue	anda	anda	a ⁿd + a		mouth/tongue _a	1330	['mouth/tongue', '_a']	84
-643	Yaminawa	tongue	ada	ada	a d + a		mouth/tongue _a	1330	['mouth/tongue', '_a']	84
-644	Kashinawa_P	tongue	hana	hana	h a n + a		mouth/tongue _a	1330	['mouth/tongue', '_a']	84
-645	Kashinawa_B	tongue	hana	hana	h a n + a		mouth/tongue _a	1330	['mouth/tongue', '_a']	84
-646	Araona	tongue	e-ana	eana	e a n a		?	1330	['?']	2
-861	Matses	wing	podo	podo	p o d o		arm/podo	1480	['arm/podo']	11
-862	Matis	wing	pɨi	pɨi	p ɨ + i		arm _i	1480	['arm', '_i']	4
-863	Marubo	wing	pɨi	pɨi	p ɨ + i		arm _i	1480	['arm', '_i']	4
-864	Shipibo_Konibo	wing	pɨtʃi	pɨtʃi	p ɨ + tʃ i		arm _tʃi	1480	['arm', '_tʃi']	9
-865	Kapanawa	wing	pɨi	pɨi	p ɨ + i		arm _i	1480	['arm', '_i']	4
-866	Shanenawa	wing	pɨj	pɨj	p ɨ + j		arm _j	1480	['arm', '_j']	5
-867	Yawanawa	wing	pɨj	pɨj	p ɨ + j		arm _j	1480	['arm', '_j']	5
-868	Iskonawa	wing	pɨi	pɨi	p ɨ + i		arm _i	1480	['arm', '_i']	4
-869	Chakobo	wing	pɨ?i	pɨʔi	p ɨ + ʔ i		arm _ʔi	1480	['arm', '_ʔi']	10
-870	Kakataibo	wing	pɨi	pɨi	p ɨ + i		arm _i	1480	['arm', '_i']	4
-871	Kaxarari	wing	patsasi	patsasi	p a ts a s i		?	1484	['?']	2
-872	Mastanawa	wing	ampɨj	ampɨj	a m + p ɨ + i		_am arm _i	1480	['_am', 'arm', '_i']	3
-873	Chaninawa	wing	pɨtau	pɨtau	p ɨ + t a u		arm _tau	1480	['arm', '_tau']	6
-874	Sharanawa	wing	dujati	dujati	d u j a + t i		flight _ti	1485	['flight', '_ti']	45
-875	Amawaka	wing	pɨʔi	pɨʔi	p ɨ + ʔ i		arm _ʔi	1480	['arm', '_ʔi']	10
-876	Nawa	wing	pɨtaw	pɨtaw	p ɨ + t a w		arm _taw	1480	['arm', '_taw']	7
-877	Marinawa	wing	pɨtaw	pɨtaw	p ɨ + t a w		arm _taw	1480	['arm', '_taw']	7
-878	Yaminawa	wing	pɨta	pɨta	p ɨ + t a		arm _ti	1480	['arm', '_ti']	8
-879	Kashinawa_P	wing	pɨj	pɨj	p ɨ + j		arm _j	1480	['arm', '_j']	5
-880	Kashinawa_B	wing	pɨi	pɨi	p ɨ + i		arm _i	1480	['arm', '_i']	4
-881	Araona	wing	nabai	nabai	n a b a i		?	1481	['?']	2
+ID	DOCULECT	CONCEPT	VALUE	FORM	TOKENS	NOTE	MORPHEMES	COGS	COGID	BODY	BODYID
+690	Matses	back [of body]	katʂo	katʂo	k a + ʈʂ o		back _tso	203 213	32	back [of body]-_tso	53
+691	Matis	back [of body]	kaʂuku	kaʂuku	k a + ʂ u k u		back _So /ku	203 211 204	32	back [of body]-_So	54
+692	Marubo	back [of body]	kaʂu	kaʂu	k a + ʂ u		back _So	203 211	32	back [of body]-_So	54
+693	Katukina	back [of body]	pimana	pimana	p i + m a n a		shoulder _above	200 202	30	back [of body]-_above	55
+694	Kanamari	back [of body]	kaʃo	kaʃo	k a + ʃ o		back _So	203 211	32	back [of body]-_So	54
+695	Shipibo_Konibo	back [of body]	pɨka	pɨka	p ɨ + k a		shoulder _ka	200 205	30	back [of body]-_ka	56
+696	Kapanawa	back [of body]	pɨka	pɨka	p ɨ + k a		shoulder _ka	200 205	30	back [of body]-_ka	56
+697	Shanenawa	back [of body]	pustʃi	pɨstʃi	p ɨ + ↓stʃ/tʃ i		shoulder _tʃi	200 207	30	back [of body]-_tʃi	57
+698	Nukini	back [of body]	puʃi	pɨʃi	p ɨ + tʃ i		shoulder _ʧi	200 207	30	back [of body]-_ʧi	58
+699	Poyanawa	back [of body]	pɨti	pɨti	p ɨ + t i		shoulder _tɨ	200 206	30	back [of body]-_tɨ	59
+700	Iskonawa	back [of body]	pɨʧi	pɨʧi	p ɨ + tʃ i		shoulder _ʧi	200 207	30	back [of body]-_ʧi	58
+701	Iskonawa	back [of body]	katɨ	katɨ	k a + t ɨ		back _tɨ	203 206	32	back [of body]-_tɨ	59
+702	Chakobo	back [of body]	katɨ	katɨ	k a + t ɨ		back _tɨ	203 206	32	back [of body]-_tɨ	59
+703	Kakataibo	back [of body]	kaʂo	kaʂo	k a + ʂ o		back _So	203 211	32	back [of body]-_So	54
+704	Kaxarari	back [of body]	katapu	katapu	k a + t a p u		back _root	203 210	32	back [of body]-_root	60
+705	Mastanawa	back [of body]	piʧi	piʧi	p i + tʃ i		shoulder _ʧi	200 207	30	back [of body]-_ʧi	58
+706	Chaninawa	back [of body]	pɨʂaβati	pɨʂaβati	p ɨ + ʂ a β a t i		shoulder _ʂaβati	200 209	30	back [of body]-_ʂaβati	61
+707	Sharanawa	back [of body]	pɨmiti	pɨmiti	p ɨ + m i t i		shoulder _miti	200 208	30	back [of body]-_miti	62
+708	Amawaka	back [of body]	katɨ	katɨ	k a + t ɨ		back _tɨ	203 206	32	back [of body]-_tɨ	59
+709	Nawa	back [of body]	pɨʧi	pɨʧi	p ɨ + tʃ i		shoulder _ʧi	200 207	30	back [of body]-_ʧi	58
+710	Marinawa	back [of body]	pɨʧi	pɨʧi	p ɨ + tʃ i		shoulder _ʧi	200 207	30	back [of body]-_ʧi	58
+711	Yaminawa	back [of body]	piʧi	pɨʧi	p ɨ + tʃ i		shoulder _ʧi	200 207	30	back [of body]-_ʧi	58
+712	Kashinawa_P	back [of body]	pɨʧi	pɨʧi	p ɨ + tʃ i		shoulder _ʧi	200 207	30	back [of body]-_ʧi	58
+664	Matses	belly	puku	puku	p u k u		belly _ku	87 85	54	belly-_ku	45
+665	Matis	belly	puku	puku	p u k u		belly _ku	87 85	54	belly-_ku	45
+666	Marubo	belly	pustu	pustu	p u s t u		belly _stu	87 86	1553	belly-_stu	46
+667	Katukina	belly	pustu	pustu	p u s t u		belly _stu	87 86	1553	belly-_stu	46
+668	Kanamari	belly	posto	posto	p o s t o		belly _stu	87 86	1553	belly-_stu	46
+669	Shipibo_Konibo	belly	puku	puku	p u k u		belly _ku	87 85	54	belly-_ku	45
+670	Kapanawa	belly	puku	puku	p u k u		belly _ku	87 85	54	belly-_ku	45
+671	Shanenawa	belly	pustu	pustu	p u s t u		belly _stu	87 86	1553	belly-_stu	46
+672	Yawanawa	belly	pustu	pustu	p u s t u		belly _stu	87 86	1553	belly-_stu	46
+673	Nukini	belly	naβa	naβa	n a β a		width _ba	91 89	55	belly-_ba	47
+674	Nukini	belly	puhtu	puhtu	p u h t u		belly _stu	87 86	1553	belly-_stu	46
+675	Poyanawa	belly	dahβa	dahβa	d a h β a		width _ba	91 89	55	belly-_ba	47
+676	Iskonawa	belly	nahβa	nahβa	n a h β a		width _ba	91 89	55	belly-_ba	47
+677	Chakobo	belly	takɨpɨ	takɨpɨ	t a k ɨ + p ɨ		taki _pi	219 227	58	belly-_pi	48
+678	Pakawara	belly	puku	puku	p u k u		belly _ku	87 85	54	belly-_ku	45
+679	Kakataibo	belly	puku	puku	p u k u		belly _ku	87 85	54	belly-_ku	45
+680	Kaxarari	belly	turu	turu	t u + r u		rounded _ru	188 228	60	belly-_ru	49
+681	Mastanawa	belly	ʂaʔi	ʂaʔi	ʂ a + ʔ i		/sa _?i	229 230	61	belly-_?i	50
+682	Chaninawa	belly	pusto	pusto	p u s t u		belly _stu	87 86	1553	belly-_stu	46
+683	Sharanawa	belly	namɨn	namɨn	n a m ɨ n		width _min	91 232	62	belly-_min	51
+684	Amawaka	belly	puku	puku	p u k u		belly _ku	87 85	54	belly-_ku	45
+685	Nawa	belly	atu	atu	a + t u		intestines _tu	90 231	1554	belly-_tu	52
+686	Marinawa	belly	pustu	pustu	p u s t u		belly _stu	87 86	1553	belly-_stu	46
+687	Yaminawa	belly	pustu	pustu	p u s t u		belly _stu	87 86	1553	belly-_stu	46
+688	Kashinawa_P	belly	pustu	pustu	p u s t u		belly _stu	87 86	1553	belly-_stu	46
+689	Kashinawa_B	belly	pustu	pustu	p u s t u		belly _stu	87 86	1553	belly-_stu	46
+483	Matses	ear	paβiate	paβiate	p a + β i a t e		ear _biate	185 190	310	ear-_biate	13
+484	Matis	ear	paβɨʂan	paβɨʂan	p a + β ɨ ʂ a n		ear _bisan	185 186	310	ear-_bisan	14
+485	Marubo	ear	pantʃu	pantʃu	p a n + tʃ u		ear _tʃu	185 226	310	ear-_tʃu	15
+486	Katukina	ear	pantxu	pantxu	p a n + ʈʂ u		ear _tʃu	185 226	310	ear-_tʃu	15
+487	Kanamari	ear	pãtʃo	pãtʃo	p a n + tʃ o		ear _tʃu	185 226	310	ear-_tʃu	15
+488	Shipibo_Konibo	ear	paβiki	paβiki	p a + β i k i		ear _binki	185 187	310	ear-_binki	16
+489	Kapanawa	ear	paβinki	paβinki	p a + β i n k i		ear _binki	185 187	310	ear-_binki	16
+490	Shanenawa	ear	pahinki	pahinki	p a + h i n k i		ear _binki	185 187	310	ear-_binki	16
+491	Yawanawa	ear	pahinki	pahinki	p a + h i n k i		ear _binki	185 187	310	ear-_binki	16
+492	Nukini	ear	paβiki	paβiki	p a + β i k i		ear _binki	185 187	310	ear-_binki	16
+493	Poyanawa	ear	pabĩki	pabĩki	p a + b ĩ k i		ear _binki	185 187	310	ear-_binki	16
+494	Iskonawa	ear	paβinki	paβinki	p a + β i n k i		ear _binki	185 187	310	ear-_binki	16
+495	Chakobo	ear	pa?uki	paʔuki	p a + ʔ u k i		ear _ʔuki	185 192	310	ear-_ʔuki	17
+496	Pakawara	ear	pa?uki	paʔuki	p a + ʔ u k i		ear _ʔuki	185 192	310	ear-_ʔuki	17
+497	Kakataibo	ear	paβi	paβi	p a + β i		ear _βi	185 189	310	ear-_βi	18
+498	Kaxarari	ear	isãkili	isãkili	i s + ã k i l i		temple _ãkili	191 193	267	ear-_ãkili	19
+499	Mastanawa	ear	paʧu	paʧu	p a + tʃ u		ear _tʃu	185 226	310	ear-_tʃu	15
+500	Chaninawa	ear	dikati	dikati	d i k a + t i		hear _ti	194 196	313	ear-_ti	20
+501	Sharanawa	ear	pat͡ʃu	pat͡ʃu	p a + tʃ u		ear _tʃu	185 226	310	ear-_tʃu	15
+502	Amawaka	ear	pawinki	pawinki	p a + w i n k i		ear _binki	185 187	310	ear-_binki	16
+503	Nawa	ear	paʧu	paʧu	p a + tʃ u		ear _tʃu	185 226	310	ear-_tʃu	15
+504	Nawa	ear	dikati	dikati	d i k a + t i		hear _ti	194 196	313	ear-_ti	20
+505	Marinawa	ear	paɸiki	paɸiki	p a + ɸ i k i		ear _binki	185 187	310	ear-_binki	16
+506	Yaminawa	ear	paʧu	paʧu	p a + tʃ u		ear _tʃu	185 226	310	ear-_tʃu	15
+507	Kashinawa_P	ear	paβinki	paβinki	p a + β i n k i		ear _binki	185 187	310	ear-_binki	16
+508	Kashinawa_B	ear	paβĩki	paβĩki	p a + β ĩ k i		ear _binki	185 187	310	ear-_binki	16
+509	Matses	eye	ɨʂɨ	ɨʂɨ	ɨ ʂ ɨ		seed	201	332	eye-	21
+510	Matis	eye	βɨdu	βɨdu	β ɨ + d u		eye _ɾu	198 195	330	eye-_ɾu	22
+511	Marubo	eye	βɨru	βɨru	β ɨ + r u		eye _ɾu	198 195	330	eye-_ɾu	22
+512	Katukina	eye	βiru	βiru	β i + r u		eye _ɾu	198 195	330	eye-_ɾu	22
+513	Kanamari	eye	mβɨru	mβɨru	ⁿβ ɨ + r u		eye _ɾu	198 195	330	eye-_ɾu	22
+514	Shipibo_Konibo	eye	βɨru	βɨru	β ɨ + r u		eye _ɾu	198 195	330	eye-_ɾu	22
+515	Kapanawa	eye	βɨru	βɨru	β ɨ + r u		eye _ɾu	198 195	330	eye-_ɾu	22
+516	Shanenawa	eye	ɸɨru	ɸɨru	ɸ ɨ + r u		eye _ɾu	198 195	330	eye-_ɾu	22
+517	Yawanawa	eye	βɨru	βɨru	β ɨ + r u		eye _ɾu	198 195	330	eye-_ɾu	22
+518	Nukini	eye	βɨrɨ	βɨrɨ	β ɨ + r u		eye _ɾu	198 195	330	eye-_ɾu	22
+519	Poyanawa	eye	βɨru	βɨru	β ɨ + r u		eye _ɾu	198 195	330	eye-_ɾu	22
+520	Iskonawa	eye	βɨɾu	βɨɾu	β ɨ + ɾ u		eye _ɾu	198 195	330	eye-_ɾu	22
+521	Chakobo	eye	βɨru	βɨru	β ɨ + r u		eye _ɾu	198 195	330	eye-_ɾu	22
+522	Pakawara	eye	wɨru	wɨru	w ɨ + r u		eye _ɾu	198 195	330	eye-_ɾu	22
+523	Kakataibo	eye	βɨro	βɨro	β ɨ + ɾ u		eye _ɾu	198 195	330	eye-_ɾu	22
+524	Kaxarari	eye	wɨtʃɨwɨ	wɨtʃɨwɨ	w ɨ + tʃ u w ɨ		eye _tʃu eye	198 197 199	330	eye-_tʃu	23
+525	Kaxarari	eye	βutʃu	βutʃu	β ɨ + tʃ u		eye _tʃu	198 197	241	eye-_tʃu	23
+526	Mastanawa	eye	ɸɨɾu	ɸɨɾu	ɸ ɨ + ɾ u		eye _ɾu	198 195	330	eye-_ɾu	22
+527	Chaninawa	eye	ɸɨɾu	ɸɨɾu	β ɨ + ɾ u		eye _ɾu	198 195	330	eye-_ɾu	22
+528	Sharanawa	eye	ɸɨɾu	ɸɨɾu	ɸ ɨ + ɾ u		eye _ɾu	198 195	330	eye-_ɾu	22
+529	Amawaka	eye	βɨɾu	βɨɾu	β ɨ + ɾ u		eye _ɾu	198 195	330	eye-_ɾu	22
+530	Nawa	eye	ɸɨɾu	ɸɨɾu	ɸ ɨ + ɾ u		eye _ɾu	198 195	330	eye-_ɾu	22
+531	Marinawa	eye	ɸwɨɾu	ɸwɨɾu	ɸ ɨ + ɾ u		eye _ɾu	198 195	330	eye-_ɾu	22
+532	Yaminawa	eye	ɸɨɾu	ɸɨɾu	ɸ ɨ + ɾ u		eye _ɾu	198 195	330	eye-_ɾu	22
+533	Kashinawa_P	eye	βɨɾu	βɨɾu	β ɨ + ɾ u		eye _ɾu	198 195	330	eye-_ɾu	22
+534	Kashinawa_B	eye	βɨdu	βɨdu	β ɨ + d u		eye _ɾu	198 195	330	eye-_ɾu	22
+861	Matses	feather [large]	podo	podo	p o + d o		arm _do	117 224	312	feather [large]-_do	93
+862	Matis	feather [large]	podo	podo	p o + d o		arm _do	117 224	312	feather [large]-_do	93
+863	Marubo	feather [large]	pɨi	pɨi	p ɨ + i		arm _i	216 221	375	feather [large]-_i	94
+864	Katukina	feather [large]	rani	rani	r a + n i		body_hair _di	218 222	376	feather [large]-_di	95
+865	Kanamari	feather [large]	pɨ?i	pɨʔi	p ɨ + ʔ i		arm _i	216 221	375	feather [large]-_i	94
+866	Shipibo_Konibo	feather [large]	pɨi	pɨi	p ɨ + i		arm _i	216 221	375	feather [large]-_i	94
+867	Kapanawa	feather [large]	pɨi	pɨi	p ɨ + i		arm _i	216 221	375	feather [large]-_i	94
+868	Shanenawa	feather [large]	pɨj	pɨj	p ɨ + j		arm _i	216 221	375	feather [large]-_i	94
+869	Yawanawa	feather [large]	pɨi	pɨi	p ɨ + i		arm _i	216 221	375	feather [large]-_i	94
+870	Nukini	feather [large]	kɨru	kɨru	k ɨ + r u		ki _ru	118 225	380	feather [large]-_ru	96
+871	Poyanawa	feather [large]	pɨi	pɨi	p ɨ + i		arm _i	216 221	375	feather [large]-_i	94
+872	Iskonawa	feather [large]	pɨi	pɨi	p ɨ + i		arm _i	216 221	375	feather [large]-_i	94
+873	Chakobo	feather [large]	pɨ?i	pɨʔi	p ɨ + ʔ i		arm _i	216 221	375	feather [large]-_i	94
+874	Pakawara	feather [large]	puhi	puhi	p u + h i		arm _i	119 221	375	feather [large]-_i	94
+875	Kakataibo	feather [large]	pɨi	pɨi	p ɨ + i		arm _i	216 221	375	feather [large]-_i	94
+876	Kaxarari	feather [large]	pii	pii	p i + i		arm _i	216 221	375	feather [large]-_i	94
+877	Mastanawa	feather [large]	ʂupu	ʂupu	ʂ u + p u		cotton _pu	124 220	378	feather [large]-_pu	97
+878	Chaninawa	feather [large]	pɨi	pɨi	p ɨ + i		arm _i	216 221	375	feather [large]-_i	94
+879	Sharanawa	feather [large]	ʂupu	ʂupu	ʂ u + p u		cotton _pu	124 220	378	feather [large]-_pu	97
+880	Amawaka	feather [large]	pɨʔi	pɨʔi	p ɨ + ʔ i		arm _i	216 221	375	feather [large]-_i	94
+881	Nawa	feather [large]	ɾadi	ɾadi	ɾ a + d i		body_hair _di	218 223	376	feather [large]-_di	95
+882	Marinawa	feather [large]	ɾandi	ɾandi	ɾ a + ⁿd i		body_hair _di	218 222	376	feather [large]-_di	95
+883	Yaminawa	feather [large]	pɨj	pɨj	p ɨ + j		arm _i	216 221	375	feather [large]-_i	94
+884	Kashinawa_P	feather [large]	pɨj	pɨj	p ɨ + j		arm _i	216 221	375	feather [large]-_i	94
+885	Kashinawa_B	feather [large]	pɨi	pɨi	p ɨ + i		arm _i	216 221	375	feather [large]-_i	94
+790	Matses	foot	taɨ	taɨ	t a + ɨ		foot _i	212 215	483	foot-_i	80
+791	Matis	foot	taɨ	taɨ	t a + ɨ		foot _i	212 215	483	foot-_i	80
+792	Marubo	foot	taɨ	taɨ	t a + ɨ		foot _i	212 215	483	foot-_i	80
+793	Katukina	foot	tae	tae	t a + e		foot _i	212 215	483	foot-_i	80
+794	Kanamari	foot	ta?ɨ	taʔɨ	t a + ʔ ɨ		foot _i	212 215	483	foot-_i	80
+795	Shipibo_Konibo	foot	taɨ	taɨ	t a + ɨ		foot _i	212 215	483	foot-_i	80
+796	Kapanawa	foot	taɨ	taɨ	t a + ɨ		foot _i	212 215	483	foot-_i	80
+797	Shanenawa	foot	taɨ	taɨ	t a + ɨ		foot _i	212 215	483	foot-_i	80
+798	Yawanawa	foot	taɨ	taɨ	t a + ɨ		foot _i	212 215	483	foot-_i	80
+799	Nukini	foot	taɨ	taɨ	t a + ɨ		foot _i	212 215	483	foot-_i	80
+800	Poyanawa	foot	taɨ	taɨ	t a + ɨ		foot _i	212 215	483	foot-_i	80
+801	Iskonawa	foot	taɨ	taɨ	t a + ɨ		foot _i	212 215	483	foot-_i	80
+802	Chakobo	foot	ta?ɨ	taʔɨ	t a + ʔ ɨ		foot _i	212 215	483	foot-_i	80
+803	Pakawara	foot	ta?ɨ	taʔɨ	t a + ʔ ɨ		foot _i	212 215	483	foot-_i	80
+804	Kakataibo	foot	taɨ	taɨ	t a + ɨ		foot _i	212 215	483	foot-_i	80
+805	Kaxarari	foot	taɨ	taɨ	t a + ɨ		foot _i	212 215	483	foot-_i	80
+806	Mastanawa	foot	taɨ	taɨ	t a + ɨ		foot _i	212 215	483	foot-_i	80
+807	Chaninawa	foot	taɨ	taɨ	t a + ɨ		foot _i	212 215	483	foot-_i	80
+808	Sharanawa	foot	taɨ	taɨ	t a + ɨ		foot _i	212 215	483	foot-_i	80
+809	Amawaka	foot	taʔɨ	taʔɨ	t a + ʔ ɨ		foot _i	212 215	483	foot-_i	80
+810	Nawa	foot	taɨ	taɨ	t a + ɨ		foot _i	212 215	483	foot-_i	80
+811	Marinawa	foot	uʂpaɾu	uʂpaɾu	u ʂ p a + ɾ u		/uspa _ru	214 217	485	foot-_ru	81
+812	Yaminawa	foot	taɨ	taɨ	t a + ɨ		foot _i	212 215	483	foot-_i	80
+813	Kashinawa_P	foot	taɨ	taɨ	t a + ɨ		foot _i	212 215	483	foot-_i	80
+814	Kashinawa_B	foot	taɨ	taɨ	t a + ɨ		foot _i	212 215	483	foot-_i	80
+910	Matses	guts	puku	puku	p u k u		stomach _ku	92 88	534	guts-_ku	103
+911	Matis	guts	puku	puku	p u k u		stomach _ku	92 88	534	guts-_ku	103
+912	Marubo	guts	puku	puku	p u k u		stomach _ku	92 88	534	guts-_ku	103
+913	Katukina	guts	puku	puku	p u k u		stomach _ku	92 88	534	guts-_ku	103
+914	Shipibo_Konibo	guts	puku	puku	p u k u		stomach _ku	92 88	534	guts-_ku	103
+915	Kapanawa	guts	puku	puku	p u k u		stomach _ku	92 88	534	guts-_ku	103
+916	Shanenawa	guts	puku	puku	p u k u		stomach _ku	92 88	534	guts-_ku	103
+917	Yawanawa	guts	puku	puku	p u k u		stomach _ku	92 88	534	guts-_ku	103
+918	Nukini	guts	puku	puku	p u k u		stomach _ku	92 88	534	guts-_ku	103
+919	Poyanawa	guts	βɨtɨh	βɨtɨh	β ɨ t ɨ h		stomach _tih	92 93	536	guts-_tih	104
+920	Iskonawa	guts	puku	puku	p u k u		stomach _ku	92 88	534	guts-_ku	103
+921	Chakobo	guts	puku	puku	p u k u		stomach _ku	92 88	534	guts-_ku	103
+922	Kakataibo	guts	puku	puku	p u k u		stomach _ku	92 88	534	guts-_ku	103
+923	Mastanawa	guts	puʔu	puʔu	p u ʔ u		stomach _ku	92 88	534	guts-_ku	103
+924	Chaninawa	guts	puku	puku	p u k u		stomach _ku	92 88	534	guts-_ku	103
+925	Sharanawa	guts	puku	puku	p u k u		stomach _ku	92 88	534	guts-_ku	103
+926	Amawaka	guts	puku	puku	p u k u		stomach _ku	92 88	534	guts-_ku	103
+927	Nawa	guts	puku	puku	p u k u		stomach _ku	92 88	534	guts-_ku	103
+928	Marinawa	guts	puku	puku	p u k u		stomach _ku	92 88	534	guts-_ku	103
+929	Yaminawa	guts	puʔu	puʔu	p u ʔ u		stomach _ku	92 88	534	guts-_ku	103
+930	Kashinawa_P	guts	puku	puku	p u k u		stomach _ku	92 88	534	guts-_ku	103
+458	Matses	hair	βu	βu	m a + n ë d a i d		head _nëdaid	77 83	539	hair-_nëdaid	7
+459	Matis	hair	ʂakkete	ʂakkete	ʂ a k + k e + t e		/sak _-:suffix/kete	58 95	543	hair-_-:suffix/kete	8
+460	Marubo	hair	βu	βu	β u		hair	9	539	hair-	9
+461	Katukina	hair	βuu	βuu	β u		hair	9	539	hair-	9
+462	Kanamari	hair	βuu	βuu	β u		hair	9	539	hair-	9
+463	Shipibo_Konibo	hair	βu	βu	β u		hair	9	539	hair-	9
+464	Kapanawa	hair	βu	βu	β u		hair	9	539	hair-	9
+465	Shanenawa	hair	ɸu	ɸu	ɸ u		hair	9	539	hair-	9
+466	Yawanawa	hair	βu	βu	β u		hair	9	539	hair-	9
+467	Nukini	hair	βu	βu	β u		hair	9	539	hair-	9
+468	Poyanawa	hair	βu	βu	β u		hair	9	539	hair-	9
+469	Iskonawa	hair	βu	βu	β u		hair	9	539	hair-	9
+470	Chakobo	hair	βu	βu	β u		hair	9	539	hair-	9
+471	Pakawara	hair	wuu	wuu	w u + u		hair _u	9 94	539	hair-_u	10
+472	Kakataibo	hair	βu	βu	β u		hair	9	539	hair-	9
+473	Kaxarari	hair	wɨʂkatʃani	wɨʂkatʃani	w ɨ + ʂ k a + tʃ a n i		head _:suffix/ʂka _bodyhair	81 79 10	542	hair-_:suffix/ʂka--_bodyhair	11
+474	Mastanawa	hair	fuʔu	fuʔu	f u + ʔ u		hair _uhair	9 94	539	hair-_uhair	12
+475	Chaninawa	hair	ɸu	ɸu	ɸ u		hair	9	539	hair-	9
+476	Sharanawa	hair	ɸu	ɸu	ɸ u		hair	9	539	hair-	9
+477	Amawaka	hair	βu	βu	β u		hair	9	539	hair-	9
+478	Nawa	hair	ɸuʔu	ɸuʔu	ɸ u + ʔ u		hair _uhair	9 94	539	hair-_uhair	12
+479	Marinawa	hair	ɸuʔu	ɸuʔu	ɸ u + ʔ u		hair _u	9 94	539	hair-_u	10
+480	Yaminawa	hair	hu	hu	ɸ u		hair	9	539	hair-	9
+481	Kashinawa_P	hair	βu	βu	β u		hair	9	539	hair-	9
+482	Kashinawa_B	hair	βu	βu	β u		hair	9	539	hair-	9
+835	Matses	hand	mɨdante	mɨdante	m ɨ + d a n t e		hand _dante	96 99	546	hand-_dante	88
+836	Matis	hand	mɨkɨn	mɨkɨn	m ɨ + k ɨ n		hand _kini	96 101	546	hand-_kini	89
+837	Marubo	hand	mɨβi	mɨβi	m ɨ + β i		hand _Bi	96 97	546	hand-_Bi	90
+838	Katukina	hand	meβi	meβi	m e + β i		hand _Bi	96 97	546	hand-_Bi	90
+839	Kanamari	hand	mwɨβi	mɨβi	mʷ ɨ + β i		hand _Bi	96 97	546	hand-_Bi	90
+840	Shipibo_Konibo	hand	mɨkɨn	mɨkɨn	m ɨ + k ɨ n		hand _kini	96 101	546	hand-_kini	89
+841	Kapanawa	hand	mɨkɨn	mɨkɨn	m ɨ + k ɨ n		hand _kini	96 101	546	hand-_kini	89
+842	Shanenawa	hand	mɨɸi	mɨɸi	m ɨ + ɸ i		hand _Bi	96 97	546	hand-_Bi	90
+843	Yawanawa	hand	mɨhi	mɨhi	m ɨ + h i		hand _hi	96 100	546	hand-_hi	91
+844	Nukini	hand	mɨwi	mɨwi	m ɨ + w i		hand _Bi	96 97	546	hand-_Bi	90
+845	Poyanawa	hand	mɨkɨn	mɨkɨn	m ɨ + k ɨ n		hand _kini	96 101	546	hand-_kini	89
+846	Iskonawa	hand	mɨˀβi	mɨˀβi	m ɨ + β i		hand _Bi	96 97	546	hand-_Bi	90
+847	Chakobo	hand	mɨkɨnɨ	mɨkɨnɨ	m ɨ + k ɨ n ɨ		hand _kini	96 101	546	hand-_kini	89
+848	Pakawara	hand	mɨkɨna	mɨkɨna	m ɨ + k ɨ n a		hand _kini	96 101	546	hand-_kini	89
+849	Kakataibo	hand	mɨkɨn	mɨkɨn	m ɨ + k ɨ n		hand _kini	96 101	546	hand-_kini	89
+850	Kaxarari	hand	mɨkɨlɨ	mɨkɨlɨ	m ɨ + k ɨ l ɨ		hand _kini	96 101	546	hand-_kini	89
+851	Mastanawa	hand	bɨɸi	bɨɸi	b ɨ + ɸ i		hand _Bi	96 97	546	hand-_Bi	90
+852	Chaninawa	hand	βɨkɨ	βɨkɨ	β ɨ + k ɨ		hand _ki	96 98	546	hand-_ki	92
+853	Chaninawa	hand	βɨɸi	βɨɸi	β ɨ + ɸ i		hand _Bi	96 97	546	hand-_Bi	90
+854	Sharanawa	hand	bɨɸi	bɨɸi	b ɨ + ɸ i		hand _Bi	96 97	546	hand-_Bi	90
+855	Amawaka	hand	mɨkɨn	mɨkɨn	m ɨ + k ɨ n		hand _kini	96 101	546	hand-_kini	89
+856	Nawa	hand	bɨkɨ	bɨkɨ	b ɨ + k ɨ		hand _ki	96 98	546	hand-_ki	92
+857	Marinawa	hand	bɨkɨ	bɨkɨ	b ɨ + k ɨ		hand _ki	96 98	546	hand-_ki	92
+858	Yaminawa	hand	mɨʔɨ	mɨʔɨ	m ɨ + ʔ ɨ		hand _hi	96 100	546	hand-_hi	91
+859	Kashinawa_P	hand	mɨki	mɨki	m ɨ + k i		hand _ki	96 98	546	hand-_ki	92
+860	Kashinawa_B	hand	mɨ̃kɨ̃	mɨ̃kɨ̃	m ɨ̃ + k ɨ̃		hand _kini	96 101	546	hand-_kini	89
+432	Matses	head	mapi	mapi	m a + p i		head _pi	77 184	554	head-_pi	1
+433	Matis	head	maʂo	maʂo	m a + ʂ o		head _ʂo	77 180	554	head-_ʂo	2
+434	Marubo	head	mapu	mapu	m a + p u		head _:suffix/pu	77 76	554	head-_:suffix/pu	3
+435	Katukina	head	mapu	mapu	m a + p u		head _:suffix/pu	77 76	554	head-_:suffix/pu	3
+436	Kanamari	head	mapu	mapu	m a + p u		head _:suffix/pu	77 76	554	head-_:suffix/pu	3
+437	Shipibo_Konibo	head	mapu	mapu	m a + p u		head _:suffix/pu	77 76	554	head-_:suffix/pu	3
+438	Kapanawa	head	mapu	mapu	m a + p u		head _:suffix/pu	77 76	554	head-_:suffix/pu	3
+439	Shanenawa	head	mapu	mapu	m a + p u		head _:suffix/pu	77 76	554	head-_:suffix/pu	3
+440	Yawanawa	head	mapu	mapu	m a + p u		head _:suffix/pu	77 76	554	head-_:suffix/pu	3
+441	Nukini	head	mapu	mapu	m a + p u		head _:suffix/pu	77 76	554	head-_:suffix/pu	3
+442	Poyanawa	head	βuhka	βuhka	β u + h k a		head _:suffix/ʂka	81 79	555	head-_:suffix/ʂka	4
+443	Iskonawa	head	βuhka	βuhka	β u + h k a		head _:suffix/ʂka	81 79	555	head-_:suffix/ʂka	4
+444	Chakobo	head	mapu	mapu	m a + p u		head _:suffix/pu	77 76	554	head-_:suffix/pu	3
+445	Pakawara	head	mapu	mapu	m a + p u		head _:suffix/pu	77 76	554	head-_:suffix/pu	3
+446	Kakataibo	head	maʂka	maʂka	m a + ʂ k a		head _:suffix/ʂka	77 79	555	head-_:suffix/ʂka	4
+447	Kaxarari	head	wɨʂkata	wɨʂkata	w u + ʂ k a + t a		head _:suffix/ʂka _ta	81 79 102	555	head-_:suffix/ʂka--_ta	5
+448	Mastanawa	head	bapu	bapu	b a + p u		head _:suffix/pu	77 76	554	head-_:suffix/pu	3
+449	Chaninawa	head	βasakati	βasakati	β a + !sa/s k a + t i		head _:suffix/ʂka _ti	77 79 8	555	head-_:suffix/ʂka--_ti	6
+450	Sharanawa	head	bapu	bapu	b a + p u		head _:suffix/pu	77 76	554	head-_:suffix/pu	3
+451	Amawaka	head	mapu	mapu	m a + p u		head _:suffix/pu	77 76	554	head-_:suffix/pu	3
+452	Nawa	head	ba:pu	ba:pu	b aː + p u		head _:suffix/pu	77 76	554	head-_:suffix/pu	3
+453	Marinawa	head	bapu	bapu	b a + p u		head _:suffix/pu	77 76	554	head-_:suffix/pu	3
+454	Marinawa	head	ɸuʂka	ɸuʂka	ɸ u + ʂ k a		head _:suffix/ʂka	81 79	555	head-_:suffix/ʂka	4
+455	Yaminawa	head	bapu	bapu	b a + p u		head _:suffix/pu	77 76	554	head-_:suffix/pu	3
+456	Kashinawa_P	head	βuʂka	βuʂka	β u + ʂ k a		head _:suffix/ʂka	81 79	555	head-_:suffix/ʂka	4
+457	Kashinawa_B	head	βuʂka	βuʂka	β u + ʂ k a		head _:suffix/ʂka	81 79	555	head-_:suffix/ʂka	4
+886	Matses	heart	winte	uinte	u i n + t e		breathe _-:suffix/te	103 109	566	heart-_-:suffix/te	98
+887	Matis	heart	winte	uinte	u i n + t e		breathe _-:suffix/te	103 109	566	heart-_-:suffix/te	98
+888	Marubo	heart	winti	winti	w i n + t i		breathe _ti	103 104	566	heart-_ti	99
+889	Katukina	heart	winti	winti	w i n + t i		breathe _ti	103 104	566	heart-_ti	99
+890	Shipibo_Konibo	heart	huinti	huinti	h u i n + t i		breathe _ti	103 104	566	heart-_ti	99
+891	Kapanawa	heart	hwinti	hwinti	h u i n + t i		breathe _ti	103 104	566	heart-_ti	99
+892	Shanenawa	heart	uinti	uinti	u i n + t i		breathe _ti	103 104	566	heart-_ti	99
+893	Yawanawa	heart	ũĩti	ũĩti	ũ ĩ + t i		breathe _ti	103 104	566	heart-_ti	99
+894	Nukini	heart	kɨpĩ	kɨpĩ	k ɨ + p ĩ		/ki _pi	105 110	569	heart-_pi	100
+895	Poyanawa	heart	ũĩti	ũĩti	ũ ĩ + t i		breathe _ti	103 104	566	heart-_ti	99
+896	Iskonawa	heart	ũĩti	ũĩti	ũ ĩ + t i		breathe _ti	103 104	566	heart-_ti	99
+897	Chakobo	heart	huiti	huiti	h u i + t i		breathe _ti	103 104	566	heart-_ti	99
+898	Pakawara	heart	huwiti	huwiti	h u w i + t i		breathe _ti	103 104	566	heart-_ti	99
+899	Kakataibo	heart	nuitu	nuitu	n u i + t u		breathe/nui _tu	108 106	566	heart-_tu	101
+900	Kaxarari	heart	hɨya	hɨya	h ɨ + j a		breathe _ja	103 107	570	heart-_ja	102
+901	Mastanawa	heart	uɨnti	uɨnti	u ɨ n + t i		breathe _ti	103 104	566	heart-_ti	99
+902	Chaninawa	heart	uĩti	uĩti	u ĩ + t i		breathe _ti	103 104	566	heart-_ti	99
+903	Sharanawa	heart	ũĩti	ũĩti	ũ ĩ + t i		breathe _ti	103 104	566	heart-_ti	99
+904	Amawaka	heart	huinti	huinti	h u i n + t i		breathe _ti	103 104	566	heart-_ti	99
+905	Nawa	heart	uɨnti	uɨnti	u ɨ n + t i		breathe _ti	103 104	566	heart-_ti	99
+906	Marinawa	heart	uɨnti	uɨnti	u ɨ n + t i		breathe _ti	103 104	566	heart-_ti	99
+907	Yaminawa	heart	uwɨti	uwɨti	u w ɨ + t i		breathe _ti	103 104	566	heart-_ti	99
+908	Kashinawa_P	heart	ɸujnti	ɸujnti	ɸ u j/i n + t i		breathe _ti	103 104	566	heart-_ti	99
+909	Kashinawa_B	heart	huĩti	huĩti	h u ĩ + t i		breathe _ti	103 104	566	heart-_ti	99
+759	Matses	leg	nidte	nidte	n i d + t e		stand _-:suffix/te	115 116	688	leg-_-:suffix/te	72
+760	Matis	leg	tawi	tawi	t a + w i		foot _wi	120 121	687	leg-_wi	73
+761	Marubo	leg	kiʃi	kiʃi	k i + ʃ i		thigh _ʃi	112 114	682	leg-_ʃi	74
+762	Marubo	leg	itaʂɨ	itaʂɨ	i + t a ʂ ɨ		calf _taSi	111 113	683	leg-_taSi	75
+763	Katukina	leg	kixu	kixu	k i + ʂ u		thigh _Su	112 126	682	leg-_Su	76
+764	Kanamari	leg	hitaʃ	hitaʃ	h i + t a ʃ		calf _taSi	122 113	683	leg-_taSi	75
+765	Kanamari	leg	kiʃi	kiʃi	k i + ʃ i		thigh _ʃi	112 114	682	leg-_ʃi	74
+766	Shipibo_Konibo	leg	kiʃi	kiʃi	k i + ʃ i		thigh _ʃi	112 114	682	leg-_ʃi	74
+767	Shipibo_Konibo	leg	witaʂ	witaʂ	w i + t a ʂ		calf _taSi	122 113	683	leg-_taSi	75
+768	Kapanawa	leg	kiʃi	kiʃi	k i + ʃ i		thigh _ʃi	112 114	682	leg-_ʃi	74
+769	Kapanawa	leg	witaʂ	witaʂ	w i + t a ʂ		calf _taSi	122 113	683	leg-_taSi	75
+770	Shanenawa	leg	taɨ	taɨ	t a + ɨ		foot _ɨ	120 121	687	leg-_ɨ	77
+771	Yawanawa	leg	βitaʃ	βitaʃ	β i + t a ʃ		calf _taSi	122 113	683	leg-_taSi	75
+772	Nukini	leg	βiʃta	βiʃta	β i + ʃ t a		calf _sta	122 125	683	leg-_sta	78
+773	Iskonawa	leg	kiʃi	kiʃi	k i + ʃ i		thigh _ʃi	112 114	682	leg-_ʃi	74
+774	Chakobo	leg	wiku	wiku	w i + k u		calf _ku	122 123	686	leg-_ku	79
+775	Pakawara	leg	wiku	wiku	w i + k u		calf _ku	122 123	686	leg-_ku	79
+776	Kakataibo	leg	kisi	kisi	k i + s i		thigh _ʃi	112 114	682	leg-_ʃi	74
+777	Kaxarari	leg	witaʂɨ	witaʂɨ	w i + t a ʂ ɨ		calf _taSi	122 113	683	leg-_taSi	75
+778	Mastanawa	leg	kiʃi	kiʃi	k i + ʃ i		thigh _ʃi	112 114	682	leg-_ʃi	74
+779	Chaninawa	leg	kiʃi	kiʃi	k i + ʃ i		thigh _ʃi	112 114	682	leg-_ʃi	74
+780	Sharanawa	leg	kiʃi	kiʃi	k i + ʃ i		thigh _ʃi	112 114	682	leg-_ʃi	74
+781	Sharanawa	leg	ɸitaʂɨ	ɸitaʂɨ	ɸ i + t a ʂ ɨ		calf _taSi	122 113	683	leg-_taSi	75
+782	Amawaka	leg	kiʃi	kiʃi	k i + ʃ i		thigh _ʃi	112 114	682	leg-_ʃi	74
+783	Nawa	leg	kiʃi	kiʃi	k i + ʃ i		thigh _ʃi	112 114	682	leg-_ʃi	74
+784	Nawa	leg	ɸitaʂ	ɸitaʂ	ɸ i + t a ʂ		calf _taSi	122 113	683	leg-_taSi	75
+785	Marinawa	leg	kiʃi	kiʃi	k i + ʃ i		thigh _ʃi	112 114	682	leg-_ʃi	74
+786	Marinawa	leg	ɸitaʃi	ɸitaʃi	ɸ i + t a ʃ i		calf _taSi	122 113	683	leg-_taSi	75
+787	Yaminawa	leg	kiʃi	kiʃi	k i + ʃ i		thigh _ʃi	112 114	682	leg-_ʃi	74
+788	Kashinawa_P	leg	kiʃi	kiʃi	k i + ʃ i		thigh _ʃi	112 114	682	leg-_ʃi	74
+789	Kashinawa_B	leg	kiʂi	kiʂi	k i + ʂ i		thigh _ʃi	112 114	682	leg-_ʃi	74
+931	Matses	liver	isese	isese	i s e s e		/i _sese	131 132	709	liver-_sese	105
+932	Matis	liver	takua	takua	t a kʷ a		liver _kwa	17 18	708	liver-_kwa	106
+933	Marubo	liver	taka	taka	t a k a		liver _ka	17 127	708	liver-_ka	107
+934	Katukina	liver	taka	taka	t a k a		liver _ka	17 127	708	liver-_ka	107
+935	Shipibo_Konibo	liver	taka	taka	t a k a		liver _ka	17 127	708	liver-_ka	107
+936	Kapanawa	liver	taka	taka	t a k a		liver _ka	17 127	708	liver-_ka	107
+937	Shanenawa	liver	taka	taka	t a k a		liver _ka	17 127	708	liver-_ka	107
+938	Yawanawa	liver	taka	taka	t a k a		liver _ka	17 127	708	liver-_ka	107
+939	Nukini	liver	taka	taka	t a k a		liver _ka	17 127	708	liver-_ka	107
+940	Poyanawa	liver	taka	taka	t a k a		liver _ka	17 127	708	liver-_ka	107
+941	Iskonawa	liver	taka	taka	t a k a		liver _ka	17 127	708	liver-_ka	107
+942	Chakobo	liver	taka	taka	t a k a		liver _ka	17 127	708	liver-_ka	107
+943	Pakawara	liver	taka	taka	t a k a		liver _ka	17 127	708	liver-_ka	107
+944	Kakataibo	liver	takwa	takwa	t a kʷ a		liver _kwa	17 18	708	liver-_kwa	106
+945	Kaxarari	liver	taka	taka	t a k a		liver _ka	17 127	708	liver-_ka	107
+946	Mastanawa	liver	taʔa	taʔa	t a ʔ a		liver _?a	17 128	708	liver-_?a	108
+947	Chaninawa	liver	taka	taka	t a k a		liver _ka	17 127	708	liver-_ka	107
+948	Sharanawa	liver	taka	taka	t a k a		liver _ka	17 127	708	liver-_ka	107
+949	Amawaka	liver	tança	tança	t a n ç a		liver _ca	133 130	708	liver-_ca	109
+950	Nawa	liver	taka	taka	t a k a		liver _ka	17 127	708	liver-_ka	107
+951	Marinawa	liver	taka	taka	t a k a		liver _ka	17 127	708	liver-_ka	107
+952	Yaminawa	liver	taʔa	taʔa	t a ʔ a		liver _?a	17 128	708	liver-_?a	108
+953	Kashinawa_P	liver	taka	taka	t a k a		liver _ka	17 127	708	liver-_ka	107
+954	Kashinawa_B	liver	taka	taka	t a k a		liver _ka	17 127	708	liver-_ka	107
+979	Matses	meat (flesh)	nami	nami	n a m i		flesh/meat _mi	129 134	747	meat (flesh)-_mi	110
+980	Matis	meat (flesh)	nami	nami	n a m i		flesh/meat _mi	129 134	747	meat (flesh)-_mi	110
+981	Marubo	meat (flesh)	nami	nami	n a m i		flesh/meat _mi	129 134	747	meat (flesh)-_mi	110
+982	Katukina	meat (flesh)	nami	nami	n a m i		flesh/meat _mi	129 134	747	meat (flesh)-_mi	110
+983	Shipibo_Konibo	meat (flesh)	nami	nami	n a m i		flesh/meat _mi	129 134	747	meat (flesh)-_mi	110
+984	Kapanawa	meat (flesh)	nami	nami	n a m i		flesh/meat _mi	129 134	747	meat (flesh)-_mi	110
+985	Shanenawa	meat (flesh)	nami	nami	n a m i		flesh/meat _mi	129 134	747	meat (flesh)-_mi	110
+986	Yawanawa	meat (flesh)	nami	nami	n a m i		flesh/meat _mi	129 134	747	meat (flesh)-_mi	110
+987	Nukini	meat (flesh)	nami	nami	n a m i		flesh/meat _mi	129 134	747	meat (flesh)-_mi	110
+988	Poyanawa	meat (flesh)	nambi	nambi	n a + ⁿb i		flesh/meat _mbi	129 135	747	meat (flesh)-_mbi	111
+989	Iskonawa	meat (flesh)	nami	nami	n a m i		flesh/meat _mi	129 134	747	meat (flesh)-_mi	110
+990	Chakobo	meat (flesh)	nami	nami	n a m i		flesh/meat _mbi	129 135	747	meat (flesh)-_mbi	111
+991	Pakawara	meat (flesh)	nami	nami	n a m i		flesh/meat _mi	129 134	747	meat (flesh)-_mi	110
+992	Kakataibo	meat (flesh)	nami	nami	n a m i		flesh/meat _mi	129 134	747	meat (flesh)-_mi	110
+993	Kaxarari	meat (flesh)	lami	lami	l a m i		flesh/meat _mbi	129 135	747	meat (flesh)-_mbi	111
+994	Mastanawa	meat (flesh)	dabi	dabi	d a b i		flesh/meat _bi	129 136	747	meat (flesh)-_bi	112
+995	Chaninawa	meat (flesh)	dabi	dabi	d a b i		flesh/meat _bi	129 136	747	meat (flesh)-_bi	112
+996	Sharanawa	meat (flesh)	dabi	dabi	d a b i		flesh/meat _bi	129 136	747	meat (flesh)-_bi	112
+997	Amawaka	meat (flesh)	nambi	nambi	n a + ⁿb i		flesh/meat _mbi	129 135	747	meat (flesh)-_mbi	111
+998	Nawa	meat (flesh)	dabi	dabi	d a b i		flesh/meat _bi	129 136	747	meat (flesh)-_bi	112
+999	Marinawa	meat (flesh)	danbi	danbi	d a + ⁿb i		flesh/meat _mbi	129 135	747	meat (flesh)-_mbi	111
+1000	Yaminawa	meat (flesh)	dabi	dabi	d a b i		flesh/meat _bi	129 136	747	meat (flesh)-_bi	112
+1001	Kashinawa_P	meat (flesh)	nami	nami	n a m i		flesh/meat _mi	129 134	747	meat (flesh)-_mi	110
+1002	Kashinawa_B	meat (flesh)	nami	nami	n a m i		flesh/meat _mi	129 134	747	meat (flesh)-_mi	110
+637	Matses	neck	tɨnite	tɨnite	t ɨ + n i t e		neck _nite	137 144	810	neck-_nite	32
+638	Matis	neck	tɨtun	tɨtun	t ɨ + t u n		neck _tun	137 150	810	neck-_tun	33
+639	Marubo	neck	tɨʂu	tɨʂu	t ɨ + ʂ u		neck _Su	137 139	810	neck-_Su	34
+640	Katukina	neck	tispun	tispun	t i + s p u n		neck _spun	137 147	810	neck-_spun	35
+641	Kanamari	neck	taʃu	taʃu	t ɨ + ʃ u		neck _Su	137 139	810	neck-_Su	34
+642	Shipibo_Konibo	neck	tɨʂu	tɨʂu	t ɨ + ʂ u		neck _Su	137 139	810	neck-_Su	34
+643	Kapanawa	neck	tɨʂu	tɨʂu	t ɨ + ʂ u		neck _Su	137 139	810	neck-_Su	34
+644	Shanenawa	neck	tɨʂɨ	tɨʂɨ	t ɨ + ʂ u		neck _Su	137 139	810	neck-_Su	34
+645	Yawanawa	neck	tɨʃu	tɨʃu	t ɨ + ʃ u		neck _Su	137 139	810	neck-_Su	34
+646	Nukini	neck	nipika	nipika	n i + p i k a		neck _pika	137 145	804	neck-_pika	36
+647	Nukini	neck	tukɨ	tɨkɨ	t ɨ + k ɨ		neck _ki	137 142	810	neck-_ki	37
+648	Poyanawa	neck	tɨhu	tɨhu	t ɨ + h u		neck _hu	137 140	810	neck-_hu	38
+649	Iskonawa	neck	tɨhu	tɨhu	t ɨ + h u		neck _hu	137 140	810	neck-_hu	38
+650	Chakobo	neck	tɨpuku	tɨpuku	t ɨ + p u k u		neck _puku	137 146	810	neck-_puku	39
+651	Pakawara	neck	tikana	tikana	t i + k a n a		neck _kana	137 141	810	neck-_kana	40
+652	Kakataibo	neck	tɨʂa	tɨʂa	t ɨ + ʂ a		neck _ʂa	137 149	810	neck-_ʂa	41
+653	Kaxarari	neck	tɨiwi	tɨiwi	t ɨ + i w i		neck _iwi	137 138	810	neck-_iwi	42
+654	Mastanawa	neck	tɨʂu	tɨʂu	t ɨ + ʂ u		neck _Su	137 139	810	neck-_Su	34
+655	Chaninawa	neck	tɨsto	tɨsto	t ɨ + s t o		neck _sto	137 148	810	neck-_sto	43
+656	Sharanawa	neck	tɨʂu	tɨʂu	t ɨ + ʂ u		neck _Su	137 139	810	neck-_Su	34
+657	Amawaka	neck	çau	çau	t ɨ + ç u		neck _Su	137 139	806	neck-_Su	34
+658	Nawa	neck	tɨʂu	tɨʂu	t ɨ + ʂ u		neck _Su	137 139	810	neck-_Su	34
+659	Nawa	neck	tɨmaʂka	tɨmaʂka	t ɨ + m a ʂ k a		neck _maSka	137 143	810	neck-_maSka	44
+660	Marinawa	neck	tɨʂu	tɨʂu	t ɨ + ʂ u		neck _Su	137 139	810	neck-_Su	34
+661	Yaminawa	neck	tɨʂu	tɨʂu	t ɨ + ʂ u		neck _Su	137 139	810	neck-_Su	34
+662	Kashinawa_P	neck	tɨʂu	tɨʂu	t ɨ + ʂ u		neck _Su	137 139	810	neck-_Su	34
+663	Kashinawa_B	neck	tɨʂu	tɨʂu	t ɨ + ʂ u		neck _Su	137 139	810	neck-_Su	34
+535	Matses	nose	dɨβiate	dɨβiate	d ɨ + β i a t e		nose _biate	151 157	830	nose-_biate	24
+536	Matis	nose	dɨʂan	dɨʂan	d ɨ + ʂ a n		nose _san	151 155	830	nose-_san	25
+537	Marubo	nose	rɨkin	rɨkin	r ɨ + k i n		nose _kin	151 153	830	nose-_kin	26
+538	Katukina	nose	renkin	renkin	r ɨ + k i n		nose _kin	151 153	830	nose-_kin	26
+539	Kanamari	nose	rɨkĩ	rɨkĩ	r ɨ + k ĩ		nose _kin	151 153	830	nose-_kin	26
+540	Shipibo_Konibo	nose	rɨkin	rɨkin	r ɨ + k i n		nose _kin	151 153	830	nose-_kin	26
+541	Kapanawa	nose	rɨkin	rɨkin	r ɨ + k i n		nose _kin	151 153	830	nose-_kin	26
+542	Shanenawa	nose	rɨkin	rɨkin	r ɨ + k i n		nose _kin	151 153	830	nose-_kin	26
+543	Yawanawa	nose	rɨkin	rɨkin	r ɨ + k i n		nose _kin	151 153	830	nose-_kin	26
+544	Nukini	nose	rɨ̃kɨ̃	rɨ̃kɨ̃	r ɨ̃ + k ɨ̃		nose _kin	151 153	830	nose-_kin	26
+545	Poyanawa	nose	rɨnkĩ	rɨnkĩ	r ɨ + k ĩ		nose _kin	151 153	830	nose-_kin	26
+546	Iskonawa	nose	ɾɨnkĩ	ɾɨnkĩ	ɾ ɨ + k ĩ		nose _kin	151 153	830	nose-_kin	26
+547	Chakobo	nose	rɨʂaki	rɨʂaki	r ɨ + ʂ a k i		nose _ʂaki	151 152	830	nose-_ʂaki	27
+548	Pakawara	nose	rɨkina	rɨkina	r ɨ + k i n a		nose _kin	151 153	830	nose-_kin	26
+549	Kakataibo	nose	rɨkin	rɨkin	r ɨ + k i n		nose _kin	151 153	830	nose-_kin	26
+550	Kaxarari	nose	tʃɨkani	tʃɨkani	r ɨ + k a n i		nose _kin	151 153	830	nose-_kin	26
+551	Mastanawa	nose	ɾɨʧuʔu	ɾɨʧuʔu	ɾ ɨ + tʃ u ʔ u		nose _ʧuku	151 154	830	nose-_ʧuku	28
+552	Chaninawa	nose	ɾɨki	ɾɨki	ɾ ɨ + k i		nose _kin	151 153	830	nose-_kin	26
+553	Sharanawa	nose	ɾɨt͡ʃuku	ɾɨt͡ʃuku	ɾ ɨ + tʃ u k u		nose _ʧuku	151 154	830	nose-_ʧuku	28
+554	Amawaka	nose	ɾɨ(n)kin	ɾɨkin	ɾ ɨ + k i n		nose _kin	151 153	830	nose-_kin	26
+555	Nawa	nose	ɾɨʧa	ɾɨʧa	ɾ ɨ + tʃ a		nose _ʧa	151 156	830	nose-_ʧa	29
+556	Marinawa	nose	ɾɨʧuku	ɾɨʧuku	ɾ ɨ + tʃ u k u		nose _ʧuku	151 154	830	nose-_ʧuku	28
+557	Yaminawa	nose	ɾɨʧuʔu	ɾɨʧuʔu	ɾ ɨ + tʃ u ʔ u		nose _ʧuku	151 154	830	nose-_ʧuku	28
+558	Kashinawa_P	nose	dɨki	dɨki	d ɨ + k i		nose _kin	151 153	830	nose-_kin	26
+559	Kashinawa_P	nose	ɾɨki	ɾɨki	ɾ ɨ + k i		nose _kin	151 153	830	nose-_kin	26
+560	Kashinawa_B	nose	dɨkĩ	dɨkĩ	d ɨ + k ĩ		nose _kin	151 153	830	nose-_kin	26
+713	Matses	skin [of person]	βitsi	βitsi	β i ts i		skin _tSi	57 158	49	skin [of person]-_tSi	63
+714	Matis	skin [of person]	βidtsi	βidtsi	β i ts i		skin _tSi	57 158	1063	skin [of person]-_tSi	63
+715	Marubo	skin [of person]	ɨʂpi	ɨʂpi	ɨ ʂ p i		skin/ɨʂpi _pi	36 159	1065	skin [of person]-_pi	64
+716	Katukina	skin [of person]	wixiβi	wixiβi	w i + ʂ i + β i		skin _tSi _bi	57 158 0	1063	skin [of person]-_tSi--_bi	65
+717	Shipibo_Konibo	skin [of person]	βitʃi	βitʃi	β i tʃ i		skin _tSi	57 158	1063	skin [of person]-_tSi	63
+718	Kapanawa	skin [of person]	βitʃi	βitʃi	β i tʃ i		skin _tSi	57 158	1063	skin [of person]-_tSi	63
+719	Shanenawa	skin [of person]	ɸitʃi	ɸitʃi	ɸ i tʃ i		skin _tSi	57 158	1063	skin [of person]-_tSi	63
+720	Yawanawa	skin [of person]	βitʃi	βitʃi	β i tʃ i		skin _tSi	57 158	1063	skin [of person]-_tSi	63
+721	Nukini	skin [of person]	βiʃi	βiʃi	β i ʃ i		skin _tSi	57 158	1063	skin [of person]-_tSi	63
+722	Iskonawa	skin [of person]	βiʧi	βiʧi	β i tʃ i		skin _tSi	57 158	1063	skin [of person]-_tSi	63
+723	Iskonawa	skin [of person]	haka	haka	h a k a		skin/Sa _ka	46 61	1062	skin [of person]-_ka	66
+724	Chakobo	skin [of person]	βitʃi	βitʃi	β i tʃ i		skin _tSi	57 158	1063	skin [of person]-_tSi	63
+725	Pakawara	skin [of person]	witʃi	witʃi	w i tʃ i		skin _tSi	57 158	1063	skin [of person]-_tSi	63
+726	Kakataibo	skin [of person]	ʂaka	ʂaka	ʂ a k a		skin/Sa _ka	46 61	1062	skin [of person]-_ka	66
+727	Kaxarari	skin [of person]	witʃi	witʃi	w i tʃ i		skin _tSi	57 158	1063	skin [of person]-_tSi	63
+728	Mastanawa	skin [of person]	ɸiʧi	ɸiʧi	ɸ i tʃ i		skin _tSi	57 158	1063	skin [of person]-_tSi	63
+729	Chaninawa	skin [of person]	ɸit͡ʃi	ɸit͡ʃi	ɸ i tʃ i		skin _tSi	57 158	1063	skin [of person]-_tSi	63
+730	Sharanawa	skin [of person]	ɸit͡ʃi	ɸit͡ʃi	ɸ i tʃ i		skin _tSi	57 158	1063	skin [of person]-_tSi	63
+731	Amawaka	skin [of person]	punj̃ã	çaka	ç a k a		skin/Sa _ka	46 61	1064	skin [of person]-_ka	66
+732	Nawa	skin [of person]	ɸiʧi	ɸiʧi	ɸ i tʃ i		skin _tSi	57 158	49	skin [of person]-_tSi	63
+733	Marinawa	skin [of person]	ɸiʧi	ɸiʧi	ɸ i tʃ i		skin _tSi	57 158	1063	skin [of person]-_tSi	63
+734	Yaminawa	skin [of person]	ɸiʧi	ɸiʧi	ɸ i tʃ i		skin _tSi	57 158	1063	skin [of person]-_tSi	63
+735	Kashinawa_P	skin [of person]	βiʧi	βiʧi	β i tʃ i		skin _tSi	57 158	1063	skin [of person]-_tSi	63
+736	Kashinawa_B	skin [of person]	βitʃi	βitʃi	β i tʃ i		skin _tSi	57 158	1063	skin [of person]-_tSi	63
+737	Matses	tail	inkuente	inkuente	i n + k u e n t e		tail _kuente	160 163	1258	tail-_kuente	67
+738	Matis	tail	ina	ina	i n + a		tail _:a-suffix	160 6	1253	tail-_:a-suffix	68
+739	Marubo	tail	ina	ina	i n + a		tail _:a-suffix	160 6	1253	tail-_:a-suffix	68
+740	Kanamari	tail	hina	hina	h i n + a		tail _:a-suffix	160 6	1253	tail-_:a-suffix	68
+741	Shipibo_Konibo	tail	hina	hina	h i n + a		tail _:a-suffix	160 6	1253	tail-_:a-suffix	68
+742	Kapanawa	tail	hina	hina	h i n + a		tail _:a-suffix	160 6	1253	tail-_:a-suffix	68
+743	Shanenawa	tail	ina	ina	i n + a		tail _:a-suffix	160 6	1253	tail-_:a-suffix	68
+744	Yawanawa	tail	ina	ina	i n + a		tail _:a-suffix	160 6	1253	tail-_:a-suffix	68
+745	Poyanawa	tail	βãti	βãti	β ã + t i		/ba _ti	169 167	1256	tail-_ti	69
+746	Iskonawa	tail	ina	ina	i n + a		tail _:a-suffix	160 6	1253	tail-_:a-suffix	68
+747	Chakobo	tail	hina	hina	h i n + a		tail _:a-suffix	160 6	1253	tail-_:a-suffix	68
+748	Kakataibo	tail	ina	ina	i n + a		tail _:a-suffix	160 6	1253	tail-_:a-suffix	68
+749	Kaxarari	tail	tʃina	tʃina	tʃ i n + a		tail _:a-suffix	164 6	1614	tail-_:a-suffix	68
+750	Mastanawa	tail	ida	ida	i d + a		tail _:a-suffix	160 6	1253	tail-_:a-suffix	68
+751	Chaninawa	tail	ida	ida	i d + a		tail _:a-suffix	160 6	1253	tail-_:a-suffix	68
+752	Sharanawa	tail	i:da	i:da	iː d + a		tail _:a-suffix	160 6	1253	tail-_:a-suffix	68
+753	Amawaka	tail	hinda	hinda	h i ⁿd + a		tail _:a-suffix	160 6	1253	tail-_:a-suffix	68
+754	Nawa	tail	ʦimaʂa	ʦimaʂa	ts i + m a ʂ a		buttock _masa	161 165	1257	tail-_masa	70
+755	Marinawa	tail	inda	inda	i ⁿd + a		tail _:a-suffix	160 6	1253	tail-_:a-suffix	68
+756	Yaminawa	tail	tɨdɨ	tɨdɨ	t ɨ + d ɨ		/ti _di	168 162	1616	tail-_di	71
+757	Kashinawa_P	tail	hina	hina	h i n + a		tail _:a-suffix	160 6	1253	tail-_:a-suffix	68
+758	Kashinawa_B	tail	hina	hina	h i n + a		tail _:a-suffix	160 6	1253	tail-_:a-suffix	68
+586	Matses	tongue	ana	ana	a n + a		mouth/tongue _:a-suffix	166 6	1330	tongue-_:a-suffix	30
+587	Matis	tongue	ana	ana	a n + a		mouth/tongue _:a-suffix	166 6	1330	tongue-_:a-suffix	30
+588	Marubo	tongue	ana rɨβu	ana rɨβu	a n + a + r ɨ β u		mouth/tongue _:a-suffix _ribu	166 6 171	1331	tongue-_:a-suffix--_ribu	31
+589	Katukina	tongue	ana	ana	a n + a		mouth/tongue _:a-suffix	166 6	1330	tongue-_:a-suffix	30
+590	Kanamari	tongue	hana	hana	h a n + a		mouth/tongue _:a-suffix	166 6	1330	tongue-_:a-suffix	30
+591	Shipibo_Konibo	tongue	hana	hana	h a n + a		mouth/tongue _:a-suffix	166 6	1330	tongue-_:a-suffix	30
+592	Kapanawa	tongue	hana	hana	h a n + a		mouth/tongue _:a-suffix	166 6	1330	tongue-_:a-suffix	30
+593	Shanenawa	tongue	ana	ana	a n + a		mouth/tongue _:a-suffix	166 6	1330	tongue-_:a-suffix	30
+594	Yawanawa	tongue	ana	ana	a n + a		mouth/tongue _:a-suffix	166 6	1330	tongue-_:a-suffix	30
+595	Nukini	tongue	anã	anã	a n + a		mouth/tongue _:a-suffix	166 6	1330	tongue-_:a-suffix	30
+596	Poyanawa	tongue	anda	anda	a ⁿd + a		mouth/tongue _:a-suffix	166 6	1330	tongue-_:a-suffix	30
+597	Iskonawa	tongue	ana	ana	a n + a		mouth/tongue _:a-suffix	166 6	1330	tongue-_:a-suffix	30
+598	Chakobo	tongue	hana	hana	h a n + a		mouth/tongue _:a-suffix	166 6	1330	tongue-_:a-suffix	30
+599	Pakawara	tongue	hana	hana	h a n + a		mouth/tongue _:a-suffix	166 6	1330	tongue-_:a-suffix	30
+600	Kakataibo	tongue	ana	ana	a n + a		mouth/tongue _:a-suffix	166 6	1330	tongue-_:a-suffix	30
+601	Kaxarari	tongue	hana	hana	h a n + a		mouth/tongue _:a-suffix	166 6	1330	tongue-_:a-suffix	30
+602	Mastanawa	tongue	ada	ada	a d + a		mouth/tongue _:a-suffix	166 6	1330	tongue-_:a-suffix	30
+603	Chaninawa	tongue	a:da	a:da	a d + a		mouth/tongue _:a-suffix	166 6	1330	tongue-_:a-suffix	30
+604	Sharanawa	tongue	ada	ada	a d + a		mouth/tongue _:a-suffix	166 6	1330	tongue-_:a-suffix	30
+605	Amawaka	tongue	handa	handa	h a ⁿd + a		mouth/tongue _:a-suffix	166 6	1330	tongue-_:a-suffix	30
+606	Nawa	tongue	a:da	a:da	a d + a		mouth/tongue _:a-suffix	166 6	1330	tongue-_:a-suffix	30
+607	Marinawa	tongue	anda	anda	a ⁿd + a		mouth/tongue _:a-suffix	166 6	1330	tongue-_:a-suffix	30
+608	Yaminawa	tongue	ada	ada	a d + a		mouth/tongue _:a-suffix	166 6	1330	tongue-_:a-suffix	30
+609	Kashinawa_P	tongue	hana	hana	h a n + a		mouth/tongue _:a-suffix	166 6	1330	tongue-_:a-suffix	30
+610	Kashinawa_B	tongue	hana	hana	h a n + a		mouth/tongue _:a-suffix	166 6	1330	tongue-_:a-suffix	30
+815	Matses	wing	podo	podo	p o + d o		arm/podo _do	183 179	1480	wing-_do	82
+816	Matis	wing	pɨi	pɨi	p ɨ + i		arm _i	172 174	1480	wing-_i	83
+817	Marubo	wing	pɨi	pɨi	p ɨ + i		arm _i	172 174	1480	wing-_i	83
+818	Shipibo_Konibo	wing	pɨtʃi	pɨtʃi	p ɨ + tʃ i		arm _tʃi	172 182	1480	wing-_tʃi	84
+819	Kapanawa	wing	pɨi	pɨi	p ɨ + i		arm _i	172 174	1480	wing-_i	83
+820	Shanenawa	wing	pɨj	pɨj	p ɨ + j/i		arm _i	172 174	1480	wing-_i	83
+821	Yawanawa	wing	pɨj	pɨj	p ɨ + j/i		arm _i	172 174	1480	wing-_i	83
+822	Iskonawa	wing	pɨi	pɨi	p ɨ + i		arm _i	172 174	1480	wing-_i	83
+823	Chakobo	wing	pɨ?i	pɨʔi	p ɨ + ʔ i		arm _i	172 174	1480	wing-_i	83
+824	Kakataibo	wing	pɨi	pɨi	p ɨ + i		arm _i	172 174	1480	wing-_i	83
+825	Kaxarari	wing	patsasi	patsasi	p a + ts a s i		/pa _tsasi	178 181	1484	wing-_tsasi	85
+826	Mastanawa	wing	ampɨj	ampɨj	a m + p ɨ + j/i		/am arm _i	173 172 174	1480	wing-_i	83
+827	Chaninawa	wing	pɨtau	pɨtau	p ɨ + t a u		arm _taw	172 31	1480	wing-_taw	86
+828	Sharanawa	wing	dujati	dujati	d u j a + t i		flight _ti	175 176	1485	wing-_ti	87
+829	Amawaka	wing	pɨʔi	pɨʔi	p ɨ + ʔ i		arm _i	172 174	1480	wing-_i	83
+830	Nawa	wing	pɨtaw	pɨtaw	p ɨ + t a w		arm _taw	172 31	1480	wing-_taw	86
+831	Marinawa	wing	pɨtaw	pɨtaw	p ɨ + t a w		arm _taw	172 31	1480	wing-_taw	86
+832	Yaminawa	wing	pɨta	pɨta	p ɨ + t a		arm _ti	172 177	1480	wing-_ti	87
+833	Kashinawa_P	wing	pɨj	pɨj	p ɨ + j/i		arm _i	172 174	1480	wing-_i	83
+834	Kashinawa_B	wing	pɨi	pɨi	p ɨ + i		arm _i	172 174	1480	wing-_i	83
