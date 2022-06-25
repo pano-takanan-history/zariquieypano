@@ -11,7 +11,7 @@ from pyedictor import fetch
 from pylexibank import Lexeme
 import lingpy
 
-LANGUAGES = "Matses|Matis|Marubo|Shipibo_Konibo|Kapanawa|Shanenawa|Yawanawa|Nukini|Poyanawa|Iskonawa|Chakobo|Kakataibo|Kaxarari|Mastanawa|Chaninawa|Sharanawa|Amawaka|Nawa|Marinawa|Yaminawa|Kashinawa_P|Kashinawa_B|Araona|Katukina|Pakawara|Kanamari".split("|")
+LANGUAGES = "Matses|Matis|Marubo|Shipibo_Konibo|Kapanawa|Shanenawa|Yawanawa|Nukini|Poyanawa|Iskonawa|Chakobo|Kakataibo|Kaxarari|Mastanawa|Chaninawa|Sharanawa|Amawaka|Nawa|Marinawa|Yaminawa|Kashinawa_P|Kashinawa_B|Katukina|Pakawara|Kanamari".split("|")
 
 @attr.s
 class CustomLanguage(Language):
@@ -96,4 +96,6 @@ class Dataset(BaseDataset):
                     Motivation_Structure=str(lingpy.basictypes.strings(wl[idx, "morphemes"])) or "?",
                     Source=sources[wl[idx, "doculect"]]
                     )
+
+
 
