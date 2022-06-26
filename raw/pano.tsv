@@ -4,6 +4,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 3	j u + - i n - - i	24	animal	Marubo	juini	animal	j u + i n i	juini	_thing domesticated	1544 1545		51 52
 4	j u + - i n - - a	24	animal	Shipibo_Konibo	yuina	animal	j u + i n a	yuina	_thing domesticated	1544 1545		51 52
 5	j u + - i n - - a	24	animal	Kapanawa	yuina	animal	j u + i n a	yuina	_thing domesticated	1544 1545		51 52
+6	d i w ʃ ĩ	15	animal	Arara	diwʃĩ	animal	d i w ʃ ĩ	diwʃĩ	animal	1546		0
 7	j u + - i n - - a	24	animal	Shanenawa	juina	animal	j u + i n a	juina	_thing domesticated	1544 1545		51 52
 8	j u + - i n - - a	24	animal	Yawanawa	juina	animal	j u + i n a	juina	_thing domesticated	1544 1545		51 52
 9	- i n - - ũ	21	animal	Nukini	inũ	animal	i n ũ	inũ	domesticated	1545		52
@@ -27,6 +28,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 35	k a m a n	261	dog	Katukina	kaman	perro	k a m a n	kaman	wild_dog			734
 36	u tʃ i + t i	270	dog	Shipibo_Konibo	utʃiti	perro	u tʃ i + t i	utʃiti	dog/utʃi ti			736
 37	u tʃ - - i + t i	270	dog	Kapanawa	utʃiti	perro	u tʃ i + t i	utʃiti	dog/utʃi ti		!	736 737
+38	k a m ã -	261	dog	Arara	kamã	perro	k a + m ã	kamã	wild dog			0
 39	k a m a n	261	dog	Shanenawa	kaman	perro	k a m a n	kaman	wild_dog			734
 40	k a m a n	261	dog	Yawanawa	kaman	perro	k a m a n	kaman	wild_dog			734
 41	t a p a s + i n u	262	dog	Nukini	tapainu	perro	t a p a s + i n u	tapainu	house jaguar	4 11		742 743
@@ -49,6 +51,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 62	ʃ a - i	77	bird	Marubo	ʃai	pajaro	ʃ a i	ʃai	passerine/ʃai			281
 63	- i s a	77	bird	Shipibo_Konibo	isa	pajaro	i s a	isa	passerine			281
 64	- i s a	77	bird	Kapanawa	isa	pajaro	i s a	isa	passerine			281
+65	d u ĩ d a	78	bird	Arara	duĩda	pajaro	d u ĩ d a	duĩda	duĩda/ONOMATOPOEIA			0
 66	j u i n a	78	bird	Shanenawa	juina	pajaro	j u i n a	juina	thing domesticated		!	287
 67	j u i n a	78	bird	Yawanawa	juina	pajaro	j u i n a	juina	thing domesticated		!	287
 68	p ã r i	83	bird	Nukini	pãri	pajaro	p ã r i	pãri	pãri/ONOMATOPOEIA			285
@@ -75,6 +78,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 94	r u n u	1110	snake	Katukina	runu	culebra	r u n u	runu	snake			3467
 95	r u n u	1110	snake	Shipibo_Konibo	runu	culebra	r u n u	runu	snake			3467
 96	r u n u	1110	snake	Kapanawa	runu	culebra	r u n u	runu	snake			3467
+97	r u n d u	1110	snake	Arara	rundu	culebra	r u ⁿd u	rundu	snake			0
 98	r u n u	1110	snake	Shanenawa	runu	culebra	r u n u	runu	snake			3467
 99	r u n u	1110	snake	Yawanawa	runu	culebra	r u n u	runu	snake			3467
 100	β ĩ w ã	1114	snake	Nukini	βĩwã	culebra	β ĩ w ã	βĩwã	snake			3470
@@ -100,6 +104,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 124	ts a ts a	416	fish [noun]	Katukina	tsatsa	pez pescado	ts a ts a	tsatsa	boquichico			1254
 125	j a p a	357	fish [noun]	Shipibo_Konibo	yapa	pez pescado	j a p a	yapa	fish/japa			1252
 126	j a p a	357	fish [noun]	Kapanawa	yapa	pez pescado	j a p a	yapa	fish/japa			1252
+127	j u m b a	412	fish [noun]	Arara	jumba	pez pescado	j u m b a	jumba	fish			0
 128	i ʂ k i n	421	fish [noun]	Shanenawa	iʂkin	pez pescado	i ʂ k i n	iʂkin	delicious/iʂ  _kin		!	1261
 129	j u m a	412	fish [noun]	Yawanawa	juma	pez pescado	j u m a	juma	fish/juma			1251
 130	n a ʂ t u	419	fish [noun]	Nukini	naʂtu	pez pescado	n a ʂ t u	naʂtu	fish			1259
@@ -126,6 +131,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 155	i Ø/j a	724	louse	Katukina	ia	piojo	i Ø/j a	ia	louse			2212
 156	i Ø/j a	724	louse	Shipibo_Konibo	ia	piojo	i Ø/j a	ia	louse			2212
 157	i Ø/j a	724	louse	Kapanawa	ia	piojo	i Ø/j a	ia	louse			2212
+158	i - - - - a	724	louse	Arara	ia	piojo	i a	ia	louse			0
 159	i Ø/j a	724	louse	Shanenawa	ia	piojo	i Ø/j a	ia	louse			2212
 160	i Ø/j a	724	louse	Yawanawa	ia	piojo	i Ø/j a	ia	louse			2212
 161	i Ø/j a	724	louse	Nukini	ia	piojo	i Ø/j a	ia	louse			2212
@@ -150,6 +156,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 184	n o - - i n	1519	worm (i.e. earthworm)	Katukina	noin	lombriz (gusano = grub)	n o i n	noin	worm			4737
 185	n u - - i n	1519	worm (i.e. earthworm)	Shipibo_Konibo	nuin	lombriz (gusano = grub)	n u i n	nuin	worm			4737
 186	n u - - i n	1519	worm (i.e. earthworm)	Kapanawa	nuin	lombriz (gusano = grub)	n u i n	nuin	worm			4737
+187	- n ũ - ĩ -	1519	worm (i.e. earthworm)	Arara	nũĩ	lombriz (gusano = grub)	n ũ ĩ	nũĩ	worm			0
 188	n u - - i n	1519	worm (i.e. earthworm)	Shanenawa	nuin	lombriz (gusano = grub)	n u i n	nuin	worm			4737
 189	n u - w ĩ -	1519	worm (i.e. earthworm)	Yawanawa	nuwĩ	lombriz (gusano = grub)	n u w ĩ	nuwĩ	worm			4737
 190	n ũ - - ĩ -	1519	worm (i.e. earthworm)	Nukini	nũĩ	lombriz (gusano = grub)	n ũ ĩ	nũĩ	worm			4737
@@ -194,6 +201,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 239	h i w i	1342	tree	Kanamari	hiwi	arbol	h i w i	hiwi	tree/wood	69 68	? any chance to find words for bark, skin, and forest in Kanamari?	4159
 240	h i w i	1342	tree	Shipibo_Konibo	hiwi	arbol	h i w i	hiwi	tree/wood	69 68		4159
 241	h i w i	69	tree	Kapanawa	hiwi	arbol	h i w i	hiwi	tree/wood	69 68		4159
+242	- i w i	1342	tree	Arara	iwi	arbol	i w i	iwi	tree _bi	69		0
 243	- i w i	1342	tree	Shanenawa	iwi	arbol	i w i	iwi	tree/wood	69 68		4159
 244	- i w i	1342	tree	Yawanawa	iwi	arbol	i w i	iwi	tree/wood	69 68		4159
 245	- i w i	1342	tree	Nukini	iwi	arbol	i w i	iwi	tree/wood	69 68		4159
@@ -219,6 +227,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 269	p a p a	273	father	Katukina	papa	padre	p a p a	papa	father			1064
 270	p a p a	273	father	Shipibo_Konibo	papa	padre	p a p a	papa	father			1064
 271	p a p a	273	father	Kapanawa	papa	padre	p a p a	papa	father			1064
+272	- ɨ p a	360	father	Arara	ɨpa	padre	ɨ p a	ɨpa	ɨ_ father			0
 273	ɨ p a	360	father	Shanenawa	ɨpa	padre	ɨ p a	ɨpa	ɨ_ father		!	1063
 274	ɨ p a	360	father	Yawanawa	ɨpa	padre	ɨ p a	ɨpa	ɨ_ father		!	1063
 275	ɨ p a	360	father	Poyanawa	ɨpa	padre	ɨ p a	ɨpa	ɨ_ father		!	1063
@@ -244,6 +253,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 300	ɨ w a	749	mother	Katukina	ɨwa	madre	ɨ w a	ewa	ɨ_ mother		!	2320
 301	t i t a	750	mother	Shipibo_Konibo	tita	madre	t i t a	tita	mother/tita			2321
 302	m a m a	754	mother	Kapanawa	mama	madre	m a m a	mama	mother/mama			2322
+303	- - - ɨ w a	749	mother	Arara	ɨwa	madre	ɨ w a	ɨwa	ɨ_ mother			0
 304	ɨ w a	749	mother	Shanenawa	ɨwa	madre	ɨ w a	ɨwa	ɨ_ mother		!	2320
 305	ɨ w a	749	mother	Yawanawa	ɨwa	madre	ɨ w a	ɨwa	ɨ_ mother		!	2320
 306	ɨ w a	749	mother	Poyanawa	ɨwa	madre	ɨ w a	ɨwa	ɨ_ mother		!	2320
@@ -293,6 +303,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 359	- a w i n -	1460	wife	Shipibo_Konibo	awin	esposa	a w i n	awin	woman/wife/awin			4561
 360	- a w i n -	1460	wife	Kapanawa	awin	esposa	a w i n	awin	woman/wife/awin			4561
 361	- a - i n - + β u	1460	wife	Kapanawa	ainβu	esposa	a i n + β u	ainβu	woman/wife/awin _bu			4561 4569
+362	- - - - a m ĩ	1460	wife	Arara	amĩ	esposa	a m ĩ	amĩ	female			0
 363	- a w i n -	1460	wife	Shanenawa	awin	esposa	a w i n	awin	woman/wife/awin			4561
 364	- a w i n -	1460	wife	Yawanawa	awin	esposa	a w i n	awin	woman/wife/awin			4561
 365	- a w ĩ - -	1460	wife	Poyanawa	awĩ	esposa	a w ĩ	awĩ	woman/wife/awin			4561
@@ -317,6 +328,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 390	j u r a	855	person (human)	Marubo	jura	persona	j u r a	jura	body			2732
 391	h u n i	856	person (human)	Shipibo_Konibo	huni	persona	h u n i	huni	person			2734
 392	h u n i	856	person (human)	Kapanawa	huni	persona	h u n i	huni	person			2734
+393	j u - - r - a	855	person (human)	Arara	jura	persona	j u r a	jura	body			0
 394	j u r a	855	person (human)	Shanenawa	jura	persona	j u r a	jura	body			2732
 395	j u r a	855	person (human)	Yawanawa	jura	persona	j u r a	jura	body			2732
 396	n u k u + - u n i	856	person (human)	Nukini	nukuni	persona	n u k u + u n i	nukuni	our person			2736 2734
@@ -340,6 +352,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 419	- a n ɨ	771	name	Marubo	anɨ	nombre	a n ɨ	anɨ	name			2423
 420	h a n ɨ	771	name	Shipibo_Konibo	hanɨ	nombre	h a n ɨ	hanɨ	name			2423
 421	h a n ɨ	771	name	Kapanawa	hanɨ	nombre	h a n ɨ	hanɨ	name			2423
+422	- a ɨ n d ɨ	771	name	Arara	aɨndɨ	nombre	aɨ ⁿd ɨ	aɨndɨ	name			0
 423	- a n ɨ	771	name	Shanenawa	anɨ	nombre	a n ɨ	anɨ	name			2423
 424	- a n ɨ	771	name	Yawanawa	anɨ	nombre	a n ɨ	anɨ	name			2423
 425	- a ⁿd ɨ	771	name	Poyanawa	andɨ	nombre	a ⁿd ɨ	andɨ	name			2423
@@ -363,6 +376,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 447	h u n i	728	man [male]	Kanamari	huni	hombre	h u n i	huni	person			2236
 448	β ɨ m β u	703	man [male]	Shipibo_Konibo	βɨmβu	hombre	β ɨ m β u	βɨmβu	male/husband/bene _βu	1	!	2240
 449	β ɨ - β u	703	man [male]	Kapanawa	βɨβu	hombre	β ɨ β u	βɨβu	male/husband/bene _βu		!	2240
+450	d o k o hʷ a n d i	728	man [male]	Arara	dokohwandi	hombre	d o + k o + hʷ a ⁿd i	dokohwandi	we _ko name			0
 451	n u k u + h u n ɨ	728	man [male]	Shanenawa	nukuhunɨ	hombre	n u k u + h u n ɨ	nukuhunɨ	our person			2237 2236
 452	n u k ɨ + β ɨ n ɨ	733	man [male]	Yawanawa	nukɨβɨnɨ	hombre	n u k ɨ + β ɨ n ɨ	nukɨβɨnɨ	our male/husband/bene			2237 2238
 453	i r a β u	731	man [male]	Nukini	iraβu	hombre	i r a β u	iraβu	male/husband/iɾaβu			2239
@@ -389,6 +403,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 478	a ĩ - β o	1504	woman	Kanamari	oĩβo	mujer	a ĩ β o	oĩβo	woman/wife/awin _bu		!	4681
 479	a - i n + - - - β u	1504	woman	Shipibo_Konibo	ainβu	mujer	a i n + β u	ainβu	woman/wife/awin _bu			4682 4681
 480	a - i - + - - - β u	1504	woman	Kapanawa	aiβu	mujer	a i + β u	aiβu	woman/wife/awin _bu			4682 4681
+481	a ĩ - h u	1504	woman	Arara	aĩhu	mujer	a ĩ h u	aĩhu	female _bu			0
 482	a w i n	1504	woman	Shanenawa	awin	mujer	a w i n	awin	woman/wife/awin			4682
 483	a w i n	1504	woman	Yawanawa	awin	mujer	a w i n	awin	woman/wife/awin			4682
 484	a i n β u	1504	woman	Nukini	ainβu	mujer	a i n β u	ainβu	woman/wife/awin _bu		!	4681
@@ -413,6 +428,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 508	a i n β a k - - - ɨ	156	child	Kanamari	ãiiβakɨ	niño	a i n β a k ɨ	ãiiβakɨ	his breeding		!	486
 509	- - - β a k - - - ɨ	156	child	Shipibo_Konibo	βakɨ	niño	β a k ɨ	βakɨ	breeding			486
 510	- - - β a k - - - ɨ	156	child	Kapanawa	βakɨ	niño	β a k ɨ	βakɨ	breeding			486
+511	- - β a k ɨ h - ɨ	156	child	Arara	βakɨhɨ	niño	β a k ɨ h ɨ	βakɨhɨ	breeding _hɨ			0
 512	- - - ɸ a k - - - ɨ	156	child	Shanenawa	ɸakɨ	niño	ɸ a k ɨ	ɸakɨ	breeding			486
 513	- - - β a k - - - ɨ	156	child	Yawanawa	βakɨ	niño	β a k ɨ	βakɨ	breeding			486
 514	- - - β a k - - - ɨ	156	child	Nukini	βakɨ	niño	β a k ɨ	βakɨ	breeding			486
@@ -437,6 +453,8 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 537	m a + p u	554	head	Kanamari	mapu	cabeza	m a + p u	mapu	head _:suffix/pu	77 76	!	1664 25
 538	m a + p u	554	head	Shipibo_Konibo	mapu	cabeza	m a + p u	mapu	head _:suffix/pu	77 76		1664 25
 539	m a + p u	554	head	Kapanawa	mapu	cabeza	m a + p u	mapu	head _:suffix/pu	77 76	!	1664 25
+540	β a p u	554	head	Arara	βapu	cabeza	β a + p u	βapu	head _:suffix/pu	77 76		0
+541	β u ʃ - k - - a	555	head	Arara	βuʃka	cabeza	β u + ʃ k a	βuʃka	head _:suffix/ʂka	81 79		0
 542	m a + p u	554	head	Shanenawa	mapu	cabeza	m a + p u	mapu	head _:suffix/pu	77 76		1664 25
 543	m a + p u	554	head	Yawanawa	mapu	cabeza	m a + p u	mapu	head _:suffix/pu	77 76		1664 25
 544	m a + p u	554	head	Nukini	mapu	cabeza	m a + p u	mapu	head _:suffix/pu	77 76		1664 25
@@ -445,9 +463,9 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 547	m a + p u	554	head	Chakobo	mapu	cabeza	m a + p u	mapu	head _:suffix/pu	77 76	!	1664 25
 548	m a + p u	554	head	Pakawara	mapu	cabeza	m a + p u	mapu	head _:suffix/pu	77 76		1664 25
 549	m a + ʂ k a	555	head	Kakataibo	maʂka	cabeza	m a + ʂ k a	maʂka	head _:suffix/ʂka	77 79	!	1667 42
-550	w u + ʂ k a + t a	555	head	Kaxarari	wɨʂkata	cabeza	w u + ʂ k a + t a	wɨʂkata	head _:suffix/ʂka _ta	81 79 102		1666 42
+550	w u + ʂ k a + t a	555	head	Kaxarari	wɨʂkata	cabeza	w u + ʂ k a + t a	wɨʂkata	head _:suffix/ʂka ta	81 79 102		1666 42
 551	b a + p u	554	head	Mastanawa	bapu	cabeza	b a + p u	bapu	head _:suffix/pu	77 76		1664 25
-552	β a + ↓sa.s k a + t i	555	head	Chaninawa	βasakati	cabeza	β a + !sa/s k a + t i	βasakati	head _:suffix/ʂka _ti	77 79 8	!	1665 42
+552	β a + ↓sa.s k a + t i	555	head	Chaninawa	βasakati	cabeza	β a + !sa/s k a + t i	βasakati	head _:suffix/ʂka ti	77 79 235	!	1665 42
 553	b a + p u	554	head	Sharanawa	bapu	cabeza	b a + p u	bapu	head _:suffix/pu	77 76		1664 25
 554	m a + p u	554	head	Amawaka	mapu	cabeza	m a + p u	mapu	head _:suffix/pu	77 76	!	1664 25
 555	b aː + p u	554	head	Nawa	ba:pu	cabeza	b aː + p u	ba:pu	head _:suffix/pu	77 76		1664 25
@@ -457,12 +475,13 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 559	β u + ʂ k a	555	head	Kashinawa_P	βuʂka	cabeza	β u + ʂ k a	βuʂka	head _:suffix/ʂka	81 79		1666 42
 560	β u + ʂ k a	555	head	Kashinawa_B	βuʂka	cabeza	β u + ʂ k a	βuʂka	head _:suffix/ʂka	81 79		1666 42
 565	m a + n ë d a i d	539	hair	Matses	βu	cabello pelo	m a + n ë d a i d	βu	head _nëdaid	77 83	!	23 24
-566	ʂ a k + k e + t e	543	hair	Matis	ʂakkete	cabello pelo	ʂ a k + k e + t e	ʂakkete	/sak _-:suffix/kete	58 95		1561 383 1222
+566	ʂ a k + k e + t e	543	hair	Matis	ʂakkete	cabello pelo	ʂ a k + k e t e	ʂakkete	/sak _-:suffix/kete	58 95		1561 383 1222
 567	β u - -	539	hair	Marubo	βu	cabello pelo	β u	βu	hair	9		1559
 568	β u - -	539	hair	Katukina	βuu	cabello pelo	β u	βuu	hair	9		1559
 569	β u - -	539	hair	Kanamari	βuu	cabello pelo	β u	βuu	hair	9		1559
 570	β u - -	539	hair	Shipibo_Konibo	βu	cabello pelo	β u	βu	hair	9		1559
 571	β u - -	539	hair	Kapanawa	βu	cabello pelo	β u	βu	hair	9		1559
+572	h u - -	539	hair	Arara	hu	cabello pelo	h/β u	hu	hair	81		0
 573	ɸ u - -	539	hair	Shanenawa	ɸu	cabello pelo	ɸ u	ɸu	hair	9		1559
 574	β u - -	539	hair	Yawanawa	βu	cabello pelo	β u	βu	hair	9		1559
 575	β u - -	539	hair	Nukini	βu	cabello pelo	β u	βu	hair	9		1559
@@ -471,12 +490,12 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 578	β u - -	539	hair	Chakobo	βu	cabello pelo	β u	βu	hair	9		1559
 579	w uː - -	539	hair	Pakawara	wuu	cabello pelo	w u + u	wuu	hair _u	9 94		1559
 580	β u - -	539	hair	Kakataibo	βu	cabello pelo	β u	βu	hair	9		1559
-581	w u + ʂ k a + tʃ a n i	542	hair	Kaxarari	wɨʂkatʃani	cabello pelo	w ɨ + ʂ k a + tʃ a n i	wɨʂkatʃani	head _:suffix/ʂka _bodyhair	81 79 10	!	1559 21 22
-582	f u + ʔ u	539	hair	Mastanawa	fuʔu	cabello pelo	f u + ʔ u	fuʔu	hair _uhair	9 94		1559
+581	w u + ʂ k a + tʃ a n i	542	hair	Kaxarari	wɨʂkatʃani	cabello pelo	w ɨ + ʂ k a + tʃ a n i	wɨʂkatʃani	head _:suffix/ʂka bodyhair	81 79 10	!	1559 21 22
+582	f u + ʔ u	539	hair	Mastanawa	fuʔu	cabello pelo	f u + ʔ u	fuʔu	hair _u	9 94		1559
 583	ɸ u - -	539	hair	Chaninawa	ɸu	cabello pelo	ɸ u	ɸu	hair	9		1559
 584	ɸ u - -	539	hair	Sharanawa	ɸu	cabello pelo	ɸ u	ɸu	hair	9		1559
 585	β u - -	539	hair	Amawaka	βu	cabello pelo	β u	βu	hair	9		1559
-586	ɸ u ʔ u	539	hair	Nawa	ɸuʔu	cabello pelo	ɸ u + ʔ u	ɸuʔu	hair _uhair	9 94		1559
+586	ɸ u ʔ u	539	hair	Nawa	ɸuʔu	cabello pelo	ɸ u + ʔ u	ɸuʔu	hair _u	9 94		1559
 587	ɸ u + ʔ u	539	hair	Marinawa	ɸuʔu	cabello pelo	ɸ u + ʔ u	ɸuʔu	hair _u	9 94		1559
 588	ɸ u - -	539	hair	Yaminawa	hu	cabello pelo	ɸ u	hu	hair	9		1559
 589	β u - -	539	hair	Kashinawa_P	βu	cabello pelo	β u	βu	hair	9		1559
@@ -488,6 +507,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 601	p a n + tʃ o	310	ear	Kanamari	pãtʃo	oreja	p a n + tʃ o	pãtʃo	ear _tʃu	185 226	!	855 13
 602	p a + β i k i	310	ear	Shipibo_Konibo	paβiki	oreja	p a + β i k i	paβiki	ear _binki	185 187	!	853 9
 603	p a + β i - - n k i	310	ear	Kapanawa	paβinki	oreja	p a + β i n k i	paβinki	ear _binki	185 187		856 9
+604	p a - tʃ - i	310	ear	Arara	patʃi	oreja	p a + tʃ i	patʃi	ear _tʃu	185 226		0
 605	p a + h i n k i	310	ear	Shanenawa	pahinki	oreja	p a + h i n k i	pahinki	ear _binki	185 187	!	853 9
 606	p a + h i n k i	310	ear	Yawanawa	pahinki	oreja	p a + h i n k i	pahinki	ear _binki	185 187	!	853 9
 607	p a + β i - - - k i	310	ear	Nukini	paβiki	oreja	p a + β i k i	paβiki	ear _binki	185 187		856 9
@@ -507,13 +527,14 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 621	p a + tʃ u	310	ear	Yaminawa	paʧu	oreja	p a + tʃ u	paʧu	ear _tʃu	185 226	!	855 13
 622	p a + β i n k i	310	ear	Kashinawa_P	paβinki	oreja	p a + β i n k i	paβinki	ear _binki	185 187	!	853 9
 623	p a + β ĩ k i	310	ear	Kashinawa_B	paβĩki	oreja	p a + β ĩ k i	paβĩki	ear _binki	185 187	!	853 9
-628	ɨ ʂ ɨ	332	eye	Matses	ɨʂɨ	ojo	ɨ ʂ ɨ	ɨʂɨ	seed	201		963
+628	ɨ ʂ ɨ	332	eye	Matses	ɨʂɨ	ojo	ɨ + ʂ ɨ	ɨʂɨ	seed _S	201 234		963
 629	β ɨ + d u	330	eye	Matis	βɨdu	ojo	β ɨ + d u	βɨdu	eye _ɾu	198 195	!	962 17
 630	β ɨ + r u	330	eye	Marubo	βɨru	ojo	β ɨ + r u	βɨru	eye _ɾu	198 195	!	962 17
 631	β i + r u	330	eye	Katukina	βiru	ojo	β i + r u	βiru	eye _ɾu	198 195	!	962 17
 632	m β ɨ + r u	330	eye	Kanamari	mβɨru	ojo	ⁿβ ɨ + r u	mβɨru	eye _ɾu	198 195	!	962 17
 633	β ɨ + r u	330	eye	Shipibo_Konibo	βɨru	ojo	β ɨ + r u	βɨru	eye _ɾu	198 195	!	962 17
 634	β ɨ + r u	330	eye	Kapanawa	βɨru	ojo	β ɨ + r u	βɨru	eye _ɾu	198 195	!	962 17
+635	- β ɨ r - - ɨ	330	eye	Arara	βɨrɨ	ojo	β ɨ + r ɨ	βɨrɨ	eye _ɾɨ	198 195		0
 636	ɸ ɨ + r u	330	eye	Shanenawa	ɸɨru	ojo	ɸ ɨ + r u	ɸɨru	eye _ɾu	198 195	!	962 17
 637	β ɨ + r u	330	eye	Yawanawa	βɨru	ojo	β ɨ + r u	βɨru	eye _ɾu	198 195	!	962 17
 638	β ɨ + r u	330	eye	Nukini	βɨrɨ	ojo	β ɨ + r u	βɨrɨ	eye _ɾu	198 195		960 17
@@ -522,7 +543,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 641	β ɨ + r u	330	eye	Chakobo	βɨru	ojo	β ɨ + r u	βɨru	eye _ɾu	198 195		960 17
 642	w ɨ + r u	330	eye	Pakawara	wɨru	ojo	w ɨ + r u	wɨru	eye _ɾu	198 195	!	962 17
 643	β ɨ + ɾ u	330	eye	Kakataibo	βɨro	ojo	β ɨ + ɾ u	βɨro	eye _ɾu	198 195		960 17
-644	w ɨ + tʃ u w ɨ	330	eye	Kaxarari	wɨtʃɨwɨ	ojo	w ɨ + tʃ u w ɨ	wɨtʃɨwɨ	eye _tʃu eye	198 197 199	!	962 18
+644	w ɨ + tʃ u w ɨ	330	eye	Kaxarari	wɨtʃɨwɨ	ojo	w ɨ + tʃ u + w ɨ	wɨtʃɨwɨ	eye _tʃu eye	198 197 199	!	962 18
 645	β ɨ + tʃ u	241	eye	Kaxarari	βutʃu	ojo	β ɨ + tʃ u	βutʃu	eye _tʃu	198 197	!	962 17
 646	ɸ ɨ + ɾ u	330	eye	Mastanawa	ɸɨɾu	ojo	ɸ ɨ + ɾ u	ɸɨɾu	eye _ɾu	198 195	!	962 17
 647	β ɨ + ɾ u	330	eye	Chaninawa	ɸɨɾu	ojo	β ɨ + ɾ u	ɸɨɾu	eye _ɾu	198 195		960 17
@@ -540,6 +561,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 663	r ɨ + k ĩ - -	830	nose	Kanamari	rɨkĩ	nariz	r ɨ + k ĩ	rɨkĩ	nose _kin	151 153		2606 2607
 664	r ɨ + k i n -	830	nose	Shipibo_Konibo	rɨkin	nariz	r ɨ + k i n	rɨkin	nose _kin	151 153		2606 2607
 665	r ɨ + k i n -	830	nose	Kapanawa	rɨkin	nariz	r ɨ + k i n	rɨkin	nose _kin	151 153		2606 2607
+666	r ĩ - k ĩ - -	830	nose	Arara	rĩkĩ	nariz	r ĩ + k ĩ	rĩkĩ	nose _kin	151 153		0
 667	r ɨ + k i n -	830	nose	Shanenawa	rɨkin	nariz	r ɨ + k i n	rɨkin	nose _kin	151 153		2606 2607
 668	r ɨ + k i n -	830	nose	Yawanawa	rɨkin	nariz	r ɨ + k i n	rɨkin	nose _kin	151 153		2606 2607
 669	r ɨ̃ + k ɨ̃ - -	830	nose	Nukini	rɨ̃kɨ̃	nariz	r ɨ̃ + k ɨ̃	rɨ̃kɨ̃	nose _kin	151 153		2606 2607
@@ -559,31 +581,32 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 683	d ɨ + k i - -	830	nose	Kashinawa_P	dɨki	nariz	d ɨ + k i	dɨki	nose _kin	151 153		2609 2607
 684	ɾ ɨ + k i - -	830	nose	Kashinawa_P	ɾɨki	nariz	ɾ ɨ + k i	ɾɨki	nose _kin	151 153		2606 2607
 685	d ɨ + k ĩ - -	830	nose	Kashinawa_B	dɨkĩ	nariz	d ɨ + k ĩ	dɨkĩ	nose _kin	151 153		2609 2607
-690	- a n + a	767	mouth	Matses	ana	boca	a n + a	ana	mouth/tongue _-:suffix/a	 6		2374 1696
-691	- a n + a	767	mouth	Matis	ana	boca	a n + a	ana	mouth/tongue _-:suffix/a	 6		2374 2375
-692	- a n + a	767	mouth	Marubo	ana	boca	a n + a	ana	mouth/tongue _:a-suffix	 6		2374 2375
-693	- a n + a	767	mouth	Katukina	ana	boca	a n + a	ana	mouth/tongue _:a-suffix	 6		2374 2375
-694	k ɨ + ʃ - a	766	mouth	Kanamari	kɨʃa	boca	k ɨ + ʃ a	kɨʃa	lips _ʂa			2372 2373
-695	k ɨ + ʂ - a	766	mouth	Shipibo_Konibo	kɨʂa	boca	k ɨ + ʂ a	kɨʂa	lips _ʂa			2372 2373
-696	k ɨ + ʂ - a	766	mouth	Kapanawa	kɨʂa	boca	k ɨ + ʂ a	kɨʂa	lips _ʂa			2372 2373
-698	a ʂ + ɸ a	1569	mouth	Shanenawa	aʂɸa	boca	a ʂ + ɸ a	aʂɸa	hole _wa			2376 2377
-699	a ʂ + β a	1569	mouth	Yawanawa	aʂβa	boca	a ʂ + β a	aʂβa	hole _wa			2376 2377
-700	k ɨ + h - a	766	mouth	Nukini	kɨha	boca	k ɨ + h a	kɨha	lips _ʂa			2372 2373
-701	k ɨ + h - a	766	mouth	Poyanawa	kɨha	boca	k ɨ + h a	kɨha	lips _ha			2372 2373
-702	k ɨ + h - a	766	mouth	Iskonawa	kɨha	boca	k ɨ + h a	kɨha	lips _ʂa			2372 2373
-703	h a n + a	767	mouth	Chakobo	hana	boca	h a n + a	hana	mouth/tongue _:a-suffix	 6		2374 2375
-704	k ɨ + w ɨ tʃ i	768	mouth	Pakawara	kɨwɨtʃi	boca	k ɨ + w ɨ tʃ i	kɨwɨtʃi	lips _wɨtʃi	21		2372 2379
-705	kʷ ɨ + β i	768	mouth	Kakataibo	kwɨβi	boca	kʷ ɨ + β i	kwɨβi	lips _βi			2372 2377
-706	k ɨ + ʂ a k a	766	mouth	Kaxarari	kɨʂaka	boca	k ɨ + ʂ a k a	kɨʂaka	lips _ʂaka			2372 2378
-707	a ʂ + w a	1569	mouth	Mastanawa	aʂwa	boca	a ʂ + w a	aʂwa	hole _wa			2376 2377
-708	a ʂ + w a	1569	mouth	Chaninawa	aʂwa	boca	a ʂ + w a	aʂwa	hole _wa			2376 2377
-709	a ʂ + ɸ a	1569	mouth	Sharanawa	aʂɸa	boca	a ʂ + ɸ a	aʂɸa	hole _wa			2376 2377
-710	k ɨ + ç - a	766	mouth	Amawaka	kɨça	boca	k ɨ + ç a	kɨça	lips _ʂa			2372 2373
-711	a ʂ + w a	1569	mouth	Nawa	aʂwa	boca	a ʂ + w a	aʂwa	hole _wa			2376 2377
-712	a ʂ + ɸ a	1569	mouth	Marinawa	aʂɸa	boca	a ʂ + ɸ a	aʂɸa	hole _wa			2376 2377
-713	a ʂ + w a	1569	mouth	Yaminawa	aʂwã	boca	a ʂ + w a	aʂwã	hole _wa			2376 2377
-714	h a + ʂ p a	1569	mouth	Kashinawa_P	haʂpa	boca	h a + ʂ p a	haʂpa	hole _pa			2377 2373
-715	k ɨ + ʂ - a	766	mouth	Kashinawa_B	kɨʂa	boca	k ɨ + ʂ a	kɨʂa	lips _ʂa			2372 2373
+690	- a n + a	767	mouth	Matses	ana	boca	a n + a	ana	mouth/tongue _-:suffix/a	240 242		2374 1696
+691	- a n + a	767	mouth	Matis	ana	boca	a n + a	ana	mouth/tongue _-:suffix/a	240 242		2374 2375
+692	- a n + a	767	mouth	Marubo	ana	boca	a n + a	ana	mouth/tongue _:a-suffix	240 242		2374 2375
+693	- a n + a	767	mouth	Katukina	ana	boca	a n + a	ana	mouth/tongue _:a-suffix	240 242		2374 2375
+694	k ɨ + ʃ - a	766	mouth	Kanamari	kɨʃa	boca	k ɨ + ʃ a	kɨʃa	lips _ʂa	21 239		2372 2373
+695	k ɨ + ʂ - a	766	mouth	Shipibo_Konibo	kɨʂa	boca	k ɨ + ʂ a	kɨʂa	lips _ʂa	21 239		2372 2373
+696	k ɨ + ʂ - a	766	mouth	Kapanawa	kɨʂa	boca	k ɨ + ʂ a	kɨʂa	lips _ʂa	21 239		2372 2373
+697	- a ʃ ɨ - a	1569	mouth	Arara	aʃɨa	boca	a ʃ + ɨ a	aʃɨa	hole _ɨa	253 243		0
+698	a ʂ + ɸ a	1569	mouth	Shanenawa	aʂɸa	boca	a ʂ + ɸ a	aʂɸa	hole _wa	253 254		2376 2377
+699	a ʂ + β a	1569	mouth	Yawanawa	aʂβa	boca	a ʂ + β a	aʂβa	hole _wa	253 254		2376 2377
+700	k ɨ + h - a	766	mouth	Nukini	kɨha	boca	k ɨ + h a	kɨha	lips _ʂa	21 239		2372 2373
+701	k ɨ + h - a	766	mouth	Poyanawa	kɨha	boca	k ɨ + h a	kɨha	lips _ha	21 239		2372 2373
+702	k ɨ + h - a	766	mouth	Iskonawa	kɨha	boca	k ɨ + h a	kɨha	lips _ʂa	21 239		2372 2373
+703	h a n + a	767	mouth	Chakobo	hana	boca	h a n + a	hana	mouth/tongue _:a-suffix	240 242		2374 2375
+704	k ɨ + w ɨ tʃ i	768	mouth	Pakawara	kɨwɨtʃi	boca	k ɨ + w ɨ + tʃ i	kɨwɨtʃi	lips _Bi tʃi	21 237 238		2372 2379
+705	kʷ ɨ + β i	768	mouth	Kakataibo	kwɨβi	boca	kʷ ɨ + β i	kwɨβi	lips _Bi	21 237		2372 2377
+706	k ɨ + ʂ a k a	766	mouth	Kaxarari	kɨʂaka	boca	k ɨ + ʂ a + k a	kɨʂaka	lips _ʂa ka	21 239 241		2372 2378
+707	a ʂ + w a	1569	mouth	Mastanawa	aʂwa	boca	a ʂ + w a	aʂwa	hole _wa	253 254		2376 2377
+708	a ʂ + w a	1569	mouth	Chaninawa	aʂwa	boca	a ʂ + w a	aʂwa	hole _wa	253 254		2376 2377
+709	a ʂ + ɸ a	1569	mouth	Sharanawa	aʂɸa	boca	a ʂ + ɸ a	aʂɸa	hole _wa	253 254		2376 2377
+710	k ɨ + ç - a	766	mouth	Amawaka	kɨça	boca	k ɨ + ç a	kɨça	lips _ʂa	21 239		2372 2373
+711	a ʂ + w a	1569	mouth	Nawa	aʂwa	boca	a ʂ + w a	aʂwa	hole _wa	253 254		2376 2377
+712	a ʂ + ɸ a	1569	mouth	Marinawa	aʂɸa	boca	a ʂ + ɸ a	aʂɸa	hole _wa	253 254		2376 2377
+713	a ʂ + w a	1569	mouth	Yaminawa	aʂwã	boca	a ʂ + w a	aʂwã	hole _wa	253 254		2376 2377
+714	h a + ʂ p a	1569	mouth	Kashinawa_P	haʂpa	boca	h a ʂ + p a	haʂpa	hole _wa	253 254		2377 2373
+715	k ɨ + ʂ - a	766	mouth	Kashinawa_B	kɨʂa	boca	k ɨ + ʂ a	kɨʂa	lips _ʂa	21 239		2372 2373
 720	- a n + a	1330	tongue	Matses	ana	lengua	a n + a	ana	mouth/tongue _:a-suffix	166 6		4054 1696
 721	- a n + a	1330	tongue	Matis	ana	lengua	a n + a	ana	mouth/tongue _:a-suffix	166 6		4054 4055
 722	- a n + a + r ɨ β u	1331	tongue	Marubo	ana rɨβu	lengua	a n + a + r ɨ β u	ana rɨβu	mouth/tongue _:a-suffix _ribu	166 6 171		4054 4055 4056
@@ -591,6 +614,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 724	h a n + a	1330	tongue	Kanamari	hana	lengua	h a n + a	hana	mouth/tongue _:a-suffix	166 6		4054 4055
 725	h a n + a	1330	tongue	Shipibo_Konibo	hana	lengua	h a n + a	hana	mouth/tongue _:a-suffix	166 6		4054 4055
 726	h a n + a	1330	tongue	Kapanawa	hana	lengua	h a n + a	hana	mouth/tongue _:a-suffix	166 6		4054 4055
+727	ã d + a	1330	tongue	Arara	ãda	lengua	ã d + a	ãda	mouth/tongue _:a-suffix	166 6		0
 728	- a n + a	1330	tongue	Shanenawa	ana	lengua	a n + a	ana	mouth/tongue _:a-suffix	166 6		4054 4055
 729	- a n + a	1330	tongue	Yawanawa	ana	lengua	a n + a	ana	mouth/tongue _:a-suffix	166 6		4054 4055
 730	- a n + a	1330	tongue	Nukini	anã	lengua	a n + a	anã	mouth/tongue _:a-suffix	166 6		4054 4055
@@ -609,32 +633,33 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 743	a d + a	1330	tongue	Yaminawa	ada	lengua	a d + a	ada	mouth/tongue _:a-suffix	166 6		4059 4055
 744	h a n + a	1330	tongue	Kashinawa_P	hana	lengua	h a n + a	hana	mouth/tongue _:a-suffix	166 6		4054 4055
 745	h a n + a	1330	tongue	Kashinawa_B	hana	lengua	h a n + a	hana	mouth/tongue _:a-suffix	166 6		4054 4055
-750	ʂ ɨ + t a	1308	tooth [front]	Matses	ʂɨta	diente	ʂ ɨ + t a	ʂɨta	tooth _ta			4106 4107
-751	ʂ ɨ + t a	1308	tooth [front]	Matis	ʂɨta	diente	ʂ ɨ + t a	ʂɨta	tooth _ta			4106 4107
-752	ʂ ɨ + t a	1308	tooth [front]	Marubo	ʂɨta	diente	ʂ ɨ + t a	ʂɨta	tooth _ta			4106 4107
-753	x i + t a	1308	tooth [front]	Katukina	xita	diente	x/ʂ i + t a	xita	tooth _ta			4106 4107
-754	ʂ ɨ + t a	1308	tooth [front]	Kanamari	ʂɨta	diente	ʂ ɨ + t a	ʂɨta	tooth _ta			4106 4107
-755	ʂ ɨ + t a	1308	tooth [front]	Shipibo_Konibo	ʂɨta	diente	ʂ ɨ + t a	ʂɨta	tooth _ta			4106 4107
-756	ʂ ɨ + t a	1308	tooth [front]	Kapanawa	ʂɨta	diente	ʂ ɨ + t a	ʂɨta	tooth _ta			4106 4107
-758	ʂ ɨ + t a	1308	tooth [front]	Shanenawa	ʂɨta	diente	ʂ ɨ + t a	ʂɨta	tooth _ta			4106 4107
-759	ʂ ɨ + t a	1308	tooth [front]	Yawanawa	ʂɨta	diente	ʂ ɨ + t a	ʂɨta	tooth _ta			4106 4107
-760	h i + t a	1308	tooth [front]	Nukini	hita	diente	h i + t a	hita	tooth _ta			4106 4107
-761	h ɨ + t a	1308	tooth [front]	Iskonawa	hɨta	diente	h ɨ + t a	hɨta	tooth _ta			4106 4107
-762	ʂ ɨ + t a	1308	tooth [front]	Chakobo	ʂɨta	diente	ʂ ɨ + t a	ʂɨta	tooth _ta			4106 4107
-763	ʂ ɨ + n a	1308	tooth [front]	Pakawara	ʂɨna	diente	ʂ ɨ + n a	ʂɨna	tooth _na			4106 4110
-764	ʂ ɨ + t a	1308	tooth [front]	Kakataibo	ʂɨta	diente	ʂ ɨ + t a	ʂɨta	tooth _ta			4106 4107
-765	ʂ ɨ + t a	1308	tooth [front]	Kaxarari	ʂɨta	diente	ʂ ɨ + t a	ʂɨta	tooth _ta			4106 4107
-766	p i + t i	1333	tooth [front]	Mastanawa	piti	diente	p i + t i	piti	eat _ti			4108 4109
-767	ʂ ɨ + t a	1308	tooth [front]	Mastanawa	ʂɨta	diente	ʂ ɨ + t a	ʂɨta	tooth _ta			4106 4107
-768	p i + t i	1333	tooth [front]	Chaninawa	piti	diente	p i + t i	piti	eat _ti			4108 4109
-770	p i + t i	1333	tooth [front]	Sharanawa	piti	diente	p i + t i	piti	eat _ti			4108 4109
-771	ç ɨ + t a	1308	tooth [front]	Amawaka	çɨta	diente	ç ɨ + t a	çɨta	tooth _ta			4106 4107
-772	p i + t i	1333	tooth [front]	Nawa	piti	diente	p i + t i	piti	eat _ti			4108 4109
-773	ʂ ɨ + t a	1308	tooth [front]	Nawa	ʂɨta	diente	ʂ ɨ + t a	ʂɨta	tooth _ta			4106 4107
-774	ʂ ɨ + t a	1308	tooth [front]	Marinawa	ʂɨta	diente	ʂ ɨ + t a	ʂɨta	tooth _ta			4106 4107
-775	p i + t i	1333	tooth [front]	Yaminawa	piti	diente	p i + t i	piti	eat _ti			4108 4109
-776	ʃ ɨ + t a	1308	tooth [front]	Kashinawa_P	ʃɨta	diente	ʃ ɨ + t a	ʃɨta	tooth _ta			4106 4107
-777	ʂ ɨ + t ɨ	1308	tooth [front]	Kashinawa_B	ʂɨtɨ	diente	ʂ ɨ + t ɨ	ʂɨtɨ	tooth _ta			4106 4109
+750	ʂ ɨ + t a	1308	tooth [front]	Matses	ʂɨta	diente	ʂ ɨ + t a	ʂɨta	tooth _ta	246 247		4106 4107
+751	ʂ ɨ + t a	1308	tooth [front]	Matis	ʂɨta	diente	ʂ ɨ + t a	ʂɨta	tooth _ta	246 247		4106 4107
+752	ʂ ɨ + t a	1308	tooth [front]	Marubo	ʂɨta	diente	ʂ ɨ + t a	ʂɨta	tooth _ta	246 247		4106 4107
+753	x i + t a	1308	tooth [front]	Katukina	xita	diente	x/ʂ i + t a	xita	tooth _ta	246 247		4106 4107
+754	ʂ ɨ + t a	1308	tooth [front]	Kanamari	ʂɨta	diente	ʂ ɨ + t a	ʂɨta	tooth _ta	246 247		4106 4107
+755	ʂ ɨ + t a	1308	tooth [front]	Shipibo_Konibo	ʂɨta	diente	ʂ ɨ + t a	ʂɨta	tooth _ta	246 247		4106 4107
+756	ʂ ɨ + t a	1308	tooth [front]	Kapanawa	ʂɨta	diente	ʂ ɨ + t a	ʂɨta	tooth _ta	246 247		4106 4107
+757	ʃ ɨ t a	1308	tooth [front]	Arara	ʃɨta	diente	ʃ ɨ + t a	ʃɨta	tooth _ta	246 247		0
+758	ʂ ɨ + t a	1308	tooth [front]	Shanenawa	ʂɨta	diente	ʂ ɨ + t a	ʂɨta	tooth _ta	246 247		4106 4107
+759	ʂ ɨ + t a	1308	tooth [front]	Yawanawa	ʂɨta	diente	ʂ ɨ + t a	ʂɨta	tooth _ta	246 247		4106 4107
+760	h i + t a	1308	tooth [front]	Nukini	hita	diente	h i + t a	hita	tooth _ta	246 247		4106 4107
+761	h ɨ + t a	1308	tooth [front]	Iskonawa	hɨta	diente	h ɨ + t a	hɨta	tooth _ta	246 247		4106 4107
+762	ʂ ɨ + t a	1308	tooth [front]	Chakobo	ʂɨta	diente	ʂ ɨ + t a	ʂɨta	tooth _ta	246 247		4106 4107
+763	ʂ ɨ + n a	1308	tooth [front]	Pakawara	ʂɨna	diente	ʂ ɨ + n a	ʂɨna	tooth _ta	246 247		4106 4110
+764	ʂ ɨ + t a	1308	tooth [front]	Kakataibo	ʂɨta	diente	ʂ ɨ + t a	ʂɨta	tooth _ta	246 247		4106 4107
+765	ʂ ɨ + t a	1308	tooth [front]	Kaxarari	ʂɨta	diente	ʂ ɨ + t a	ʂɨta	tooth _ta	246 247		4106 4107
+766	p i + t i	1333	tooth [front]	Mastanawa	piti	diente	p i + t i	piti	eat _ti	244 245		4108 4109
+767	ʂ ɨ + t a	1308	tooth [front]	Mastanawa	ʂɨta	diente	ʂ ɨ + t a	ʂɨta	tooth _ta	246 247		4106 4107
+768	p i + t i	1333	tooth [front]	Chaninawa	piti	diente	p i + t i	piti	eat _ti	244 245		4108 4109
+770	p i + t i	1333	tooth [front]	Sharanawa	piti	diente	p i + t i	piti	eat _ti	244 245		4108 4109
+771	ç ɨ + t a	1308	tooth [front]	Amawaka	çɨta	diente	ç ɨ + t a	çɨta	tooth _ta	246 247		4106 4107
+772	p i + t i	1333	tooth [front]	Nawa	piti	diente	p i + t i	piti	eat _ti	244 245		4108 4109
+773	ʂ ɨ + t a	1308	tooth [front]	Nawa	ʂɨta	diente	ʂ ɨ + t a	ʂɨta	tooth _ta	246 247		4106 4107
+774	ʂ ɨ + t a	1308	tooth [front]	Marinawa	ʂɨta	diente	ʂ ɨ + t a	ʂɨta	tooth _ta	246 247		4106 4107
+775	p i + t i	1333	tooth [front]	Yaminawa	piti	diente	p i + t i	piti	eat _ti	244 245		4108 4109
+776	ʃ ɨ + t a	1308	tooth [front]	Kashinawa_P	ʃɨta	diente	ʃ ɨ + t a	ʃɨta	tooth _ta	246 247		4106 4107
+777	ʂ ɨ + t ɨ	1308	tooth [front]	Kashinawa_B	ʂɨtɨ	diente	ʂ ɨ + t ɨ	ʂɨtɨ	tooth _ta	246 247		4106 4109
 782	t ɨ + n i t e	810	neck	Matses	tɨnite	cuello	t ɨ + n i t e	tɨnite	neck _nite	137 144		2502 2509
 783	t ɨ + t u n	810	neck	Matis	tɨtun	cuello	t ɨ + t u n	tɨtun	neck _tun	137 150		2502 2508
 784	t ɨ + ʂ u	810	neck	Marubo	tɨʂu	cuello	t ɨ + ʂ u	tɨʂu	neck _Su	137 139		2502 2503
@@ -642,6 +667,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 786	t ɨ + ʃ u	810	neck	Kanamari	taʃu	cuello	t ɨ + ʃ u	taʃu	neck _Su	137 139		2502 2503
 787	t ɨ + ʂ u	810	neck	Shipibo_Konibo	tɨʂu	cuello	t ɨ + ʂ u	tɨʂu	neck _Su	137 139		2502 2503
 788	t ɨ + ʂ u	810	neck	Kapanawa	tɨʂu	cuello	t ɨ + ʂ u	tɨʂu	neck _Su	137 139		2502 2503
+789	t ɨ ʃ - u	810	neck	Arara	tɨʃu	cuello	t ɨ + ʃ u	tɨʃu	neck _Su	137 139		0
 790	t ɨ + ʂ u	810	neck	Shanenawa	tɨʂɨ	cuello	t ɨ + ʂ u	tɨʂɨ	neck _Su	137 139		2502 2503
 791	t ɨ + ʃ u	810	neck	Yawanawa	tɨʃu	cuello	t ɨ + ʃ u	tɨʃu	neck _Su	137 139		2502 2503
 792	n i + p i k a	804	neck	Nukini	nipika	cuello	n i + p i k a	nipika	neck _pika	137 145		2510
@@ -662,39 +688,41 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 807	t ɨ + ʂ u	810	neck	Yaminawa	tɨʂu	cuello	t ɨ + ʂ u	tɨʂu	neck _Su	137 139		2502 2503
 808	t ɨ + ʂ u	810	neck	Kashinawa_P	tɨʂu	cuello	t ɨ + ʂ u	tɨʂu	neck _Su	137 139		2502 2503
 809	t ɨ + ʂ u	810	neck	Kashinawa_B	tɨʂu	cuello	t ɨ + ʂ u	tɨʂu	neck _Su	137 139		2502 2503
-814	p u k u	54	belly	Matses	puku	barriga	p u k u	puku	belly _ku	87 85		227
-815	p u k u	54	belly	Matis	puku	barriga	p u k u	puku	belly _ku	87 85		227
-816	p u s t u	1553	belly	Marubo	pustu	barriga	p u s t u	pustu	belly _stu	87 86		229
-817	p u s t u	1553	belly	Katukina	pustu	barriga	p u s t u	pustu	belly _stu	87 86		229
-818	p o s t o	1553	belly	Kanamari	posto	barriga	p o s t o	posto	belly _stu	87 86		229
-819	p u k u	54	belly	Shipibo_Konibo	puku	barriga	p u k u	puku	belly _ku	87 85		227
-820	p u k u	54	belly	Kapanawa	puku	barriga	p u k u	puku	belly _ku	87 85		227
-822	p u s t u	1553	belly	Shanenawa	pustu	barriga	p u s t u	pustu	belly _stu	87 86		229
-823	p u s t u	1553	belly	Yawanawa	pustu	barriga	p u s t u	pustu	belly _stu	87 86		229
-824	n a - β a	55	belly	Nukini	naβa	barriga	n a β a	naβa	width _ba	91 89		230
-825	p u h t u	1553	belly	Nukini	puhtu	barriga	p u h t u	puhtu	belly _stu	87 86		229
-826	d a h β a	55	belly	Poyanawa	dahβa	barriga	d a h β a	dahβa	width _ba	91 89		230
-827	n a h β a	55	belly	Iskonawa	nahβa	barriga	n a h β a	nahβa	width _ba	91 89		230
+814	p u k u	54	belly	Matses	puku	barriga	p u + k u	puku	belly _ku	87 85		227
+815	p u k u	54	belly	Matis	puku	barriga	p u + k u	puku	belly _ku	87 85		227
+816	p u s t u	1553	belly	Marubo	pustu	barriga	p u + s t u	pustu	belly _stu	87 86		229
+817	p u s t u	1553	belly	Katukina	pustu	barriga	p u + s t u	pustu	belly _stu	87 86		229
+818	p o s t o	1553	belly	Kanamari	posto	barriga	p o + s t o	posto	belly _stu	87 86		229
+819	p u k u	54	belly	Shipibo_Konibo	puku	barriga	p u + k u	puku	belly _ku	87 85		227
+820	p u k u	54	belly	Kapanawa	puku	barriga	p u + k u	puku	belly _ku	87 85		227
+821	a t u	1554	belly	Arara	atu	barriga	a + t u	atu	intestines _tu	90 231		0
+822	p u s t u	1553	belly	Shanenawa	pustu	barriga	p u + s t u	pustu	belly _stu	87 86		229
+823	p u s t u	1553	belly	Yawanawa	pustu	barriga	p u + s t u	pustu	belly _stu	87 86		229
+824	n a - β a	55	belly	Nukini	naβa	barriga	n a + β a	naβa	width _ba	91 89		230
+825	p u h t u	1553	belly	Nukini	puhtu	barriga	p u + h t u	puhtu	belly _stu	87 86		229
+826	d a h β a	55	belly	Poyanawa	dahβa	barriga	d a + h β a	dahβa	width _ba	91 89		230
+827	n a h β a	55	belly	Iskonawa	nahβa	barriga	n a + h β a	nahβa	width _ba	91 89		230
 828	t a k ɨ p ɨ	58	belly	Chakobo	takɨpɨ	barriga	t a k ɨ + p ɨ	takɨpɨ	taki _pi	219 227		228
-829	p u k u	54	belly	Pakawara	puku	barriga	p u k u	puku	belly _ku	87 85		227
-830	p u k u	54	belly	Kakataibo	puku	barriga	p u k u	puku	belly _ku	87 85		227
+829	p u k u	54	belly	Pakawara	puku	barriga	p u + k u	puku	belly _ku	87 85		227
+830	p u k u	54	belly	Kakataibo	puku	barriga	p u + k u	puku	belly _ku	87 85		227
 831	t u r u	60	belly	Kaxarari	turu	barriga	t u + r u	turu	rounded _ru	188 228		231
 832	ʂ a ʔ i	61	belly	Mastanawa	ʂaʔi	barriga	ʂ a + ʔ i	ʂaʔi	/sa _?i	229 230		232
-833	p u s t u	1553	belly	Chaninawa	pusto	barriga	p u s t u	pusto	belly _stu	87 86		229
-834	n a m ɨ n	62	belly	Sharanawa	namɨn	barriga	n a m ɨ n	namɨn	width _min	91 232		234
-835	p u k u	54	belly	Amawaka	puku	barriga	p u k u	puku	belly _ku	87 85		227
+833	p u s t u	1553	belly	Chaninawa	pusto	barriga	p u + s t u	pusto	belly _stu	87 86		229
+834	n a m ɨ n	62	belly	Sharanawa	namɨn	barriga	n a + m ɨ n	namɨn	width _min	91 232		234
+835	p u k u	54	belly	Amawaka	puku	barriga	p u + k u	puku	belly _ku	87 85		227
 836	a t u	1554	belly	Nawa	atu	barriga	a + t u	atu	intestines _tu	90 231		233
-837	p u s t u	1553	belly	Marinawa	pustu	barriga	p u s t u	pustu	belly _stu	87 86		229
-838	p u s t u	1553	belly	Yaminawa	pustu	barriga	p u s t u	pustu	belly _stu	87 86		229
-839	p u s t u	1553	belly	Kashinawa_P	pustu	barriga	p u s t u	pustu	belly _stu	87 86		229
-840	p u s t u	1553	belly	Kashinawa_B	pustu	barriga	p u s t u	pustu	belly _stu	87 86		229
+837	p u s t u	1553	belly	Marinawa	pustu	barriga	p u + s t u	pustu	belly _stu	87 86		229
+838	p u s t u	1553	belly	Yaminawa	pustu	barriga	p u + s t u	pustu	belly _stu	87 86		229
+839	p u s t u	1553	belly	Kashinawa_P	pustu	barriga	p u + s t u	pustu	belly _stu	87 86		229
+840	p u s t u	1553	belly	Kashinawa_B	pustu	barriga	p u + s t u	pustu	belly _stu	87 86		229
 845	k a + ʈʂ o	32	back [of body]	Matses	katʂo	espalda	k a + ʈʂ o	katʂo	back _tso	203 213	!	125 8
-846	k a - - + ʂ u k u	32	back [of body]	Matis	kaʂuku	espalda	k a + ʂ u k u	kaʂuku	back _So /ku	203 211 204		125 130
+846	k a - - + ʂ u k u	32	back [of body]	Matis	kaʂuku	espalda	k a + ʂ u + k u	kaʂuku	back _So /ku	203 211 204		125 130
 847	k a + ʂ u	32	back [of body]	Marubo	kaʂu	espalda	k a + ʂ u	kaʂu	back _So	203 211	!	125 7
 848	p i + m a n a	30	back [of body]	Katukina	pimana	espalda	p i + m a n a	pimana	shoulder _above	200 202		127 131
 849	k a - - + ʃ o - -	32	back [of body]	Kanamari	kaʃo	espalda	k a + ʃ o	kaʃo	back _So	203 211		125 130
 850	p ɨ + k a - -	30	back [of body]	Shipibo_Konibo	pɨka	espalda	p ɨ + k a	pɨka	shoulder _ka	200 205		127 125
 851	p ɨ + k a - -	30	back [of body]	Kapanawa	pɨka	espalda	p ɨ + k a	pɨka	shoulder _ka	200 205		127 125
+852	p i - - - - tʃ i	30	back [of body]	Arara	pitʃi	espalda	p ɨ + tʃ i	pitʃi	shoulder _tʃi	200 207		0
 853	p ɨ + s tʃ i	30	back [of body]	Shanenawa	pɨstʃi	espalda	p ɨ + ↓stʃ/tʃ i	pustʃi	shoulder _tʃi	200 207		127 126
 854	p ɨ + - tʃ i	30	back [of body]	Nukini	pɨʃi	espalda	p ɨ + tʃ i	puʃi	shoulder _ʧi	200 207		127 126
 855	p ɨ + - t i	30	back [of body]	Poyanawa	pɨti	espalda	p ɨ + t i	pɨti	shoulder _tɨ	200 206		127 126
@@ -711,36 +739,38 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 866	p ɨ + - tʃ i	30	back [of body]	Marinawa	pɨʧi	espalda	p ɨ + tʃ i	pɨʧi	shoulder _ʧi	200 207		127 126
 867	p ɨ + - tʃ i	30	back [of body]	Yaminawa	pɨʧi	espalda	p ɨ + tʃ i	piʧi	shoulder _ʧi	200 207		127 126
 868	p ɨ + - tʃ i	30	back [of body]	Kashinawa_P	pɨʧi	espalda	p ɨ + tʃ i	pɨʧi	shoulder _ʧi	200 207		127 126
-874	β i ts - - i	49	skin [of person]	Matses	βitsi	piel	β i ts i	βitsi	skin _tSi	57 158		3288
-875	β i ts - - i	1063	skin [of person]	Matis	βidtsi	piel	β i ts i	βidtsi	skin _tSi	57 158		3288
-876	ɨ ʂ p i	1065	skin [of person]	Marubo	ɨʂpi	piel	ɨ ʂ p i	ɨʂpi	skin/ɨʂpi _pi	36 159		3289
-877	w i + ʂ i + β i	1063	skin [of person]	Katukina	wixiβi	piel	w i + ʂ i + β i	wixiβi	skin _tSi _bi	57 158 0	? can it be that /x/ is phonetically rather //S//?	3288
-878	β i tʃ - - i	1063	skin [of person]	Shipibo_Konibo	βitʃi	piel	β i tʃ i	βitʃi	skin _tSi	57 158		3288
-879	β i tʃ - - i	1063	skin [of person]	Kapanawa	βitʃi	piel	β i tʃ i	βitʃi	skin _tSi	57 158		3288
-881	ɸ i tʃ - - i	1063	skin [of person]	Shanenawa	ɸitʃi	piel	ɸ i tʃ i	ɸitʃi	skin _tSi	57 158		3288
-882	β i tʃ - - i	1063	skin [of person]	Yawanawa	βitʃi	piel	β i tʃ i	βitʃi	skin _tSi	57 158		3288
-883	β i ʃ - - i	1063	skin [of person]	Nukini	βiʃi	piel	β i ʃ i	βiʃi	skin _tSi	57 158		3288
-884	β i tʃ - - i	1063	skin [of person]	Iskonawa	βiʧi	piel	β i tʃ i	βiʧi	skin _tSi	57 158		3288
-885	h a k a	1062	skin [of person]	Iskonawa	haka	piel	h a k a	haka	skin/Sa _ka	46 61		3287
-886	β i tʃ - - i	1063	skin [of person]	Chakobo	βitʃi	piel	β i tʃ i	βitʃi	skin _tSi	57 158		3288
-887	w i tʃ - - i	1063	skin [of person]	Pakawara	witʃi	piel	w i tʃ i	witʃi	skin _tSi	57 158		3288
-888	ʂ a k a	1062	skin [of person]	Kakataibo	ʂaka	piel	ʂ a k a	ʂaka	skin/Sa _ka	46 61		3287
-889	w i tʃ - - i	1063	skin [of person]	Kaxarari	witʃi	piel	w i tʃ i	witʃi	skin _tSi	57 158		3288
-890	ɸ i tʃ - - i	1063	skin [of person]	Mastanawa	ɸiʧi	piel	ɸ i tʃ i	ɸiʧi	skin _tSi	57 158		3288
-891	ɸ i tʃ - - i	1063	skin [of person]	Chaninawa	ɸit͡ʃi	piel	ɸ i tʃ i	ɸit͡ʃi	skin _tSi	57 158		3288
-892	ɸ i tʃ - - i	1063	skin [of person]	Sharanawa	ɸit͡ʃi	piel	ɸ i tʃ i	ɸit͡ʃi	skin _tSi	57 158		3288
-893	ç a k a	1064	skin [of person]	Amawaka	çaka	piel	ç a k a	punj̃ã	skin/Sa _ka	46 61		3287
-894	ɸ i tʃ - - i	49	skin [of person]	Nawa	ɸiʧi	piel	ɸ i tʃ i	ɸiʧi	skin _tSi	57 158		3288
-895	ɸ i tʃ - - i	1063	skin [of person]	Marinawa	ɸiʧi	piel	ɸ i tʃ i	ɸiʧi	skin _tSi	57 158		3288
-896	ɸ i tʃ - - i	1063	skin [of person]	Yaminawa	ɸiʧi	piel	ɸ i tʃ i	ɸiʧi	skin _tSi	57 158		3288
-897	β i tʃ - - i	1063	skin [of person]	Kashinawa_P	βiʧi	piel	β i tʃ i	βiʧi	skin _tSi	57 158		3288
-898	β i tʃ - - i	1063	skin [of person]	Kashinawa_B	βitʃi	piel	β i tʃ i	βitʃi	skin _tSi	57 158		3288
+874	β i ts - - i	49	skin [of person]	Matses	βitsi	piel	β i + ts i	βitsi	skin _tSi	57 158		3288
+875	β i ts - - i	1063	skin [of person]	Matis	βidtsi	piel	β i + ts i	βidtsi	skin _tSi	57 158		3288
+876	ɨ ʂ p i	1065	skin [of person]	Marubo	ɨʂpi	piel	ɨ ʂ + p i	ɨʂpi	skin/ɨʂpi _pi	36 159		3289
+877	w i + ʂ i + β i	1063	skin [of person]	Katukina	wixiβi	piel	w i + ʂ i + β i	wixiβi	skin _tSi bi	57 158 236	? can it be that /x/ is phonetically rather //S//?	3288
+878	β i tʃ - - i	1063	skin [of person]	Shipibo_Konibo	βitʃi	piel	β i + tʃ i	βitʃi	skin _tSi	57 158		3288
+879	β i tʃ - - i	1063	skin [of person]	Kapanawa	βitʃi	piel	β i + tʃ i	βitʃi	skin _tSi	57 158		3288
+880	- β i tʃ - i	1063	skin [of person]	Arara	βitʃi	piel	β i + tʃ i	βitʃi	skin _tSi	57 158		0
+881	ɸ i tʃ - - i	1063	skin [of person]	Shanenawa	ɸitʃi	piel	ɸ i + tʃ i	ɸitʃi	skin _tSi	57 158		3288
+882	β i tʃ - - i	1063	skin [of person]	Yawanawa	βitʃi	piel	β i + tʃ i	βitʃi	skin _tSi	57 158		3288
+883	β i ʃ - - i	1063	skin [of person]	Nukini	βiʃi	piel	β i + ʃ i	βiʃi	skin _tSi	57 158		3288
+884	β i tʃ - - i	1063	skin [of person]	Iskonawa	βiʧi	piel	β i + tʃ i	βiʧi	skin _tSi	57 158		3288
+885	h a k a	1062	skin [of person]	Iskonawa	haka	piel	h a + k a	haka	skin/Sa _ka	46 61		3287
+886	β i tʃ - - i	1063	skin [of person]	Chakobo	βitʃi	piel	β i + tʃ i	βitʃi	skin _tSi	57 158		3288
+887	w i tʃ - - i	1063	skin [of person]	Pakawara	witʃi	piel	w i + tʃ i	witʃi	skin _tSi	57 158		3288
+888	ʂ a k a	1062	skin [of person]	Kakataibo	ʂaka	piel	ʂ a + k a	ʂaka	skin/Sa _ka	46 61		3287
+889	w i tʃ - - i	1063	skin [of person]	Kaxarari	witʃi	piel	w i + tʃ i	witʃi	skin _tSi	57 158		3288
+890	ɸ i tʃ - - i	1063	skin [of person]	Mastanawa	ɸiʧi	piel	ɸ i + tʃ i	ɸiʧi	skin _tSi	57 158		3288
+891	ɸ i tʃ - - i	1063	skin [of person]	Chaninawa	ɸit͡ʃi	piel	ɸ i + tʃ i	ɸit͡ʃi	skin _tSi	57 158		3288
+892	ɸ i tʃ - - i	1063	skin [of person]	Sharanawa	ɸit͡ʃi	piel	ɸ i + tʃ i	ɸit͡ʃi	skin _tSi	57 158		3288
+893	ç a k a	1064	skin [of person]	Amawaka	çaka	piel	ç a + k a	punj̃ã	skin/Sa _ka	46 61		3287
+894	ɸ i tʃ - - i	49	skin [of person]	Nawa	ɸiʧi	piel	ɸ i + tʃ i	ɸiʧi	skin _tSi	57 158		3288
+895	ɸ i tʃ - - i	1063	skin [of person]	Marinawa	ɸiʧi	piel	ɸ i + tʃ i	ɸiʧi	skin _tSi	57 158		3288
+896	ɸ i tʃ - - i	1063	skin [of person]	Yaminawa	ɸiʧi	piel	ɸ i + tʃ i	ɸiʧi	skin _tSi	57 158		3288
+897	β i tʃ - - i	1063	skin [of person]	Kashinawa_P	βiʧi	piel	β i + tʃ i	βiʧi	skin _tSi	57 158		3288
+898	β i tʃ - - i	1063	skin [of person]	Kashinawa_B	βitʃi	piel	β i + tʃ i	βitʃi	skin _tSi	57 158		3288
 903	- i n + k u e n t e	1258	tail	Matses	inkuente	rabo cola	i n + k u e n t e	inkuente	tail _kuente	160 163		3810 3812
 904	- i n + a	1253	tail	Matis	ina	rabo cola	i n + a	ina	tail _:a-suffix	160 6		3810 3811
 905	- i n + a	1253	tail	Marubo	ina	rabo cola	i n + a	ina	tail _:a-suffix	160 6		3810 3811
 906	h i n + a	1253	tail	Kanamari	hina	rabo cola	h i n + a	hina	tail _:a-suffix	160 6		3810 3811
 907	h i n + a	1253	tail	Shipibo_Konibo	hina	rabo cola	h i n + a	hina	tail _:a-suffix	160 6		3810 3811
 908	h i n + a	1253	tail	Kapanawa	hina	rabo cola	h i n + a	hina	tail _:a-suffix	160 6		3810 3811
+909	i ⁿd + a	1253	tail	Arara	inda	rabo cola	i ⁿd + a	inda	tail _:a-suffix	160 6		0
 910	- i n + a	1253	tail	Shanenawa	ina	rabo cola	i n + a	ina	tail _:a-suffix	160 6		3810 3811
 911	- i n + a	1253	tail	Yawanawa	ina	rabo cola	i n + a	ina	tail _:a-suffix	160 6		3810 3811
 912	β ã + t i	1256	tail	Poyanawa	βãti	rabo cola	β ã + t i	βãti	/ba _ti	169 167		3815
@@ -768,6 +798,8 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 939	w i + - - t a ʂ -	683	leg	Shipibo_Konibo	witaʂ	pierna	w i + t a ʂ	witaʂ	calf _taSi	122 113		2060 2062
 940	k i + ʃ i	682	leg	Kapanawa	kiʃi	pierna	k i + ʃ i	kiʃi	thigh _ʃi	112 114		2058 2059
 941	w i + - - t a ʂ -	683	leg	Kapanawa	witaʂ	pierna	w i + t a ʂ	witaʂ	calf _taSi	122 113		2060 2062
+942	β i + t a ʃ i	683	leg	Arara	βitaʃi	pierna	β i + t a ʃ i	βitaʃi	calf _taSi	122 113		0
+943	k i + ʃ i	682	leg	Arara	kiʃi	pierna	k i + ʃ i	kiʃi	thigh _ʃi	112 114		0
 944	t a + ɨ	687	leg	Shanenawa	taɨ	pierna	t a + ɨ	taɨ	foot _ɨ	120 121		2062 2066
 945	β i + t a ʃ	683	leg	Yawanawa	βitaʃ	pierna	β i + t a ʃ	βitaʃ	calf _taSi	122 113		2060 2062
 946	β i + ʃ t a	683	leg	Nukini	βiʃta	pierna	β i + ʃ t a	βiʃta	calf _sta	122 125		2060 2062
@@ -795,6 +827,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 973	t a + ʔ ɨ	483	foot	Kanamari	taʔɨ	pie	t a + ʔ ɨ	ta?ɨ	foot _i	212 215	!	1391 20
 974	t a + ɨ	483	foot	Shipibo_Konibo	taɨ	pie	t a + ɨ	taɨ	foot _i	212 215	!	1391 20
 975	t a + ɨ	483	foot	Kapanawa	taɨ	pie	t a + ɨ	taɨ	foot _i	212 215	!	1391 20
+976	- t a - ɨ	483	foot	Arara	taɨ	pie	t a + ɨ	taɨ	foot _i	212 215		0
 977	t a + ɨ	483	foot	Shanenawa	taɨ	pie	t a + ɨ	taɨ	foot _i	212 215	!	1391 20
 978	t a + ɨ	483	foot	Yawanawa	taɨ	pie	t a + ɨ	taɨ	foot _i	212 215	!	1391 20
 979	t a + ɨ	483	foot	Nukini	taɨ	pie	t a + ɨ	taɨ	foot _i	212 215	!	1391 20
@@ -818,6 +851,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 1002	p ɨ + i	1480	wing	Marubo	pɨi	ala	p ɨ + i	pɨi	arm _i	172 174		4618 4621
 1003	p ɨ + tʃ i	1480	wing	Shipibo_Konibo	pɨtʃi	ala	p ɨ + tʃ i	pɨtʃi	arm _tʃi	172 182		4618 4627
 1004	p ɨ + i	1480	wing	Kapanawa	pɨi	ala	p ɨ + i	pɨi	arm _i	172 174		4618 4621
+1005	- - p ɨ t a w -	1480	wing	Arara	pɨtaw	ala	p ɨ + t a w	pɨtaw	arm _taw	172 31		0
 1006	p ɨ + j/i	1480	wing	Shanenawa	pɨj	ala	p ɨ + j/i	pɨj	arm _i	172 174		4618 4622
 1007	p ɨ + j/i	1480	wing	Yawanawa	pɨj	ala	p ɨ + j/i	pɨj	arm _i	172 174		4618 4622
 1008	p ɨ + i	1480	wing	Iskonawa	pɨi	ala	p ɨ + i	pɨi	arm _i	172 174		4618 4621
@@ -840,6 +874,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 1029	mʷ ɨ + β i	546	hand	Kanamari	mɨβi	mano	mʷ ɨ + β i	mwɨβi	hand _Bi	96 97		1587 1592
 1030	m ɨ + k ɨ n -	546	hand	Shipibo_Konibo	mɨkɨn	mano	m ɨ + k ɨ n	mɨkɨn	hand _kini	96 101		1587 1588
 1031	m ɨ + k ɨ n -	546	hand	Kapanawa	mɨkɨn	mano	m ɨ + k ɨ n	mɨkɨn	hand _kini	96 101		1587 1588
+1032	β ɨ h i	546	hand	Arara	βɨhi	mano	β ɨ + h i	βɨhi	hand _hi	96 100		0
 1033	m ɨ + ɸ i	546	hand	Shanenawa	mɨɸi	mano	m ɨ + ɸ i	mɨɸi	hand _Bi	96 97		1587 1589
 1034	m ɨ + h i	546	hand	Yawanawa	mɨhi	mano	m ɨ + h i	mɨhi	hand _hi	96 100		1587 1589
 1035	m ɨ + w i	546	hand	Nukini	mɨwi	mano	m ɨ + w i	mɨwi	hand _Bi	96 97		1587 1589
@@ -866,7 +901,8 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 1060	p ɨ + ʔ i	375	feather [large]	Kanamari	pɨʔi	pluma	p ɨ + ʔ i	pɨ?i	arm _i	216 221		1115 1116
 1061	p ɨ + i	375	feather [large]	Shipibo_Konibo	pɨi	pluma	p ɨ + i	pɨi	arm _i	216 221	!	1115 1117
 1063	p ɨ + i	375	feather [large]	Kapanawa	pɨi	pluma	p ɨ + i	pɨi	arm _i	216 221		1115 1117
-1065	p ɨ + j	375	feather [large]	Shanenawa	pɨj	pluma	p ɨ + j	pɨj	arm _i	216 221		1115 1118
+1064	p ɨ - i	375	feather [large]	Arara	pɨi	pluma	p ɨ + i	pɨi	arm _i	216 221		0
+1065	p ɨ + j	375	feather [large]	Shanenawa	pɨj	pluma	p ɨ + j/i	pɨj	arm _i	216 221		1115 1118
 1066	p ɨ + i	375	feather [large]	Yawanawa	pɨi	pluma	p ɨ + i	pɨi	arm _i	216 221		1115 1117
 1067	k ɨ r u	380	feather [large]	Nukini	kɨru	pluma	k ɨ + r u	kɨru	ki _ru	118 225		1122
 1068	p ɨ + i	375	feather [large]	Poyanawa	pɨi	pluma	p ɨ + i	pɨi	arm _i	216 221		1115 1117
@@ -881,8 +917,8 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 1077	p ɨ + ʔ i	375	feather [large]	Amawaka	pɨʔi	pluma	p ɨ + ʔ i	pɨʔi	arm _i	216 221		1115 1116
 1078	ɾ a d i	376	feather [large]	Nawa	ɾadi	pluma	ɾ a + d i	ɾadi	body_hair _di	218 223		1119
 1079	ɾ a ⁿd i	376	feather [large]	Marinawa	ɾandi	pluma	ɾ a + ⁿd i	ɾandi	body_hair _di	218 222		1119
-1080	p ɨ + j	375	feather [large]	Yaminawa	pɨj	pluma	p ɨ + j	pɨj	arm _i	216 221		1115 1118
-1081	p ɨ + j	375	feather [large]	Kashinawa_P	pɨj	pluma	p ɨ + j	pɨj	arm _i	216 221		1115 1118
+1080	p ɨ + j	375	feather [large]	Yaminawa	pɨj	pluma	p ɨ + j/i	pɨj	arm _i	216 221		1115 1118
+1081	p ɨ + j	375	feather [large]	Kashinawa_P	pɨj	pluma	p ɨ + j/i	pɨj	arm _i	216 221		1115 1118
 1082	p ɨ + i	375	feather [large]	Kashinawa_B	pɨi	pluma	p ɨ + i	pɨi	arm _i	216 221		1115 1117
 1087	- u - i n + t e	566	heart	Matses	uinte	corazon	u i n + t e	winte	breathe _-:suffix/te	103 109		1716 37
 1088	- u - i n + t e	566	heart	Matis	uinte	corazon	u i n + t e	winte	breathe _-:suffix/te	103 109		1718 1222
@@ -890,6 +926,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 1090	- - w i n + t i	566	heart	Katukina	winti	corazon	w i n + t i	winti	breathe _ti	103 104		1721 43
 1091	h u - i n + t i	566	heart	Shipibo_Konibo	huinti	corazon	h u i n + t i	huinti	breathe _ti	103 104		1718 43
 1092	h u - i n + t i	566	heart	Kapanawa	hwinti	corazon	h u i n + t i	hwinti	breathe _ti	103 104		1718 43
+1093	- ũ - - - + t i	566	heart	Arara	ũti	corazon	ũ + t i	ũti	breathe _ti	103 104		0
 1094	- u - i n + t i	566	heart	Shanenawa	uinti	corazon	u i n + t i	uinti	breathe _ti	103 104		1716 43
 1095	- ũ - ĩ - + t i	566	heart	Yawanawa	ũĩti	corazon	ũ ĩ + t i	ũĩti	breathe _ti	103 104		1716 43
 1096	k ɨ p ĩ	569	heart	Nukini	kɨpĩ	corazon	k ɨ + p ĩ	kɨpĩ	/ki _pi	105 110		1723
@@ -908,57 +945,59 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 1109	- u w ɨ - + t i	566	heart	Yaminawa	uwɨti	corazon	u w ɨ + t i	uwɨti	breathe _ti	103 104		1716 43
 1110	ɸ u - j/i n + t i	566	heart	Kashinawa_P	ɸujnti	corazon	ɸ u j/i n + t i	ɸujnti	breathe _ti	103 104		1720 43
 1111	h u - ĩ - + t i	566	heart	Kashinawa_B	huĩti	corazon	h u ĩ + t i	huĩti	breathe _ti	103 104		1716 43
-1118	p u k u	534	guts	Matses	puku	tripas intestinos	p u k u	puku	stomach _ku	92 88		1537
-1119	p u k u	534	guts	Matis	puku	tripas intestinos	p u k u	puku	stomach _ku	92 88		1537
-1120	p u k u	534	guts	Marubo	puku	tripas intestinos	p u k u	puku	stomach _ku	92 88		1537
-1121	p u k u	534	guts	Katukina	puku	tripas intestinos	p u k u	puku	stomach _ku	92 88		1537
-1122	p u k u	534	guts	Shipibo_Konibo	puku	tripas intestinos	p u k u	puku	stomach _ku	92 88		1537
-1123	p u k u	534	guts	Kapanawa	puku	tripas intestinos	p u k u	puku	stomach _ku	92 88		1537
-1124	p u k u	534	guts	Shanenawa	puku	tripas intestinos	p u k u	puku	stomach _ku	92 88		1537
-1125	p u k u	534	guts	Yawanawa	puku	tripas intestinos	p u k u	puku	stomach _ku	92 88		1537
-1126	p u k u	534	guts	Nukini	puku	tripas intestinos	p u k u	puku	stomach _ku	92 88		1537
-1127	β ɨ t ɨ h	536	guts	Poyanawa	βɨtɨh	tripas intestinos	β ɨ t ɨ h	βɨtɨh	stomach _tih	92 93		1538
-1128	p u k u	534	guts	Iskonawa	puku	tripas intestinos	p u k u	puku	stomach _ku	92 88		1537
-1129	p u k u	534	guts	Chakobo	puku	tripas intestinos	p u k u	puku	stomach _ku	92 88		1537
-1130	p u k u	534	guts	Kakataibo	puku	tripas intestinos	p u k u	puku	stomach _ku	92 88		1537
-1131	p u ʔ u	534	guts	Mastanawa	puʔu	tripas intestinos	p u ʔ u	puʔu	stomach _ku	92 88		1537
-1132	p u k u	534	guts	Chaninawa	puku	tripas intestinos	p u k u	puku	stomach _ku	92 88		1537
-1133	p u k u	534	guts	Sharanawa	puku	tripas intestinos	p u k u	puku	stomach _ku	92 88		1537
-1134	p u k u	534	guts	Amawaka	puku	tripas intestinos	p u k u	puku	stomach _ku	92 88		1537
-1135	p u k u	534	guts	Nawa	puku	tripas intestinos	p u k u	puku	stomach _ku	92 88		1537
-1136	p u k u	534	guts	Marinawa	puku	tripas intestinos	p u k u	puku	stomach _ku	92 88		1537
-1137	p u ʔ u	534	guts	Yaminawa	puʔu	tripas intestinos	p u ʔ u	puʔu	stomach _ku	92 88		1537
-1138	p u k u	534	guts	Kashinawa_P	puku	tripas intestinos	p u k u	puku	stomach _ku	92 88		1537
-1143	i s e s e	709	liver	Matses	isese	higado	i s e s e	isese	/i _sese	131 132		2165
-1144	t a kʷ a	708	liver	Matis	takua	higado	t a kʷ a	takua	liver _kwa	17 18	ku → kw	2164
-1145	t a k a	708	liver	Marubo	taka	higado	t a k a	taka	liver _ka	17 127		2164
-1146	t a k a	708	liver	Katukina	taka	higado	t a k a	taka	liver _ka	17 127		2164
-1147	t a k a	708	liver	Shipibo_Konibo	taka	higado	t a k a	taka	liver _ka	17 127		2164
-1148	t a k a	708	liver	Kapanawa	taka	higado	t a k a	taka	liver _ka	17 127		2164
-1150	t a k a	708	liver	Shanenawa	taka	higado	t a k a	taka	liver _ka	17 127		2164
-1151	t a k a	708	liver	Yawanawa	taka	higado	t a k a	taka	liver _ka	17 127		2164
-1152	t a k a	708	liver	Nukini	taka	higado	t a k a	taka	liver _ka	17 127		2164
-1153	t a k a	708	liver	Poyanawa	taka	higado	t a k a	taka	liver _ka	17 127		2164
-1154	t a k a	708	liver	Iskonawa	taka	higado	t a k a	taka	liver _ka	17 127		2164
-1155	t a k a	708	liver	Chakobo	taka	higado	t a k a	taka	liver _ka	17 127		2164
-1156	t a k a	708	liver	Pakawara	taka	higado	t a k a	taka	liver _ka	17 127		2164
-1157	t a kʷ a	708	liver	Kakataibo	takwa	higado	t a kʷ a	takwa	liver _kwa	17 18		2164
-1158	t a k a	708	liver	Kaxarari	taka	higado	t a k a	taka	liver _ka	17 127		2164
-1159	t a ʔ a	708	liver	Mastanawa	taʔa	higado	t a ʔ a	taʔa	liver _?a	17 128		2164
-1160	t a k a	708	liver	Chaninawa	taka	higado	t a k a	taka	liver _ka	17 127		2164
-1161	t a k a	708	liver	Sharanawa	taka	higado	t a k a	taka	liver _ka	17 127		2164
-1162	t a n ç a	708	liver	Amawaka	tança	higado	t a n ç a	tança	liver _ca	133 130		2163
-1163	t a k a	708	liver	Nawa	taka	higado	t a k a	taka	liver _ka	17 127		2164
-1164	t a k a	708	liver	Marinawa	taka	higado	t a k a	taka	liver _ka	17 127		2164
-1165	t a ʔ a	708	liver	Yaminawa	taʔa	higado	t a ʔ a	taʔa	liver _?a	17 128		2164
-1166	t a k a	708	liver	Kashinawa_P	taka	higado	t a k a	taka	liver _ka	17 127		2164
-1167	t a k a	708	liver	Kashinawa_B	taka	higado	t a k a	taka	liver _ka	17 127		2164
+1118	p u k u	534	guts	Matses	puku	tripas intestinos	p u + k u	puku	stomach _ku	92 88		1537
+1119	p u k u	534	guts	Matis	puku	tripas intestinos	p u + k u	puku	stomach _ku	92 88		1537
+1120	p u k u	534	guts	Marubo	puku	tripas intestinos	p u + k u	puku	stomach _ku	92 88		1537
+1121	p u k u	534	guts	Katukina	puku	tripas intestinos	p u + k u	puku	stomach _ku	92 88		1537
+1122	p u k u	534	guts	Shipibo_Konibo	puku	tripas intestinos	p u + k u	puku	stomach _ku	92 88		1537
+1123	p u k u	534	guts	Kapanawa	puku	tripas intestinos	p u + k u	puku	stomach _ku	92 88		1537
+1124	p u k u	534	guts	Shanenawa	puku	tripas intestinos	p u + k u	puku	stomach _ku	92 88		1537
+1125	p u k u	534	guts	Yawanawa	puku	tripas intestinos	p u + k u	puku	stomach _ku	92 88		1537
+1126	p u k u	534	guts	Nukini	puku	tripas intestinos	p u + k u	puku	stomach _ku	92 88		1537
+1127	β ɨ t ɨ h	536	guts	Poyanawa	βɨtɨh	tripas intestinos	β ɨ + t ɨ h	βɨtɨh	stomach _tih	233 93		1538
+1128	p u k u	534	guts	Iskonawa	puku	tripas intestinos	p u + k u	puku	stomach _ku	92 88		1537
+1129	p u k u	534	guts	Chakobo	puku	tripas intestinos	p u + k u	puku	stomach _ku	92 88		1537
+1130	p u k u	534	guts	Kakataibo	puku	tripas intestinos	p u + k u	puku	stomach _ku	92 88		1537
+1131	p u ʔ u	534	guts	Mastanawa	puʔu	tripas intestinos	p u + ʔ u	puʔu	stomach _ku	92 88		1537
+1132	p u k u	534	guts	Chaninawa	puku	tripas intestinos	p u + k u	puku	stomach _ku	92 88		1537
+1133	p u k u	534	guts	Sharanawa	puku	tripas intestinos	p u + k u	puku	stomach _ku	92 88		1537
+1134	p u k u	534	guts	Amawaka	puku	tripas intestinos	p u + k u	puku	stomach _ku	92 88		1537
+1135	p u k u	534	guts	Nawa	puku	tripas intestinos	p u + k u	puku	stomach _ku	92 88		1537
+1136	p u k u	534	guts	Marinawa	puku	tripas intestinos	p u + k u	puku	stomach _ku	92 88		1537
+1137	p u ʔ u	534	guts	Yaminawa	puʔu	tripas intestinos	p u + ʔ u	puʔu	stomach _ku	92 88		1537
+1138	p u k u	534	guts	Kashinawa_P	puku	tripas intestinos	p u + k u	puku	stomach _ku	92 88		1537
+1143	i s e s e	709	liver	Matses	isese	higado	i + s e s e	isese	/i _sese	131 132		2165
+1144	t a kʷ a	708	liver	Matis	takua	higado	t a + kʷ a	takua	liver _kwa	17 18	ku → kw	2164
+1145	t a k a	708	liver	Marubo	taka	higado	t a + k a	taka	liver _ka	17 127		2164
+1146	t a k a	708	liver	Katukina	taka	higado	t a + k a	taka	liver _ka	17 127		2164
+1147	t a k a	708	liver	Shipibo_Konibo	taka	higado	t a + k a	taka	liver _ka	17 127		2164
+1148	t a k a	708	liver	Kapanawa	taka	higado	t a + k a	taka	liver _ka	17 127		2164
+1149	- t a - k - a	708	liver	Arara	taka	higado	t a + k a	taka	liver _ka	17 127		0
+1150	t a k a	708	liver	Shanenawa	taka	higado	t a + k a	taka	liver _ka	17 127		2164
+1151	t a k a	708	liver	Yawanawa	taka	higado	t a + k a	taka	liver _ka	17 127		2164
+1152	t a k a	708	liver	Nukini	taka	higado	t a + k a	taka	liver _ka	17 127		2164
+1153	t a k a	708	liver	Poyanawa	taka	higado	t a + k a	taka	liver _ka	17 127		2164
+1154	t a k a	708	liver	Iskonawa	taka	higado	t a + k a	taka	liver _ka	17 127		2164
+1155	t a k a	708	liver	Chakobo	taka	higado	t a + k a	taka	liver _ka	17 127		2164
+1156	t a k a	708	liver	Pakawara	taka	higado	t a + k a	taka	liver _ka	17 127		2164
+1157	t a kʷ a	708	liver	Kakataibo	takwa	higado	t a + kʷ a	takwa	liver _kwa	17 18		2164
+1158	t a k a	708	liver	Kaxarari	taka	higado	t a + k a	taka	liver _ka	17 127		2164
+1159	t a ʔ a	708	liver	Mastanawa	taʔa	higado	t a + ʔ a	taʔa	liver _?a	17 128		2164
+1160	t a k a	708	liver	Chaninawa	taka	higado	t a + k a	taka	liver _ka	17 127		2164
+1161	t a k a	708	liver	Sharanawa	taka	higado	t a + k a	taka	liver _ka	17 127		2164
+1162	t a n ç a	708	liver	Amawaka	tança	higado	t a n + ç a	tança	liver _ca	133 130		2163
+1163	t a k a	708	liver	Nawa	taka	higado	t a + k a	taka	liver _ka	17 127		2164
+1164	t a k a	708	liver	Marinawa	taka	higado	t a + k a	taka	liver _ka	17 127		2164
+1165	t a ʔ a	708	liver	Yaminawa	taʔa	higado	t a + ʔ a	taʔa	liver _?a	17 128		2164
+1166	t a k a	708	liver	Kashinawa_P	taka	higado	t a + k a	taka	liver _ka	17 127		2164
+1167	t a k a	708	liver	Kashinawa_B	taka	higado	t a + k a	taka	liver _ka	17 127		2164
 1172	k a + n i t e	121	bone	Matses	kanite	hueso	k a + n i t e	kanite	back _nite			125 417
 1173	w i ʃ p o	122	bone	Matis	wiʃpo	hueso	w i ʃ p o	wiʃpo	shinbone			415
 1174	ʂ a - u	125	bone	Marubo	ʂau	hueso	ʂ a u	ʂau	bone			409
 1175	x a - u	125	bone	Katukina	xau	hueso	x/ʂ a u	xau	bone			409
 1176	ʂ a - u	125	bone	Shipibo_Konibo	ʂau	hueso	ʂ a u	ʂau	bone			409
 1177	ʂ a w	125	bone	Kapanawa	ʂaw	hueso	ʂ a w	ʂaw	bone			412
+1178	ʃ a - u	125	bone	Arara	ʃau	hueso	ʃ a u	ʃau	bone			0
 1179	ʂ a w	125	bone	Shanenawa	ʂaw	hueso	ʂ a w	ʂaw	bone			414
 1180	ʂ a - u	125	bone	Yawanawa	ʂau	hueso	ʂ a u	ʂau	bone			409
 1181	h a - u	125	bone	Nukini	hau	hueso	h a u	hau	bone			409
@@ -977,30 +1016,31 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 1194	ʂ a w	125	bone	Yaminawa	ʂaw	hueso	ʂ a w	ʂaw	bone			414
 1195	ʂ a w	125	bone	Kashinawa_P	ʂaw	hueso	ʂ a w	ʂaw	bone			413
 1196	ʂ a - u	125	bone	Kashinawa_B	ʂau	hueso	ʂ a u	ʂau	bone			409
-1201	n a m - i	747	meat (flesh)	Matses	nami	carne	n a m i	nami	flesh/meat _mi	129 134		2295
-1202	n a m - i	747	meat (flesh)	Matis	nami	carne	n a m i	nami	flesh/meat _mi	129 134		2295
-1203	n a m i	747	meat (flesh)	Marubo	nami	carne	n a m i	nami	flesh/meat _mi	129 134		2295
-1204	n a m - i	747	meat (flesh)	Katukina	nami	carne	n a m i	nami	flesh/meat _mi	129 134		2295
-1205	n a m - i	747	meat (flesh)	Shipibo_Konibo	nami	carne	n a m i	nami	flesh/meat _mi	129 134		2295
-1206	n a m - i	747	meat (flesh)	Kapanawa	nami	carne	n a m i	nami	flesh/meat _mi	129 134		2295
-1208	n a m - i	747	meat (flesh)	Shanenawa	nami	carne	n a m i	nami	flesh/meat _mi	129 134		2295
-1209	n a m - i	747	meat (flesh)	Yawanawa	nami	carne	n a m i	nami	flesh/meat _mi	129 134		2295
-1210	n a m - i	747	meat (flesh)	Nukini	nami	carne	n a m i	nami	flesh/meat _mi	129 134		2295
+1201	n a m - i	747	meat (flesh)	Matses	nami	carne	n a + m i	nami	flesh/meat _mi	129 134		2295
+1202	n a m - i	747	meat (flesh)	Matis	nami	carne	n a + m i	nami	flesh/meat _mi	129 134		2295
+1203	n a m i	747	meat (flesh)	Marubo	nami	carne	n a + m i	nami	flesh/meat _mi	129 134		2295
+1204	n a m - i	747	meat (flesh)	Katukina	nami	carne	n a + m i	nami	flesh/meat _mi	129 134		2295
+1205	n a m - i	747	meat (flesh)	Shipibo_Konibo	nami	carne	n a + m i	nami	flesh/meat _mi	129 134		2295
+1206	n a m - i	747	meat (flesh)	Kapanawa	nami	carne	n a + m i	nami	flesh/meat _mi	129 134		2295
+1207	n a m.b i	747	meat (flesh)	Arara	nambi	carne	n a + ⁿb i	nambi	flesh/meat _mbi	129 135		0
+1208	n a m - i	747	meat (flesh)	Shanenawa	nami	carne	n a + m i	nami	flesh/meat _mi	129 134		2295
+1209	n a m - i	747	meat (flesh)	Yawanawa	nami	carne	n a + m i	nami	flesh/meat _mi	129 134		2295
+1210	n a m - i	747	meat (flesh)	Nukini	nami	carne	n a + m i	nami	flesh/meat _mi	129 134		2295
 1211	n a + ⁿb i	747	meat (flesh)	Poyanawa	nambi	carne	n a + ⁿb i	nambi	flesh/meat _mbi	129 135		2295
-1212	n a m - i	747	meat (flesh)	Iskonawa	nami	carne	n a m i	nami	flesh/meat _mi	129 134		2295
-1213	n a m - i	747	meat (flesh)	Chakobo	nami	carne	n a m i	nami	flesh/meat _mbi	129 135		2295
-1214	n a m - i	747	meat (flesh)	Pakawara	nami	carne	n a m i	nami	flesh/meat _mi	129 134		2295
-1215	n a m - i	747	meat (flesh)	Kakataibo	nami	carne	n a m i	nami	flesh/meat _mi	129 134		2295
-1216	l a m - i	747	meat (flesh)	Kaxarari	lami	carne	l a m i	lami	flesh/meat _mbi	129 135		2295
-1217	d a - b i	747	meat (flesh)	Mastanawa	dabi	carne	d a b i	dabi	flesh/meat _bi	129 136		2296
-1218	d a - b i	747	meat (flesh)	Chaninawa	dabi	carne	d a b i	dabi	flesh/meat _bi	129 136		2296
-1219	d a - b i	747	meat (flesh)	Sharanawa	dabi	carne	d a b i	dabi	flesh/meat _bi	129 136		2296
+1212	n a m - i	747	meat (flesh)	Iskonawa	nami	carne	n a + m i	nami	flesh/meat _mi	129 134		2295
+1213	n a m - i	747	meat (flesh)	Chakobo	nami	carne	n a + m i	nami	flesh/meat _mbi	129 135		2295
+1214	n a m - i	747	meat (flesh)	Pakawara	nami	carne	n a + m i	nami	flesh/meat _mi	129 134		2295
+1215	n a m - i	747	meat (flesh)	Kakataibo	nami	carne	n a + m i	nami	flesh/meat _mi	129 134		2295
+1216	l a m - i	747	meat (flesh)	Kaxarari	lami	carne	l a + m i	lami	flesh/meat _mbi	129 135		2295
+1217	d a - b i	747	meat (flesh)	Mastanawa	dabi	carne	d a + b i	dabi	flesh/meat _bi	129 136		2296
+1218	d a - b i	747	meat (flesh)	Chaninawa	dabi	carne	d a + b i	dabi	flesh/meat _bi	129 136		2296
+1219	d a - b i	747	meat (flesh)	Sharanawa	dabi	carne	d a + b i	dabi	flesh/meat _bi	129 136		2296
 1220	n a + ⁿb i	747	meat (flesh)	Amawaka	nambi	carne	n a + ⁿb i	nambi	flesh/meat _mbi	129 135		2295
-1221	d a - b i	747	meat (flesh)	Nawa	dabi	carne	d a b i	dabi	flesh/meat _bi	129 136		2296
+1221	d a - b i	747	meat (flesh)	Nawa	dabi	carne	d a + b i	dabi	flesh/meat _bi	129 136		2296
 1222	d a + ⁿb i	747	meat (flesh)	Marinawa	danbi	carne	d a + ⁿb i	danbi	flesh/meat _mbi	129 135		2296
-1223	d a - b i	747	meat (flesh)	Yaminawa	dabi	carne	d a b i	dabi	flesh/meat _bi	129 136		2296
-1224	n a m - i	747	meat (flesh)	Kashinawa_P	nami	carne	n a m i	nami	flesh/meat _mi	129 134		2295
-1225	n a m - i	747	meat (flesh)	Kashinawa_B	nami	carne	n a m i	nami	flesh/meat _mi	129 134		2295
+1223	d a - b i	747	meat (flesh)	Yaminawa	dabi	carne	d a + b i	dabi	flesh/meat _bi	129 136		2296
+1224	n a m - i	747	meat (flesh)	Kashinawa_P	nami	carne	n a + m i	nami	flesh/meat _mi	129 134		2295
+1225	n a m - i	747	meat (flesh)	Kashinawa_B	nami	carne	n a + m i	nami	flesh/meat _mi	129 134		2295
 1231	β ɨ tʃ i	358	fat (grease)	Matses	βɨtʃi	grasa	β ɨ tʃ i	βɨtʃi	fat			1044
 1232	ʂ ɨ n i + o	358	fat (grease)	Matis	ʂɨnio	grasa	ʂ ɨ n i + o	ʂɨnio	fat _o		!	1043 19
 1233	ʂ ɨ n - i	358	fat (grease)	Marubo	ʂɨni	grasa	ʂ ɨ n i	ʂɨni	fat			1043
@@ -1026,10 +1066,11 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 1257	h i m - i	106	blood	Katukina	himi	sangre	h i m i	himi	blood			355
 1258	h i m - i	106	blood	Shipibo_Konibo	himi	sangre	h i m i	himi	blood			355
 1259	h i m - i	106	blood	Kapanawa	himi	sangre	h i m i	himi	blood			355
+1260	- i m b i	106	blood	Arara	imbi	sangre	i ⁿb i	imbi	blood			0
 1261	- i m - i	106	blood	Shanenawa	imi	sangre	i m i	imi	blood			355
 1262	- i m - i	106	blood	Yawanawa	imi	sangre	i m i	imi	blood			355
 1263	- i m - ĩ	106	blood	Nukini	imĩ	sangre	i m ĩ	imĩ	blood			355
-1264	- i m b i	106	blood	Poyanawa	imbi	sangre	i m b i	imbi	blood			355
+1264	- i m b i	106	blood	Poyanawa	imbi	sangre	i ⁿb i	imbi	blood			355
 1265	- i m - i	106	blood	Iskonawa	imi	sangre	i m i	imi	blood			355
 1266	h i m - i	106	blood	Chakobo	himi	sangre	h i m i	himi	blood			355
 1267	h i m - i	106	blood	Pakawara	himi	sangre	h i m i	himi	blood			355
@@ -1038,40 +1079,42 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 1270	- i - b i	106	blood	Mastanawa	ibi	sangre	i b i	ibi	blood			355
 1271	- i - b i	106	blood	Chaninawa	ibi	sangre	i b i	ibi	blood			355
 1272	- i - b i	106	blood	Sharanawa	ibi	sangre	i b i	ibi	blood			355
-1273	h i m b i	106	blood	Amawaka	himbi	sangre	h i m b i	himbi	blood			355
+1273	h i m b i	106	blood	Amawaka	himbi	sangre	h i ⁿb i	himbi	blood			355
 1274	- i - b i	106	blood	Nawa	ibi	sangre	i b i	ibi	blood			355
-1275	- i n b i	106	blood	Marinawa	inbi	sangre	i n b i	inbi	blood			355
+1275	- i n b i	106	blood	Marinawa	inbi	sangre	i ⁿb i	inbi	blood			355
 1276	- i - b i	106	blood	Yaminawa	ibi	sangre	i b i	ibi	blood			355
 1277	h i m - i	106	blood	Kashinawa_P	himi	sangre	h i m i	himi	blood			355
 1278	h i m - i	106	blood	Kashinawa_B	himi	sangre	h i m i	himi	blood			355
-1283	t a + p u n	918	root	Matses	tapun	raiz	t a + p u n	tapun	foot _vein			2930
-1284	ʂ u k u	923	root	Matis	ʂuku	raiz	ʂ u k u	ʂuku	small			2932
-1285	t a + p u n	918	root	Marubo	tapun	raiz	t a + p u n	tapun	foot _vein			2930
-1286	t a + p u n	918	root	Shipibo_Konibo	tapun	raiz	t a + p u n	tapun	foot _vein			2930
-1287	t a + p u n	918	root	Kapanawa	tapun	raiz	t a + p u n	tapun	foot _vein			2930
-1289	t a + p u	918	root	Shanenawa	tapu	raiz	t a + p u	tapu	foot _vein			2930
-1290	t a + p u n	918	root	Yawanawa	tapun	raiz	t a + p u n	tapun	foot _vein			2930
-1291	t a + tʃ a	919	root	Poyanawa	tatʃa	raiz	t a + tʃ a	tatʃa	foot _tʃa			2931
-1292	t a + p ũ	918	root	Iskonawa	tapũ	raiz	t a + p ũ	tapũ	foot _vein			2930
-1293	t a + p u n u	918	root	Chakobo	tapunu	raiz	t a + p u n u	tapunu	foot _vein			2930
-1294	t a + p u n u	918	root	Pakawara	tapunu	raiz	t a + p u n u	tapunu	foot _vein			2930
-1295	t a + p u n	918	root	Kakataibo	tapun	raiz	t a + p u n	tapun	foot _vein			2930
-1296	tʃ i + p u n u	1581	root	Kaxarari	tʃipunu	raiz	tʃ i + p u n u	tʃipunu	end _punu			2930
-1297	t a + tʃ a	919	root	Mastanawa	taʧa	raiz	t a + tʃ a	taʧa	foot _tʃa			2931
-1298	t a + p u	918	root	Chaninawa	tapu	raiz	t a + p u	tapu	foot _vein			2930
-1299	t a + tʃ a	919	root	Sharanawa	tat͡ʃa	raiz	t a + tʃ a	tat͡ʃa	foot _tʃa			2931
-1300	h iː	925	root	Amawaka	hi:	raiz	h iː	hi:	tree			2929
-1301	t a + p u	918	root	Nawa	tapu	raiz	t a + p u	tapu	foot _vein			2930
-1302	t a + p u	918	root	Marinawa	tapu	raiz	t a + p u	tapu	foot _vein			2930
-1303	t a + p u	918	root	Yaminawa	tapu	raiz	t a + p u	tapu	foot _vein			2930
-1304	t a + tʃ a	919	root	Kashinawa_P	taʧa	raiz	t a + tʃ a	taʧa	foot _tʃa			2931
-1305	t a + tʃ a	919	root	Kashinawa_B	tatʃa	raiz	t a + tʃ a	tatʃa	foot _tʃa			2931
+1283	t a + p u n	918	root	Matses	tapun	raiz	t a + p u n	tapun	foot _vein	248 249		2930
+1284	ʂ u k u	923	root	Matis	ʂuku	raiz	ʂ u + k u	ʂuku	small _ku	250 251		2932
+1285	t a + p u n	918	root	Marubo	tapun	raiz	t a + p u n	tapun	foot _vein	248 249		2930
+1286	t a + p u n	918	root	Shipibo_Konibo	tapun	raiz	t a + p u n	tapun	foot _vein	248 249		2930
+1287	t a + p u n	918	root	Kapanawa	tapun	raiz	t a + p u n	tapun	foot _vein	248 249		2930
+1288	t a p u - -	918	root	Arara	tapu	raiz	t a + p u	tapu	foot _vein	248 249		0
+1289	t a + p u	918	root	Shanenawa	tapu	raiz	t a + p u	tapu	foot _vein	248 249		2930
+1290	t a + p u n	918	root	Yawanawa	tapun	raiz	t a + p u n	tapun	foot _vein	248 249		2930
+1291	t a + tʃ a	919	root	Poyanawa	tatʃa	raiz	t a + tʃ a	tatʃa	foot _tʃa	248 255		2931
+1292	t a + p ũ	918	root	Iskonawa	tapũ	raiz	t a + p ũ	tapũ	foot _vein	248 249		2930
+1293	t a + p u n u	918	root	Chakobo	tapunu	raiz	t a + p u n u	tapunu	foot _vein	248 249		2930
+1294	t a + p u n u	918	root	Pakawara	tapunu	raiz	t a + p u n u	tapunu	foot _vein	248 249		2930
+1295	t a + p u n	918	root	Kakataibo	tapun	raiz	t a + p u n	tapun	foot _vein	248 249		2930
+1296	tʃ i + p u n u	1581	root	Kaxarari	tʃipunu	raiz	tʃ i + p u n u	tʃipunu	end _vein	248 249		2930
+1297	t a + tʃ a	919	root	Mastanawa	taʧa	raiz	t a + tʃ a	taʧa	foot _tʃa	248 255		2931
+1298	t a + p u	918	root	Chaninawa	tapu	raiz	t a + p u	tapu	foot _vein	248 249		2930
+1299	t a + tʃ a	919	root	Sharanawa	tat͡ʃa	raiz	t a + tʃ a	tat͡ʃa	foot _tʃa	248 255		2931
+1300	h iː	925	root	Amawaka	hi:	raiz	h iː	hi:	tree	252		2929
+1301	t a + p u	918	root	Nawa	tapu	raiz	t a + p u	tapu	foot _vein	248 249		2930
+1302	t a + p u	918	root	Marinawa	tapu	raiz	t a + p u	tapu	foot _vein	248 249		2930
+1303	t a + p u	918	root	Yaminawa	tapu	raiz	t a + p u	tapu	foot _vein	248 249		2930
+1304	t a + tʃ a	919	root	Kashinawa_P	taʧa	raiz	t a + tʃ a	taʧa	foot _tʃa	248 255		2931
+1305	t a + tʃ a	919	root	Kashinawa_B	tatʃa	raiz	t a + tʃ a	tatʃa	foot _tʃa	248 255		2931
 1311	p o d o	675	leaf	Matses	podo	hoja	p o d o	podo	arm/podo			2021
 1312	p o d o	675	leaf	Matis	podo	hoja	p o d o	podo	arm/podo			2021
 1313	p ɨ + i	673	leaf	Marubo	pɨi	hoja	p ɨ + i	pɨi	arm _i			2016 2019
 1314	p e + i	673	leaf	Katukina	pei	hoja	p e + i	pei	arm _i			2016 2019
 1315	p ɨ + i	673	leaf	Shipibo_Konibo	pɨi	hoja	p ɨ + i	pɨi	arm _i			2016 2019
 1316	p ɨ + i	673	leaf	Kapanawa	pɨi	hoja	p ɨ + i	pɨi	arm _i			2016 2019
+1317	d i p ɨ	582	leaf	Arara	dipɨ	hoja	d i p ɨ	dipɨ	?			0
 1318	p ɨ + j	673	leaf	Shanenawa	pɨj	hoja	p ɨ + j	pɨj	arm _j			2016 2020
 1319	p ɨ + i	673	leaf	Yawanawa	pɨi	hoja	p ɨ + i	pɨi	arm _i			2016 2019
 1320	m ã n ɨ	674	leaf	Nukini	mãnɨ	hoja	m ã n ɨ	mãnɨ	large_leaf			2015
@@ -1096,6 +1139,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 1344	h a w a	451	flower	Katukina	hawa	flor	h a w a	hawa	ha flower		!	1318
 1345	h u a	448	flower	Shipibo_Konibo	hua	flor	h u a	hua	flower			1317
 1346	h u a	448	flower	Kapanawa	hua	flor	h u a	hua	flower			1317
+1347	- u - - a	448	flower	Arara	ua	flor	u a	ua	flower			0
 1348	n i n a	452	flower	Shanenawa	nina	flor	n i n a	nina	flower/nina			1323
 1349	- u a	448	flower	Yawanawa	ua	flor	u a	ua	flower			1317
 1350	tʃ u k u	453	flower	Poyanawa	tʃuku	flor	tʃ u k u	tʃuku	small			1322
@@ -1120,6 +1164,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 1373	β i m - i	487	fruit (berry)	Kanamari	βimi	fruta	β i m i	βimi	fruit			1417
 1374	β i m - i	487	fruit (berry)	Shipibo_Konibo	βimi	fruta	β i m i	βimi	fruit			1417
 1375	β i m - i	487	fruit (berry)	Kapanawa	βimi	fruta	β i m i	βimi	fruit			1417
+1376	β i m b i	487	fruit (berry)	Arara	βimbi	fruta	β i m b i	βimbi	fruit			0
 1377	f i m - i	487	fruit (berry)	Shanenawa	fimi	fruta	f i m i	fimi	fruit			1417
 1378	β i m - i	487	fruit (berry)	Yawanawa	βimi	fruta	β i m i	βimi	fruit			1417
 1379	β i m - ĩ	487	fruit (berry)	Nukini	βimĩ	fruta	β i m ĩ	βimĩ	fruit			1417
@@ -1145,6 +1190,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 1403	h ɨ s ɨ	999	seed	Kanamari	hɨsɨ	semilla	h ɨ s ɨ	hɨsɨ	seed			3146
 1404	β ɨ r u	1000	seed	Shipibo_Konibo	βɨru	semilla	β ɨ r u	βɨru	eye	3		3147
 1405	β ɨ r u	1000	seed	Kapanawa	βɨru	semilla	β ɨ r u	βɨru	eye			3147
+1406	- ɨ ʂ ɨ	999	seed	Arara	ɨʂɨ	semilla	ɨ ʂ ɨ	ɨʂɨ	seed			0
 1407	- ɨ ʂ ɨ	999	seed	Shanenawa	ɨʂɨ	semilla	ɨ ʂ ɨ	ɨʂɨ	seed			3146
 1408	- ɨ ʂ ɨ	999	seed	Yawanawa	ɨʂɨ	semilla	ɨ ʂ ɨ	ɨʂɨ	seed			3146
 1409	- ɨ h u	999	seed	Nukini	ɨhu	semilla	ɨ h u	ɨhu	seed			3146
@@ -1169,6 +1215,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 1433	ʂ a k - - a	48	bark [of tree]	Shipibo_Konibo	ʂaka	corteza	ʂ a k a	ʂaka	bark	46		201
 1434	β i tʃ i	49	bark [of tree]	Shipibo_Konibo	βitʃi	corteza	β i tʃ i	βitʃi	skin	57		202
 1435	ʂ a k - - a	48	bark [of tree]	Kapanawa	ʂaka	corteza	ʂ a k a	ʂaka	bark	46		201
+1436	ʃ a k a	48	bark [of tree]	Arara	ʃaka	corteza	ʃ a k a	ʃaka	bark	46		0
 1437	ʂ a k - - a	48	bark [of tree]	Shanenawa	ʂaka	corteza	ʂ a k a	ʂaka	bark	46		201
 1438	h a k - - a	48	bark [of tree]	Nukini	haka	corteza	h a k a	haka	bark	46		201
 1439	h a k - - a	48	bark [of tree]	Poyanawa	haka	corteza	h a k a	haka	bark	46		201
@@ -1191,6 +1238,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 1460	tʃ i n t i	1194	stick [of wood]	Marubo	tʃinti	palo	tʃ i n t i	tʃinti	wooden_knife	45		3645
 1461	h i w i	1191	stick [of wood]	Shipibo_Konibo	hiwi	palo	h i w i	hiwi	tree	69		3642
 1462	h i w i	69	stick [of wood]	Kapanawa	hiwi	palo	h i w i	hiwi	tree	69		3642
+1463	- i w i	1191	stick [of wood]	Arara	iwi	palo	i w i	iwi	tree	69		0
 1464	- i ɸ i	1191	stick [of wood]	Shanenawa	iɸi	palo	i ɸ i	iɸi	tree	69		3642
 1465	- i β i	1191	stick [of wood]	Yawanawa	iβi	palo	i β i	iβi	tree	69		3642
 1466	- i β i	1191	stick [of wood]	Nukini	iβi	palo	i β i	iβi	tree	69		3642
@@ -1213,6 +1261,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 1487	m i ʃ + p u -	26	ashes	Marubo	miʃpu	ceniza	m i ʃ + p u	miʃpu	miʃ dust-2	1508 39		93 94
 1488	tʃ i + m a p u -	26	ashes	Shipibo_Konibo	tʃi mapu	ceniza	tʃ i + m a + p u	tʃi mapu	fire dust-1 dust-2	1540 26 39		97 95
 1489	tʃ i + m a p u -	26	ashes	Kapanawa	tʃi mapu	ceniza	tʃ i + m a + p u	tʃi mapu	fire dust-1 dust-2	1540 26 39		97 95
+1490	b a p u -	26	ashes	Arara	bapu	ceniza	b a + p u	bapu	dust-1 dust-2	26 39		0
 1491	m a p u -	26	ashes	Shanenawa	mapu	ceniza	m a + p u	mapu	dust-1 dust-2	26 39		95
 1492	h ɨ n a + m a p u -	26	ashes	Iskonawa	hɨna mapu	ceniza	h ɨ n a + m a + p u	hɨna mapu	fire dust-1 dust-2	1539 26 39		96 95
 1493	tʃ i ʔ i + m i ʃ + p u -	26	ashes	Chakobo	tʃiʔimiʃpu	ceniza	tʃ i.ʔ.i + m i ʃ + p u	tʃi?imiʃpu	_fire miʃ dust-2	1540 1508 39		92 93 94
@@ -1234,6 +1283,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 1513	n iː	1511	woods (forest)	Katukina	nii	bosque (= monte in Peru)	n iː	nii	forest	38		4709
 1514	n i	1511	woods (forest)	Shipibo_Konibo	ni	bosque (= monte in Peru)	n i	ni	forest	38		4709
 1515	n i	1511	woods (forest)	Kapanawa	ni	bosque (= monte in Peru)	n i	ni	forest	38		4709
+1516	d i - -	1511	woods (forest)	Arara	di	bosque (= monte in Peru)	d i	di	forest	50		0
 1517	n i	1511	woods (forest)	Shanenawa	ni	bosque (= monte in Peru)	n i	ni	forest	38		4709
 1518	n i	1511	woods (forest)	Yawanawa	ni	bosque (= monte in Peru)	n i	ni	forest	38		4709
 1519	h a m u	1517	woods (forest)	Nukini	hamu	bosque (= monte in Peru)	h a m u	hamu	hamu/forest	60		4715
@@ -1259,6 +1309,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 1543	m a t - - u	741	mountain	Shipibo_Konibo	matu	montaña (hill = cerro loma)	m a t u	matu	soil ?	80 0	!	2345
 1544	m a n a n	759	mountain	Kapanawa	manan	montaña (hill = cerro loma)	m a n a n	manan	soil ?	80 0	!	2347
 1545	m a tʃ - - i	741	mountain	Kapanawa	matʃi	montaña (hill = cerro loma)	m a tʃ i	matʃi	soil _:suffix/tSi	80 82	!	2345
+1546	b a - tʃ - - - - i	741	mountain	Arara	batʃi	montaña (hill = cerro loma)	b a tʃ i	batʃi	soil _:suffix/tSi	 82		0
 1547	m a tʃ - - i	741	mountain	Shanenawa	matʃi	montaña (hill = cerro loma)	m a tʃ i	matʃi	soil _:suffix/tSi	80 82	!	2345
 1548	m a tʃ - - i	741	mountain	Yawanawa	matʃi	montaña (hill = cerro loma)	m a tʃ i	matʃi	soil _:suffix/tSi	80 82	!	2345
 1549	m a tʃ - - i	741	mountain	Iskonawa	maʧi	montaña (hill = cerro loma)	m a tʃ i	maʧi	soil _:suffix/tSi	80 82	!	2345
@@ -1285,6 +1336,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 1575	p a r u	907	river	Shipibo_Konibo	paru	rio	p a r u	paru	large_river			2876
 1576	p a r u	907	river	Kapanawa	paru	rio	p a r u	paru	large_river			2876
 1577	w a k a	906	river	Kapanawa	waka	rio	w a k a	waka	liquid			2874
+1578	β ã k a	906	river	Arara	βãka	rio	β ã k a	βãka	liquid			0
 1579	w a k a	906	river	Shanenawa	waka	rio	w a k a	waka	liquid			2874
 1580	β a k a	906	river	Yawanawa	βaka	rio	β a k a	βaka	liquid			2874
 1581	w a k a	906	river	Poyanawa	waka	rio	w a k a	waka	liquid			2874
@@ -1310,6 +1362,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 1605	- i - a n -	658	lake	Katukina	ian	lago	i a n	ian	lake			1966
 1606	- j a n -	658	lake	Shipibo_Konibo	yan	lago	j a n	yan	lake			1969
 1607	- i - a n -	658	lake	Kapanawa	ian	lago	i a n	ian	lake			1966
+1608	- - ĩ - - - - - ã	658	lake	Arara	ĩã	lago	ĩ ã	ĩã	lake			0
 1609	- i - a n -	658	lake	Shanenawa	ian	lago	i a n	ian	lake			1966
 1610	- i - a n -	658	lake	Yawanawa	ian	lago	i a n	ian	lake			1966
 1611	- j ã	658	lake	Iskonawa	j̃ã	lago	j ã	j̃ã	lake			1967
@@ -1334,6 +1387,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 1634	β a ʔ i	915	road (path)	Kanamari	βaʔi	carretera (camino trocha sendero)	β a ʔ i	βa?i	path			2901
 1635	β a - i	915	road (path)	Shipibo_Konibo	βai	carretera (camino trocha sendero)	β a i	βai	path			2901
 1636	β a - i	915	road (path)	Kapanawa	βai	carretera (camino trocha sendero)	β a i	βai	path			2901
+1637	- d i - t i	916	road (path)	Arara	diti	carretera (camino trocha sendero)	d i + t i	diti	walk _ti			0
 1638	n i + t i	1580	road (path)	Shanenawa	niti	carretera (camino trocha sendero)	n i + t i	niti	walk _ti			2904 2905
 1639	n i + t i	1580	road (path)	Yawanawa	niti	carretera (camino trocha sendero)	n i + t i	niti	walk _ti			2904 2905
 1640	β a - i	915	road (path)	Nukini	βai	carretera (camino trocha sendero)	β a i	βai	path			2901
@@ -1358,6 +1412,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 1663	β a t - x i	327	egg	Katukina	βatxi	huevo	β a tx/ʈʂ i	βatxi	egg			937
 1664	β a tʃ - - i	327	egg	Shipibo_Konibo	βatʃi	huevo	β a tʃ i	βatʃi	egg			937
 1665	β a tʃ - - i	327	egg	Kapanawa	βatʃi	huevo	β a tʃ i	βatʃi	egg			937
+1666	β a tʃ - i	327	egg	Arara	βatʃi	huevo	β a tʃ i	βatʃi	egg			0
 1667	ɸ a tʃ - - i	327	egg	Shanenawa	ɸatʃi	huevo	ɸ a tʃ i	ɸatʃi	egg			937
 1668	β a tʃ - - i	327	egg	Yawanawa	βatʃi	huevo	β a tʃ i	βatʃi	egg			937
 1669	β a tʃ - - i	327	egg	Iskonawa	βaʧi	huevo	β a tʃ i	βaʧi	egg			937
@@ -1382,6 +1437,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 1692	u m p a ʂ	1396	water	Shipibo_Konibo	umpaʂ	agua	u m p a ʂ	umpaʂ	water/onpaʂ			4345
 1693	h ɨ n ɨ	1390	water	Shipibo_Konibo	hɨnɨ	agua	h ɨ n ɨ	hɨnɨ	water/hɨnɨ			4339
 1694	h ɨ n ɨ	1390	water	Kapanawa	hɨnɨ	agua	h ɨ n ɨ	hɨnɨ	water/hɨnɨ			4339
+1695	β a k a	1391	water	Arara	βaka	agua	β a k a	βaka	liquid			0
 1696	- ɨ n ɨ	1390	water	Shanenawa	ɨnɨ	agua	ɨ n ɨ	ɨnɨ	water/hɨnɨ			4339
 1697	β a k a	1391	water	Yawanawa	βaka	agua	β a k a	βaka	liquid/βaka			4342
 1698	w a k a	1391	water	Nukini	waka	agua	w a k a	waka	liquid/βaka			4342
@@ -1408,6 +1464,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 1723	tʃ i ʔ i	402	fire	Kanamari	tʃiʔi	fuego	tʃ i ʔ i	tʃi?i	fire			1222
 1724	tʃ i - -	402	fire	Shipibo_Konibo	tʃi	fuego	tʃ i	tʃi	fire			1222
 1725	tʃ iː - -	402	fire	Kapanawa	tʃii	fuego	tʃ iː	tʃii	fire			1222
+1726	tʃ i - -	402	fire	Arara	tʃi	fuego	tʃ i	tʃi	fire			0
 1727	tʃ i - -	402	fire	Shanenawa	tʃi	fuego	tʃ i	tʃi	fire			1222
 1728	tʃ i - -	402	fire	Yawanawa	tʃi	fuego	tʃ i	tʃi	fire			1222
 1729	h u s p i t i	408	fire	Nukini	huspiti	fuego	h u s p i t i	huspiti	?			1226
@@ -1434,6 +1491,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 1756	kʰ o ʔ - i - -	1092	smoke [noun]	Kanamari	khoʔi	humo	kʰ o ʔ i	kho?i	fog			3416
 1757	k u - - i n -	1092	smoke [noun]	Shipibo_Konibo	kuin	humo	k u i n	kuin	fog			3416
 1758	k u ʔ - i n -	1092	smoke [noun]	Kapanawa	kuʔin	humo	k u ʔ i n	ku?in	fog			3416
+1759	k u - - ĩ - -	1092	smoke [noun]	Arara	kuĩ	humo	k u ĩ	kuĩ	fog			0
 1760	k u - - i n -	1092	smoke [noun]	Shanenawa	kuin	humo	k u i n	kuin	fog			3416
 1761	n a w ɨ	1092	smoke [noun]	Yawanawa	nawɨ	humo	n a w ɨ	nawɨ	?			3421
 1762	r u m ã	1095	smoke [noun]	Nukini	rumã	humo	r u m ã	rumã	tabacco			3419
@@ -1460,6 +1518,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 1787	m a - i	317	earth [soil]	Kanamari	mai	tierra	m a i	mai	soil	78		884
 1788	m a - i	317	earth [soil]	Shipibo_Konibo	mai	tierra	m a i	mai	soil	78		884
 1789	m a - i	317	earth [soil]	Kapanawa	mai	tierra	m a i	mai	soil	78		884
+1790	b a i - -	317	earth [soil]	Arara	bai	tierra	b a i	bai	soil	78		0
 1791	m a - i	317	earth [soil]	Shanenawa	mai	tierra	m a i	mai	soil	78		884
 1792	m a - i	317	earth [soil]	Yawanawa	mai	tierra	m a i	mai	soil	78		884
 1793	n a j a	320	earth [soil]	Nukini	naya	tierra	n a j a	naya	?			890
@@ -1486,6 +1545,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 1820	m a i + p o t o	303	dust	Kanamari	mai poto	polvo	m a i + p o t o	mai poto	soil dust			831 830
 1821	p u t u	303	dust	Shipibo_Konibo	putu	polvo	p u t u	putu	dust			830
 1822	p u t u	303	dust	Kapanawa	putu	polvo	p u t u	putu	dust			830
+1823	- - - - - - - p u t u	303	dust	Arara	putu	polvo	p u t u	putu	dust			0
 1824	p u t u	303	dust	Shanenawa	putu	polvo	p u t u	putu	dust			830
 1825	p u t u	303	dust	Iskonawa	putu	polvo	p u t u	putu	dust			830
 1826	m i ʃ p u	305	dust	Chakobo	miʃpu	polvo	m i ʃ p u	miʃpu	_miʃ dust		!	828
@@ -1507,6 +1567,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 1846	m a ʃ a ʃ	968	sand	Kanamari	maʃaʃ	arena	m a ʃ a ʃ	maʃaʃ	stone			3045
 1847	m a ʃ i -	968	sand	Shipibo_Konibo	maʃi	arena	m a ʃ i	maʃi	sand			3045
 1848	m a ʃ i -	968	sand	Kapanawa	maʃi	arena	m a ʃ i	maʃi	sand			3045
+1849	b a ʃ - - - - i	968	sand	Arara	baʃi	arena	b a ʃ i	baʃi	sand			0
 1850	m a ʂ i -	968	sand	Shanenawa	maʂi	arena	m a ʂ i	maʂi	sand			3045
 1851	m a ʃ i -	968	sand	Yawanawa	maʃi	arena	m a ʃ i	maʃi	sand			3045
 1852	m a - i -	969	sand	Nukini	mai	arena	m a i	mai	soil			3045
@@ -1531,6 +1592,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 1875	m i s k - - i	1198	stone	Katukina	miski	piedra	m i s k i	miski	stone/miʂki			3671
 1876	m a k a n	1184	stone	Shipibo_Konibo	makan	piedra	m a k a n	makan	stone/makan			3670
 1877	m a k a n	1184	stone	Kapanawa	makan	piedra	m a k a n	makan	stone/makan			3670
+1878	b u ʃ k i t e	1608	stone	Arara	buʃkite	piedra	b u ʃ k i t e	buʃkite	stone			0
 1879	m ɨ ʂ k i t i	1198	stone	Shanenawa	mɨʂkiti	piedra	m ɨ ʂ k i t i	mɨʂkiti	stone/miʂki			3671
 1880	m a ʂ a ʂ ɨ	1197	stone	Yawanawa	maʂaʂɨ	piedra	m a ʂ a ʂ ɨ	maʂaʂɨ	stone/maʂaʂ			3667
 1881	m ɨ t ɨ	1202	stone	Nukini	mɨtɨ	piedra	m ɨ t ɨ	mɨtɨ	stone/mɨtɨ			3675
@@ -1555,6 +1617,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 1904	- u - i	894	rain	Katukina	ui	lluvia	u i	ui	rain			2823
 1905	- u - i	894	rain	Shipibo_Konibo	ui	lluvia	u i	ui	rain			2823
 1906	- u - i	894	rain	Kapanawa	ui	lluvia	u i	ui	rain			2823
+1907	- - u - i	894	rain	Arara	ui	lluvia	u i	ui	rain			0
 1908	- u - i	894	rain	Shanenawa	ui	lluvia	u i	ui	rain			2823
 1909	a w i	894	rain	Nukini	awi	lluvia	a w i	awi	rain			2826
 1910	n u - i	894	rain	Nukini	nui	lluvia	n u i	nui	rain			2823
@@ -1579,6 +1642,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 1933	i x i n n a	467	fog	Katukina	ixinna	neblina	i x/ʂ i n n a	ixinna	?			1372
 1934	n i ʂ β i	465	fog	Shipibo_Konibo	niʃβi	neblina	n i ʂ β i	niʃβi	fog/nɨʂbi			1365
 1935	n ɨ t ɨ + k u r u	381	fog	Kapanawa	nɨtɨ kuru	neblina	n ɨ t ɨ + k u r u	nɨtɨ kuru	day fog			1369 1366
+1936	b a ts i k i	470	fog	Arara	batsiki	neblina	b a ts i k i	batsiki	?			0
 1937	k u - ĩ -	466	fog	Shanenawa	kuĩ	neblina	k u ĩ	kuĩ	smoke			1367
 1938	k u - i n	466	fog	Iskonawa	kuin	neblina	k u i n	kuin	smoke			1367
 1939	b i ʃ a i	473	fog	Iskonawa	bishai	neblina	b i ʃ a i	bishai	?			1379
@@ -1599,6 +1663,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 1960	n a i	124	cloud	Marubo	nai	nube	n a i	nai	sky			513
 1961	n a i + k u i n - -	124	cloud	Shipibo_Konibo	nai kuin	nube	n a i + k u i n	nai kuin	sky smoke			513 508
 1962	n a i + k u i n - -	124	cloud	Kapanawa	nai kuin	nube	n a i + k u i n	nai kuin	sky smoke/fog			513 508
+1963	k ũ - - - ĩ	124	cloud	Arara	kũĩ	nube	k ũ ĩ	kũĩ	smoke/fog			0
 1964	ɸ u ʂ t a	165	cloud	Shanenawa	ɸuʂta	nube	ɸ u ʂ t a	ɸuʂta	wind			516
 1965	β u ʃ t a	165	cloud	Yawanawa	βuʃta	nube	β u ʃ t a	βuʃta	wind			516
 1966	n ã j̃ + k ũ j̃ n	124	cloud	Iskonawa	nãj̃ kũj̃n	nube	n ã j̃ + k ũ j̃ n	nãj̃ kũj̃n	sky smoke/fog			510 511
@@ -1621,6 +1686,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 1988	n i w i -	1470	wind [breeze]	Katukina	niwi	viento	n i w i	niwi	wind			4592
 1989	n i w ɨ -	1470	wind [breeze]	Shipibo_Konibo	niwɨ	viento	n i w ɨ	niwɨ	wind			4592
 1990	n i w ɨ -	1470	wind [breeze]	Kapanawa	niwɨ	viento	n i w ɨ	niwɨ	wind			4592
+1991	β ɨ	1474	wind [breeze]	Arara	βɨ	viento	β ɨ	βɨ	cloud			0
 1992	n i ɸ ɨ -	1470	wind [breeze]	Shanenawa	niɸu	viento	n i ɸ ɨ	niɸu	wind			4592
 1993	n ɨ w ɨ -	1470	wind [breeze]	Yawanawa	nɨwɨ	viento	n ɨ w ɨ	nɨwɨ	wind			4592
 1994	n a s i	1625	wind [breeze]	Nukini	nasi	viento	n a s i	nasi	?			4600
@@ -1644,6 +1710,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 2016	n a i - -	1068	sky	Katukina	nai	cielo	n a i	nai	sky			3312
 2017	n a i - -	1068	sky	Shipibo_Konibo	nai	cielo	n a i	nai	sky			3312
 2018	n a i - -	1068	sky	Kapanawa	nai	cielo	n a i	nai	sky			3312
+2019	d a - j -	1068	sky	Arara	day	cielo	d a j	day	sky			0
 2020	n a i - -	1068	sky	Shanenawa	nai	cielo	n a i	nai	sky			3312
 2021	n a i - -	1068	sky	Yawanawa	nai	cielo	n a i	nai	sky			3312
 2022	n a i - -	1068	sky	Nukini	nai	cielo	n a i	nai	sky			3312
@@ -1669,6 +1736,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 2046	β a r i	1226	sun	Kanamari	βari	sol	β a r i	βari	sun			3737
 2047	β a r i	1226	sun	Shipibo_Konibo	βari	sol	β a r i	βari	sun			3737
 2048	β a r i	1226	sun	Kapanawa	βari	sol	β a r i	βari	sun			3737
+2049	- ʃ ɨ̃ d i	1612	sun	Arara	ʃɨ̃di	sol	ʃ ɨ̃ d i	ʃɨ̃di	old			0
 2050	ɸ a r i	1226	sun	Shanenawa	ɸari	sol	ɸ a r i	ɸari	sun			3737
 2051	β a r i	1226	sun	Yawanawa	βari	sol	β a r i	βari	sun			3737
 2052	β a r i	1226	sun	Nukini	βari	sol	β a r i	βari	sun			3737
@@ -1694,6 +1762,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 2076	h i ʃ i	1183	star	Kanamari	hiʃi	estrella	h i ʃ i	hiʃi	star			3612
 2077	w i ʃ t i n -	1183	star	Shipibo_Konibo	wiʃtin	estrella	w i ʃ t i n	wiʃtin	star			3613
 2078	w i ʃ i	1183	star	Kapanawa	wiʃi	estrella	w i ʃ i	wiʃi	star			3612
+2079	- i ʃ t - - - - ĩ	1183	star	Arara	iʃtĩ	estrella	i ʃ t ĩ	iʃtĩ	star			0
 2080	- i s t i n -	1183	star	Shanenawa	istin	estrella	i s t i n	istin	star			3613
 2081	- i ʃ t i n -	1183	star	Yawanawa	iʃtin	estrella	i ʃ t i n	iʃtin	star			3613
 2082	- ɨ ʃ t ɨ - -	1183	star	Nukini	ɨʃtɨ	estrella	ɨ ʃ t ɨ	ɨʃtɨ	star			3613
@@ -1717,6 +1786,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 2103	β a r i -	143	day [daytime]	Marubo	βari	dia (de dia)	β a r i	βari	sun			634
 2104	n ɨ t ɨ	211	day [daytime]	Shipibo_Konibo	nɨtɨ	dia (de dia)	n ɨ t ɨ	nɨtɨ	day			630
 2105	n ɨ t ɨ	211	day [daytime]	Kapanawa	nɨtɨ	dia (de dia)	n ɨ t ɨ	nɨtɨ	day			630
+2106	ʃ a β a	210	day [daytime]	Arara	ʃaβa	dia (de dia)	ʃ a β a	ʃaβa	clear			0
 2107	ʂ a w a	210	day [daytime]	Shanenawa	ʂawa	dia (de dia)	ʂ a w a	ʂawa	clear			632
 2108	ʃ a β a	210	day [daytime]	Yawanawa	ʃaβa	dia (de dia)	ʃ a β a	ʃaβa	clear			632
 2109	p ã n a r i	215	day [daytime]	Nukini	pãnari	dia (de dia)	p ã n a r i	pãnari	?			638
@@ -1744,6 +1814,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 2135	j a m - - ɨ	823	night	Kanamari	yamɨ	noche	j a m ɨ	yamɨ	dark			2579
 2136	j a m - - ɨ	823	night	Shipibo_Konibo	yamɨ	noche	j a m ɨ	yamɨ	dark			2579
 2137	j a m - - ɨ	823	night	Kapanawa	yamɨ	noche	j a m ɨ	yamɨ	dark			2579
+2138	j a - m - b u	823	night	Arara	yambu	noche	j a m b u	yambu	dark			0
 2139	j a m - - ɨ	823	night	Shanenawa	jamɨ	noche	j a m ɨ	jamɨ	dark			2579
 2140	i a m ɨ -	823	night	Yawanawa	iamɨ	noche	i a m ɨ	iamɨ	dark			2582
 2141	β a ʃ k i -	824	night	Nukini	βaʃki	noche	β a ʃ k i	βaʃki	dark			2581
@@ -1788,6 +1859,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 2188	n i ʃ i	926	rope (cord)	Shipibo_Konibo	niʃi	cuerda soga	n i ʃ i	niʃi	vine			2952
 2189	r i s β - - i	927	rope (cord)	Shipibo_Konibo	risβi	cuerda soga	r i s β i	risβi	rope			2953
 2190	r i s p - - i	927	rope (cord)	Kapanawa	rispi	cuerda soga	r i s p i	risβi	rope			2953
+2191	r i s ĩ	926	rope (cord)	Arara	risĩ	cuerda soga	r i s ĩ	risĩ	vine			0
 2192	r ɨ s β - - i	927	rope (cord)	Yawanawa	rɨsβi	cuerda soga	r ɨ s β i	rɨsβi	rope			2953
 2193	r i s β - - i	927	rope (cord)	Poyanawa	risβi	cuerda soga	r i s β i	risβɨ	rope			2953
 2194	n i ʃ i	926	rope (cord)	Iskonawa	nishi	cuerda soga	n i ʃ i	nishi	vine			2952
@@ -1810,6 +1882,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 2215	k a tʃ i	961	salt	Marubo	katʃi	sal	k a tʃ i	katʃi	salt			3029
 2216	t a ʃ i	956	salt	Shipibo_Konibo	taʃi	sal	t a ʃ i	taʃi	salt			3022
 2217	t a ʃ i	956	salt	Kapanawa	taʃi	sal	t a ʃ i	taʃi	salt			3022
+2218	b u k a	966	salt	Arara	buka	sal	b u k a	buka	bitter			0
 2219	r u ʂ a n	959	salt	Shanenawa	ruʂan	sal	r u ʂ a n	ruʂan	?			3031
 2220	β a t a n t i	958	salt	Yawanawa	βatanti	sal	β a t a n t i	βatanti	?			3032
 2221	x a u -	962	salt	Poyanawa	xau	sal	x/ʂ a u	xau	salt		borrowing? [Mattis]	3024
@@ -1833,6 +1906,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 2243	e a	1544	I	Katukina	ea	yo	e a	ea	I			3
 2244	ɨ	1544	I	Shipibo_Konibo	ɨ	yo	ɨ	ɨ	I			2
 2245	ɨ	1544	I	Kapanawa	ɨ	yo	ɨ	ɨ	I			2
+2246	ɨ -	1544	I	Arara	ɨ	yo	ɨ	ɨ	I			0
 2247	ɨ	1544	I	Shanenawa	ɨ	yo	ɨ	ɨ	I			2
 2248	ɨ	1544	I	Yawanawa	ɨ	yo	ɨ	ɨ	I			2
 2249	ɨ	1544	I	Nukini	ɨ	yo	ɨ	ɨ	I			2
@@ -1857,6 +1931,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 2273	m i - a	1313	thou [you]	Katukina	mia	usted tu	m i a	mia	you			3982
 2274	m i - -	1313	thou [you]	Shipibo_Konibo	mi	usted tu	m i	mi	you			3982
 2275	m i - -	1313	thou [you]	Kapanawa	mi	usted tu	m i	mi	you			3982
+2276	m i - - -	1313	thou [you]	Arara	mi	usted tu	m i	mi	you			0
 2277	m i - -	1313	thou [you]	Shanenawa	mi	usted tu	m i	mi	you			3982
 2278	m i - -	1313	thou [you]	Yawanawa	mi	usted tu	m i	mi	you			3982
 2279	m i - -	1313	thou [you]	Nukini	mi	usted tu	m i	mi	you			3982
@@ -1903,6 +1978,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 2331	n u - - + k ɨ	1398	we	Marubo	nukɨ	nosotros	n u + k ɨ	nukɨ	we _kɨ			4368 4369
 2332	n u - -	1403	we	Shipibo_Konibo	nu	nosotros	n u	un	we			4368
 2333	n u - - + k ɨ	1398	we	Kapanawa	nukɨ	nosotros	n u + k ɨ	nukɨ	we _kɨ			4368 4369
+2334	n ɨ - -	1398	we	Arara	nɨ	nosotros	n ɨ	nɨ	we			0
 2335	n u - -	1398	we	Shanenawa	nu	nosotros	n u	nu	we			4368
 2336	n u - -	1398	we	Yawanawa	nu	nosotros	n u	nu	we			4368
 2337	n u - -	1398	we	Poyanawa	nu	nosotros	n u	nu	we			4368
@@ -1926,6 +2002,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 2360	m a	1525	ye [you all]	Katukina	ma	ustedes vosotros	m a	ma	you/ma			4762
 2361	m a	1525	ye [you all]	Shipibo_Konibo	ma	ustedes vosotros	m a	ma	you/ma			4762
 2362	m a	1525	ye [you all]	Kapanawa	ma	ustedes vosotros	m a	ma	you/ma			4762
+2363	m a - - - -	1525	ye [you all]	Arara	ma	ustedes vosotros	m a	ma	you			0
 2364	m a	1525	ye [you all]	Shanenawa	ma	ustedes vosotros	m a	ma	you/ma			4762
 2365	m a	1525	ye [you all]	Yawanawa	ma	ustedes vosotros	m a	ma	you/ma			4762
 2366	m a	1525	ye [you all]	Poyanawa	ma	ustedes vosotros	m a	ma	you/ma			4762
@@ -1973,6 +2050,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 2419	ʈʂ u - - a	1443	who [interr.]	Katukina	txua	quien	ʈʂ u a	txua	who _a		!	4519
 2420	ts u - - a	1443	who [interr.]	Shipibo_Konibo	tsu	quien	ts u a	tsu	who _a		!	4519
 2421	ts u - - a	1443	who [interr.]	Kapanawa	tsua	quien	ts u a	tsua	who _a		!	4519
+2422	t u - - a - -	1443	who [interr.]	Arara	tua	quien	t u a	tua	who			0
 2423	ts u - - a	1443	who [interr.]	Shanenawa	tsua	quien	ts u a	tsua	who _a		!	4519
 2424	ts u - - -	1443	who [interr.]	Yawanawa	tsu	quien	ts u	tsu	who			4519
 2425	ts u - - -	1443	who [interr.]	Iskonawa	tsu	quien	ts u	tsu	who			4519
@@ -2036,6 +2114,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 2501	p a j u	935	rotten [log]	Katukina	payu	podrido	p a j u	payu	old			2980
 2502	p a j u	935	rotten [log]	Shipibo_Konibo	payu	podrido	p a j u	payu	old			2980
 2503	p a j u	935	rotten [log]	Kapanawa	payu	podrido	p a j u	payu	age_worn			2980
+2504	tʃ a p u	934	rotten [log]	Arara	tʃapu	podrido	tʃ a p u	tʃapu	age_worn			0
 2505	tʃ a k a	940	rotten [log]	Shanenawa	tʃaka	podrido	tʃ a k a	tʃaka	age_worn			2983
 2506	tʃ a p u	934	rotten [log]	Yawanawa	tʃapu	podrido	tʃ a p u	tʃapu	age_worn			2981
 2507	p i s i -	933	rotten [log]	Nukini	pisi	podrido	p i s i	pisi	rotten			2977
@@ -2059,6 +2138,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 2532	ʈʂ u x ʈʂ a	250	dirty	Katukina	txuxtxa	sucio	ʈʂ u x/ʂ ʈʂ a	txuxtxa	dirty			709
 2533	k ɨ r a s	255	dirty	Shipibo_Konibo	kɨras	sucio	k ɨ r a s	kɨras	dirty			718
 2534	r i ʃ t a	161	dirty	Kapanawa	riʃta	sucio	r i ʃ t a	riʃta	dirty			711
+2535	- - - t - ɨ ʃ t - a	250	dirty	Arara	tɨʃta	sucio	t ɨ ʃ t a	tɨʃta	dirty			0
 2536	f u i	253	dirty	Shanenawa	fui	sucio	f u i	fui	pitch			717
 2537	h u i	253	dirty	Yawanawa	hui	sucio	h u i	hui	pitch			717
 2538	β u h t a	155	dirty	Nukini	βuhta	sucio	β u h t a	βuhta	dirty			709
@@ -2157,6 +2237,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 2654	ʂ u β i + i k i	112	blow [wind]	Marubo	ʂuβi iki	soplar	ʂ u β i + i k i	ʂuβi iki	blow iki			385 383
 2655	ʂ u - -	111	blow [wind]	Shipibo_Konibo	ʂu	soplar	ʂ u	ʂu	blow			385
 2656	ʂ u - - a n - - - + - k i	111	blow [wind]	Kapanawa	ʂuanki	soplar	ʂ u a n + k i	ʂuanki	blow _ki			381 383
+2657	ʂ ũ - - - - - ã	111	blow [wind]	Arara	ʂũã	soplar	ʂ ũ ã	ʂũã	blow			0
 2658	ʂ u - - a n - - -	111	blow [wind]	Shanenawa	ʂuan	soplar	ʂ u a n	ʂuan	blow			381
 2659	s u - i	111	blow [wind]	Yawanawa	sui	soplar	s u i	sui	blow			385
 2660	h u - - - n - - -	111	blow [wind]	Poyanawa	hun	soplar	h u n	hun	blow			381
@@ -2200,6 +2281,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 2707	n u - - j a -	456	fly [verb]	Marubo	nuja	volar	n u j a	nuja	fly			1342
 2708	n u - - j a -	456	fly [verb]	Shipibo_Konibo	nuya	volar	n u j a	nuya	fly			1342
 2709	n u - - j a -	456	fly [verb]	Kapanawa	nuya	volar	n u j a	nuya	fly			1342
+2710	p ɨ r a ĩ	460	fly [verb]	Arara	pɨraĩ	volar	p ɨ r a ĩ	pɨraĩ	wing			0
 2711	n u - - j a -	456	fly [verb]	Shanenawa	nuja	volar	n u j a	nuja	fly			1342
 2712	n u - - j a -	456	fly [verb]	Yawanawa	nuja	volar	n u j a	nuja	fly			1342
 2713	j ũ ⁿd a	459	fly [verb]	Poyanawa	jũnda	volar	j ũ ⁿd a	jũnda	fly			1343
@@ -2222,6 +2304,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 2734	n u n a -	1241	swim	Katukina	nuna	nadar	n u n a	nuna	float			3789
 2735	n u n u -	1241	swim	Shipibo_Konibo	nunu	nadar	n u n u	nunu	float			3789
 2736	n u n a -	1241	swim	Kapanawa	nuna	nadar	n u n a	nuna	float			3789
+2737	t u - p i - - - - -	1242	swim	Arara	tupi	nadar	t u p i	tupi	gather			0
 2738	t u n p i -	1242	swim	Shanenawa	tunpi	nadar	t u n p i	tupi	gather_with_hands			3787
 2739	t u - p i n	1242	swim	Yawanawa	tupin	nadar	t u p i n	tupin	gather_with_hands			3787
 2740	u a	1247	swim	Poyanawa	ua	nadar	u a	ua	float			3792
@@ -2262,6 +2345,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 2782	u r i	176	come	Marubo	uri	venir	u r i	uri	come _ri		!	565
 2783	h u - -	176	come	Shipibo_Konibo	hu	venir	h u	hu	come			563
 2784	h u - -	176	come	Kapanawa	hu	venir	h u	hu	come			563
+2785	- u - a	176	come	Arara	ua	venir	u a	ua	come			0
 2786	u	176	come	Shanenawa	u	venir	u	u	come			564
 2787	u	176	come	Yawanawa	u	venir	u	uwi	come			564
 2788	u	176	come	Nukini	u	venir	u	ua	come			564
@@ -2287,6 +2371,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 2814	p a k i - - -	334	fall [drop]	Katukina	paki	caer(-se)	p a k i	paki	fall			993
 2815	p a k ɨ - - t	334	fall [drop]	Shipibo_Konibo	pakɨt	caer(-se)	p a k ɨ t	pakɨt	fall			993
 2816	p a k ɨ - - -	334	fall [drop]	Kapanawa	pakɨ	caer(-se)	p a k ɨ	pakɨ	fall			993
+2817	- - p a k ɨ - - -	334	fall [drop]	Arara	pakɨ	caer(-se)	p a k ɨ	pakɨ	fall			0
 2818	p a k ɨ - - -	334	fall [drop]	Shanenawa	pakɨ	caer(-se)	p a k ɨ	pakɨ	fall			993
 2819	p a k ɨ - - -	334	fall [drop]	Yawanawa	pakɨ	caer(-se)	p a k ɨ	pakɨ	fall			993
 2820	p a k ɨ - - -	334	fall [drop]	Iskonawa	pakɨ	caer(-se)	p a k ɨ	pakɨ	fall			993
@@ -2348,6 +2433,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 2890	t ɨ r i	851	pull	Marubo	tɨri	jalar	t ɨ r i	tɨri	pull/tɨk _ri		!	2782
 2891	n i n i	874	pull	Shipibo_Konibo	nini	jalar	n i n i	nini	pull			2778
 2892	n i n i	874	pull	Kapanawa	nini	jalar	n i n i	nini	pull			2778
+2893	n i n d i	874	pull	Arara	nindi	jalar	n i ⁿd i	nindi				0
 2894	n i n i	874	pull	Shanenawa	nini	jalar	n i n i	nini	pull			2778
 2895	n i n i	874	pull	Yawanawa	nini	jalar	n i n i	nini	pull			2778
 2896	h a # h a # a k	879	pull	Iskonawa	ha ha ak	jalar	h a + h a + a k	ha ha ak	ha ha do		!	2780
@@ -2390,6 +2476,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 2943	h i k u	1354	turn [intr. v.]	Katukina	hiku	voltear(se) girar	h i k u	hiku	?			4190
 2944	r a β - - ɨ	1343	turn [intr. v.]	Shipibo_Konibo	raβɨ	voltear(se) girar	r a β ɨ	raβɨ	turn/ɾaβɨ			4188
 2945	r a β - - ɨ	1343	turn [intr. v.]	Kapanawa	raβɨ	voltear(se) girar	r a β ɨ	raβɨ	turn/ɾaβɨ			4188
+2946	u a	1350	turn [intr. v.]	Arara	ua	voltear(se) girar	u a	ua				0
 2947	n i t ã	1351	turn [intr. v.]	Yawanawa	nitã	voltear(se) girar	n i t ã	nitã	?			4197
 2948	m a j a	1349	turn [intr. v.]	Iskonawa	maja	voltear(se) girar	m a j a	maja	turn/maja			4186
 2949	β u p i	1356	turn [intr. v.]	Chakobo	βupi	voltear(se) girar	β u p i	βupi	turn/βupi			4187
@@ -2433,6 +2520,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 2996	u s a n	864	play	Marubo	usan	jugar	u s a n	usan	laugh			2766
 2997	ts i n i	866	play	Shipibo_Konibo	tsini	jugar	ts i n i	tsini	play/tsini			2765
 2998	ʃ i r u	862	play	Kapanawa	ʃiru	jugar	ʃ i r u	ʃiru	play/ʃiru			2759
+2999	ʃ u ʃ u i	862	play	Arara	ʃuʃui	jugar	ʃ u ʃ u i	ʃuʃui				0
 3000	ʂ u ʂ u	862	play	Shanenawa	ʂuʂu	jugar	ʂ u ʂ u	ʂuʂu	play/ʂuʂu			2764
 3001	ʂ u ʂ u	862	play	Yawanawa	ʃuʃu	jugar	ʂ u ʂ u	ʃuʃu	play/ʂuʂu			2764
 3002	m ɨ k a	863	play	Iskonawa	mɨka	jugar	m ɨ k a	mɨka	hand _ka		!	2757
@@ -2454,6 +2542,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 3022	p a ts a -	1383	wash	Shipibo_Konibo	patsa	lavar	p a ts a	patsa	wash_clothes_beating			4312
 3023	d a p a n	1386	wash	Kapanawa	dapan	lavar	d a p a n	dapan	?			4314
 3024	p a ts a -	1383	wash	Kapanawa	patsa	lavar	p a ts a	patsa	wash_clothes_beating			4312
+3025	p ã s - a - - - - -	1383	wash	Arara	pãsa	lavar	p ã s a	pãsa				0
 3026	tʃ u k a	1384	wash	Shanenawa	tʃuka	lavar	tʃ u k a	tʃuka	wash			4313
 3027	tʃ u k a	1384	wash	Yawanawa	tʃuka	lavar	tʃ u k a	tʃuka	wash			4313
 3028	tʃ u k i	1384	wash	Poyanawa	ʧuki	lavar	tʃ u k i	ʧuki	wash			4313
@@ -2534,6 +2623,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 3121	m a k i	552	kill	Katukina	maki	matar	m a k i	maki	head _ki		!	1923
 3122	r ɨ t ɨ	638	kill	Shipibo_Konibo	rɨtɨ	matar	r ɨ t ɨ	rɨtɨ	kill			1913
 3123	r ɨ t ɨ	638	kill	Kapanawa	rɨtɨ	matar	r ɨ t ɨ	rɨtɨ	kill			1913
+3124	r ɨ t ɨ -	638	kill	Arara	rɨtɨ	matar	r ɨ t ɨ	rɨtɨ				0
 3125	r ɨ t ɨ	638	kill	Shanenawa	rɨtɨ	matar	r ɨ t ɨ	rɨtɨ	kill			1913
 3126	r ɨ t ɨ	638	kill	Yawanawa	rɨtɨ	matar	r ɨ t ɨ	rɨtɨ	kill			1913
 3127	r ɨ t ɨ	638	kill	Nukini	rɨtɨ	matar	r ɨ t ɨ	rɨtɨ	kill			1913
@@ -2558,6 +2648,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 3150	r i x k i	587	hit	Katukina	rixki	golpear pegar	r i x/ʂ k i	rixki	scrup			1797
 3151	r i ʃ k i	587	hit	Shipibo_Konibo	riʃki	golpear pegar	r i ʃ k i	riʃki	scrub			1797
 3152	r i ʃ k i	587	hit	Kapanawa	riʃki	golpear pegar	r i ʃ k i	riʃki	scrup			1797
+3153	k ɨ - ʃ a	585	hit	Arara	kɨʃa	golpear pegar	k ɨ ʃ a	kɨʃa				0
 3154	k u ʂ a	585	hit	Shanenawa	kuʂa	golpear pegar	k u ʂ a	kuʂa	hit			1798
 3155	k u ʃ a	585	hit	Yawanawa	kuʃa	golpear pegar	k u ʃ a	kuʃa	hit			1798
 3156	b u r u t u	592	hit	Poyanawa	burutu	golpear pegar	b u r u t u	burutu	?			1800
@@ -2580,6 +2671,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 3177	w ɨ a k i n a n	393	fight	Marubo	wɨakinan	pelear luchar	w ɨ a k i n a n	wɨakinan	?			1197
 3178	r ɨ t i - - - - + a n a n	394	fight	Shipibo_Konibo	rɨtianan	pelear luchar	r ɨ t i + a n a n	rɨtianan	kill _REC			1194 1192
 3179	r ɨ t ɨ - - - - + - n a n + k a n	392	fight	Kapanawa	rɨtɨnankan	pelear luchar	r ɨ t ɨ + n a n + k a n	rɨtɨnankan	kill _REC _PL			1194 1192 1196
+3180	r ɨ t ɨ - - - -	394	fight	Arara	rɨtɨ	pelear luchar	r ɨ t ɨ	rɨtɨ				0
 3181	i k i n a	321	fight	Poyanawa	ikina	pelear luchar	i k i n a	ikina	?			1199
 3182	m u ʃ a	396	fight	Iskonawa	muʃa	pelear luchar	m u ʃ a	muʃa	?			1195
 3183	n i a n a	393	fight	Chakobo	niana	pelear luchar	n i a n a	niana	get_closer _REC		!	1193
@@ -2620,6 +2712,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 3225	r e r a	206	cut [verb]	Katukina	rera	cortar	r e r a	rera	cut/rɨra			608
 3226	ʂ a t ɨ	193	cut [verb]	Shipibo_Konibo	ʂatɨ	cortar	ʂ a t ɨ	ʂatɨ	cut/ʂatɨ			605
 3227	ʂ a t ɨ	193	cut [verb]	Kapanawa	ʂatɨ	cortar	ʂ a t ɨ	ʂatɨ	cut/ʂatɨ			605
+3228	ʃ a t i -	193	cut [verb]	Arara	ʃati	cortar	ʃ a t i	ʃati				0
 3229	ʂ a t ɨ	193	cut [verb]	Shanenawa	ʂatɨ	cortar	ʂ a t ɨ	ʂatɨ	cut/ʂatɨ			605
 3230	w ɨ ʃ a	203	cut [verb]	Yawanawa	wɨʃa	cortar	w ɨ ʃ a	wɨʃa	?			612
 3231	h a t ɨ	193	cut [verb]	Nukini	hatɨ	cortar	h a t ɨ	hatɨ	cut/ʂatɨ			605
@@ -2722,6 +2815,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 3367	n a ʂ a	90	bite	Katukina	naʂa	morder	n a ʂ a	naxa	bite/naʂa			305
 3368	n a t ɨ ʂ -	92	bite	Shipibo_Konibo	natɨʂ	morder	n a t ɨ ʂ	natɨʂ	bite			304
 3369	n a t ɨ ʂ -	92	bite	Kapanawa	natɨʂ	morder	n a t ɨ ʂ	natɨʂ	bite			304
+3370	d a k a	90	bite	Arara	daka	morder	d a k a	daka				0
 3371	n a k a	90	bite	Shanenawa	naka	morder	n a k a	naka	bite/naka			305
 3372	n a k a	90	bite	Yawanawa	naka	morder	n a k a	naka	bite/naka			305
 3373	d a ç a	91	bite	Poyanawa	daça	morder	d a ç a	daça	bite/naʂa			305
@@ -2746,6 +2840,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 3397	m ɨ n u	141	burn [tr. v.]	Shipibo_Konibo	mɨnu	quemar	m ɨ n u	mɨnu	burn/mɨnu			463
 3398	m a w a	116	burn [tr. v.]	Kapanawa	mawa	quemar	m a w a	mawa	?			462
 3399	k u - a	140	burn [tr. v.]	Kapanawa	kua	quemar	k u a	kua	burn _wa		!	459
+3400	k u - a - i	140	burn [tr. v.]	Arara	kuai	quemar	k u a i	kuai				0
 3401	tʃ i w a	107	burn [tr. v.]	Shanenawa	tʃiwa	quemar	tʃ i w a	tʃiwa	?			467
 3402	k u - -	140	burn [tr. v.]	Yawanawa	ku	quemar	k u	ku	burn			459
 3403	k u - a	140	burn [tr. v.]	Poyanawa	kua	quemar	k u a	kua	burn _wa		!	459
@@ -2809,6 +2904,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 3477	u - i n	997	see	Katukina	uin	ver	u i n	uin	see/uin			3123
 3478	u - i n	997	see	Shipibo_Konibo	uin	ver	u i n	win	see/uin			3123
 3479	h i s - -	996	see	Kapanawa	his	ver	h i s	his	see/is			3124
+3480	- ũ - - ĩ	997	see	Arara	ũĩ	ver	ũ ĩ	ũĩ				0
 3481	u - i n	997	see	Shanenawa	uin	ver	u i n	uin	see/uin			3123
 3482	u - i n	997	see	Yawanawa	uin	ver	u i n	uin	see/uin			3123
 3483	u - i n	997	see	Iskonawa	uin	ver	u i n	uin	see/uin			3123
@@ -2831,6 +2927,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 3504	n i n k a -	559	hear	Katukina	ninka	oir	n i n k a	ninka	hear			1692
 3505	n i n k a t	559	hear	Shipibo_Konibo	ninkat	oir	n i n k a t	ninkat	hear			1692
 3506	n i n k a -	559	hear	Kapanawa	ninka	oir	n i n k a	ninka	hear			1692
+3507	d i - k a - -	559	hear	Arara	dika	oir	d i k a	dika				0
 3508	n i n k a -	559	hear	Shanenawa	ninka	oir	n i n k a	ninka	hear			1692
 3509	n i - k a -	559	hear	Yawanawa	nika	oir	n i k a	nika	hear			1692
 3510	t a p i	560	hear	Poyanawa	tapi	oir	t a p i	tapi	?			1697
@@ -2874,6 +2971,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 3556	t a n a	652	know [facts]	Katukina	tana	saber	t a n a	tana	feel/taste			1943
 3557	u n a n	651	know [facts]	Shipibo_Konibo	unan	saber	u n a n	unan	know			1940
 3558	u n a n	651	know [facts]	Kapanawa	unan	saber	u n a n	unan	know			1940
+3559	t a p - i -	650	know [facts]	Arara	tapi	saber	t a p i	tapi				0
 3560	t a p i n	650	know [facts]	Shanenawa	tapin	saber	t a p i n	tapian	know/tapin			1942
 3561	t a p i n	650	know [facts]	Yawanawa	tapin	saber	t a p i n	tapin	know/tapin			1942
 3562	u n a n	651	know [facts]	Iskonawa	unan	saber	u n a n	unan	know			1940
@@ -2896,6 +2994,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 3583	x i n a -	1295	think	Katukina	xina	pensar	x/ʂ i n a	xina	think			3936
 3584	ʃ i n a n	1295	think	Shipibo_Konibo	ʃinan	pensar	ʃ i n a n	ʃinan	think			3936
 3585	ʃ i n a n	1295	think	Kapanawa	ʃinan	pensar	ʃ i n a n	ʃinan	think			3936
+3586	ʃ i n ã - -	1295	think	Arara	ʃinã	pensar	ʃ i n ã	ʃinã				0
 3587	ʃ i n a n	1295	think	Shanenawa	ʃinan	pensar	ʃ i n a n	ʃinan	think			3936
 3588	ʃ i n a n	1295	think	Yawanawa	ʃinan	pensar	ʃ i n a n	ʃinan	think			3936
 3589	ʃ i n a n	1295	think	Iskonawa	ʃinan	pensar	ʃ i n a n	ʃinan	think			3936
@@ -2916,6 +3015,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 3613	- - r a k ɨ ʂ u n	366	fear [verb]	Marubo	rakɨʂun	temer	r a k ɨ ʂ u n	rakɨʂun	fear/rakuɨ			1089
 3614	- - r a k ɨ - - -	366	fear [verb]	Shipibo_Konibo	rakɨ	temer	r a k ɨ	rakɨ	fear/ratɨ			1089
 3615	- - r a k ɨ - - -	366	fear [verb]	Kapanawa	rakɨ	temer	r a k ɨ	rakɨti	fear/rakuɨ			1089
+3616	b ɨ s ɨ a i	368	fear [verb]	Arara	bɨsɨai	temer	b ɨ s ɨ a i	bɨsɨai				0
 3617	r a t ɨ	366	fear [verb]	Shanenawa	ratɨ	temer	r a t ɨ	ratɨ	fear/ratɨ			1090
 3618	r a t ɨ	366	fear [verb]	Yawanawa	ratɨ	temer	r a t ɨ	ratɨ	fear/ratɨ			1090
 3619	ʃ i r a k ɨ - - -	366	fear [verb]	Nukini	ʃirakɨ	temer	ʃ i r a k ɨ	ʃirakɨ	_ʃi fear/rakuɨ		!	1089
@@ -2943,6 +3043,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 3648	u s a n -	661	laugh	Shipibo_Konibo	usan	reir	u s a n	usan	laugh			1991
 3649	u s a n -	661	laugh	Kapanawa	usan	reir	u s a n	usan	laugh			1991
 3650	β i ts a t i	663	laugh	Kapanawa	βitsati	reir	β i ts a t i	βitsati	?			1994
+3651	ʃ ɨ tʃ a	662	laugh	Arara	ʃɨtʃa	reir	ʃ ɨ tʃ a	ʃɨtʃa				0
 3652	ʂ u tʃ i	662	laugh	Shanenawa	ʂutʃi	reir	ʂ u tʃ i	ʂutʃi	?			1992
 3653	u ʃ a n -	661	laugh	Yawanawa	uʃan	reir	u ʃ a n	uʃan	laugh			1991
 3654	β i ts a	668	laugh	Poyanawa	βitsa	reir	β i ts a	βitsa	?			1997
@@ -2966,6 +3067,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 3676	n iː - -	629	hunt	Katukina	nii	cazar	n iː	nii	forest			1870
 3677	j u m e r a	620	hunt	Shipibo_Konibo	yumera	cazar	j u m e r a	yumera	thing find		!	1867
 3678	j u m ɨ r a	620	hunt	Kapanawa	yumɨra	cazar	j u m ɨ r a	yumɨra	?			1867
+3679	- - d i	616	hunt	Arara	di	cazar	d i	di				0
 3680	n i - -	629	hunt	Shanenawa	ni	cazar	n i	ni	forest			1870
 3681	a i β ũ	630	hunt	Nukini	aiβũ	cazar	a i β ũ	aiβũ	?			1875
 3682	p a s u	547	hunt	Chakobo	pasu	cazar	p a s u	pasu	?			1863
@@ -2987,6 +3089,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 3705	a k a	274	drink [verb]	Katukina	aka	beber tomar	a k a	aka	do			762
 3706	ʂ ɨ a	272	drink [verb]	Shipibo_Konibo	ʂɨa	beber tomar	ʂ ɨ a	ʂɨa	drink/ʂɨa			760
 3707	ʂ ɨ a	272	drink [verb]	Kapanawa	ʂɨa	beber tomar	ʂ ɨ a	ʂɨa	drink/ʂɨa			760
+3708	n u m ã	282	drink [verb]	Arara	numã	beber tomar	n u m ã	numã				0
 3709	a j a	277	drink [verb]	Shanenawa	aja	beber tomar	a j a	aja	drink/aja			758
 3710	a j a	277	drink [verb]	Yawanawa	aja	beber tomar	a j a	aia	drink/aja			758
 3711	a j a	277	drink [verb]	Nukini	aya	beber tomar	a j a	aya	drink/aja			765
@@ -3010,6 +3113,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 3733	p i - -	322	eat	Katukina	pi	comer	p i	pipa	eat			912
 3734	p i - -	322	eat	Shipibo_Konibo	pi	comer	p i	pi	eat			912
 3735	p i - -	322	eat	Kapanawa	pi	comer	p i	pi	eat			912
+3736	p - - i	322	eat	Arara	pi	comer	p i	pi				0
 3737	p i - -	322	eat	Shanenawa	pi	comer	p i	pi	eat			912
 3738	p i - -	322	eat	Yawanawa	pi	comer	p i	pi	eat			912
 3739	p i - -	322	eat	Nukini	pi	comer	p i	pi	eat			912
@@ -3058,6 +3162,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 3794	k i n a n	1332	vomit [verb]	Shipibo_Konibo	kinan	vomitar	k i n a n	kinan	vomit/kinan			4237
 3795	h a n a -	1361	vomit [verb]	Kapanawa	hana	vomitar	h a n a	hanaiki	vomit			4237
 3796	k i n a n	1332	vomit [verb]	Kapanawa	kinan	vomitar	k i n a n	kinani	vomit/kinan			4237
+3797	- a n ã - - - -	1361	vomit [verb]	Arara	anã	vomitar	a n ã	anã				0
 3798	- a n a n	1361	vomit [verb]	Shanenawa	anan	vomitar	a n a n	anan	vomit			4237
 3799	- a n a n	1361	vomit [verb]	Yawanawa	anan	vomitar	a n a n	anan	vomit			4237
 3800	- a n a n	1361	vomit [verb]	Nukini	anan	vomitar	a n a n	anan	vomit			4237
@@ -3098,6 +3203,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 3845	u x a	1073	sleep	Katukina	uxa	dormir	u x/ʂ a	uxa	sleep			3337
 3846	u ʂ a	1073	sleep	Shipibo_Konibo	uʂa	dormir	u ʂ a	uʂa	sleep			3337
 3847	u ʂ a	1073	sleep	Kapanawa	uʂa	dormir	u ʂ a	uʂai	sleep			3337
+3848	u ʃ a - -	1073	sleep	Arara	uʃa	dormir	u ʃ a	uʃa				0
 3849	u ʂ a	1073	sleep	Shanenawa	uʂa	dormir	u ʂ a	uʂa	sleep			3337
 3850	u ʃ a	1073	sleep	Yawanawa	uʃa	dormir	u ʃ a	uʃa	sleep			3337
 3851	u h a	1073	sleep	Nukini	uha	dormir	u h a	uha	sleep			3337
@@ -3123,6 +3229,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 3875	h u i n - -	128	breathe	Shipibo_Konibo	huin	respirar	h u i n	huin	breathe/hu			436
 3876	h u i n - -	128	breathe	Kapanawa	huin	respirar	h u i n	huini	breathe/hu			436
 3877	t ɨ β a i	139	breathe	Kapanawa	tɨβai	respirar	t ɨ β a i	tɨβai	?			444
+3878	s a k ã - - - -	127	breathe	Arara	sakã	respirar	s a k ã	sakã				0
 3879	ʂ a k a - n - -	127	breathe	Shanenawa	ʂakan	respirar	ʂ a k a n	ʂakan	breathe/ʂakan			434
 3881	h u a n - -	128	breathe	Iskonawa	huan	respirar	h u a n	huan	breathe/hu			436
 3882	ʂ a k a - - - -	127	breathe	Chakobo	ʂaka	respirar	ʂ a k a	ʂaka	breathe/ʂakan			434
@@ -3184,6 +3291,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 3953	β u p i	224	die	Katukina	βupi	morir	β u p i	βupi	die/βupi			663
 3954	m a w a t	223	die	Shipibo_Konibo	mawat	morir	m a w a t	mawat	die/mawa			661
 3955	m a w a -	223	die	Kapanawa	mawa	morir	m a w a	mawati	die/mawa			661
+3956	- - d a - -	220	die	Arara	da	morir	d a	da				0
 3957	n a	220	die	Shanenawa	na	morir	n a	na	die/na			658
 3958	n a	220	die	Yawanawa	na	morir	n a	na	die/na			658
 3959	a j a k a	226	die	Poyanawa	ajaka	morir	a j a k a	ajaka	?			667
@@ -3206,6 +3314,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 3980	i k i	981	say	Marubo	iki	decir	i k i	iki	be			3084
 3981	j u - i	971	say	Shipibo_Konibo	yui	decir	j u i	yui	tell			3078
 3982	j u - i	971	say	Kapanawa	yui	decir	j u i	yui	tell			3078
+3983	ts ã	980	say	Arara	tsã	decir	ts ã	tsã				0
 3984	j u - -	971	say	Shanenawa	ju	decir	j u	ju	tell			3078
 3985	j u - i	971	say	Yawanawa	jui	decir	j u i	jui	tell			3078
 3986	β a n a	974	say	Iskonawa	βana	decir	β a n a	βana	word			3080
@@ -3228,6 +3337,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 4007	k a n t a	1044	sing	Katukina	kanta	cantar	k a n t a	kanta	sing/SPANISH			3245
 4008	β ɨ w - a	1043	sing	Shipibo_Konibo	βɨwa	cantar	β ɨ w a	βɨwa	sing/βɨwa			3239
 4009	β ɨ w a i	1043	sing	Kapanawa	βɨwai	cantar	β ɨ w a i	βɨwai	sing/βɨwa			3239
+4010	k i - - - -	1044	sing	Arara	ki	cantar	k i	ki				0
 4011	k a	1044	sing	Shanenawa	ka	cantar	k a	ka	do			3249
 4012	r ɨ w ɨ - - - -	1043	sing	Poyanawa	rɨwɨ	cantar	r ɨ w ɨ	rɨwɨ	sing/rɨwɨ			3242
 4013	r ɨ w i n # i k	1043	sing	Iskonawa	rɨwin ik	cantar	r ɨ w i n + i k	rɨwin ik	sing/rɨwin AUX		!	3242
@@ -3247,6 +3357,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 4033	e w e	573	heavy	Katukina	ewe	pesado	e w e	ewe	heavy			1745
 4034	ɨ w ɨ	573	heavy	Shipibo_Konibo	ɨwɨ	pesado	ɨ w ɨ	ɨwɨ	heavy			1745
 4035	i w ɨ	573	heavy	Kapanawa	iwɨ	pesado	i w ɨ	iwɨ	heavy			1745
+4036	j u i t a p a	576	heavy	Arara	juitapa	pesado	j u i t a p a	juitapa				0
 4037	j u i t a p a	576	heavy	Shanenawa	juitapa	pesado	j u i t a p a	juitapa	?			1749
 4038	i w ɨ	573	heavy	Yawanawa	iwɨ	pesado	i w ɨ	iwɨ	heavy			1745
 4039	h a - k a m a	575	heavy	Iskonawa	hakama	pesado	h a k a m a	hakama	? _NEG		!	1746
@@ -3269,6 +3380,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 4060	m a n j u -	1098	smooth	Katukina	manyu	liso	m a n j u	manyu	smooth/mayun			3447
 4061	j ɨ n k ɨ n -	1100	smooth	Shipibo_Konibo	yɨnkɨn	liso	j ɨ n k ɨ n	yɨnkɨn	smooth/yɨnkɨn			3444
 4063	j ɨ n k ɨ n i	1100	smooth	Kapanawa	yɨnkɨni	liso	j ɨ n k ɨ n i	yɨnkɨni	smooth/jɨɸa			3444
+4064	m a - ĩ ũ -	1098	smooth	Arara	maĩũ	liso	m a ĩ ũ	maĩũ				0
 4065	m a - j u n	1098	smooth	Yawanawa	mayun	liso	m a j u n	mayun	smooth/mayun			3447
 4066	β a r a -	1101	smooth	Iskonawa	βara	liso	β a r a	βara	smooth/bara			3445
 4067	p a r a -	1101	smooth	Chakobo	para	liso	p a r a	para	smooth/bara			3445
@@ -3292,6 +3404,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 4089	x a n a -	1374	warm (hot weather)	Katukina	xana	caliente	x/ʂ a n a	xana	warm/ʂana			4287
 4090	ʂ a n a -	1374	warm (hot weather)	Shipibo_Konibo	ʂana	caliente	ʂ a n a	ʂana	warm/ʂana			4287
 4091	ʂ a n a -	1374	warm (hot weather)	Kapanawa	ʂana	caliente	ʂ a n a	ʂana	warm/ʂana			4287
+4092	- ʃ a - - d a -	1374	warm (hot weather)	Arara	ʃada	caliente	ʃ a d a	ʃada				0
 4093	ʂ a n a -	1374	warm (hot weather)	Shanenawa	ʂana	caliente	ʂ a n a	ʂana	warm/ʂana			4287
 4094	ʂ a n a -	1374	warm (hot weather)	Yawanawa	ʂana	caliente	ʂ a n a	ʂana	warm/ʂana			4287
 4095	ũ t i s i	1375	warm (hot weather)	Poyanawa	ũtisi	caliente	ũ t i s i	ũtisi	?			4292
@@ -3317,6 +3430,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 4120	m a t i	170	cold [weather]	Katukina	mati	frio	m a t i	mati	cold			535
 4121	m a ts i	170	cold [weather]	Shipibo_Konibo	matsi	frio	m a ts i	matsi	cold			535
 4122	m a ts i	170	cold [weather]	Kapanawa	matsi	frio	m a ts i	matsi	cold			535
+4123	b a - - ts - i	170	cold [weather]	Arara	batsi	frio	b a ts i	batsi				0
 4124	m a ts i	170	cold [weather]	Shanenawa	matsi	frio	m a ts i	matsi	cold			535
 4125	m a ts i	170	cold [weather]	Yawanawa	matsi	frio	m a ts i	matsi	cold			535
 4126	m a ts i	170	cold [weather]	Nukini	matsi	frio	m a ts i	matsi	cold			538
@@ -3342,6 +3456,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 4150	r i s k i	1020	sharp [knife]	Katukina	riski	filudo filoso	r i s k i	riski	?			3194
 4151	k ɨ - n ʂ u	1589	sharp [knife]	Shipibo_Konibo	kɨnʂu	filudo filoso	k ɨ n ʂ u	kɨnʂu	sharp/kɨnʂu			3193
 4152	k ɨ - - ʂ u	1589	sharp [knife]	Kapanawa	kɨʂu	filudo filoso	k ɨ ʂ u	kɨʂu	sharp/kɨʂu			3193
+4153	d u a n i p a	1022	sharp [knife]	Arara	duanipa	filudo filoso	d u a n i p a	duanipa				0
 4154	k ɨ - n t u	1014	sharp [knife]	Iskonawa	kɨntu	filudo filoso	k ɨ n t u	kɨntu	sharp/kɨnu			3193
 4155	k ɨ - n - u	1014	sharp [knife]	Chakobo	kɨnu	filudo filoso	k ɨ n u	kɨnu	sharp/kɨnu			3193
 4156	ɨ i k a	1017	sharp [knife]	Pakawara	ɨika	filudo filoso	ɨ i k a	ɨika	?			3197
@@ -3376,6 +3491,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 4193	m u k i	1212	straight	Katukina	muki	recto derecho	m u k i	muki	?			3694
 4194	p u n t ɨ	1208	straight	Shipibo_Konibo	puntɨ	recto derecho	p u n t ɨ	puntɨ	straight/puntɨ			3692
 4195	p u n t ɨ	1208	straight	Kapanawa	puntɨ	recto derecho	p u n t ɨ	puntɨ	straight/puntɨ			3692
+4196	k a i a k a β i	1207	straight	Arara	kaiakaβi	recto derecho	k a i a k a β i	kaiakaβi				0
 4197	m ɨ s t ɨ -	1206	straight	Shanenawa	mɨstɨ	recto derecho	m ɨ s t ɨ	mɨstɨn	straight/mɨstɨ			3691
 4198	m i s t a n	1206	straight	Yawanawa	mistan	recto derecho	m i s t a n	mistan	straight/mɨstɨ			3691
 4199	m ɨ s t ɨ -	1206	straight	Chakobo	mɨstɨ	recto derecho	m ɨ s t ɨ	mɨstɨ	straight/mɨstɨ			3691
@@ -3397,6 +3513,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 4221	t x e - ʃ e	99	black	Katukina	txeshe	negro	tx/ʈʂ e ʃ e	txeshe	black/tʃɨʂɨ			329
 4222	w i s - - u	98	black	Shipibo_Konibo	wisu	negro	w i s u	wisu	black/wisu			330
 4223	w i s - - u	98	black	Kapanawa	wisu	negro	w i s u	wisu	black/wisu			330
+4224	t - ɨ - ʃ ɨ	1563	black	Arara	tɨʃɨ	negro	t ɨ ʃ ɨ	tɨʃɨ				0
 4225	t - ɨ - ʂ ɨ	1563	black	Shanenawa	tɨʂɨ	negro	t ɨ ʂ ɨ	tuʂu	black/tʃɨʂɨ			329
 4226	tʃ - ɨ h ʃ ɨ	99	black	Yawanawa	tʃɨhʃɨ	negro	tʃ ɨ h ʃ ɨ	tʃɨhʃɨ	black/tʃɨʂɨ			329
 4227	β i s - - u	98	black	Nukini	βisu	negro	β i s u	βisu	black/wisu			330
@@ -3422,6 +3539,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 4252	- u x - - u	1439	white	Katukina	uxu	blanco	u x/ʂ u	uxu	white			4495
 4253	h u ʂ - - u	1439	white	Shipibo_Konibo	huʂu	blanco	h u ʂ u	huʂu	white			4495
 4254	h u ʂ - - u	1439	white	Kapanawa	huʂu	blanco	h u ʂ u	huʂu	white			4495
+4255	- o ʃ ɨ p a	1621	white	Arara	oʃɨpa	blanco	o ʃ ɨ p a	oʃɨpa				0
 4256	- u ʃ - - u	1439	white	Yawanawa	uʃu	blanco	u ʃ u	uʃu	white			4495
 4257	- u h - - u	1439	white	Nukini	uhu	blanco	u h u	uhu	white			4495
 4258	- u h - - u	1439	white	Poyanawa	uhu	blanco	u h u	uhu	white			4495
@@ -3445,6 +3563,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 4281	- u n j i -	875	red	Katukina	unji	rojo	u n j i	unji	red			2848
 4282	h u - ʃ i n	875	red	Shipibo_Konibo	huʃin	rojo	h u ʃ i n	huʃin	red			2848
 4283	h u - ʃ i n	875	red	Kapanawa	huʃin	rojo	h u ʃ i n	huʃin	red			2848
+4284	- u - ʃ i n i p a	875	red	Arara	uʃinipa	rojo	u ʃ i n i p a	uʃinipa				0
 4285	u ʂ u n i	875	red	Shanenawa	uʂuni	rojo	u ʂ u n i	uʂuni	red			2853
 4286	- u - ʃ i n	875	red	Yawanawa	uʃin	rojo	u ʃ i n	uʃin	red			2848
 4287	t a ʃ - - i	903	red	Poyanawa	taʃi	rojo	t a ʃ i	taʃi	?			2850
@@ -3468,6 +3587,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 4310	m a n j i n	1531	yellow	Katukina	manjin	amarillo	m a n j i n	manjin	?			4827
 4311	p a n ʃ i n -	1531	yellow	Shipibo_Konibo	panʃin	amarillo	p a n ʃ i n	panʃin	yellow/paʃin			4826
 4312	p a - ʃ i n -	1531	yellow	Kapanawa	paʃin	amarillo	p a ʃ i n	paʃin	yellow/paʃin			4826
+4313	p ã - ʃ i - -	1531	yellow	Arara	pãʃi	amarillo	p ã ʃ i	pãʃi				0
 4314	p a - ʂ i n i	1531	yellow	Shanenawa	paʂini	amarillo	p a ʂ i n i	paʂini	yellow/paʃin			4826
 4315	p a - ʃ i n -	1531	yellow	Yawanawa	paʃin	amarillo	p a ʃ i n	paʃin	yellow/paʃin			4826
 4316	p ã - ʃ i - -	1531	yellow	Nukini	pãʃi	amarillo	p ã ʃ i	pãʃi	yellow/paʃin			4826
@@ -3491,6 +3611,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 4338	ʃ a - u	530	green [color]	Katukina	shau	verde	ʃ a u	shau	small/unripe			1513
 4339	j a n k u n	518	green [color]	Shipibo_Konibo	yankun	verde	j a n k u n	yankun	?			1515
 4340	j a n k u n	518	green [color]	Kapanawa	yankun	verde	j a n k u n	yankun	?			1515
+4341	ʃ i n i n i p a	533	green [color]	Arara	ʃininipa	verde	ʃ i n i n i p a	ʃininipa				0
 4342	ʂ u - -	530	green [color]	Shanenawa	ʂu	verde	ʂ u	ʂu	small/unripe			1513
 4343	ʂ u k u	530	green [color]	Yawanawa	ʂuku	verde	ʂ u k u	ʂuku	small/unripe			1513
 4344	h u k u	530	green [color]	Nukini	huku	verde	h u k u	huku	small/unripe			1513
@@ -3515,6 +3636,8 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 4368	β e n a	812	new	Katukina	βena	nuevo	β e n a	βena	new			2556
 4369	β ɨ n a	812	new	Shipibo_Konibo	βɨna	nuevo	β ɨ n a	βɨna	new			2556
 4370	β ɨ n a	812	new	Kapanawa	βɨna	nuevo	β ɨ n a	βɨna	new			2556
+4371	β ɨ n d a	812	new	Arara	βɨnda	nuevo	β ɨ ⁿd a	βɨnda				0
+4372	p ɨ ʃ k ɨ	817	new	Arara	pɨʃkɨ	nuevo	p ɨ ʃ k ɨ	pɨʃkɨ				0
 4373	f ɨ n a	812	new	Shanenawa	fɨna	nuevo	f ɨ n a	fɨna	new			2556
 4374	β ɨ n a	812	new	Yawanawa	βɨna	nuevo	β ɨ n a	βɨna	new			2556
 4375	β ɨ h u	812	new	Poyanawa	βɨhu	nuevo	β ɨ h u	βɨhu	new			2561
@@ -3537,6 +3660,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 4399	ʃ e n i a	833	old [adj.]	Katukina	shenia	viejo	ʃ e n i a	sheni-a	old/ʂɨni _a		!	2659
 4400	p a j u	837	old [adj.]	Shipibo_Konibo	payu	viejo	p a j u	payu	old			2666
 4401	ʂ ɨ n i -	833	old [adj.]	Kapanawa	ʂɨni	viejo	ʂ ɨ n i	ʂɨni	old/ʂɨni			2659
+4402	ã d i h ɨ	842	old [adj.]	Arara	ãdihɨ	viejo	ã d i h ɨ	ãdihɨ				0
 4403	a n i	805	old [adj.]	Shanenawa	ani	viejo	a n i	ani	big			2665
 4404	ʃ i n i -	833	old [adj.]	Yawanawa	ʃini	viejo	ʃ i n i	ʃini	old/ʂɨni			2659
 4405	n u s i	834	old [adj.]	Nukini	nusi	viejo	n u s i	nusi	old_man			2660
@@ -3562,6 +3686,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 4430	h a k u n	502	good	Shipibo_Konibo	hakun	bueno	h a k u n	hakun	good/hakun			1472
 4431	s i r - - i	498	good	Kapanawa	siri	bueno	s i r i	siri	?			1466
 4432	h a k u n	502	good	Kapanawa	hakun	bueno	h a k u n	hakun	good			1472
+4433	ʃ a r - - a	498	good	Arara	ʃara	bueno	ʃ a r a	ʃara				0
 4434	ʃ a r a k a	498	good	Shanenawa	ʃaraka	bueno	ʃ a r a k a	ʂaraka	good/ʃara _ka		!	1466
 4435	ʃ a r - - a	498	good	Yawanawa	ʃara	bueno	ʃ a r a	ʃara	good/ʃara			1466
 4436	i r u - - -	499	good	Nukini	iru	bueno	i r u	iru	good/iru			1468
@@ -3586,6 +3711,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 4459	h a k u n + m - a	41	bad	Shipibo_Konibo	hakunma	malo	h a k u n + m a	hakun-ma	good/hakun _ma			180 178
 4460	i r u + m a	33	bad	Kapanawa	iruma	malo	i r u + m a	tiruma	good _NEG		!	170 178
 4461	h a k u n + m - a	41	bad	Kapanawa	hakunma	malo	h a k u n + m a	hakunma	good/hakun _NEG			180 178
+4462	ʃ a r a m b a	37	bad	Arara	ʃaramba	malo	ʃ a r a m b a	ʃaramba				0
 4463	ʃ a r a + m - a	37	bad	Shanenawa	ʃarama	malo	ʃ a r a + m a	ʂarama	good/ʃara _NEG			179 178
 4464	tʃ a k - - a	38	bad	Yawanawa	tʃaka	malo	tʃ a k a	tʃaka	ugly			172
 4465	i r - - u + m - a	33	bad	Nukini	iruma	malo	i r u + m a	iruma	good _NEG			170 178
@@ -3610,6 +3736,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 4492	m e ʈʂ a	1404	wet	Katukina	metxa	mojado	m e ʈʂ a	metxa	wet/mɨtʃa			4397
 4493	m ɨ tʃ a	1404	wet	Shipibo_Konibo	mɨtʃa	mojado	m ɨ tʃ a	mɨtʃa	wet/mɨtʃa			4397
 4494	m ɨ tʃ a	1404	wet	Kapanawa	mɨtʃa	mojado	m ɨ tʃ a	mɨtʃa	wet/mɨtʃa			4397
+4495	- - b ɨ tʃ - a	1404	wet	Arara	bɨtʃa	mojado	b ɨ tʃ a	bɨtʃa				0
 4496	m ɨ tʃ a	1404	wet	Shanenawa	mɨtʃa	mojado	m ɨ tʃ a	mutʃia	wet/mɨtʃa			4397
 4498	b ɨ ʃ a	1404	wet	Poyanawa	bɨʃa	mojado	b ɨ ʃ a	bɨʃa	wet/mɨtʃa			4397
 4499	m ɨ tʃ a	1404	wet	Iskonawa	mɨʧa	mojado	m ɨ tʃ a	mɨʧa	wet/mɨtʃa			4397
@@ -3634,6 +3761,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 4523	m ɨ tʃ a m a	182	dry [adj./v.]	Shipibo_Konibo	mɨtʃama	seco	m ɨ tʃ a m a	mɨtʃama	wet _NEG		!	782
 4524	p u t - - u + n i	163	dry [adj./v.]	Kapanawa	putuni	seco	p u t u + n i	putuni	dust _ni			782 785
 4525	tʃ u ʃ i -	285	dry [adj./v.]	Kapanawa	tʃuʃi	seco	tʃ u ʃ i	tʃuʃi				791
+4526	ʃ a k a	286	dry [adj./v.]	Arara	ʃaka	seco	ʃ a k a	ʃaka				0
 4527	m ɨ t - - u	284	dry [adj./v.]	Shanenawa	mɨtu	seco	m ɨ t u	mɨtu	dry/mɨtu			782
 4528	ʂ a k a	286	dry [adj./v.]	Yawanawa	ʂaka	seco	ʂ a k a	ʂaka	bark			792
 4529	b a s k u	288	dry [adj./v.]	Poyanawa	basku	seco	b a s k u	basku	?			790
@@ -3659,6 +3787,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 4555	n ɨ - -	577	here	Shipibo_Konibo	nɨ	aqui aca	n ɨ	nɨ	here			1768
 4556	n ɨ n u	577	here	Kapanawa	nɨnu	aqui aca	n ɨ n u	nɨnu	here _LOC		!	1768
 4557	n ɨ a + β i	577	here	Kapanawa	nɨaβi	aqui aca	n ɨ a + β i	nɨaβi	here _a _EMP		!	1769 1771
+4558	n a n - d u	577	here	Arara	nandu	aqui aca	n a ⁿd u	nandu				0
 4559	n ɨ n u	577	here	Shanenawa	nɨnu	aqui aca	n ɨ n u	nɨnu	here _LOC		!	1768
 4560	n ɨ n u	577	here	Yawanawa	nɨnu	aqui aca	n ɨ n u	nɨnu	here _LOC		!	1768
 4561	n i nd u	577	here	Poyanawa	nindu	aqui aca	n i nd u	nĩdu	here _LOC		!	1768
@@ -3683,6 +3812,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 4588	u tʃ u + m a	1578	near	Shipibo_Konibo	utʃuma	cerca	u tʃ u + m a	utʃu-ma	far/utʃu  _NEG			2478 2479
 4589	u tʃ u + m a	1578	near	Kapanawa	utʃuma	cerca	u tʃ u + m a	utʃuma	far _not			2478 2479
 4590	p a t a ʂ	800	near	Kapanawa	pataʂ	cerca	p a t a ʂ	pataʂ	?			2482
+4591	- - tʃ a - i m b a	796	near	Arara	tʃaimba	cerca	tʃ a i m b a	tʃaimba				0
 4592	tʃ a - i m - - - a	796	near	Shanenawa	tʃaima	cerca	tʃ a i m a	tʃjama	far/chai _NEG		!	2474
 4593	tʃ a - i m - - - a	796	near	Yawanawa	tʃaima	cerca	tʃ a i m a	tʃaima	far/chai _NEG		!	2474
 4594	n i + n u + h u k u	795	near	Iskonawa	ninuhuku	cerca	n i + n u + h u k u	ninuhuku	here _LOC _DIM			2475 2476 2477
@@ -3706,6 +3836,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 4617	u tʃ u	343	far	Shipibo_Konibo	utʃu	lejos	u tʃ u	utʃu	far/utʃu			1028
 4618	n ɨ n o m a	354	far	Kapanawa	nɨnoma	lejos	n ɨ n o m a	nɨnoma	here _NEG		!	1022
 4619	u tʃ u	343	far	Kapanawa	utʃu	lejos	u tʃ u	utʃu	far/utʃu			1028
+4620	tʃ a i -	342	far	Arara	tʃai	lejos	tʃ a i	tʃai				0
 4621	tʃ a i	342	far	Shanenawa	tʃai	lejos	tʃ a i	tʃaj	far			1018
 4622	tʃ a i	342	far	Yawanawa	tʃai	lejos	tʃ a i	tʃai	far			1018
 4623	tʃ i t u m a	347	far	Iskonawa	ʧituma	lejos	tʃ i t u m a	ʧituma	? _NEG		!	1020
@@ -3729,6 +3860,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 4645	a n i p a	64	big	Katukina	anipa	grande	a n i p a	ani-pa	big _pa		!	259
 4646	a n - - i	64	big	Shipibo_Konibo	ani	grande	a n i	ani	big/ani			259
 4647	a n - - i	64	big	Kapanawa	ani	grande	a n i	ani	big/ani			259
+4648	i w a p a	63	big	Arara	iwapa	grande	i w a p a	iwapa				0
 4649	ɨ w a p a	63	big	Shanenawa	ɨwapa	grande	ɨ w a p a	ɨwapa	mother _pa		!	256
 4650	i w a p a	63	big	Yawanawa	iwapa	grande	i w a p a	iwapa	mother _pa		!	256
 4651	r ɨ p a	1555	big	Nukini	rɨpa	grande	r ɨ p a	rɨpa	?			262
@@ -3769,6 +3901,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 4697	a n i	1274	thick	Marubo	ani	grueso	a n i	ani	big			3890
 4698	k ɨ ʂ t u	1266	thick	Shipibo_Konibo	kɨʂtu	grueso	k ɨ ʂ t u	kɨʂtu	think			3886
 4699	k ɨ ʂ t u	1266	thick	Kapanawa	kɨʂtu	grueso	k ɨ ʂ t u	kɨʂtu	think			3886
+4700	i w a p a # ʃ a n d i	1276	thick	Arara	iwapa ʃandi	grueso	i w a p a + ʃ a ⁿd i	iwapa ʃandi				0
 4701	k ɨ ʂ t u	1266	thick	Shanenawa	kɨʂtu	grueso	k ɨ ʂ t u	kɨʂtu	think			3886
 4702	ɨ w a p - - - - a	1267	thick	Yawanawa	ɨwapa	grueso	ɨ w a p a	ɨwapa	mother _pa		!	3888
 4703	h u k u m b a	1273	thick	Poyanawa	hukumba	grueso	h u k u m b a	hukumba	small _NEG		!	3892
@@ -3792,6 +3925,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 4726	m a ʂ + k u	1082	small	Shipibo_Konibo	maʂku	pequeño	m a ʂ + k u	maʂku	small/maʂku		!	3372 3373
 4727	p i ʃ k a	1075	small	Kapanawa	piʃka	pequeño	p i ʃ k a	piʃka	small/piʃta			3362
 4728	h a n i + m a -	1060	small	Kapanawa	hanima	pequeño	h a n i + m a	hanima	big _not			3374 3372
+4729	i w a p a m b - - - a	1076	small	Arara	iwapamba	pequeño	i w a p a m b a	iwapamba				0
 4730	ɨ w - - a p a - m a	1076	small	Shanenawa	ɨwapama	pequeño	ɨ w a p a m a	ɨwapama	mother _pa _NEG		!	3366
 4731	i w - - a p a - m a	1076	small	Yawanawa	iwapama	pequeño	i w a p a m a	iwapama	mother _pa _NEG		!	3366
 4732	p i ʃ t a	1075	small	Nukini	piʃta	pequeño	p i ʃ t a	piʃta	small			3362
@@ -3817,6 +3951,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 4757	w i r i ʃ	1278	thin	Shipibo_Konibo	wiriʃ	delgado	w i r i ʃ	wiriʃ	?			3922
 4758	p a ʂ β i	1290	thin	Kapanawa	paʂβi	delgado	p a ʂ β i	paʂβi	thin/paʂβi			3911
 4759	w i r i ʃ	1278	thin	Kapanawa	wiriʃ	delgado	w i r i ʃ	wiriʃ	wiriʃ			3922
+4760	β ɨ - ʃ - n a	1280	thin	Arara	βɨʃna	delgado	β ɨ ʃ n a	βɨʃna				0
 4761	m a i n a	1283	thin	Shanenawa	maina	delgado	m a i n a	maina	?			3921
 4762	m a i n a	1283	thin	Yawanawa	maina	delgado	m a i n a	maina	?			3921
 4763	p a h n a	1288	thin	Nukini	pahna	delgado	p a h n a	pahna	thin/pahna			3920
@@ -3842,6 +3977,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 4789	h ɨ s t ɨ	782	narrow	Shipibo_Konibo	hɨstɨ	angosto estrecho	h ɨ s t ɨ	hɨstɨ	?			2462
 4790	k u n ts u	777	narrow	Kapanawa	kuntsu	angosto estrecho	k u n ts u	kuntsu	?			2451
 4791	n a ʂ β a + m a	785	narrow	Kapanawa	naʂβama	angosto estrecho	n a ʂ β a + m a	naʂβama	clear _ma			2464 2465
+4792	p a s ĩ	1574	narrow	Arara	pasĩ	angosto estrecho	p a s ĩ	pasĩ				0
 4793	s i k u	1571	narrow	Shanenawa	siku	angosto estrecho	s i k u	siku	?			2461
 4794	i ɨ r ɨ i k a	784	narrow	Yawanawa	iɨrɨika	angosto estrecho	i ɨ r ɨ i k a	iɨrɨika	?			2463
 4795	i r u i ʃ t a	1573	narrow	Poyanawa	iruiʃta	angosto estrecho	i r u i ʃ t a	iruiʃta	?			2460
@@ -3863,6 +3999,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 4816	n ɨ n k ɨ	713	long	Shipibo_Konibo	nɨnkɨ	largo	n ɨ n k ɨ	nɨnkɨ	long/nɨnkɨ			2192
 4817	n ɨ n k ɨ	713	long	Kapanawa	nɨnkɨ	largo	n ɨ n k ɨ	nɨnkɨ	long/nɨnkɨ			2192
 4818	tʃ a - - - - i	681	long	Kapanawa	tʃai	largo	tʃ a i	tʃai	long			2188
+4819	tʃ a j n i p a	681	long	Arara	tʃajnipa	largo	tʃ a j n i p a	tʃajnipa				0
 4820	ɨ w a p a	711	long	Yawanawa	ɨwapa	largo	ɨ w a p a	ɨwapa	mother _pa		!	2193
 4821	ʃ a - - - - i	681	long	Nukini	ʃai	largo	ʃ a i	ʃai	long			2188
 4822	h u k u m b a	721	long	Poyanawa	hukumba	largo	h u k u m b a	hukumba	small _NEG		!	2198
@@ -3885,6 +4022,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 4843	m a ʂ k u	1028	short	Shipibo_Konibo	maʂku	corto bajo (vertical)	m a ʂ k u	maʂku	small			3224
 4844	k ɨ j a t a + m a	1041	short	Kapanawa	kɨyatama	corto bajo (vertical)	k ɨ j a t a + m a	kɨyatama	? _ma			3216 3217
 4845	m a ʂ k u	1028	short	Kapanawa	maʂku	corto bajo (vertical)	m a ʂ k u	maʂku	small			3224
+4846	h u - t u	1591	short	Arara	hutu	corto bajo (vertical)	h u t u	hutu				0
 4847	ɸ u - t i	1023	short	Shanenawa	ɸuti	corto bajo (vertical)	ɸ u t i	ɸuti	?			3215
 4848	h u - t u	1023	short	Yawanawa	hutu	corto bajo (vertical)	h u t u	hutu	?			3215
 4849	β ũ - t u	1023	short	Nukini	βũtu	corto bajo (vertical)	β ũ t u	βũtu	?			3215
@@ -3911,6 +4049,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 4878	w ɨ s t e - - - -	843	one	Kanamari	wɨste	uno	w ɨ s t e	wɨste	one/wɨsti			2685
 4879	w ɨ s t i - - - - + u r a	843	one	Shipibo_Konibo	wɨstiura	uno	w ɨ s t i + u r a	wɨstiura	one/wɨsti far			2685 2692
 4880	w ɨ s t i - - - -	843	one	Kapanawa	wɨsti	uno	w ɨ s t i	wɨsti	one			2685
+4881	β i ʃ t - - - - i -	843	one	Arara	βiʃti	uno	β i ʃ t i	βiʃti				0
 4882	w i s t i s - i -	843	one	Shanenawa	wistisi	uno	w i s t i s i	wistisi	one/wɨsti			2685
 4883	w ɨ s t i - - - -	843	one	Yawanawa	wɨsti	uno	w ɨ s t i	wɨsti	one/wɨsti			2685
 4884	r a β u k a m b a	845	one	Poyanawa	raβukamba	uno	r a β u k a m b a	raβukamba	two _NEG		!	2691
@@ -3935,6 +4074,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 4907	- - r a β ɨ - -	1358	two	Kanamari	raβɨ	dos	r a β ɨ	raβɨ	two			4209
 4908	- - r a β ɨ - -	1358	two	Shipibo_Konibo	raβɨ	dos	r a β ɨ	raβɨ	two			4209
 4909	- - r a β ɨ - -	1358	two	Kapanawa	raβɨ	dos	r a β ɨ	raβɨ	two			4209
+4910	- - r a v - - - - ɨ n - ɨ	1358	two	Arara	ravɨnɨ	dos	r a v ɨ n ɨ	ravɨnɨ				0
 4911	- - r a ɸ u - -	1358	two	Shanenawa	raɸu	dos	r a ɸ u	raɸu	two			4209
 4912	- - r a β ɨ - -	1358	two	Yawanawa	raβɨ	dos	r a β ɨ	raβɨ	two			4209
 4913	- - r a β ɨ - -	1358	two	Poyanawa	raβɨ	dos	r a β ɨ	raβɨ	two			4209
@@ -3960,6 +4100,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 4937	i tʃ - - a	735	many	Shipibo_Konibo	itʃa	muchos	i tʃ a	itʃa	many			2271
 4938	a ʃ u a	738	many	Kapanawa	aʃua	muchos	a ʃ u a	aʃua	?			2274
 4939	i tʃ - - a	735	many	Kapanawa	itʃa	muchos	i tʃ a	itʃa	many			2271
+4940	- i - tʃ a p a	735	many	Arara	itʃapa	muchos	i tʃ a p a	itʃapa				0
 4941	i tʃ - - a	735	many	Shanenawa	itʃa	muchos	i tʃ a	itʃa	many			2271
 4942	i tʃ - - a	735	many	Yawanawa	itʃa	muchos	i tʃ a	itʃa	many			2271
 4943	r u m b a	742	many	Poyanawa	rumba	muchos	r u m b a	rumba	?			2280
@@ -3985,6 +4126,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 4969	w ɨ s t i	385	few	Shipibo_Konibo	wɨsti	pocos	w ɨ s t i	wɨsti	few			1173
 4970	i tʃ a + j a + m a	384	few	Kapanawa	itʃayama	pocos	i tʃ a + j a + m a	itʃayama	many _ja _ma			1162 1163 1164
 4971	w ɨ s t i	385	few	Kapanawa	wɨsti	pocos	w ɨ s t i	wɨsti	one			1173
+4972	- i tʃ - - a p a - m a	384	few	Arara	itʃapama	pocos	i tʃ a p a m a	itʃapama				0
 4973	i tʃ a	384	few	Shanenawa	itʃa	pocos	i tʃ a	itʃa	many			1162
 4974	i tʃ a p a m - - - - a	384	few	Yawanawa	itʃapama	pocos	i tʃ a p a m a	itʃapama	many _pa _NEG		!	1159
 4975	- - - p i - - - ʃ t a	384	few	Nukini	piʃta	pocos	p i ʃ t a	piʃta	small			1159
@@ -4008,6 +4150,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 4999	a ʂ k a n s ɨ	3	all	Marubo	aʂkansɨ	todos	a ʂ k a n s ɨ	aʂkansɨ	?			32
 5000	h a t - - i + β i	6	all	Shipibo_Konibo	hatiβi	todos	h a t i + β i	hatiβi	all _EMP			27 36
 5001	h a t i β i	6	all	Kapanawa	hatiβi	todos	h a t i β i	hatiβi	all _EMP		!	27
+5002	β i ʃ t i m b a	14	all	Arara	βiʃtimba	todos	β i ʃ t i m b a	βiʃtimba				0
 5003	n a r a m a	1	all	Shanenawa	narama	todos	n a r a m a	narama	all/na _NEG?		!	39
 5004	h ɨ tʃ u + m a	13	all	Iskonawa	hɨtʃuma	todos	h ɨ tʃ u + m a	hɨtʃuma	few _NEG			28
 5005	h a t i t a	6	all	Chakobo	hatita	todos	h a t i t a	hatita	all			27
@@ -4040,6 +4183,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 5042	w i ts a n	852	other	Katukina	witsan	otro	w i ts a n	witsan	other			2715
 5043	w ɨ ts a	852	other	Shipibo_Konibo	wɨtsa	otro	w ɨ ts a	wɨtsa	other			2713
 5044	w ɨ ts a	852	other	Kapanawa	wɨtsa	otro	w ɨ ts a	wɨtsa	other			2713
+5045	β ɨ - ts a	852	other	Arara	βɨtsa	otro	β ɨ ts a	βɨtsa				0
 5046	w i ts a	852	other	Iskonawa	witsa	otro	w i ts a	witsa	other			2713
 5047	w ɨ s t a	852	other	Chakobo	wɨsta	otro	w ɨ s t a	wɨsta	other			2714
 5048	β ɨ ts i	852	other	Kakataibo	βɨtsi	otro	β ɨ ts i	βɨtsi	other/i			2713
@@ -4057,6 +4201,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 5066	h a n d u r a	1434	where [interr.]	Katukina	handura	donde	h a n d u r a	handu-ra	that _LOC/nu _ra		!	4473
 5067	h a w - - ɨ - + r a - n u	1431	where [interr.]	Shipibo_Konibo	hawɨranu	donde	h a w ɨ + r a n u	hawɨranu	what ranu			4471 4472
 5068	h a w - - ɨ - + r a - n u	1431	where [interr.]	Kapanawa	hawɨranu	donde	h a w ɨ + r a n u	hawɨranu	what ra _LOC/nu		!	4471 4472
+5069	- a u n ĩ	1429	where [interr.]	Arara	aunĩ	donde	a u n ĩ	aunĩ				0
 5070	h a k - - i -	1432	where [interr.]	Shanenawa	haki	donde	h a k i	haki	that _LOC/ki		!	4471
 5071	- a - n u	1429	where [interr.]	Yawanawa	anu	donde	a n u	anu	there			4472
 5072	- u - a n i -	1429	where [interr.]	Iskonawa	uani	donde	u a n i	uani	that _LOC/ni		!	4471
@@ -4077,6 +4222,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 5092	- a w - - - ɨ + - - - t i - a n -	1420	when [interr.]	Marubo	awɨtian	cuando	a w ɨ + t i a n	awɨtian	what when			4448 4446
 5093	h a w - - - ɨ + - - - t i - a n -	1420	when [interr.]	Shipibo_Konibo	hawɨtian	cuando	h a w ɨ + t i a n	hawɨtian	what _TEMP			4448 4446
 5094	h a w - - - ɨ + - - - t i - a n -	1420	when [interr.]	Kapanawa	hawɨtian	cuando	h a w ɨ + t i a n	hawɨtian	what tian			4448 4446
+5095	- a - ũ t i - a - -	1420	when [interr.]	Arara	aũtia	cuando	a ũ t i a	aũtia				0
 5096	- h a t i - a n -	1420	when [interr.]	Shanenawa	hatian	cuando	h a t i a n	hatian	that _TEMP		!	4446
 5097	- a w - - - ɨ + - - - t i - a n -	1420	when [interr.]	Yawanawa	awɨtian	cuando	a w ɨ + t i a n	awɨtian	what _TEMP			4448 4446
 5098	p ã n u i	1425	when [interr.]	Nukini	pãnui	cuando	p ã n u i	pãnui	?			4451

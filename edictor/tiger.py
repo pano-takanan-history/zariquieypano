@@ -47,7 +47,7 @@ def get_tiger(wordlist, shuffle=False, sample=None, ref="cogid"):
             scored[charA] += [score]
     return scored, mean(scores), stdev(scores)
 
-sig = 1000
+sig = 100
 
 wl = Wordlist("pano-body-parts.tsv")
 scored, mean_score, stdev_score = get_tiger(wl, ref="bodyid")
@@ -65,23 +65,6 @@ print(tabulate([
         "{0:.2f}".format(mean(all_stdevs))],
     ["Significance", "{0}".format(hits), "{0:.2f}".format(hits/sig)]]))
 bpchars = wl.height
-
-wl = Wordlist("pano-auto.tsv")
-scored, mean_score, stdev_score = get_tiger(wl, ref="autocogid")
-
-all_scores, all_stdevs, hits = [], [], 0
-for i in progressbar(range(sig), desc="run shuffle"):
-    a, b, c = get_tiger(wl, ref="autocogid", shuffle=True)
-    all_scores += [b]
-    all_stdevs += [c]
-    if b >= mean_score:
-        hits += 1
-print("\n# LexStat Cognates")
-print(tabulate([
-    ["Attested", "{0:.2f}".format(mean_score), "{0:.2f}".format(stdev_score)],
-    ["Random", "{0:.2f}".format(mean(all_scores)),
-        "{0:.2f}".format(mean(all_stdevs))],
-    ["Significance", "{0}".format(hits), "{0:.2f}".format(hits/sig)]]))
 
 wl = Wordlist("pano-auto.tsv")
 scores, stdevs = [], []
@@ -104,5 +87,24 @@ print(tabulate([
     ["Random", "{0:.2f}".format(mean(all_scores)),
         "{0:.2f}".format(mean(all_stdevs))],
     ["Significance", "{0}".format(hits), "{0:.2f}".format(hits/sig)]]))
+
+wl = Wordlist("pano-auto.tsv")
+scored, mean_score, stdev_score = get_tiger(wl, ref="autocogid")
+
+all_scores, all_stdevs, hits = [], [], 0
+for i in progressbar(range(sig), desc="run shuffle"):
+    a, b, c = get_tiger(wl, ref="autocogid", shuffle=True)
+    all_scores += [b]
+    all_stdevs += [c]
+    if b >= mean_score:
+        hits += 1
+print("\n# LexStat Cognates")
+print(tabulate([
+    ["Attested", "{0:.2f}".format(mean_score), "{0:.2f}".format(stdev_score)],
+    ["Random", "{0:.2f}".format(mean(all_scores)),
+        "{0:.2f}".format(mean(all_stdevs))],
+    ["Significance", "{0}".format(hits), "{0:.2f}".format(hits/sig)]]))
+
+
 
 

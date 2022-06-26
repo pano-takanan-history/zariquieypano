@@ -12,8 +12,9 @@ def run(wordlist):
     lex.get_scorer(runs=10000)
 
     lex.cluster(threshold=0.55, method="lexstat", cluster_method="infomap", ref="autocogid")
+    lex.cluster(threshold=0.45, method="sca", cluster_method="infomap", ref="autoscaid")
 
-    D = {0: wordlist.columns+["autocogid"]}
+    D = {0: wordlist.columns+["autocogid", "autoscaid"]}
     for idx in lex:
         D[idx] = [lex[idx, h] for h in D[0]]
     return Wordlist(D)
