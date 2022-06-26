@@ -11,7 +11,34 @@ from pyedictor import fetch
 from pylexibank import Lexeme
 import lingpy
 
-LANGUAGES = "Matses|Matis|Marubo|Shipibo_Konibo|Kapanawa|Shanenawa|Yawanawa|Nukini|Poyanawa|Iskonawa|Chakobo|Kakataibo|Kaxarari|Mastanawa|Chaninawa|Sharanawa|Amawaka|Nawa|Marinawa|Yaminawa|Kashinawa_P|Kashinawa_B|Katukina|Pakawara|Kanamari".split("|")
+LANGUAGES = [
+        "Arara",
+        "Amawaka",
+        "Chakobo",
+        "Chaninawa",
+        "Iskonawa",
+        "Kakataibo",
+        "Kanamari",
+        "Kapanawa",
+        "Kashinawa_B",
+        "Kashinawa_P",
+        "Katukina",
+        "Kaxarari",
+        "Marinawa",
+        "Marubo",
+        "Mastanawa",
+        "Matis",
+        "Matses",
+        "Nawa",
+        "Nukini",
+        "Pakawara",
+        "Poyanawa",
+        "Shanenawa",
+        "Sharanawa",
+        "Shipibo_Konibo",
+        "Yaminawa",
+        "Yawanawa",
+        ]
 
 @attr.s
 class CustomLanguage(Language):

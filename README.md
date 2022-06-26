@@ -21,15 +21,15 @@ This dataset is licensed under a CC-BY-4.0 license
 ![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 
-- **Varieties:** 25
+- **Varieties:** 26
 - **Concepts:** 181
-- **Lexemes:** 4,113
-- **Sources:** 11
-- **Synonymy:** 1.05
+- **Lexemes:** 4,259
+- **Sources:** 12
+- **Synonymy:** 1.04
 - **Invalid lexemes:** 0
-- **Tokens:** 17,904
-- **Segments:** 63 (0 BIPA errors, 0 CTLS sound class errors, 63 CLTS modified)
-- **Inventory size (avg):** 26.64
+- **Tokens:** 18,640
+- **Segments:** 67 (0 BIPA errors, 0 CTLS sound class errors, 67 CLTS modified)
+- **Inventory size (avg):** 26.96
 
 ## CLDF Datasets
 
