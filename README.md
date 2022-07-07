@@ -27,7 +27,7 @@ This dataset is licensed under a CC-BY-4.0 license
 - **Sources:** 12
 - **Synonymy:** 1.04
 - **Invalid lexemes:** 0
-- **Tokens:** 18,581
+- **Tokens:** 18,588
 - **Segments:** 64 (0 BIPA errors, 0 CTLS sound class errors, 64 CLTS modified)
 - **Inventory size (avg):** 26.85
 
