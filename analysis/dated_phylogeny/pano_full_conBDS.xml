@@ -1548,19 +1548,19 @@ dataType="standard">
                     <taxon id="Matis" spec="Taxon"/>
                     <taxon id="Matses" spec="Taxon"/>
                 </taxonset>
-                <Uniform id="Uniform.383" lower="400.0" name="distr" upper="Infinity"/>
+                <Uniform id="Uniform.383" lower="400.0" name="distr" upper="4000.0"/>
             </distribution>
-            <distribution id="chacobo.prior" spec="beast.math.distributions.MRCAPrior" monophyletic="true" tree="@Tree.t:tree" useOriginate="true">
+            <distribution id="chacobo.prior" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:tree" useOriginate="true">
                 <taxonset id="chacobo" spec="TaxonSet">
                     <taxon id="Chakobo" spec="Taxon"/>
                 </taxonset>
-                <Uniform id="Uniform.377" lower="300.0" name="distr" upper="Infinity"/>
+                <Uniform id="Uniform.377" lower="300.0" name="distr" upper="4000.0"/>
             </distribution>
-            <distribution id="kakataibo.prior" spec="beast.math.distributions.MRCAPrior" monophyletic="true" tree="@Tree.t:tree" useOriginate="true">
+            <distribution id="kakataibo.prior" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:tree" useOriginate="true">
                 <taxonset id="kakataibo" spec="TaxonSet">
                     <taxon id="Kakataibo" spec="Taxon"/>
                 </taxonset>
-                <Uniform id="Uniform.376" lower="300.0" name="distr" upper="Infinity"/>
+                <Uniform id="Uniform.376" lower="300.0" name="distr" upper="4000.0"/>
             </distribution>
             <distribution id="kapa_ship_branch.prior" spec="beast.math.distributions.MRCAPrior" monophyletic="true" tree="@Tree.t:tree">
                 <taxonset id="kapa_ship_branch" spec="TaxonSet">
@@ -1568,17 +1568,17 @@ dataType="standard">
                     <taxon id="ShipiboKonibo" spec="Taxon"/>
                 </taxonset>
             </distribution>
-            <distribution id="kapanawa.prior" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:tree">
+            <distribution id="kapanawa.prior" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:tree" useOriginate="true">
                 <taxonset id="kapanawa" spec="TaxonSet">
                     <taxon idref="Kapanawa"/>
                 </taxonset>
-                <Uniform id="Uniform.378" lower="300.0" name="distr" upper="Infinity"/>
+                <Uniform id="Uniform.378" lower="300.0" name="distr" upper="4000.0"/>
             </distribution>
-            <distribution id="shipibo.prior" spec="beast.math.distributions.MRCAPrior" monophyletic="true" tree="@Tree.t:tree" useOriginate="true">
+            <distribution id="shipibo.prior" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:tree" useOriginate="true">
                 <taxonset id="shipibo" spec="TaxonSet">
                     <taxon idref="ShipiboKonibo"/>
                 </taxonset>
-                <Uniform id="Uniform.385" lower="300.0" name="distr" upper="Infinity"/>
+                <Uniform id="Uniform.385" lower="300.0" name="distr" upper="4000.0"/>
             </distribution>
         </distribution>
         <distribution id="likelihood" spec="util.CompoundDistribution" useThreads="true">
@@ -4553,14 +4553,14 @@ filter="1425-1430"/>
         <log id="rate.c:clock" spec="beast.evolution.branchratemodel.RateStatistic" branchratemodel="@RelaxedClock.c:clock" tree="@Tree.t:tree"/>
         <log idref="shipibo.prior"/>
         <log idref="MatsesMatis.prior"/>
-        <log idref="BirthDeathSkyContemporaryBDSParam.t:tree"/>
-        <log idref="birthRateBDS.t:tree"/>
-        <log idref="deathRateBDS.t:tree"/>
-        <log idref="rhoBDS.t:tree"/>
         <log idref="kakataibo.prior"/>
         <log idref="chacobo.prior"/>
         <log idref="kapa_ship_branch.prior"/>
         <log idref="kapanawa.prior"/>
+        <log idref="BirthDeathSkyContemporaryBDSParam.t:tree"/>
+        <log idref="birthRateBDS.t:tree"/>
+        <log idref="deathRateBDS.t:tree"/>
+        <log idref="rhoBDS.t:tree"/>
     </logger>
     <logger id="screenlog" spec="Logger" logEvery="1000">
         <log idref="posterior"/>
