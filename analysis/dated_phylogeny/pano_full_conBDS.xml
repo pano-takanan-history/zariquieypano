@@ -1490,16 +1490,16 @@ dataType="standard">
         <parameter id="mutationRate.s:all" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
         <parameter id="mutationRate.s:ashes" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
         <parameter id="mutationRate.s:I" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
-        <parameter id="bcov_alpha.s:I" spec="parameter.RealParameter" lower="1.0E-4" name="stateNode" upper="1.0">0.5</parameter>
+        <parameter id="bcov_alpha.s:I" spec="parameter.RealParameter" lower="1.0E-4" name="stateNode" upper="1.0">0.1</parameter>
         <parameter id="bcov_s.s:I" spec="parameter.RealParameter" lower="1.0E-4" name="stateNode" upper="Infinity">0.5</parameter>
         <parameter id="frequencies.s:I" spec="parameter.RealParameter" dimension="2" lower="0.0" name="stateNode" upper="1.0">0.5 0.5</parameter>
         <parameter id="mutationRate.s:animal" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
-        <parameter id="ucldMean.c:clock" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.01</parameter>
+        <parameter id="ucldMean.c:clock" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.001</parameter>
         <parameter id="ucldStdev.c:clock" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="2.0">0.5</parameter>
         <stateNode id="rateCategories.c:clock" spec="parameter.IntegerParameter" dimension="50">1</stateNode>
         <parameter id="birthRateBDS.t:tree" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.005</parameter>
         <parameter id="deathRateBDS.t:tree" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.002</parameter>
-        <parameter id="rhoBDS.t:tree" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.8</parameter>
+        <parameter id="rhoBDS.t:tree" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.5</parameter>
     </state>
     <init id="RandomTree.t:tree" spec="beast.evolution.tree.SimpleRandomTree" estimate="false" initial="@Tree.t:tree" taxa="@I"/>
     <distribution id="posterior" spec="util.CompoundDistribution">
@@ -1509,7 +1509,7 @@ dataType="standard">
             </distribution>
             <prior id="bcov_alpha_prior.s:I" name="distribution" x="@bcov_alpha.s:I">
                 <Exponential id="Exponential.187" name="distr">
-                    <parameter id="RealParameter.2952" spec="parameter.RealParameter" estimate="false" name="mean">0.5</parameter>
+                    <parameter id="RealParameter.2952" spec="parameter.RealParameter" estimate="false" name="mean">0.1</parameter>
                 </Exponential>
             </prior>
             <prior id="bcov_s_prior.s:I" name="distribution" x="@bcov_s.s:I">
@@ -1520,23 +1520,23 @@ dataType="standard">
             </prior>
             <prior id="birthRatePriorContempBDS.t:tree" name="distribution" x="@birthRateBDS.t:tree">
                 <Exponential id="Exponential.191" name="distr">
-                    <parameter id="RealParameter.2948" spec="parameter.RealParameter" estimate="false" name="mean">0.005</parameter>
+                    <parameter id="RealParameter.2948" spec="parameter.RealParameter" estimate="false" name="mean">0.002</parameter>
                 </Exponential>
             </prior>
             <prior id="deathRatePriorContempBDS.t:tree" name="distribution" x="@deathRateBDS.t:tree">
                 <Exponential id="Exponential.192" name="distr">
-                    <parameter id="RealParameter.2949" spec="parameter.RealParameter" estimate="false" name="mean">0.002</parameter>
+                    <parameter id="RealParameter.2949" spec="parameter.RealParameter" estimate="false" name="mean">0.001</parameter>
                 </Exponential>
             </prior>
             <prior id="rhoPriorContempBDS.t:tree" name="distribution" x="@rhoBDS.t:tree">
                 <Normal id="Normal.181" name="distr">
                     <parameter id="RealParameter.2956" spec="parameter.RealParameter" estimate="false" name="mean">0.5</parameter>
-                    <parameter id="RealParameter.2957" spec="parameter.RealParameter" estimate="false" name="sigma">0.2</parameter>
+                    <parameter id="RealParameter.2957" spec="parameter.RealParameter" estimate="false" name="sigma">0.1</parameter>
                 </Normal>
             </prior>
             <prior id="MeanRatePrior.c:clock" name="distribution" x="@ucldMean.c:clock">
                 <Exponential id="Exponential.186" name="distr">
-                    <parameter id="RealParameter.2947" spec="parameter.RealParameter" estimate="false" name="mean">0.1</parameter>
+                    <parameter id="RealParameter.2947" spec="parameter.RealParameter" estimate="false" name="mean">0.01</parameter>
                 </Exponential>
             </prior>
             <prior id="ucldStdevPrior.c:clock" name="distribution" x="@ucldStdev.c:clock">
@@ -1549,19 +1549,28 @@ dataType="standard">
                     <taxon id="Matis" spec="Taxon"/>
                     <taxon id="Matses" spec="Taxon"/>
                 </taxonset>
-                <Uniform id="Uniform.383" lower="400.0" name="distr" upper="4000.0"/>
+                <LogNormal id="LogNormalDistributionModel.189" name="distr">
+                    <parameter id="RealParameter.2972" spec="parameter.RealParameter" estimate="false" name="M">7.0</parameter>
+                    <parameter id="RealParameter.2973" spec="parameter.RealParameter" estimate="false" lower="0.0" name="S" upper="5.0">0.5</parameter>
+                </LogNormal>
             </distribution>
             <distribution id="chacobo.prior" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:tree" useOriginate="true">
                 <taxonset id="chacobo" spec="TaxonSet">
                     <taxon id="Chakobo" spec="Taxon"/>
                 </taxonset>
-                <Uniform id="Uniform.377" lower="300.0" name="distr" upper="4000.0"/>
+                <LogNormal id="LogNormalDistributionModel.191" name="distr">
+                    <parameter id="RealParameter.2955" spec="parameter.RealParameter" estimate="false" name="M">6.7</parameter>
+                    <parameter id="RealParameter.2958" spec="parameter.RealParameter" estimate="false" lower="0.0" name="S" upper="5.0">0.7</parameter>
+                </LogNormal>
             </distribution>
             <distribution id="kakataibo.prior" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:tree" useOriginate="true">
                 <taxonset id="kakataibo" spec="TaxonSet">
                     <taxon id="Kakataibo" spec="Taxon"/>
                 </taxonset>
-                <Uniform id="Uniform.376" lower="300.0" name="distr" upper="4000.0"/>
+                <LogNormal id="LogNormalDistributionModel.192" name="distr">
+                    <parameter id="RealParameter.2959" spec="parameter.RealParameter" estimate="false" name="M">7.0</parameter>
+                    <parameter id="RealParameter.2962" spec="parameter.RealParameter" estimate="false" lower="0.0" name="S" upper="5.0">0.5</parameter>
+                </LogNormal>
             </distribution>
             <distribution id="kapa_ship_branch.prior" spec="beast.math.distributions.MRCAPrior" monophyletic="true" tree="@Tree.t:tree">
                 <taxonset id="kapa_ship_branch" spec="TaxonSet">
@@ -1573,7 +1582,10 @@ dataType="standard">
                 <taxonset id="kapanawa" spec="TaxonSet">
                     <taxon idref="Kapanawa"/>
                 </taxonset>
-                <Uniform id="Uniform.378" lower="300.0" name="distr" upper="4000.0"/>
+                <LogNormal id="LogNormalDistributionModel.193" name="distr">
+                    <parameter id="RealParameter.2963" spec="parameter.RealParameter" estimate="false" name="M">6.7</parameter>
+                    <parameter id="RealParameter.2964" spec="parameter.RealParameter" estimate="false" lower="0.0" name="S" upper="5.0">0.5</parameter>
+                </LogNormal>
             </distribution>
             <distribution id="root1.prior" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:tree">
                 <taxonset id="root1" spec="TaxonSet">
@@ -1604,13 +1616,16 @@ dataType="standard">
                     <taxon id="Yaminawa" spec="Taxon"/>
                     <taxon id="Yawanawa" spec="Taxon"/>
                 </taxonset>
-                <Uniform id="Uniform.380" lower="1000.0" name="distr" upper="5000.0"/>
+                <Uniform id="Uniform.380" lower="1000.0" name="distr" upper="4000.0"/>
             </distribution>
             <distribution id="shipibo.prior" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:tree" useOriginate="true">
                 <taxonset id="shipibo" spec="TaxonSet">
                     <taxon idref="ShipiboKonibo"/>
                 </taxonset>
-                <Uniform id="Uniform.385" lower="300.0" name="distr" upper="4000.0"/>
+                <LogNormal id="LogNormalDistributionModel.194" name="distr">
+                    <parameter id="RealParameter.2965" spec="parameter.RealParameter" estimate="false" name="M">6.7</parameter>
+                    <parameter id="RealParameter.2966" spec="parameter.RealParameter" estimate="false" lower="0.0" name="S" upper="5.0">0.5</parameter>
+                </LogNormal>
             </distribution>
         </distribution>
         <distribution id="likelihood" spec="util.CompoundDistribution" useThreads="true">
