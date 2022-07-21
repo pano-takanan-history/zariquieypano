@@ -4568,7 +4568,7 @@ filter="1425-1430"/>
         <log idref="likelihood"/>
         <log idref="prior"/>
     </logger>
-    <logger id="treelog.t:tree" spec="Logger" fileName="pano_full_conBDS.log" logEvery="2000" mode="tree">
+    <logger id="treelog.t:tree" spec="Logger" fileName="pano_full_conBDS.trees" logEvery="2000" mode="tree">
         <log id="TreeWithMetaDataLogger.t:tree" spec="beast.evolution.tree.TreeWithMetaDataLogger" branchratemodel="@RelaxedClock.c:clock" tree="@Tree.t:tree"/>
     </logger>
 </run>
