@@ -1494,11 +1494,11 @@ dataType="standard">
         <parameter id="bcov_s.s:I" spec="parameter.RealParameter" lower="1.0E-4" name="stateNode" upper="Infinity">0.5</parameter>
         <parameter id="frequencies.s:I" spec="parameter.RealParameter" dimension="2" lower="0.0" name="stateNode" upper="1.0">0.5 0.5</parameter>
         <parameter id="mutationRate.s:animal" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
-        <parameter id="ucldMean.c:clock" spec="parameter.RealParameter" name="stateNode" upper="10.0">1.0</parameter>
-        <parameter id="ucldStdev.c:clock" spec="parameter.RealParameter" lower="0.0" name="stateNode">0.2</parameter>
+        <parameter id="ucldMean.c:clock" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.01</parameter>
+        <parameter id="ucldStdev.c:clock" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="2.0">0.5</parameter>
         <stateNode id="rateCategories.c:clock" spec="parameter.IntegerParameter" dimension="50">1</stateNode>
-        <parameter id="birthRateBDS.t:tree" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.01</parameter>
-        <parameter id="deathRateBDS.t:tree" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.009</parameter>
+        <parameter id="birthRateBDS.t:tree" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.005</parameter>
+        <parameter id="deathRateBDS.t:tree" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.002</parameter>
         <parameter id="rhoBDS.t:tree" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.8</parameter>
     </state>
     <init id="RandomTree.t:tree" spec="beast.evolution.tree.SimpleRandomTree" estimate="false" initial="@Tree.t:tree" taxa="@I"/>
@@ -1520,12 +1520,12 @@ dataType="standard">
             </prior>
             <prior id="birthRatePriorContempBDS.t:tree" name="distribution" x="@birthRateBDS.t:tree">
                 <Exponential id="Exponential.191" name="distr">
-                    <parameter id="RealParameter.2948" spec="parameter.RealParameter" estimate="false" name="mean">0.01</parameter>
+                    <parameter id="RealParameter.2948" spec="parameter.RealParameter" estimate="false" name="mean">0.005</parameter>
                 </Exponential>
             </prior>
             <prior id="deathRatePriorContempBDS.t:tree" name="distribution" x="@deathRateBDS.t:tree">
                 <Exponential id="Exponential.192" name="distr">
-                    <parameter id="RealParameter.2949" spec="parameter.RealParameter" estimate="false" name="mean">0.009</parameter>
+                    <parameter id="RealParameter.2949" spec="parameter.RealParameter" estimate="false" name="mean">0.002</parameter>
                 </Exponential>
             </prior>
             <prior id="rhoPriorContempBDS.t:tree" name="distribution" x="@rhoBDS.t:tree">
@@ -1535,13 +1535,14 @@ dataType="standard">
                 </Normal>
             </prior>
             <prior id="MeanRatePrior.c:clock" name="distribution" x="@ucldMean.c:clock">
-                <Uniform id="Uniform.379" name="distr" upper="10.0"/>
+                <Exponential id="Exponential.186" name="distr">
+                    <parameter id="RealParameter.2947" spec="parameter.RealParameter" estimate="false" name="mean">0.1</parameter>
+                </Exponential>
             </prior>
             <prior id="ucldStdevPrior.c:clock" name="distribution" x="@ucldStdev.c:clock">
-                <Gamma id="Gamma.185" name="distr">
-                    <parameter id="RealParameter.2958" spec="parameter.RealParameter" estimate="false" name="alpha">0.5</parameter>
-                    <parameter id="RealParameter.2959" spec="parameter.RealParameter" estimate="false" name="beta">0.5</parameter>
-                </Gamma>
+                <Exponential id="Exponential.185" name="distr">
+                    <parameter id="RealParameter.2946" spec="parameter.RealParameter" estimate="false" name="mean">0.3</parameter>
+                </Exponential>
             </prior>
             <distribution id="MatsesMatis.prior" spec="beast.math.distributions.MRCAPrior" monophyletic="true" tree="@Tree.t:tree">
                 <taxonset id="MatsesMatis" spec="TaxonSet">
@@ -1573,6 +1574,37 @@ dataType="standard">
                     <taxon idref="Kapanawa"/>
                 </taxonset>
                 <Uniform id="Uniform.378" lower="300.0" name="distr" upper="4000.0"/>
+            </distribution>
+            <distribution id="root1.prior" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:tree">
+                <taxonset id="root1" spec="TaxonSet">
+                    <taxon id="Amawaka" spec="Taxon"/>
+                    <taxon id="Araona" spec="Taxon"/>
+                    <taxon idref="Chakobo"/>
+                    <taxon id="Chaninawa" spec="Taxon"/>
+                    <taxon id="Iskonawa" spec="Taxon"/>
+                    <taxon idref="Kakataibo"/>
+                    <taxon id="Kanamari" spec="Taxon"/>
+                    <taxon idref="Kapanawa"/>
+                    <taxon id="KashinawaB" spec="Taxon"/>
+                    <taxon id="KashinawaP" spec="Taxon"/>
+                    <taxon id="Katukina" spec="Taxon"/>
+                    <taxon id="Kaxarari" spec="Taxon"/>
+                    <taxon id="Marinawa" spec="Taxon"/>
+                    <taxon id="Marubo" spec="Taxon"/>
+                    <taxon id="Mastanawa" spec="Taxon"/>
+                    <taxon idref="Matis"/>
+                    <taxon idref="Matses"/>
+                    <taxon id="Nawa" spec="Taxon"/>
+                    <taxon id="Nukini" spec="Taxon"/>
+                    <taxon id="Pakawara" spec="Taxon"/>
+                    <taxon id="Poyanawa" spec="Taxon"/>
+                    <taxon id="Shanenawa" spec="Taxon"/>
+                    <taxon id="Sharanawa" spec="Taxon"/>
+                    <taxon idref="ShipiboKonibo"/>
+                    <taxon id="Yaminawa" spec="Taxon"/>
+                    <taxon id="Yawanawa" spec="Taxon"/>
+                </taxonset>
+                <Uniform id="Uniform.380" lower="1000.0" name="distr" upper="5000.0"/>
             </distribution>
             <distribution id="shipibo.prior" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:tree" useOriginate="true">
                 <taxonset id="shipibo" spec="TaxonSet">
@@ -4561,6 +4593,7 @@ filter="1425-1430"/>
         <log idref="birthRateBDS.t:tree"/>
         <log idref="deathRateBDS.t:tree"/>
         <log idref="rhoBDS.t:tree"/>
+        <log idref="root1.prior"/>
     </logger>
     <logger id="screenlog" spec="Logger" logEvery="1000">
         <log idref="posterior"/>
