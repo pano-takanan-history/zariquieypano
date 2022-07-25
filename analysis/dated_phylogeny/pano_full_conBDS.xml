@@ -1478,7 +1478,7 @@ dataType="standard">
 <map name="InverseGamma" >beast.math.distributions.InverseGamma</map>
 <map name="OneOnX" >beast.math.distributions.OneOnX</map>
 
-<run id="mcmc" spec="MCMC" chainLength="10000000" preBurnin="1000000">
+<run id="mcmc" spec="MCMC" chainLength="50000000" preBurnin="1000000" storeEvery="10000">
     <state id="state" spec="State" storeEvery="5000">
         <tree id="Tree.t:tree" spec="beast.evolution.tree.Tree" name="stateNode">
             <taxonset id="TaxonSet.I" spec="TaxonSet">
@@ -1495,7 +1495,7 @@ dataType="standard">
         <parameter id="frequencies.s:I" spec="parameter.RealParameter" dimension="2" lower="0.0" name="stateNode" upper="1.0">0.5 0.5</parameter>
         <parameter id="mutationRate.s:animal" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
         <parameter id="ucldMean.c:clock" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.001</parameter>
-        <parameter id="ucldStdev.c:clock" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="2.0">0.5</parameter>
+        <parameter id="ucldStdev.c:clock" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="3.0">0.5</parameter>
         <stateNode id="rateCategories.c:clock" spec="parameter.IntegerParameter" dimension="50">1</stateNode>
         <parameter id="birthRateBDS.t:tree" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.005</parameter>
         <parameter id="deathRateBDS.t:tree" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.002</parameter>
@@ -1560,7 +1560,7 @@ dataType="standard">
                 </taxonset>
                 <LogNormal id="LogNormalDistributionModel.191" name="distr">
                     <parameter id="RealParameter.2955" spec="parameter.RealParameter" estimate="false" name="M">6.7</parameter>
-                    <parameter id="RealParameter.2958" spec="parameter.RealParameter" estimate="false" lower="0.0" name="S" upper="5.0">0.7</parameter>
+                    <parameter id="RealParameter.2958" spec="parameter.RealParameter" estimate="false" lower="0.0" name="S" upper="5.0">0.5</parameter>
                 </LogNormal>
             </distribution>
             <distribution id="kakataibo.prior" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:tree" useOriginate="true">
@@ -1577,14 +1577,9 @@ dataType="standard">
                     <taxon id="Kapanawa" spec="Taxon"/>
                     <taxon id="ShipiboKonibo" spec="Taxon"/>
                 </taxonset>
-            </distribution>
-            <distribution id="kapanawa.prior" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:tree" useOriginate="true">
-                <taxonset id="kapanawa" spec="TaxonSet">
-                    <taxon idref="Kapanawa"/>
-                </taxonset>
-                <LogNormal id="LogNormalDistributionModel.193" name="distr">
-                    <parameter id="RealParameter.2963" spec="parameter.RealParameter" estimate="false" name="M">6.7</parameter>
-                    <parameter id="RealParameter.2964" spec="parameter.RealParameter" estimate="false" lower="0.0" name="S" upper="5.0">0.5</parameter>
+                <LogNormal id="LogNormalDistributionModel.190" name="distr">
+                    <parameter id="RealParameter.2953" spec="parameter.RealParameter" estimate="false" name="M">7.0</parameter>
+                    <parameter id="RealParameter.2954" spec="parameter.RealParameter" estimate="false" lower="0.0" name="S" upper="5.0">0.5</parameter>
                 </LogNormal>
             </distribution>
             <distribution id="root1.prior" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:tree">
@@ -1616,16 +1611,10 @@ dataType="standard">
                     <taxon id="Yaminawa" spec="Taxon"/>
                     <taxon id="Yawanawa" spec="Taxon"/>
                 </taxonset>
-                <Uniform id="Uniform.380" lower="1000.0" name="distr" upper="4000.0"/>
-            </distribution>
-            <distribution id="shipibo.prior" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:tree" useOriginate="true">
-                <taxonset id="shipibo" spec="TaxonSet">
-                    <taxon idref="ShipiboKonibo"/>
-                </taxonset>
-                <LogNormal id="LogNormalDistributionModel.194" name="distr">
-                    <parameter id="RealParameter.2965" spec="parameter.RealParameter" estimate="false" name="M">6.7</parameter>
-                    <parameter id="RealParameter.2966" spec="parameter.RealParameter" estimate="false" lower="0.0" name="S" upper="5.0">0.5</parameter>
-                </LogNormal>
+                <Normal id="Normal.182" name="distr">
+                    <parameter id="RealParameter.2950" spec="parameter.RealParameter" estimate="false" name="mean">5000.0</parameter>
+                    <parameter id="RealParameter.2951" spec="parameter.RealParameter" estimate="false" name="sigma">2000.0</parameter>
+                </Normal>
             </distribution>
         </distribution>
         <distribution id="likelihood" spec="util.CompoundDistribution" useThreads="true">
@@ -4402,7 +4391,7 @@ filter="1425-1430"/>
         <up idref="birthRateBDS.t:tree"/>
         <down idref="deathRateBDS.t:tree"/>
     </operator>
-    <logger id="tracelog" spec="Logger" fileName="pano_full_conBDS.log" logEvery="2000" model="@posterior" sort="smart">
+    <logger id="tracelog" spec="Logger" fileName="pano_full_conBDS.log" logEvery="1000" model="@posterior" sort="smart">
         <log idref="posterior"/>
         <log idref="likelihood"/>
         <log idref="prior"/>
@@ -4598,12 +4587,10 @@ filter="1425-1430"/>
         <log idref="ucldMean.c:clock"/>
         <log idref="ucldStdev.c:clock"/>
         <log id="rate.c:clock" spec="beast.evolution.branchratemodel.RateStatistic" branchratemodel="@RelaxedClock.c:clock" tree="@Tree.t:tree"/>
-        <log idref="shipibo.prior"/>
         <log idref="MatsesMatis.prior"/>
         <log idref="kakataibo.prior"/>
         <log idref="chacobo.prior"/>
         <log idref="kapa_ship_branch.prior"/>
-        <log idref="kapanawa.prior"/>
         <log idref="BirthDeathSkyContemporaryBDSParam.t:tree"/>
         <log idref="birthRateBDS.t:tree"/>
         <log idref="deathRateBDS.t:tree"/>
@@ -4616,7 +4603,7 @@ filter="1425-1430"/>
         <log idref="likelihood"/>
         <log idref="prior"/>
     </logger>
-    <logger id="treelog.t:tree" spec="Logger" fileName="pano_full_conBDS.trees" logEvery="2000" mode="tree">
+    <logger id="treelog.t:tree" spec="Logger" fileName="pano_full_conBDS.trees" logEvery="10000" mode="tree">
         <log id="TreeWithMetaDataLogger.t:tree" spec="beast.evolution.tree.TreeWithMetaDataLogger" branchratemodel="@RelaxedClock.c:clock" tree="@Tree.t:tree"/>
     </logger>
 </run>
