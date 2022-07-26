@@ -1,4 +1,4 @@
-# Byte-compiled / optimized / DLL files
+# Byte-compiled / optimized / DLL fil
 __pycache__/
 *.py[cod]
 *$py.class
@@ -102,3 +102,9 @@ ENV/
 
 # MacOS
 .DS_Store
+
+# BEAST logs
+*.log
+
+# MapData
+/analysis/dated_phylogeny/map_data/
