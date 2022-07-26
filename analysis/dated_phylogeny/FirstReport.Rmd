@@ -77,6 +77,10 @@ tree <- read.beast('pano_conBDS.tree')
 
 # CAheight_0.95_HPD
 
+tree@data['CAheight_0.95_HPD'] <- sprintf("%f", as.numeric(tree@data[['CAheight_0.95_HPD']]))
+tree@data['CAheight_0.95_HPD'][tree@data['CAheight_0.95_HPD'] == 'NA',] <- NA
+
+
 tree@data['rposterior'] <- sprintf("%0.2f", as.numeric(tree@data[['posterior']]))
 tree@data['rposterior'][tree@data['rposterior'] == 'NA',] <- NA
 
@@ -154,4 +158,4 @@ tree_pt
 ggsave('pano_conBDS.png', tree_pt, width=14, height=10)
 ```
 
-Problematic traces: bone, count (verb), ear (!, saw this kind of trace before and this concept actually had the correct phylogeny), know (facts), pull, seed, throw, year
+Problematic traces: 
