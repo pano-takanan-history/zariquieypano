@@ -11,5 +11,5 @@ auto-wordlist:
 	edictor wordlist --name=pano-auto --data=../cldf/cldf-metadata.json --preprocessing=fullproc.py
 
 beast-words:
-	python -c "from lingpy import *; from lingpy.convert.strings import write_nexus; wl = Wordlist('pano-full.tsv'); write_nexus(wl, mode='beastwords', filename='pano-full.nex', ref='cogid')"
+	python -c "from lingpy import *; from lingpy.convert.strings import write_nexus; wl = Wordlist('pano-full.tsv'); write_nexus(wl, mode='beast', filename='pano-full.nex', ref='cogid')"
 
