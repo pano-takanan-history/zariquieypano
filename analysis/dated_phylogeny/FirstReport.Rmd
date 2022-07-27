@@ -73,7 +73,7 @@ library('RColorBrewer')
 library('tidyverse')
 
 # Trees
-tree <- read.beast('pano_conBDS.tree')
+tree <- read.beast('pano_2_withoutRoot/pano_mrca.tree')
 
 # CAheight_0.95_HPD
 
@@ -86,16 +86,15 @@ tree@data['rposterior'][tree@data['rposterior'] == 'NA',] <- NA
 
 cls <- list(
   'Bolivian Nawa' = c("Pakawara", "Chakobo"),
-  "Chama" = c("Kapanawa", "ShipiboKonibo"),
+  "Chama + Kakataibo" = c("Kapanawa", "ShipiboKonibo", "Kakataibo"),
   "Headwaters Pano" = c("Sharanawa", "Marinawa", "Mastanawa", "Yaminawa", 
                         "Nawa", "Chaninawa", "Yawanawa", "Shanenawa", 
-                        "KashinawaP", "KashinawaB", "Amawaka"),
-  'Kakataibo' = "Kakataibo",
+                        "KashinawaP", "KashinawaB", "Amawaka", "Arara"),
+  #'Kakataibo' = "Kakataibo",
   "Kaxarari" = "Kaxarari",
   'Marubo' = c("Katukina", "Kanamari", "Marubo"),
   'Matis-Matses' = c("Matses", "Matis"),
-  "Poyanawa" = c("Nukini", "Iskonawa", "Poyanawa"),
-  "Tacana" = "Araona"
+  "Poyanawa" = c("Nukini", "Iskonawa", "Poyanawa")
 )
 
 
@@ -104,15 +103,14 @@ tree <- groupOTU(tree, cls, overlap="origin", connect=FALSE)
 print(levels(attr(tree@phylo, 'group')))
 colors <- c(
     "#333333", # 0  - i.e. non colored branches.
-    "#f46d43", # Bolivian Nawa
+    "#fdae61", # Bolivian Nawa
     "#a6d96a",  # Chama
     "#006837",  # Headwaters Pano
-    "#fee08b",   # Kakataibo
-    "#66bd63",  # Kaxarari
-    "#fdae61",    # Marubo
-    "#d73027",    # Matis-Matses    
-    "#1a9850",    # Poyanawa
-    "#a50026"    # Tacana
+    #"#fee08b",   # Kakataibo
+    "#f46d43",  # Kaxarari
+    "#66bd63",    # Marubo
+    "#a50026",    # Matis-Matses    
+    "#1a9850"    # Poyanawa
 )
 
 
@@ -127,7 +125,7 @@ tree_pt <- ggtree(tree, aes(color=group),
     ) +
     theme_tree2() +
     scale_color_manual(values=colors) +
-    scale_x_continuous(breaks = c(), limits=c(-4670, 1100)) +
+    scale_x_continuous(breaks = c(), limits=c(-2440, 770)) +
 
   theme(legend.position="none")
 
@@ -141,7 +139,7 @@ for (clade in levels(attr(tree@phylo, 'group'))) {
             node=m, label=clade, color = colors[col_idx],
             extend=0.4, # extending the bars up/down
 
-            offset=600,  # bars from node?
+            offset=400,  # bars from node?
             offset.text=50, # offset of text from labels
             # General
             barsize=2
@@ -149,13 +147,14 @@ for (clade in levels(attr(tree@phylo, 'group'))) {
     }
     col_idx <- col_idx + 1
 }
+tree_pt
 ```
 
 
 ̄̄
 ```{r}
 tree_pt
-ggsave('pano_conBDS.png', tree_pt, width=14, height=10)
+ggsave('pano_2_withoutRoot/pano_2_MRCA_withoutRoot.png', tree_pt, width=14, height=10)
 ```
 
 Problematic traces: 
