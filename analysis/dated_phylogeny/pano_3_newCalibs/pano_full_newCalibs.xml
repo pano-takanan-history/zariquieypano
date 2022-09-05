@@ -1127,7 +1127,7 @@ name="alignment">
         <parameter id="birthRateBDS.t:tree" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.01</parameter>
         <parameter id="deathRateBDS.t:tree" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.009</parameter>
         <parameter id="rhoBDS.t:tree" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.8</parameter>
-        <parameter id="ucldMean.c:clock" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.001</parameter>
+        <parameter id="ucldMean.c:clock" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">5.0E-4</parameter>
     </state>
     <init id="RandomTree.t:tree" spec="beast.evolution.tree.SimpleRandomTree" estimate="false" initial="@Tree.t:tree" taxa="@pano-full"/>
     <distribution id="posterior" spec="util.CompoundDistribution">
@@ -1157,13 +1157,13 @@ name="alignment">
             </prior>
             <prior id="rhoPriorContempBDS.t:tree" name="distribution" x="@rhoBDS.t:tree">
                 <Normal id="Normal.0" name="distr">
-                    <parameter id="RealParameter.11" spec="parameter.RealParameter" estimate="false" name="mean">0.5</parameter>
+                    <parameter id="RealParameter.11" spec="parameter.RealParameter" estimate="false" name="mean">0.7</parameter>
                     <parameter id="RealParameter.12" spec="parameter.RealParameter" estimate="false" name="sigma">0.1</parameter>
                 </Normal>
             </prior>
             <prior id="MeanRatePrior.c:clock" name="distribution" x="@ucldMean.c:clock">
                 <Exponential id="Exponential.5" name="distr">
-                    <parameter id="RealParameter.18" spec="parameter.RealParameter" estimate="false" name="mean">0.001</parameter>
+                    <parameter id="RealParameter.18" spec="parameter.RealParameter" estimate="false" name="mean">5.0E-4</parameter>
                 </Exponential>
             </prior>
             <prior id="ucldStdevPrior.c:clock" name="distribution" x="@ucldStdev.c:clock">
@@ -1217,12 +1217,6 @@ name="alignment">
                     <parameter id="RealParameter.90" spec="parameter.RealParameter" estimate="false" name="mean">80.0</parameter>
                     <parameter id="RealParameter.91" spec="parameter.RealParameter" estimate="false" name="sigma">3.0</parameter>
                 </Normal>
-            </distribution>
-            <distribution id="mayoruna.prior" spec="beast.math.distributions.MRCAPrior" monophyletic="true" tree="@Tree.t:tree">
-                <taxonset id="mayoruna" spec="TaxonSet">
-                    <taxon id="Matis" spec="Taxon"/>
-                    <taxon id="Matses" spec="Taxon"/>
-                </taxonset>
             </distribution>
             <distribution id="pacah.prior" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:tree" useOriginate="true">
                 <taxonset id="pacah" spec="TaxonSet">
@@ -1326,7 +1320,6 @@ filter="-">
         <log idref="kash-b.prior"/>
         <log idref="kash-p.prior"/>
         <log idref="kash-both.prior"/>
-        <log idref="mayoruna.prior"/>
         <log idref="ship-kawa.prior"/>
     </logger>
     <logger id="screenlog" spec="Logger" logEvery="1000">
