@@ -108,3 +108,6 @@ ENV/
 
 # MapData
 /analysis/dated_phylogeny/map_data/
+
+# Tiger
+edictor/
