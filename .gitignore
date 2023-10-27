@@ -107,7 +107,7 @@ ENV/
 *.log
 
 # MapData
-/analysis/dated_phylogeny/map_data/
+/analysis/dated_phylogeny/
 
 # Tiger
 edictor/
