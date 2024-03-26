@@ -13,19 +13,19 @@
         {
             "rdf:about": "https://github.com/pano-tacanan-history/zariquieypano",
             "rdf:type": "prov:Entity",
-            "dc:created": "116a0d4",
+            "dc:created": "217d392",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v4.8",
+            "dc:created": "v5.0",
             "dc:title": "Glottolog"
         },
         {
             "rdf:about": "https://github.com/concepticon/concepticon-data",
             "rdf:type": "prov:Entity",
-            "dc:created": "v3.1.0",
+            "dc:created": "v3.2.0",
             "dc:title": "Concepticon"
         },
         {
@@ -42,7 +42,7 @@
         },
         {
             "dc:title": "python",
-            "dc:description": "3.11.6"
+            "dc:description": "3.12.2"
         },
         {
             "dc:title": "python-packages",
@@ -54,7 +54,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
-            "dc:extent": 4259,
+            "dc:extent": 4265,
             "tableSchema": {
                 "columns": [
                     {

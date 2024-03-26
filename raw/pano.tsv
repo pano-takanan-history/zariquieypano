@@ -55,21 +55,21 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 66	j u + i n a	78	bird	Shanenawa	juina	pajaro	j u + i n a	juina	thing domesticated		!	287
 67	j u + i n a	78	bird	Yawanawa	juina	pajaro	j u + i n a	juina	thing domesticated		!	287
 68	p ã r i	83	bird	Nukini	pãri	pajaro	p ã r i	pãri	?			285
-69	p ɨ n + j a	76	bird	Poyanawa	puya	pajaro	p ɨ n + j a	puya	arm/wing _prop		!	278
+69	p ɨ n ( + ) j a	76	bird	Poyanawa	puya	pajaro	p ɨ n + j a	puya	arm/wing _prop		!	278
 70	p i ɾ i ʃ i k a	1557	bird	Iskonawa	piɾiʃika	pajaro	p i ɾ i ʃ i k a	piɾiʃika	?			280
 71	- i s a k a	77	bird	Chakobo	isaka	pajaro	i s a k a	isaka	passerine			279
 72	i s k u	82	bird	Pakawara	isku	pajaro	i s k u	isku	cacique_bird			286
 73	ʔ i s a - -	77	bird	Kakataibo	ʔisa	pajaro	ʔ i s a	?isa	passerine			281
 74	ʂ u i p i a t u	86	bird	Kaxarari	ʂuipiatu	pajaro	ʂ u i p i a t u	ʂuipiatu	?			282
-75	p ɨ n + j a	76	bird	Mastanawa	pɨja	pajaro	p ɨ n + j a	pɨja	arm/wing _prop		!	278
-76	p ɨ n + j a	76	bird	Chaninawa	pɨija	pajaro	p ɨ n + j a	pɨija	arm/wing _prop		!	278
-77	p ɨ n + j a	76	bird	Sharanawa	pɨija	pajaro	p ɨ n + j a	pɨija	arm/wing _prop		!	278
+75	p ɨ n ( + ) j a	76	bird	Mastanawa	pɨja	pajaro	p ɨ n + j a	pɨja	arm/wing _prop		!	278
+76	p ɨ n ( + ) j a	76	bird	Chaninawa	pɨija	pajaro	p ɨ n + j a	pɨija	arm/wing _prop		!	278
+77	p ɨ n ( + ) j a	76	bird	Sharanawa	pɨija	pajaro	p ɨ n + j a	pɨija	arm/wing _prop		!	278
 78	ts i ts i p i u	79	bird	Sharanawa	t͡sit͡sipiu	pajaro	ts i ts i p i u	t͡sit͡sipiu	?			288
-79	p ɨ n + j a	76	bird	Amawaka	pɨnja	pajaro	-p ɨ n + j a	pɨnja	arm/wing _prop		!	278
-80	p ɨ n + j a	76	bird	Nawa	pɨja	pajaro	p ɨ n + j a	pɨja	arm/wing _prop		!	278
-81	p ɨ n + j a	76	bird	Marinawa	pɨ:ja	pajaro	p ɨ n + j a	pɨ:ja	arm/wing _prop		!	278
+79	p ɨ n ( + ) j a	76	bird	Amawaka	pɨnja	pajaro	p ɨ n + j a	pɨnja	arm/wing _prop		!	278
+80	p ɨ n ( + ) j a	76	bird	Nawa	pɨja	pajaro	p ɨ n + j a	pɨja	arm/wing _prop		!	278
+81	p ɨ n ( + ) j a	76	bird	Marinawa	pɨ:ja	pajaro	p ɨ n + j a	pɨ:ja	arm/wing _prop		!	278
 82	ts i ts i p i u	79	bird	Marinawa	tsi:tsipju	pajaro	ts i ts i p i u	tsi:tsipju	?			288
-83	p ɨ n + j a	76	bird	Yaminawa	pɨja	pajaro	p ɨ n + j a	pɨja	arm/wing _prop		!	278
+83	p ɨ n ( + ) j a	76	bird	Yaminawa	pɨja	pajaro	p ɨ n + j a	pɨja	arm/wing _prop		!	278
 84	- i s a - -	77	bird	Kashinawa_P	isa	pajaro	i s a	isa	passerine			281
 85	- i s a - -	77	bird	Kashinawa_B	isa	pajaro	i s a	isa	passerine			281
 91	n i s i	1115	snake	Matses	nisi	culebra	n i s i	nisi	vine			3469
@@ -99,7 +99,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 115	d u n u	1110	snake	Kashinawa_P	dunu	culebra	d u n u	dunu	snake			3467
 116	d u n u	1110	snake	Kashinawa_B	dunu	culebra	d u n u	dunu	snake			3467
 121	n u ɨ + k i d	418	fish [noun]	Matses	nuɨkkid	pez pescado	n u ɨ + k i d	nuɨkkid	 _-:suffix/kid	 64		1257 1258
-122	tʃ a p a	357	fish [noun]	Matis	tʃapa	pez pescado	tʃ a p a	tʃapa	fish/japa			1252
+122	tʃ a p a	1637	fish [noun]	Matis	tʃapa	pez pescado	tʃ a p a	tʃapa	fish/japa			1252
 123	j a p a	357	fish [noun]	Marubo	japa	pez pescado	j a p a	japa	fish/japa			1252
 124	ts a ts a	416	fish [noun]	Katukina	tsatsa	pez pescado	ts a ts a	tsatsa	boquichico			1254
 125	j a p a	357	fish [noun]	Shipibo_Konibo	yapa	pez pescado	j a p a	yapa	fish/japa			1252
@@ -922,8 +922,8 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 1082	p ɨ + - i	375	feather [large]	Kashinawa_B	pɨi	pluma	p ɨ + i	pɨi	arm _i	216 221		1115 1117
 1087	- u - i n + t e	566	heart	Matses	uinte	corazon	u i n + t e	winte	breathe _ti	103 109		1716 37
 1088	- u - i n + t e	566	heart	Matis	uinte	corazon	u i n + t e	winte	breathe _ti	103 109		1718 1222
-1089	- w - i n + t i	566	heart	Marubo	winti	corazon	w i n + t i	winti	breathe _ti	103 104		1721 43
-1090	- w - i n + t i	566	heart	Katukina	winti	corazon	w i n + t i	winti	breathe _ti	103 104		1721 43
+1089	w i - - n + t i	566	heart	Marubo	winti	corazon	w i n + t i	winti	breathe _ti	103 104		1721 43
+1090	w i - - n + t i	566	heart	Katukina	winti	corazon	w i n + t i	winti	breathe _ti	103 104		1721 43
 1091	h u - i n + t i	566	heart	Shipibo_Konibo	huinti	corazon	h u i n + t i	huinti	breathe _ti	103 104		1718 43
 1092	h u - i n + t i	566	heart	Kapanawa	hwinti	corazon	h u i n + t i	hwinti	breathe _ti	103 104		1718 43
 1093	- ũ - - - + t i	566	heart	Arara	ũti	corazon	ũ + t i	ũti	breathe _ti	103 104		0
@@ -934,7 +934,7 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 1098	- ũ - ĩ - + t i	566	heart	Iskonawa	ũĩti	corazon	ũ ĩ + t i	ũĩti	breathe _ti	103 104		1716 43
 1099	h u - i - + t i	566	heart	Chakobo	huiti	corazon	h u i + t i	huiti	breathe _ti	103 104		1716 43
 1100	h u w i - + t i	566	heart	Pakawara	huwiti	corazon	h u w i + t i	huwiti	breathe _ti	103 104		1716 43
-1101	n u i + t u	566	heart	Kakataibo	nuitu	corazon	n u i t u	nuitu	breathe _ti	5		1717 43
+1101	n u - i - - t u	566	heart	Kakataibo	nuitu	corazon	n u i t u	nuitu	breathe _ti	5		1717 43
 1102	h ɨ - - - + j a	570	heart	Kaxarari	hɨya	corazon	h ɨ j a	hɨya	hija	103 107		1722
 1103	- u - ɨ n + t i	566	heart	Mastanawa	uɨnti	corazon	u ɨ n + t i	uɨnti	breathe _ti	103 104		1716 43
 1104	- u - ĩ - + t i	566	heart	Chaninawa	uĩti	corazon	u ĩ + t i	uĩti	breathe _ti	103 104		1716 43
@@ -1387,9 +1387,9 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 1634	β a ʔ i	915	road (path)	Kanamari	βaʔi	carretera (camino trocha sendero)	β a ʔ i	βa?i	path			2901
 1635	β a - i	915	road (path)	Shipibo_Konibo	βai	carretera (camino trocha sendero)	β a j	βai	path			2901
 1636	β a - i	915	road (path)	Kapanawa	βai	carretera (camino trocha sendero)	β a j	βai	path			2901
-1637	- d i - t i	1580	road (path)	Arara	diti	carretera (camino trocha sendero)	d i + t i	diti	walk _ti			0
-1638	n i + t i	1580	road (path)	Shanenawa	niti	carretera (camino trocha sendero)	n i + t i	niti	walk _ti			2904 2905
-1639	n i + t i	1580	road (path)	Yawanawa	niti	carretera (camino trocha sendero)	n i + t i	niti	walk _ti			2904 2905
+1637	d i ( + ) t i	1580	road (path)	Arara	diti	carretera (camino trocha sendero)	d i + t i	diti	walk _ti			0
+1638	n i ( + ) t i	1580	road (path)	Shanenawa	niti	carretera (camino trocha sendero)	n i + t i	niti	walk _ti			2904 2905
+1639	n i ( + ) t i	1580	road (path)	Yawanawa	niti	carretera (camino trocha sendero)	n i + t i	niti	walk _ti			2904 2905
 1640	β a - i	915	road (path)	Nukini	βai	carretera (camino trocha sendero)	β a j	βai	path			2901
 1641	β a - i	915	road (path)	Poyanawa	βai	carretera (camino trocha sendero)	β a j	βai	path			2901
 1642	β a - i	915	road (path)	Iskonawa	βai	carretera (camino trocha sendero)	β a j	βai	path			2901
@@ -1587,20 +1587,20 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 1866	- - - - - m a ʃ i -	968	sand	Kashinawa_P	maʃi	arena	m a ʃ i	maʃi	sand			3045
 1867	- - - - - m a ʂ i -	968	sand	Kashinawa_B	maʂi	arena	m a ʂ i	maʂi	sand			3045
 1872	k u ɨ n o t e	1203	stone	Matses	kuɨnote	piedra	kʷ ɨ n o t e	kuɨnote	stone/kuɨnote			3674
-1873	m a ʂ a ʂ -	1197	stone	Matis	maʂaʂ	piedra	m a ʂ a ʂ	maʂaʂ	stone/maʂaʂ			3667
+1873	m a ʂ a ʂ ( - )	1197	stone	Matis	maʂaʂ	piedra	m a ʂ a ʂ	maʂaʂ	stone/maʂaʂ			3667
 1874	ʂ a ʂ u	1607	stone	Marubo	ʂaʂu	piedra	ʂ a ʂ u	ʂaʂu	stone/ʂaʂu			3672
-1875	m i s k - - i	1198	stone	Katukina	miski	piedra	m i s k i	miski	stone/miʂki			3671
+1875	m i s k i ( - - )	1198	stone	Katukina	miski	piedra	m i s k i	miski	stone/miʂki			3671
 1876	m a k a n	1184	stone	Shipibo_Konibo	makan	piedra	m a k a n	makan	stone/makan			3670
 1877	m a k a n	1184	stone	Kapanawa	makan	piedra	m a k a n	makan	stone/makan			3670
 1878	b u ʃ k i t e	1608	stone	Arara	buʃkite	piedra	b u ʃ k i t e	buʃkite	stone			0
-1879	m ɨ ʂ k i t i	1198	stone	Shanenawa	mɨʂkiti	piedra	m ɨ ʂ k i t i	mɨʂkiti	stone/miʂki			3671
-1880	m a ʂ a ʂ ɨ	1197	stone	Yawanawa	maʂaʂɨ	piedra	m a ʂ a ʂ ɨ	maʂaʂɨ	stone/maʂaʂ			3667
+1879	m ɨ ʂ k i ( t i )	1198	stone	Shanenawa	mɨʂkiti	piedra	m ɨ ʂ k i t i	mɨʂkiti	stone/miʂki			3671
+1880	m a ʂ a ʂ ( ɨ )	1197	stone	Yawanawa	maʂaʂɨ	piedra	m a ʂ a ʂ ɨ	maʂaʂɨ	stone/maʂaʂ			3667
 1881	m ɨ t ɨ	1202	stone	Nukini	mɨtɨ	piedra	m ɨ t ɨ	mɨtɨ	stone/mɨtɨ			3675
 1882	r u ɨ	1201	stone	Poyanawa	ruɨ	piedra	r u ɨ	ruɨ	stone/ruɨ			3669
 1883	r u ɨ	1201	stone	Iskonawa	ruɨ	piedra	r u ɨ	ruɨ	stone/ruɨ			3669
-1884	m a ʂ a ʂ a	1197	stone	Chakobo	maʂaʂa	piedra	m a ʂ a ʂ a	maʂaʂa	stone/maʂaʂ			3667
+1884	m a ʂ a ʂ ( a )	1197	stone	Chakobo	maʂaʂa	piedra	m a ʂ a ʂ a	maʂaʂa	stone/maʂaʂ			3667
 1885	t u m u	1199	stone	Pakawara	tumu	piedra	t u m u	tumu	stone/tumu			3676
-1886	m a ʂ a ʂ -	1197	stone	Kakataibo	maʂaʂ	piedra	m a ʂ a ʂ	maʂaʂ	stone/maʂaʂ			3667
+1886	m a ʂ a ʂ ( - )	1197	stone	Kakataibo	maʂaʂ	piedra	m a ʂ a ʂ	maʂaʂ	stone/maʂaʂ			3667
 1887	ʂ a ʂ u	1607	stone	Kaxarari	ʂaʂu	piedra	ʂ a ʂ u	ʂaʂu	stone/ʂaʂu			3672
 1888	t u - j r i	1200	stone	Mastanawa	tujri	piedra	t u j r i	tujri	stone/tukiɾi			3673
 1889	b a k ɨ ʂ i	1185	stone	Chaninawa	bakɨʂi	piedra	b a k ɨ ʂ i	bakɨʂi	stone/makɨʂ			3668
@@ -1609,8 +1609,8 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 1892	t u k i ɾ i	1200	stone	Nawa	tukiɾi	piedra	t u k i ɾ i	tukiɾi	stone/tukiɾi			3673
 1893	t u k i ɾ i	1200	stone	Marinawa	tukiɾi	piedra	t u k i ɾ i	tukiɾi	stone/tukiɾi			3673
 1894	b a ʔ ɨ ʂ -	1185	stone	Yaminawa	baʔɨʂ	piedra	b a ʔ ɨ ʂ	baʔɨʂ	stone/makɨʂ			3668
-1895	m i ʂ k - - i	1198	stone	Kashinawa_P	miʃki	piedra	m i ʂ k i	miʃki	stone/miʂki			3671
-1896	m i ʂ k - - i	1198	stone	Kashinawa_B	miʂki	piedra	m i ʂ k i	miʂki	stone/miʂki			3671
+1895	m i ʂ k i ( - - )	1198	stone	Kashinawa_P	miʃki	piedra	m i ʂ k i	miʃki	stone/miʂki			3671
+1896	m i ʂ k i ( - - )	1198	stone	Kashinawa_B	miʂki	piedra	m i ʂ k i	miʂki	stone/miʂki			3671
 1901	u - e	894	rain	Matses	ue	lluvia	u e	we	rain			2823
 1902	u - e	894	rain	Matis	ue	lluvia	u e	we	rain			2823
 1903	u - i	894	rain	Marubo	ui	lluvia	u i	ui	rain			2823
@@ -4158,14 +4158,14 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 5007	k a m a β i	4	all	Kakataibo	kamaβi	todos	k a m a + β i	kamaβi	PLU _EMP		!	29
 5008	h a ʂ k a + n - a	3	all	Kaxarari	haʂkana	todos	h a ʂ k a + n a	haʂkana	like.this _na			31
 5009	i tʃ a p a w	2	all	Mastanawa	iʧapaw	todos	i tʃ a p a w	iʧapaw	many _paw		!	33
-5010	n a t i β i	1	all	Chaninawa	natiβi	todos	n a t i + β i	natiβi	this _EMP		!	27
-5011	n a t i ɸ i	1	all	Sharanawa	natiɸi	todos	n a t i +ɸ i	natiɸi	this _EMP		!	27
+5010	n a t i ( + ) β i	1	all	Chaninawa	natiβi	todos	n a t i + β i	natiβi	this _EMP		!	27
+5011	n a t i ( + ) ɸ i	1	all	Sharanawa	natiɸi	todos	n a t i + ɸ i	natiɸi	this _EMP		!	27
 5012	i tʃ a	2	all	Amawaka	it͡ʃa	todos	i tʃ a	it͡ʃa	a_lot	0		26
-5013	n a t i ɸ i	1	all	Nawa	natiɸi	todos	n a t i + ɸ i	natiɸi	this _EMP		!	27
-5014	n a t i ɸ i	1	all	Marinawa	natiɸi	todos	n a t i + ɸ i	natiɸi	all/na _EMP		!	27
+5013	n a t i ( + ) ɸ i	1	all	Nawa	natiɸi	todos	n a t i + ɸ i	natiɸi	this _EMP		!	27
+5014	n a t i ( + ) ɸ i	1	all	Marinawa	natiɸi	todos	n a t i + ɸ i	natiɸi	all/na _EMP		!	27
 5015	k ɨ j u	9	all	Yaminawa	kɨju	todos	k ɨ j u	kɨju	?			40
-5016	d a s i β i	1	all	Kashinawa_P	dasiβi	todos	d a s i + β i	dasiβi	this _EMP		!	30
-5017	d a ʂ i β i	1	all	Kashinawa_B	daʂiβi	todos	d a ʃ i + β i	daʂiβi	this _EMP		!	30
+5016	d a s i ( + ) β i	1	all	Kashinawa_P	dasiβi	todos	d a s i + β i	dasiβi	this _EMP		!	30
+5017	d a ʃ i ( + ) β i	1	all	Kashinawa_B	daʂiβi	todos	d a ʃ i + β i	daʂiβi	this _EMP		!	30
 5023	u n ʃ i	1126	some	Marubo	unshi	algunos	u n ʃ i	unshi	?			3500
 5024	t ɨ ʂ ɨ	1127	some	Kapanawa	tɨʂɨ	algunos	t ɨ ʂ ɨ	tɨʂɨ	?			3497
 5025	w ɨ s t i + w ɨ s t i	1118	some	Chakobo	wɨsti wɨsti	algunos	w ɨ s t i + w ɨ s t i	wɨsti wɨsti	one one		!	3494
@@ -4258,9 +4258,9 @@ ID	ALIGNMENT	COGID	CONCEPT	DOCULECT	FORM	SPANISH	TOKENS	VALUE	MORPHEMES	COGIDS	N
 5132	- a w ɨ - - - s k a - k i	610	how [interr.]	Marinawa	awɨskaki	como	a w ɨ s k a k i	awɨskaki	what _COMP _INT		!	1839
 5133	- a w ɨ - k a ʂ - u - - -	610	how [interr.]	Yaminawa	awɨkaʂu	como	a w ɨ k a ʂ u	awɨkaʂu	what _COMP		!	1839
 5134	h a - - - - - s k a - - -	610	how [interr.]	Kashinawa_P	haska	como	h a s k a	haska	?			1839
-5140	p u t a	1314	throw	Kakataibo	puta	tirar lanzar	p u t a		throw_away			
-5141	k a	1368	walk	Kakataibo	ka	caminar andar (more general)	k a		go			
-5142	a + t i 	639	kill	Kakataibo	ati	matar	a + t i		do			
-5143	ʂ a n u	1496	woman	Matses	ʂanu	mujer	ʂ a n u		woman/wife/ʂanu			
-5144	β a k a	1391	water	Kakataibo	baka	agua	β a k a		river/βaka			
-5145	p ɨ d a + ʂ a ɸ a	210	day [daytime]	Mastanawa	pɨda ʂaɸa	dia (de dia)	p ɨ d a + ʂ a ɸ a		? clear			
+5140	p u t a	1314	throw	Kakataibo	puta	tirar lanzar	p u t a	puta	throw_away			
+5141	k a	1368	walk	Kakataibo	ka	caminar andar (more general)	k a	ka	go			
+5142	a + t i 	639	kill	Kakataibo	ati	matar	a + t i	ati	do			
+5143	ʂ a n u	1496	woman	Matses	ʂanu	mujer	ʂ a n u	ʂanu	woman/wife/ʂanu			
+5144	β a k a	1391	water	Kakataibo	baka	agua	β a k a	baka	river/βaka			
+5145	p ɨ d a + ʂ a ɸ a	210	day [daytime]	Mastanawa	pɨda ʂaɸa	dia (de dia)	p ɨ d a + ʂ a ɸ a	pɨda ʂaɸa	? clear			
