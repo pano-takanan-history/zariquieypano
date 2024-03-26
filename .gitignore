@@ -106,8 +106,7 @@ ENV/
 # BEAST logs
 *.log
 
-# MapData
-/analysis/dated_phylogeny/
-
 # Tiger
 edictor/
+
+analysis/dated_phylogeny/beast_asr/
