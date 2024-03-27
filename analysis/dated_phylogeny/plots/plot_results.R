@@ -84,5 +84,5 @@ for (clade in levels(attr(tree@phylo, 'group'))) {
 }
 p
 
-ggsave('fig_tree-unfiltered.png', p, width=16, height=14)
+ggsave('mcc_tree.png', p, width=16, height=14)
 

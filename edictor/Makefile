@@ -10,6 +10,10 @@ beast-wordlist:
 auto-wordlist:
 	edictor wordlist --name=pano-auto --data=../cldf/cldf-metadata.json --preprocessing=fullproc.py
 
-beast-words:
-	python -c "from lingpy import *; from lingpy.convert.strings import write_nexus; wl = Wordlist('pano-full.tsv'); write_nexus(wl, mode='beast', filename='pano-full.nex', ref='cogid')"
+beast-full:
+	python -c "from lingpy import *; from lingpy.convert.strings import write_nexus; wl = Wordlist('pano-full.tsv'); write_nexus(wl, mode='full', filename='../analysis/dated_phylogeny/beast/pano-full.nex', ref='cogid')"
+
+splitstree:
+	python -c "from lingpy import *; from lingpy.convert.strings import write_nexus; wl = Wordlist('pano-full.tsv'); write_nexus(wl, mode='splitstree', filename='../analysis/dated_phylogeny/plots/pano-full_splitstree.nex', ref='cogid')"
+
 
