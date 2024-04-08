@@ -1,4 +1,4 @@
-# This code is based on 
+# This code is based on the following article: King, B., Greenhill, S. J., Reid, L. A., Ross, M., Walworth, M., & Gray, R. (2023, March 31). Bayesian phylogenetic analysis of Philippine languages supports a rapid migration of Malayo-Polynesian languages. https://doi.org/10.31235/osf.io/re8m6
 
 setwd(dirname(rstudioapi::getSourceEditorContext()$path))
 
