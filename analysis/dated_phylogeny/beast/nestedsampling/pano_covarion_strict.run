@@ -1,0 +1,1971 @@
+
+                        BEAST v2.7.6, 2002-2023
+             Bayesian Evolutionary Analysis Sampling Trees
+                       Designed and developed by
+ Remco Bouckaert, Alexei J. Drummond, Andrew Rambaut & Marc A. Suchard
+                                    
+                   Centre for Computational Evolution
+                         University of Auckland
+                       r.bouckaert@auckland.ac.nz
+                        alexei@cs.auckland.ac.nz
+                                    
+                   Institute of Evolutionary Biology
+                        University of Edinburgh
+                           a.rambaut@ed.ac.uk
+                                    
+                    David Geffen School of Medicine
+                 University of California, Los Angeles
+                           msuchard@ucla.edu
+                                    
+                      Downloads, Help & Resources:
+                           http://beast2.org/
+                                    
+  Source code distributed under the GNU Lesser General Public License:
+                   http://github.com/CompEvol/beast2
+                                    
+                           BEAST developers:
+   Alex Alekseyenko, Trevor Bedford, Erik Bloomquist, Joseph Heled, 
+ Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li, 
+Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel, 
+          Oliver Pybus, Tim Vaughan, Chieh-Hsi Wu, Walter Xie
+                                    
+                               Thanks to:
+          Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+Random number seed: 1712101925807
+
+Amawaka: 1084 2
+Arara: 1084 2
+Chakobo: 1084 2
+Chaninawa: 1084 2
+Iskonawa: 1084 2
+Kakataibo: 1084 2
+Kanamari: 1084 2
+Kapanawa: 1084 2
+KashinawaB: 1084 2
+KashinawaP: 1084 2
+Katukina: 1084 2
+Kaxarari: 1084 2
+Marinawa: 1084 2
+Marubo: 1084 2
+Mastanawa: 1084 2
+Matis: 1084 2
+Matses: 1084 2
+Nawa: 1084 2
+Nukini: 1084 2
+Pakawara: 1084 2
+Poyanawa: 1084 2
+Shanenawa: 1084 2
+Sharanawa: 1084 2
+ShipiboKonibo: 1084 2
+Yaminawa: 1084 2
+Yawanawa: 1084 2
+Alignment(pano-full)
+  26 taxa
+  1084 sites
+  886 patterns
+
+Filter -
+26 taxa
+1084 sites
+886 patterns
+Starting frequencies: [0.5, 0.5]
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Amawaka: 1084 2
+Arara: 1084 2
+Chakobo: 1084 2
+Chaninawa: 1084 2
+Iskonawa: 1084 2
+Kakataibo: 1084 2
+Kanamari: 1084 2
+Kapanawa: 1084 2
+KashinawaB: 1084 2
+KashinawaP: 1084 2
+Katukina: 1084 2
+Kaxarari: 1084 2
+Marinawa: 1084 2
+Marubo: 1084 2
+Mastanawa: 1084 2
+Matis: 1084 2
+Matses: 1084 2
+Nawa: 1084 2
+Nukini: 1084 2
+Pakawara: 1084 2
+Poyanawa: 1084 2
+Shanenawa: 1084 2
+Sharanawa: 1084 2
+ShipiboKonibo: 1084 2
+Yaminawa: 1084 2
+Yawanawa: 1084 2
+Alignment(pano-full)
+  26 taxa
+  1084 sites
+  886 patterns
+
+Filter -
+26 taxa
+1084 sites
+886 patterns
+Starting frequencies: [0.5, 0.5]
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+===============================================================================
+Citations for this model:
+
+Patricio Maturana, Brendon J. Brewer, Steffen Klaere, Remco Bouckaert. Model selection and parameter inference in phylogenetics using Nested Sampling. Systematic Biology, syy050, 2018
+
+Stadler, T., Kuehnert, D., Bonhoeffer, S., and Drummond, A. J. (2013):
+ Birth-death skyline plot reveals temporal changes of
+ epidemic spread in HIV and hepatitis C virus (HCV). PNAS 110(1): 228–33.
+If sampled ancestors are used then please also cite: Gavryushkina A, Welch D, Stadler T, Drummond AJ (2014) 
+Bayesian inference of sampled ancestor trees for epidemiology and fossil calibration. 
+PLoS Comput Biol 10(12): e1003919. doi:10.1371/journal.pcbi.1003919
+
+===============================================================================
+Amawaka: 1084 2
+Arara: 1084 2
+Chakobo: 1084 2
+Chaninawa: 1084 2
+Iskonawa: 1084 2
+Kakataibo: 1084 2
+Kanamari: 1084 2
+Kapanawa: 1084 2
+KashinawaB: 1084 2
+KashinawaP: 1084 2
+Katukina: 1084 2
+Kaxarari: 1084 2
+Marinawa: 1084 2
+Marubo: 1084 2
+Mastanawa: 1084 2
+Matis: 1084 2
+Matses: 1084 2
+Nawa: 1084 2
+Nukini: 1084 2
+Pakawara: 1084 2
+Poyanawa: 1084 2
+Shanenawa: 1084 2
+Sharanawa: 1084 2
+ShipiboKonibo: 1084 2
+Yaminawa: 1084 2
+Yawanawa: 1084 2
+Alignment(pano-full)
+  26 taxa
+  1084 sites
+  886 patterns
+
+Filter -
+26 taxa
+1084 sites
+886 patterns
+Starting frequencies: [0.5, 0.5]
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+===============================================================================
+Citations for this model:
+
+Patricio Maturana, Brendon J. Brewer, Steffen Klaere, Remco Bouckaert. Model selection and parameter inference in phylogenetics using Nested Sampling. Systematic Biology, syy050, 2018
+
+Stadler, T., Kuehnert, D., Bonhoeffer, S., and Drummond, A. J. (2013):
+ Birth-death skyline plot reveals temporal changes of
+ epidemic spread in HIV and hepatitis C virus (HCV). PNAS 110(1): 228–33.
+If sampled ancestors are used then please also cite: Gavryushkina A, Welch D, Stadler T, Drummond AJ (2014) 
+Bayesian inference of sampled ancestor trees for epidemiology and fossil calibration. 
+PLoS Comput Biol 10(12): e1003919. doi:10.1371/journal.pcbi.1003919
+
+===============================================================================
+Amawaka: 1084 2
+Arara: 1084 2
+Chakobo: 1084 2
+Chaninawa: 1084 2
+Iskonawa: 1084 2
+Kakataibo: 1084 2
+Kanamari: 1084 2
+Kapanawa: 1084 2
+KashinawaB: 1084 2
+KashinawaP: 1084 2
+Katukina: 1084 2
+Kaxarari: 1084 2
+Marinawa: 1084 2
+Marubo: 1084 2
+Mastanawa: 1084 2
+Matis: 1084 2
+Matses: 1084 2
+Nawa: 1084 2
+Nukini: 1084 2
+Pakawara: 1084 2
+Poyanawa: 1084 2
+Shanenawa: 1084 2
+Sharanawa: 1084 2
+ShipiboKonibo: 1084 2
+Yaminawa: 1084 2
+Yawanawa: 1084 2
+Alignment(pano-full)
+  26 taxa
+  1084 sites
+  886 patterns
+
+Filter -
+26 taxa
+1084 sites
+886 patterns
+Starting frequencies: [0.5, 0.5]
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+===============================================================================
+Citations for this model:
+
+Patricio Maturana, Brendon J. Brewer, Steffen Klaere, Remco Bouckaert. Model selection and parameter inference in phylogenetics using Nested Sampling. Systematic Biology, syy050, 2018
+
+Stadler, T., Kuehnert, D., Bonhoeffer, S., and Drummond, A. J. (2013):
+ Birth-death skyline plot reveals temporal changes of
+ epidemic spread in HIV and hepatitis C virus (HCV). PNAS 110(1): 228–33.
+If sampled ancestors are used then please also cite: Gavryushkina A, Welch D, Stadler T, Drummond AJ (2014) 
+Bayesian inference of sampled ancestor trees for epidemiology and fossil calibration. 
+PLoS Comput Biol 10(12): e1003919. doi:10.1371/journal.pcbi.1003919
+
+===============================================================================
+Amawaka: 1084 2
+Arara: 1084 2
+Chakobo: 1084 2
+Chaninawa: 1084 2
+Iskonawa: 1084 2
+Kakataibo: 1084 2
+Kanamari: 1084 2
+Kapanawa: 1084 2
+KashinawaB: 1084 2
+KashinawaP: 1084 2
+Katukina: 1084 2
+Kaxarari: 1084 2
+Marinawa: 1084 2
+Marubo: 1084 2
+Mastanawa: 1084 2
+Matis: 1084 2
+Matses: 1084 2
+Nawa: 1084 2
+Nukini: 1084 2
+Pakawara: 1084 2
+Poyanawa: 1084 2
+Shanenawa: 1084 2
+Sharanawa: 1084 2
+ShipiboKonibo: 1084 2
+Yaminawa: 1084 2
+Yawanawa: 1084 2
+Alignment(pano-full)
+  26 taxa
+  1084 sites
+  886 patterns
+
+Filter -
+26 taxa
+1084 sites
+886 patterns
+Starting frequencies: [0.5, 0.5]
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+===============================================================================
+Citations for this model:
+
+Patricio Maturana, Brendon J. Brewer, Steffen Klaere, Remco Bouckaert. Model selection and parameter inference in phylogenetics using Nested Sampling. Systematic Biology, syy050, 2018
+
+Stadler, T., Kuehnert, D., Bonhoeffer, S., and Drummond, A. J. (2013):
+ Birth-death skyline plot reveals temporal changes of
+ epidemic spread in HIV and hepatitis C virus (HCV). PNAS 110(1): 228–33.
+If sampled ancestors are used then please also cite: Gavryushkina A, Welch D, Stadler T, Drummond AJ (2014) 
+Bayesian inference of sampled ancestor trees for epidemiology and fossil calibration. 
+PLoS Comput Biol 10(12): e1003919. doi:10.1371/journal.pcbi.1003919
+
+===============================================================================
+Writing file 2pano_covarion_strict.sites.log
+Writing file 1pano_covarion_strict.sites.log
+Writing file 0pano_covarion_strict.sites.log
+Writing file 3pano_covarion_strict.sites.log
+Writing file 2pano_covarion_strict.trees
+Writing file 1pano_covarion_strict.trees
+Writing file 0pano_covarion_strict.trees
+Writing file 3pano_covarion_strict.trees
+         Sample      posterior ESS(posterior)     likelihood          prior
+         Sample      posterior ESS(posterior)     likelihood          prior
+Writing file 3pano_covarion_strict.log
+Writing file 1pano_covarion_strict.log
+         Sample      posterior ESS(posterior)     likelihood          prior
+         Sample      posterior ESS(posterior)     likelihood          priorWriting file 2pano_covarion_strict.log
+
+Writing file 0pano_covarion_strict.log
+Start likelihood 0: -12399.113146740485 
+Start likelihood 0: -11444.658636465796 
+Start likelihood 0: -12155.903733176878 
+Start likelihood 0: -11854.110233808728 
+              0    -15852.6474              N    -15617.0693      -235.5781 --
+              0    -17812.0083              N    -17603.8778      -208.1305 --
+              0    -15116.6383              N    -14906.8499      -209.7883 --
+              0    -12333.2958              N    -12110.9035      -222.3923 --
+ML: -15617.907881854104 Information: 0.838560638429044
+ML: -14907.688548516737 Information: 0.838560638429044
+              1    -15764.5693         2.0       -15549.3234      -215.2459 --
+              1    -11465.3576         2.0       -11231.5358      -233.8218 --
+ML: -17604.71641358691 Information: 0.838560638429044
+              1    -14980.0981         2.0       -14740.4980      -239.6001 --
+ML: -12111.742068308655 Information: 0.838560638429044
+              1    -12013.9207         2.0       -11779.0266      -234.8941 --
+ML: -11233.37439276504 Information: 1.838560638429044
+ML: -14742.336567848548 Information: 1.838560638429044
+ML: -15551.161975542704 Information: 1.838560638429044
+              2    -10114.5965         3.0        -9912.3462      -202.2502 --
+              2    -10909.0289         3.0       -10666.6339      -242.3949 --
+              2    -13287.5419         3.0       -13049.7371      -237.8048 --
+ML: -11780.865176687808 Information: 1.838560638429044
+              2    -11737.3761         3.0       -11530.7642      -206.6119 --
+ML: -10669.472546577814 Information: 2.838560638429044
+              3    -10629.9561         4.0       -10461.1603      -168.7958 --
+ML: -11533.602833781426 Information: 2.838560638429044
+              3    -10661.1225         4.0       -10457.7892      -203.3332 --
+ML: -13052.575673513442 Information: 2.838560638429044
+              3    -12045.0307         4.0       -11822.2278      -222.8029 --
+ML: -9915.184828448524 Information: 2.838560638429044
+              3     -9992.3548         4.0        -9774.7908      -217.5640 --
+ML: -10461.627807584424 Information: 3.838560638429044
+              4    -10184.9626         3.2        -9985.8913      -199.0713 --
+ML: -11826.066364487397 Information: 3.838560638429044
+              4     -9687.3816         3.1        -9496.0870      -191.2945 --
+ML: -10464.99887528992 Information: 3.838560638429044
+              4    -10570.3391         4.4       -10365.3071      -205.0320 --
+ML: -9778.629401676619 Information: 3.838560638429044
+              4     -9681.5405         4.8        -9489.2261      -192.3144 --
+ML: -10370.145673133507 Information: 4.838560638429044
+              5    -10450.0778         3.6       -10229.4861      -220.5916 --
+ML: -9494.064687743723 Information: 4.838560638429044
+              5     -9076.1471         4.1        -8865.5634      -210.5837 --
+ML: -9500.925650988553 Information: 4.838560638429044
+              5     -9619.2305         2.6        -9418.3607      -200.8698 --
+ML: -9990.729918437224 Information: 4.838560638429044
+              5     -9777.4160         2.3        -9576.3758      -201.0402 --
+ML: -10235.324755065865 Information: 5.838560638429044
+              6     -9274.5480         3.6        -9041.3766      -233.1713 --
+ML: -9424.199287135085 Information: 5.838560638429044
+              6     -9328.8879         2.5        -9111.2091      -217.6787 --
+ML: -9582.214429605661 Information: 5.838560638429044
+              6     -9784.5446         2.2        -9576.1220      -208.4225 --
+ML: -8871.402019320072 Information: 5.838560638429044
+              6     -9066.3528         4.0        -8852.9190      -213.4337 --
+ML: -9581.826342347073 Information: 5.532102906327054
+ML: -9048.215225740405 Information: 6.838560638429044
+              7     -9430.5415         2.3        -9244.2858      -186.2557 --
+              7     -9106.8991         3.6        -8880.5579      -226.3412 --
+ML: -8859.757629934327 Information: 6.838441001637484
+ML: -9118.047700101537 Information: 6.838560638429044
+              7     -8883.5008         4.1        -8684.6112      -198.8895 --
+              7     -9143.3934         2.6        -8923.9973      -219.3961 --
+ML: -9252.124377934879 Information: 7.838560638429044
+ML: -8888.396542319537 Information: 7.838560638429044
+              8     -9398.1252         2.5        -9207.3422      -190.7830 --
+              8     -8800.0212         3.7        -8599.3619      -200.6593 --
+ML: -8692.449796724333 Information: 7.838560638429044
+              8     -8718.2696         4.3        -8519.3710      -198.8986 --
+ML: -8931.835898620257 Information: 7.838560638429044
+              8     -8926.1004         2.8        -8725.8563      -200.2440 --
+ML: -9216.180775695648 Information: 8.838560638426776
+              9     -9201.8118         2.9        -8987.8878      -213.9240 --
+ML: -8608.200494951621 Information: 8.838560638429044
+              9     -8357.8303         4.3        -8163.3849      -194.4454 --
+ML: -8528.209572679632 Information: 8.838560638429044
+              9     -8719.4683         3.1        -8518.4824      -200.9858 --
+ML: -8734.694946303103 Information: 8.838560638429044
+              9     -8722.7497         3.0        -8531.2384      -191.5113 --
+ML: -8173.22349528172 Information: 9.838560638429044
+             10     -8291.6628         3.9        -8085.0699      -206.5928 --
+ML: -8997.726422582151 Information: 9.838560638429044
+             10     -9104.1085         3.1        -8914.5746      -189.5338 --
+ML: -8527.570609727813 Information: 8.619124796257893
+             10     -8652.8913         3.3        -8442.6600      -210.2313 --
+ML: -8541.076984389809 Information: 9.838560638429044
+             10     -8632.0454         3.2        -8430.2899      -201.7555 --
+ML: -8925.413255248975 Information: 10.838560638429044
+             11     -9056.9125         3.1        -8831.7940      -225.1185 --
+ML: -8095.908515542945 Information: 10.838560638429044
+             11     -8173.1271         3.7        -7980.4346      -192.6924 --
+ML: -8453.49856250543 Information: 10.838560638429044
+             11     -8495.1648         3.3        -8301.4971      -193.6677 --
+ML: -8441.128543642755 Information: 10.838560638429044
+             11     -8212.6990         3.5        -8015.6706      -197.0284 --
+ML: -7992.273217046195 Information: 11.838560638429044
+             12     -8026.7361         3.6        -7839.1818      -187.5542 --
+ML: -8843.632565687016 Information: 11.838560638429044
+             12     -8892.4789         3.1        -8704.2325      -188.2463 --
+ML: -8313.335676290773 Information: 11.838560638429044
+             12     -8371.7285         3.2        -8173.3520      -198.3765 --
+ML: -8027.50921111575 Information: 11.838560638429044
+             12     -8062.0773         3.6        -7851.8825      -210.1948 --
+ML: -7852.020447356246 Information: 12.838560638429044
+ML: -8717.071122586894 Information: 12.838560638429044
+             13     -7939.1554         3.6        -7735.8406      -203.3147 --
+             13     -8811.4768         3.1        -8614.1382      -197.3385 --
+ML: -8186.190615301673 Information: 12.838560638429044
+             13     -8326.1468         3.3        -8113.1971      -212.9497 --
+ML: -7864.7210657311425 Information: 12.838560638429044
+             13     -8020.3226         3.6        -7838.1988      -182.1238 --
+ML: -8627.976834506755 Information: 13.838560638429044
+             14     -8751.7710         3.2        -8534.2979      -217.4730 --
+ML: -7749.6792481491875 Information: 13.838560638429044
+             14     -7919.4031         3.7        -7727.8873      -191.5157 --
+ML: -8127.0356719856745 Information: 13.838560638429044
+             14     -8161.8533         3.3        -7959.5048      -202.3485 --
+ML: -7852.0374444654535 Information: 13.838515094974612
+             14     -8031.9768         3.7        -7835.1544      -196.8223 --
+ML: -7742.724991185041 Information: 14.830013689510917
+             15     -7802.0583         3.8        -7604.1058      -197.9524 --
+ML: -8549.136540973223 Information: 14.838560638429044
+             15     -8170.6791         3.3        -7956.6502      -214.0289 --
+ML: -7974.343428934101 Information: 14.838560638429044
+             15     -8105.1047         3.4        -7916.0256      -189.0790 --
+ML: -7849.871254819013 Information: 14.367888332821508
+             15     -7875.2943         3.8        -7688.6135      -186.6807 --
+ML: -7619.944435781309 Information: 15.838560638429044
+             16     -7701.7840         3.9        -7514.6280      -187.1560 --
+ML: -7972.48879109042 Information: 15.838560638429044
+             16     -7959.5949         3.3        -7784.6744      -174.9204 --
+ML: -7931.864255377387 Information: 15.83856063842904
+             16     -8115.4983         3.4        -7896.7620      -218.7362 --
+ML: -7704.452097339643 Information: 15.838560638429044
+             16     -7814.4761         3.9        -7616.2720      -198.2040 --
+ML: -7531.466565534368 Information: 16.838560638429044
+             17     -7489.8626         3.9        -7307.8428      -182.0198 --
+ML: -7801.513054393901 Information: 16.838560638429044
+             17     -7933.5186         3.2        -7738.1195      -195.3990 --
+ML: -7913.600649860422 Information: 16.83856039985035
+             17     -8060.7066         3.4        -7861.0701      -199.6364 --
+ML: -7633.110657866076 Information: 16.838560638429044
+             17     -7786.6713         3.8        -7586.6083      -200.0629 --
+ML: -7325.681403992943 Information: 17.838560638429044
+             18     -7460.0313         3.9        -7266.1205      -193.9108 --
+ML: -7755.9581373007895 Information: 17.838560638429044
+             18     -7900.1806         3.2        -7719.1574      -181.0232 --
+ML: -7878.908748728892 Information: 17.83856063842227
+             18     -8050.1676         3.3        -7848.1616      -202.0059 --
+ML: -7604.446950984664 Information: 17.838560635717275
+             18     -7691.4177         3.9        -7490.0908      -201.3268 --
+ML: -7737.995981059665 Information: 18.8385603198872
+             19     -7821.1524         3.0        -7627.7004      -193.4519 --
+ML: -7284.959106716991 Information: 18.83856063842903
+             19     -7449.5612         2.8        -7241.4724      -208.0888 --
+ML: -7867.0001576317145 Information: 18.83846699812282
+             19     -8016.5075         2.9        -7810.0088      -206.4986 --
+ML: -7508.929396764774 Information: 18.838560638429044
+             19     -7631.5739         3.7        -7443.4464      -188.1275 --
+ML: -7647.539015750684 Information: 19.838560638429044
+             20     -7734.3584         3.0        -7562.1758      -172.1825 --
+ML: -7261.3109700311825 Information: 19.83856063696978
+             20     -7382.2546         2.8        -7197.2579      -184.9966 --
+ML: -7829.8474058300535 Information: 19.83856063842847
+             20     -7937.6887         2.9        -7746.2116      -191.4770 --
+ML: -7463.285038275651 Information: 19.838560638429044
+             20     -7564.4593         3.8        -7381.1221      -183.3371 --
+ML: -7218.096553766715 Information: 20.838560638429044
+             21     -7351.3106         2.9        -7150.7152      -200.5953 --
+ML: -7583.014420943332 Information: 20.838560638429044
+             21     -7755.2195         2.9        -7554.4846      -200.7349 --
+ML: -7767.050250716341 Information: 20.838560638429044
+             21     -7901.8929         2.9        -7719.0206      -182.8723 --
+ML: -7401.960741290364 Information: 20.838560638429044
+             21     -7551.4603         3.8        -7365.4367      -186.0236 --
+ML: -7172.553813859621 Information: 21.838560638429044
+             22     -7337.8769         2.9        -7145.3552      -192.5217 --
+ML: -7576.321932517869 Information: 21.82778104373836
+             22     -7745.7256         2.9        -7539.5875      -206.1380 --
+ML: -7740.859227303816 Information: 21.838560640832117
+             22     -7814.4756         2.9        -7621.1161      -193.3594 --
+ML: -7387.275324625136 Information: 21.838553644381843
+             22     -7464.7672         3.9        -7270.1919      -194.5752 --
+ML: -7562.426091147241 Information: 22.838545960220316
+             23     -7694.3665         2.8        -7504.1466      -190.2198 --
+ML: -7168.181109612169 Information: 22.75823568479308
+             23     -7312.4234         3.0        -7124.4168      -188.0066 --
+ML: -7643.9547156741955 Information: 22.838560638429044
+             23     -7698.5074         2.9        -7517.6217      -180.8857 --
+ML: -7293.03048197206 Information: 22.838560638429044
+             23     -7441.0596         3.9        -7249.6962      -191.3633 --
+ML: -7527.985247855033 Information: 23.838560638420727
+             24     -7687.2863         2.8        -7491.7146      -195.5717 --
+ML: -7148.255437590482 Information: 23.838560588747427
+             24     -7261.4942         3.0        -7071.7951      -189.6990 --
+ML: -7541.4602903114455 Information: 23.838560638429044
+             24     -7691.2294         2.9        -7496.8626      -194.3667 --
+ML: -7273.534820515561 Information: 23.838560567167182
+             24     -7428.6755         3.9        -7244.6798      -183.9957 --
+ML: -7516.55317308635 Information: 24.838415008510022
+             25     -7649.3221         2.8        -7448.4544      -200.8676 --
+ML: -7521.701225999976 Information: 24.83856058353597
+             25     -7655.1957         2.9        -7462.5792      -192.6165 --
+ML: -7096.633732425271 Information: 24.838560638429044
+             25     -7261.4721         3.1        -7061.4194      -200.0527 --
+ML: -7269.500520810547 Information: 24.731922723277506
+             25     -7413.5359         3.9        -7216.7258      -196.8100 --
+ML: -7474.292975043677 Information: 25.83856063842904
+             26     -7609.3234         2.8        -7421.4366      -187.8868 --
+ML: -7488.417772106078 Information: 25.838560638402736
+             26     -7621.4568         3.0        -7413.7696      -207.6871 --
+ML: -7087.2579410184135 Information: 25.837596533607538
+             26     -7233.5252         3.1        -7047.1997      -186.3255 --
+ML: -7242.564438243852 Information: 25.838560637038444
+             26     -7409.0048         4.0        -7211.3004      -197.7044 --
+ML: -7448.275236606157 Information: 26.83856064153674
+             27     -7567.7235         2.8        -7379.7679      -187.9555 --
+ML: -7440.6081888328345 Information: 26.838560638429044
+             27     -7539.7900         3.0        -7360.6109      -179.1790 --
+ML: -7074.038303066371 Information: 26.838533021032017
+             27     -7214.3598         3.1        -7006.1395      -208.2202 --
+ML: -7238.127092383758 Information: 26.762494510321176
+             27     -7402.1958         4.0        -7207.7080      -194.4878 --
+ML: -7407.606524650631 Information: 27.838560638429026
+             28     -7572.3412         2.8        -7378.4037      -193.9375 --
+ML: -7388.449492634623 Information: 27.838560638429044
+             28     -7546.6363         3.0        -7354.2462      -192.3900 --
+ML: -7033.978146198857 Information: 27.838560638429016
+             28     -7195.3044         3.2        -6996.9231      -198.3813 --
+ML: -7235.473609419175 Information: 27.508112837185024
+             28     -7370.5102         4.1        -7186.0672      -184.4429 --
+ML: -7406.714766224566 Information: 27.751791742448404
+             29     -7551.9851         2.6        -7375.3039      -176.6812 --
+ML: -7383.08012655555 Information: 28.804251751401623
+             29     -7542.5742         3.0        -7342.9389      -199.6353 --
+ML: -7025.761436369274 Information: 28.83580111724263
+             29     -7197.2736         3.3        -6991.5849      -205.6887 --
+ML: -7214.905841848117 Information: 28.838560608454046
+             29     -7350.1383         3.7        -7158.1319      -192.0064 --
+ML: -7404.953917234551 Information: 29.02096308414616
+             30     -7561.6648         2.6        -7351.2358      -210.4289 --
+ML: -7372.777434375825 Information: 29.838146823518578
+             30     -7478.7286         3.0        -7280.4961      -198.2324 --
+ML: -7021.410555677712 Information: 29.756711089916195
+             30     -7144.8041         3.4        -6952.1863      -192.6177 --
+ML: -7187.970533438719 Information: 29.838560637038498
+             30     -7327.3570         3.7        -7145.0534      -182.3036 --
+ML: -7382.074411582397 Information: 30.83856063358925
+             31     -7491.0538         2.6        -7296.1829      -194.8708 --
+ML: -7311.334702629805 Information: 30.838560638429044
+             31     -7458.8819         2.9        -7270.0427      -188.8391 --
+ML: -6983.024929244799 Information: 30.838560638428895
+             31     -7099.2583         3.4        -6907.2614      -191.9969 --
+ML: -7175.892031208743 Information: 30.83848066560092
+             31     -7266.1863         3.8        -7081.5628      -184.6234 --
+ML: -7328.021531825201 Information: 31.838560638429044
+             32     -7424.6006         2.7        -7232.4951      -192.1054 --
+ML: -7301.881270799126 Information: 31.83766246618446
+             32     -7459.0505         2.9        -7261.0508      -197.9996 --
+ML: -6939.099996569422 Information: 31.838560638429044
+             32     -7069.7318         3.4        -6878.2705      -191.4613 --
+ML: -7113.401430540957 Information: 31.838560638429044
+             32     -7248.9920         3.8        -7064.2349      -184.7570 --
+ML: -7265.33372586474 Information: 32.838560638429044
+             33     -7407.1386         2.7        -7213.7129      -193.4257 --
+ML: -7293.889115842581 Information: 32.83518199775834
+             33     -7444.6826         2.9        -7240.3223      -204.3602 --
+ML: -6911.1090719282765 Information: 32.83856063986414
+             33     -7062.8922         3.5        -6871.7149      -191.1773 --
+ML: -7097.073507779561 Information: 32.838559151934874
+             33     -7239.9369         3.8        -7055.2883      -184.6486 --
+ML: -7247.551488515694 Information: 33.838560266503244
+             34     -7383.9688         2.7        -7190.6144      -193.3544 --
+ML: -7274.160956130636 Information: 33.83856057838442
+             34     -7346.2512         3.0        -7147.1599      -199.0912 --
+ML: -6905.549696455743 Information: 33.80945554470053
+             34     -7042.8710         3.5        -6852.7098      -190.1611 --
+ML: -7089.12655929748 Information: 33.835042067529365
+             34     -7229.5970         3.9        -7034.8666      -194.7303 --
+ML: -7225.452965698303 Information: 34.83856063280432
+             35     -7365.3431         2.8        -7154.7147      -210.6283 --
+ML: -7181.998554074738 Information: 34.838560638429044
+             35     -7324.8067         2.9        -7142.2487      -182.5579 --
+ML: -6887.548455360552 Information: 34.83856033517863
+             35     -7044.1520         3.6        -6851.2865      -192.8654 --
+ML: -7069.70523725042 Information: 34.838560557844616
+             35     -7206.2460         3.9        -7026.3019      -179.9440 --
+ML: -7190.553336256972 Information: 35.838560638424035
+             36     -7258.8428         2.8        -7075.3267      -183.5160 --
+ML: -7178.067450584352 Information: 35.72237426474527
+             36     -7276.4629         2.9        -7080.6735      -195.7894 --
+ML: -6886.621390297871 Information: 34.77161184177521
+             36     -7030.3946         3.6        -6843.5604      -186.8342 --
+ML: -7062.139987141881 Information: 35.833604559125156
+             36     -7215.6570         3.9        -7020.6725      -194.9845 --
+ML: -7112.165358394698 Information: 36.838560638429044
+             37     -7280.8470         2.9        -7054.6147      -226.2322 --
+ML: -7117.5121028377935 Information: 36.838560638429044
+             37     -7239.9139         2.9        -7053.1022      -186.8117 --
+ML: -6880.397002132922 Information: 36.820160779369445
+             37     -7027.4055         3.6        -6842.4078      -184.9976 --
+ML: -7057.501414021846 Information: 36.77435474372899
+             37     -7185.2008         4.0        -6994.9327      -190.2681 --
+ML: -7092.453348296643 Information: 37.838560581221735
+             38     -7242.1895         2.9        -7051.5916      -190.5979 --
+ML: -7090.940845960299 Information: 37.838560637237684
+             38     -7235.7079         2.9        -7047.1699      -188.5380 --
+ML: -7090.305996138927 Information: 38.361281449602984
+             39     -7230.4740         3.0        -7038.5506      -191.9233 --
+ML: -6879.62575305267 Information: 36.67729453161974
+             38     -7023.7927         3.7        -6839.8365      -183.9562 --
+ML: -7032.771286239196 Information: 37.8385606379385
+             38     -7158.6225         4.0        -6966.2432      -192.3793 --
+ML: -7078.389234133911 Information: 39.83846451992905
+             40     -7229.3216         3.0        -7034.5565      -194.7650 --
+ML: -7086.001322847188 Information: 38.788913134957056
+             39     -7182.3495         2.8        -6999.2519      -183.0976 --
+ML: -7075.34623694551 Information: 40.599202549035624
+             41     -7199.6952         3.0        -7007.9909      -191.7043 --
+ML: -6878.348332160293 Information: 37.644322312355825
+             39     -7027.7312         3.8        -6838.4154      -189.3157 --
+ML: -7005.08180248731 Information: 38.83856063816596
+             39     -7089.8118         3.2        -6885.8682      -203.9436 --
+ML: -7049.829506083706 Information: 41.838560637510746
+             42     -7170.2484         3.0        -6994.5689      -175.6794 --
+ML: -7039.090481806928 Information: 39.838560638429044
+             40     -7189.7439         2.8        -6994.1745      -195.5693 --
+ML: -6877.606935453348 Information: 38.10108281822613
+             40     -7014.5803         3.8        -6830.7293      -183.8509 --
+ML: -7037.407525948482 Information: 42.83850252908042
+             43     -7182.2830         3.1        -6982.1714      -200.1116 --
+ML: -6925.706847328188 Information: 39.838560638429044
+             40     -7072.3927         3.3        -6885.4588      -186.9339 --
+ML: -7026.009965888015 Information: 43.83841027750325
+             44     -7180.3680         3.1        -6981.3518      -199.0162 --
+ML: -7034.996342086314 Information: 40.73711055883611
+             41     -7154.3541         2.8        -6975.0567      -179.2973 --
+ML: -6871.565553849974 Information: 40.81530669050605
+             41     -7012.4072         3.8        -6828.9122      -183.4949 --
+ML: -7025.402969154006 Information: 43.604399171840214
+             45     -7164.0778         3.1        -6975.6078      -188.4699 --
+ML: -6925.2659916603225 Information: 39.54368874562351
+             41     -7066.6235         3.3        -6873.2556      -193.3679 --
+ML: -7016.895314415799 Information: 41.83856035759747
+             42     -7142.0529         2.8        -6947.1474      -194.9054 --
+ML: -7021.427475729235 Information: 45.703412417787774
+             46     -7130.5964         3.2        -6935.2968      -195.2995 --
+ML: -6870.384266023576 Information: 40.9079569607502
+             42     -6984.5186         3.9        -6793.9618      -190.5567 --
+ML: -6915.094194732146 Information: 41.83804576041828
+             42     -7069.6100         3.3        -6873.0635      -196.5465 --
+ML: -6982.135433921489 Information: 46.83856063842899
+             47     -7122.6339         3.2        -6929.8219      -192.8120 --
+ML: -6989.986027520021 Information: 42.83856063670908
+             43     -7132.2981         2.8        -6937.4627      -194.8354 --
+ML: -6977.649136053044 Information: 47.76557391804242
+             48     -7104.5251         3.2        -6910.4631      -194.0620 --
+ML: -6836.800446345035 Information: 42.838560638411295
+             43     -6966.6101         3.9        -6777.4118      -189.1982 --
+ML: -6914.725533544076 Information: 41.528778556119505
+             43     -7032.0851         3.4        -6840.9650      -191.1200 --
+ML: -6959.301688859347 Information: 48.838560421566754
+             49     -7088.7715         3.2        -6894.6940      -194.0775 --
+ML: -6981.301110141049 Information: 43.83675364951224
+             44     -7113.9616         2.8        -6921.8268      -192.1348 --
+ML: -6944.532612692238 Information: 49.83855417720568
+             50     -7070.4830         3.3        -6876.8751      -193.6079 --
+ML: -6821.250443978264 Information: 43.83855754300792
+             44     -6942.1253         4.0        -6741.7592      -200.3661 --
+ML: -6884.8036420545595 Information: 43.83856063773363
+             44     -6993.9547         3.4        -6804.6986      -189.2561 --
+ML: -6927.713695798979 Information: 50.83855970272908
+             51     -7056.8080         3.3        -6866.7953      -190.0127 --
+ML: -6966.665441820713 Information: 44.838553309144395
+             45     -7104.8485         2.8        -6921.4538      -183.3946 --
+ML: -6918.6337545979595 Information: 51.837298328966
+             52     -7040.4189         3.3        -6848.6365      -191.7823 --
+ML: -6786.597778821823 Information: 44.838560638423
+             45     -6907.4964         4.0        -6712.6154      -194.8810 --
+ML: -6849.537186422518 Information: 44.83856063842574
+             45     -6966.7884         3.4        -6773.6069      -193.1815 --
+ML: -6901.475149387986 Information: 52.838559961832445
+             53     -7028.3182         3.3        -6833.3240      -194.9942 --
+ML: -6966.237427917489 Information: 44.540429738834064
+             46     -7117.3429         2.8        -6919.2931      -198.0497 --
+ML: -6887.1626188196415 Information: 53.838550714860745
+             54     -7003.2838         3.3        -6815.2611      -188.0227 --
+ML: -6758.453967220808 Information: 45.83856064049646
+             46     -6896.0576         4.0        -6699.5832      -196.4744 --
+ML: -6819.445519267778 Information: 45.83856063784806
+             46     -6965.5259         3.4        -6768.0116      -197.5142 --
+ML: -6870.099683678424 Information: 54.83855989965472
+             55     -7010.5485         3.3        -6812.8652      -197.6833 --
+ML: -6965.49002033682 Information: 45.058430745902115
+             47     -7073.5968         2.8        -6872.1114      -201.4854 --
+ML: -6868.482554566162 Information: 55.14182203508017
+             56     -7016.7188         3.3        -6811.5843      -205.1345 --
+ML: -6746.421755443044 Information: 46.8384771549581
+             47     -6889.3252         4.1        -6699.2588      -190.0664 --
+ML: -6814.840186916972 Information: 46.772568175946574
+             47     -6960.8153         3.4        -6766.2890      -194.5262 --
+ML: -6867.759117000315 Information: 55.32280146079893
+             57     -6974.2922         3.3        -6780.5556      -193.7366 --
+ML: -6919.950033805366 Information: 47.838560638429044
+             48     -7064.2706         2.8        -6863.3351      -200.9355 --
+ML: -6838.394164937231 Information: 57.838560637226045
+             58     -6967.2414         3.4        -6774.9311      -192.3103 --
+ML: -6746.010435410196 Information: 46.536552723204295
+             48     -6867.6108         4.1        -6688.0164      -179.5944 --
+ML: -6813.728590529536 Information: 46.85432174050902
+             48     -6959.1988         3.5        -6762.2706      -196.9282 --
+ML: -6833.759909419161 Information: 58.774167214343066
+             59     -6952.0507         3.4        -6765.3415      -186.7092 --
+ML: -6912.173278214245 Information: 48.834460642952315
+             49     -7039.7849         2.7        -6850.4097      -189.3752 --
+ML: -6825.17992519457 Information: 59.83656134460128
+             60     -6941.0620         3.4        -6760.7098      -180.3522 --
+ML: -6736.8549136879565 Information: 48.83724469436777
+             49     -6865.2708         4.0        -6684.4011      -180.8696 --
+ML: -6811.038856144678 Information: 48.45566283827037
+             49     -6940.3488         3.5        -6750.7383      -189.6105 --
+ML: -6821.522250745749 Information: 60.6929194491735
+             61     -6947.3481         3.4        -6752.0429      -195.3052 --
+ML: -6900.248294545319 Information: 49.83846839002313
+             50     -7033.2173         2.7        -6843.8734      -189.3439 --
+ML: -6813.880999510438 Information: 61.833860820078264
+             62     -6917.3309         3.4        -6732.3573      -184.9736 --
+ML: -6734.169143398473 Information: 49.52142638755623
+             50     -6877.6863         4.1        -6679.3540      -198.3322 --
+ML: -6800.576852961855 Information: 49.83819323913721
+             50     -6933.5628         3.5        -6746.9086      -186.6542 --
+ML: -6795.1958917952725 Information: 62.83856047743867
+             63     -6886.4912         3.4        -6697.9494      -188.5417 --
+ML: -6894.708032318705 Information: 50.808968714479164
+             51     -7018.2412         2.7        -6835.0880      -183.1531 --
+ML: -6730.17404438257 Information: 50.72255047911551
+             51     -6866.8260         4.1        -6673.1680      -193.6579 --
+ML: -6761.788004800752 Information: 63.83856063840818
+             64     -6891.1217         3.4        -6694.7721      -196.3496 --
+ML: -6797.68981803414 Information: 50.567713992971676
+             51     -6909.4649         3.5        -6728.8772      -180.5876 --
+ML: -6759.503300301463 Information: 64.4077274102815
+             65     -6872.9783         3.4        -6685.2641      -187.7142 --
+ML: -6886.926239062268 Information: 51.83446679688691
+             52     -6987.0485         2.7        -6796.6868      -190.3617 --
+ML: -6725.000901512686 Information: 51.797271054095845
+             52     -6857.9955         4.1        -6659.1187      -198.8768 --
+ML: -6780.71582879575 Information: 51.83855982305649
+             52     -6901.5969         3.5        -6718.9437      -182.6532 --
+ML: -6751.102438861213 Information: 65.83612706619984
+             66     -6872.7963         3.4        -6684.6069      -188.1893 --
+ML: -6750.5661809306575 Information: 65.5735543924884
+             67     -6864.8744         3.4        -6673.8635      -191.0108 --
+ML: -6849.525438619465 Information: 52.83856063842865
+             53     -6987.8202         2.7        -6793.1357      -194.6845 --
+ML: -6711.957266892465 Information: 52.83852799957828
+             53     -6836.9744         4.1        -6653.1635      -183.8108 --
+ML: -6771.78214214148 Information: 52.837118811035396
+             53     -6887.6195         3.5        -6708.6363      -178.9832 --
+ML: -6741.701991257867 Information: 67.83684604542222
+             68     -6855.9506         3.5        -6668.3456      -187.6050 --
+ML: -6846.89923857618 Information: 53.50652473132283
+             54     -6975.1808         2.7        -6790.8679      -184.3129 --
+ML: -6737.173324801511 Information: 68.76812324826346
+             69     -6849.0588         3.4        -6658.8120      -190.2468 --
+ML: -6706.995108047219 Information: 53.78986512950945
+             54     -6825.2877         4.1        -6647.4252      -177.8624 --
+ML: -6762.474825439913 Information: 53.83753428643
+             54     -6883.9320         3.5        -6687.9501      -195.9819 --
+ML: -6728.650403387147 Information: 69.8364540908282
+             70     -6850.7824         3.4        -6658.0621      -192.7202 --
+ML: -6845.441515170979 Information: 53.9859120231838
+             55     -6951.7900         2.7        -6766.8687      -184.9212 --
+ML: -6702.25507716385 Information: 54.77927648480248
+             55     -6849.6310         4.2        -6647.1988      -202.4321 --
+ML: -6728.07461429643 Information: 69.5897410416469
+             71     -6827.1091         3.4        -6640.0289      -187.0801 --
+ML: -6742.788699435325 Information: 54.838560578022175
+             55     -6880.3768         3.5        -6687.2106      -193.1662 --
+ML: -6711.867557069691 Information: 71.83855885721465
+             72     -6827.5968         3.4        -6638.7525      -188.8442 --
+ML: -6822.707351311798 Information: 55.83856063383569
+             56     -6949.8194         2.7        -6762.4983      -187.3211 --
+ML: -6701.878472262235 Information: 54.48957597363096
+             56     -6832.6591         4.2        -6641.5089      -191.1501 --
+ML: -6711.026669095696 Information: 71.72354708968032
+             73     -6826.2487         3.4        -6635.4538      -190.7948 --
+ML: -6742.217333284182 Information: 54.58906965022106
+             56     -6876.8394         3.5        -6686.9703      -189.8691 --
+ML: -6819.3030974700805 Information: 56.659526989238856
+             57     -6895.1401         2.7        -6708.4351      -186.7050 --
+ML: -6709.129832810727 Information: 73.09843568129463
+             74     -6798.8118         3.5        -6607.3877      -191.4241 --
+ML: -6698.318684275724 Information: 56.64245005181783
+             57     -6831.7585         4.2        -6640.6585      -191.1000 --
+ML: -6742.032008575334 Information: 54.51504540739279
+             57     -6865.7925         3.5        -6668.3630      -197.4294 --
+ML: -6682.226262786242 Information: 74.83856063671095
+             75     -6791.7322         3.5        -6606.4381      -185.2940 --
+ML: -6766.273661956529 Information: 57.838560638429044
+             58     -6900.8502         2.8        -6705.9003      -194.9498 --
+ML: -6681.558020376903 Information: 74.63312271055929
+             76     -6791.6848         3.5        -6598.4340      -193.2507 --
+ML: -6697.710779356207 Information: 56.49810673208367
+             58     -6820.0671         4.2        -6634.0920      -185.9751 --
+ML: -6726.201656066582 Information: 57.838557954034
+             58     -6850.0454         3.5        -6659.5238      -190.5216 --
+ML: -6675.270778659464 Information: 76.8209070958519
+             77     -6776.1843         3.5        -6582.8307      -193.3536 --
+ML: -6764.543769366547 Information: 58.19397733057144
+             59     -6890.6303         2.8        -6701.4046      -189.2257 --
+ML: -6692.92224482845 Information: 58.77092442022656
+             59     -6816.4750         3.7        -6628.9380      -187.5370 --
+ML: -6660.669283498505 Information: 77.83855306266068
+             78     -6760.2856         3.5        -6575.7761      -184.5095 --
+ML: -6718.361995638424 Information: 58.834685829462465
+             59     -6839.0995         3.4        -6647.6933      -191.4061 --
+ML: -6654.6123174872855 Information: 78.81969802750297
+             79     -6762.4602         3.5        -6574.7808      -187.6794 --
+ML: -6761.207025481598 Information: 59.626548927734575
+             60     -6881.5980         2.8        -6675.0014      -206.5966 --
+ML: -6688.760860466716 Information: 59.7415974298374
+             60     -6813.3100         3.8        -6626.0060      -187.3039 --
+ML: -6653.92269958609 Information: 78.63418729815066
+             80     -6765.0798         3.5        -6574.6699      -190.4099 --
+ML: -6707.531899671735 Information: 59.83830659271008
+             60     -6835.6304         3.4        -6646.1055      -189.5248 --
+ML: -6653.736400467729 Information: 78.55302891289102
+             81     -6756.5342         3.5        -6573.2345      -183.2996 --
+ML: -6735.839983097324 Information: 60.838560640720814
+             61     -6865.1321         2.8        -6671.8730      -193.2591 --
+ML: -6686.70734745434 Information: 60.314727875467725
+             61     -6812.8959         3.8        -6620.6454      -192.2505 --
+ML: -6706.502308580096 Information: 59.829554426781215
+             61     -6835.8764         3.4        -6640.3743      -195.5020 --
+ML: -6653.503139553091 Information: 78.72522821994244
+             82     -6758.5007         3.5        -6572.0287      -186.4719 --
+ML: -6733.599120633357 Information: 61.3933428904561
+             62     -6852.9534         2.8        -6662.3047      -190.6487 --
+ML: -6653.275533373397 Information: 79.05724587116401
+             83     -6753.6723         3.5        -6569.1731      -184.4992 --
+ML: -6682.469485972279 Information: 61.74103708772995
+             62     -6797.7029         3.8        -6613.6032      -184.0997 --
+ML: -6702.19926746339 Information: 61.739739868314444
+             62     -6823.9596         3.4        -6636.2710      -187.6885 --
+ML: -6652.44178795764 Information: 81.07694526533214
+             84     -6762.5679         3.5        -6566.4769      -196.0909 --
+ML: -6725.143113710199 Information: 62.83624285139642
+             63     -6846.9219         2.8        -6655.3207      -191.6012 --
+ML: -6676.439371430445 Information: 62.819014786480366
+             63     -6788.8028         3.8        -6602.5443      -186.2585 --
+ML: -6651.034710973187 Information: 83.36088396066293
+             85     -6759.7325         3.5        -6566.4480      -193.2845 --
+ML: -6699.0651386869595 Information: 62.6116920456526
+             63     -6803.7488         3.4        -6607.9223      -195.8265 --
+ML: -6650.783200083249 Information: 83.38195979939155
+             86     -6757.8115         3.5        -6564.4485      -193.3630 --
+ML: -6719.156744730054 Information: 63.81849005508151
+             64     -6840.9651         2.8        -6653.2815      -187.6836 --
+ML: -6666.382910182426 Information: 63.8380424837431
+             64     -6793.4867         3.8        -6602.4586      -191.0280 --
+ML: -6650.310585964817 Information: 84.0214274656787
+             87     -6743.9526         3.5        -6562.0686      -181.8840 --
+ML: -6671.760942651299 Information: 63.83856064124527
+             64     -6774.5979         3.4        -6595.6815      -178.9164 --
+ML: -6649.395539172026 Information: 85.63659384671382
+             88     -6737.2997         3.5        -6555.7341      -181.5656 --
+ML: -6717.816540875641 Information: 63.99659075325576
+             65     -6838.6672         2.8        -6649.6916      -188.9756 --
+ML: -6666.045881815924 Information: 63.52566906019365
+             65     -6794.5848         3.8        -6601.3515      -193.2333 --
+ML: -6660.520110293871 Information: 64.8383868234842
+             65     -6760.8142         3.4        -6580.4866      -180.3276 --
+ML: -6644.564709951856 Information: 88.76651174014177
+             89     -6738.9289         3.5        -6555.5088      -183.4201 --
+ML: -6644.188200725273 Information: 88.4807979642701
+             90     -6749.1168         3.5        -6553.2192      -195.8975 --
+ML: -6715.433377120339 Information: 65.36089210118212
+             66     -6843.1601         2.8        -6645.0556      -198.1044 --
+ML: -6665.769400085462 Information: 63.531490963582655
+             66     -6790.7137         3.8        -6600.5691      -190.1445 --
+ML: -6646.32517128829 Information: 65.83854955862311
+             66     -6765.5390         3.4        -6576.6057      -188.9332 --
+ML: -6643.427757769031 Information: 89.04537461836708
+             91     -6735.9584         3.5        -6552.5791      -183.3792 --
+ML: -6643.1117747913995 Information: 89.21794750637491
+             92     -6734.4235         3.5        -6549.4039      -185.0195 --
+ML: -6711.865614117341 Information: 66.66836710837123
+             67     -6829.8755         2.8        -6641.0649      -188.8105 --
+ML: -6665.591832859567 Information: 63.62542324171045
+             67     -6792.7437         3.9        -6600.3662      -192.3775 --
+ML: -6643.389787515701 Information: 66.5778761792152
+             67     -6761.6907         3.4        -6573.4272      -188.2635 --
+ML: -6641.89240669261 Information: 91.16203996643094
+             93     -6738.4782         3.5        -6549.3452      -189.1330 --
+ML: -6708.853124788029 Information: 67.58496175853242
+             68     -6822.1920         2.8        -6637.0765      -185.1154 --
+ML: -6641.649550962932 Information: 91.21783671419053
+             94     -6733.6278         3.5        -6548.3617      -185.2661 --
+ML: -6665.521077699615 Information: 63.66397734757811
+             68     -6780.3567         3.9        -6593.2912      -187.0654 --
+ML: -6641.152861333292 Information: 67.36419388961622
+             68     -6757.7854         3.4        -6567.9523      -189.8330 --
+ML: -6641.457209315473 Information: 91.38768530601556
+             95     -6726.6073         3.5        -6544.7495      -181.8577 --
+ML: -6705.863485957652 Information: 68.57608350053175
+             69     -6827.5849         2.8        -6632.4952      -195.0896 --
+ML: -6640.2379446395535 Information: 93.91660402961588
+             96     -6728.2954         3.5        -6543.7526      -184.5428 --
+ML: -6662.096715539013 Information: 68.52645877235443
+             69     -6772.9563         3.8        -6581.9361      -191.0202 --
+ML: -6636.778264882718 Information: 68.75238974697714
+             69     -6760.5762         3.3        -6567.6179      -192.9583 --
+ML: -6639.705923040786 Information: 94.44437069772584
+             97     -6729.9126         3.5        -6542.2569      -187.6557 --
+ML: -6702.304958987899 Information: 69.67318357389826
+             70     -6818.4868         2.8        -6631.3551      -187.1317 --
+ML: -6651.774646074596 Information: 69.83814498901155
+             70     -6762.1991         3.8        -6581.2258      -180.9732 --
+ML: -6639.188723306403 Information: 95.14045917718386
+             98     -6726.8386         3.5        -6538.5771      -188.2615 --
+ML: -6636.367792504091 Information: 68.47926615526376
+             70     -6749.3809         3.3        -6565.6080      -183.7729 --
+ML: -6637.258833649133 Information: 97.88750024212959
+             99     -6723.9712         3.5        -6538.1639      -185.8072 --
+ML: -6701.554650372555 Information: 69.59664233535796
+             71     -6821.6699         2.8        -6631.0885      -190.5814 --
+ML: -6651.215938784556 Information: 69.58361681886845
+             71     -6761.3817         3.8        -6575.8865      -185.4951 --
+ML: -6635.71328478835 Information: 68.92006942405305
+             71     -6748.2670         3.3        -6563.7964      -184.4706 --
+ML: -6636.869926953397 Information: 97.88761826411974
+            100     -6719.1391         3.5        -6536.8456      -182.2935 --
+ML: -6636.503226030059 Information: 98.17684227597965
+            101     -6724.0398         3.5        -6536.5982      -187.4415 --
+ML: -6701.328729625399 Information: 69.54653726558718
+             72     -6806.6533         2.8        -6626.9773      -179.6759 --
+ML: -6647.69506237931 Information: 71.63861755683496
+             72     -6757.9290         3.8        -6562.2767      -195.6523 --
+ML: -6634.980211839226 Information: 69.74404774866753
+             72     -6758.3384         3.3        -6562.7339      -195.6044 --
+ML: -6636.36814406599 Information: 98.26012140664625
+            102     -6717.6321         3.5        -6532.3018      -185.3303 --
+ML: -6699.6168448702365 Information: 71.77207839524203
+             73     -6813.5724         2.8        -6624.4788      -189.0936 --
+ML: -6634.883463936116 Information: 101.26609726823881
+            103     -6716.8832         3.5        -6531.0997      -185.7834 --
+ML: -6635.115273986408 Information: 72.83850978441916
+             73     -6749.0422         3.8        -6562.0943      -186.9478 --
+ML: -6634.539995884704 Information: 70.19486919807423
+             73     -6751.6374         3.4        -6560.3689      -191.2684 --
+ML: -6634.217376525411 Information: 101.82427768066009
+            104     -6714.3239         3.5        -6528.0377      -186.2861 --
+ML: -6698.076260051929 Information: 72.87626398469774
+             74     -6801.5130         2.8        -6614.8489      -186.6640 --
+ML: -6634.749610265155 Information: 72.5287106284095
+             74     -6748.3324         3.8        -6562.0509      -186.2814 --
+ML: -6632.643977352487 Information: 103.70317171254783
+            105     -6714.1819         3.5        -6526.4744      -187.7074 --
+ML: -6633.666843329709 Information: 71.63731891073985
+             74     -6745.0919         3.4        -6557.1267      -187.9652 --
+ML: -6631.77172275927 Information: 104.26630997927623
+            106     -6716.3415         3.5        -6526.1700      -190.1715 --
+ML: -6689.6872592109685 Information: 74.8359798947248
+             75     -6796.0540         2.8        -6613.0587      -182.9953 --
+ML: -6634.638367414755 Information: 72.43535959064866
+             75     -6748.0940         3.8        -6555.8130      -192.2809 --
+ML: -6631.797727060791 Information: 73.91470958514788
+             75     -6746.3339         3.4        -6555.9668      -190.3671 --
+ML: -6631.51685247745 Information: 104.31187980024515
+            107     -6713.9453         3.5        -6524.4843      -189.4609 --
+ML: -6631.147630112651 Information: 104.78258666635429
+            108     -6714.4660         3.6        -6521.3984      -193.0676 --
+ML: -6688.523061353147 Information: 74.90475375837241
+             76     -6792.6641         2.9        -6609.0421      -183.6220 --
+ML: -6631.602418167268 Information: 75.48243763502484
+             76     -6741.0464         3.9        -6554.1891      -186.8572 --
+ML: -6631.108401745909 Information: 74.17981187737723
+             76     -6746.2372         3.4        -6555.2919      -190.9453 --
+ML: -6629.898901346649 Information: 107.0757018550853
+            109     -6707.9203         3.5        -6517.6923      -190.2279 --
+ML: -6685.811946426803 Information: 76.46564336200811
+             77     -6788.9399         2.9        -6607.9827      -180.9571 --
+ML: -6627.441384556425 Information: 109.30957902141245
+            110     -6707.4849         3.5        -6517.4593      -190.0256 --
+ML: -6630.581167456451 Information: 75.69665964627484
+             77     -6721.6435         3.9        -6537.2733      -184.3701 --
+ML: -6630.801030158312 Information: 74.30554036944795
+             77     -6738.0002         3.4        -6552.5314      -185.4687 --
+ML: -6627.087466164757 Information: 109.1561009236093
+            111     -6704.2735         3.5        -6516.2470      -188.0265 --
+ML: -6685.123494215817 Information: 76.45573541552403
+             78     -6768.7706         2.9        -6582.7760      -185.9946 --
+ML: -6615.111916278881 Information: 77.83855707910982
+             78     -6723.1322         3.9        -6536.5680      -186.5641 --
+ML: -6626.773693222727 Information: 109.2959513705191
+            112     -6707.7383         3.5        -6515.6175      -192.1208 --
+ML: -6629.869351345778 Information: 75.77647544951424
+             78     -6735.8972         3.4        -6550.4997      -185.3974 --
+ML: -6626.603170703629 Information: 109.41706242094551
+            113     -6706.7510         3.5        -6515.5749      -191.1760 --
+ML: -6661.614600392216 Information: 78.83856063779247
+             79     -6757.0515         2.9        -6579.1489      -177.9026 --
+ML: -6614.555314103093 Information: 77.58299949042885
+             79     -6718.6037         3.7        -6534.6184      -183.9853 --
+ML: -6628.875869250525 Information: 77.04560896637713
+             79     -6738.9492         3.2        -6548.6233      -190.3258 --
+ML: -6626.544728897347 Information: 109.45007985501616
+            114     -6706.9037         3.5        -6515.5250      -191.3786 --
+ML: -6626.523014347544 Information: 109.4620807512465
+            115     -6698.8679         3.5        -6514.8333      -184.0345 --
+ML: -6658.9176764774475 Information: 79.52425404873952
+             80     -6760.1051         2.9        -6577.0034      -183.1017 --
+ML: -6613.8118027887995 Information: 78.07423267483227
+             80     -6730.2619         3.7        -6534.1368      -196.1250 --
+ML: -6627.954449631078 Information: 78.05492195838451
+             80     -6734.1863         3.3        -6546.6160      -187.5703 --
+ML: -6626.507356531412 Information: 109.4810296125097
+            116     -6702.8979         3.5        -6514.6377      -188.2602 --
+ML: -6626.5004298279955 Information: 109.49059103500531
+            117     -6699.6202         3.6        -6514.2816      -185.3385 --
+ML: -6657.548514019905 Information: 79.93727491315417
+             81     -6768.5078         2.9        -6574.7177      -193.7901 --
+ML: -6613.5399883869195 Information: 78.18338607522765
+             81     -6715.9095         3.7        -6530.2584      -185.6511 --
+ML: -6626.98045831797 Information: 79.12467030079688
+             81     -6724.0011         3.3        -6545.2722      -178.7288 --
+ML: -6626.496811066215 Information: 109.49682698060406
+            118     -6702.4499         3.6        -6514.1840      -188.2658 --
+ML: -6656.240938447587 Information: 80.74057964190183
+             82     -6750.8068         2.9        -6567.3281      -183.4786 --
+ML: -6626.495346946409 Information: 109.49948275364568
+            119     -6696.8943         3.5        -6511.7249      -185.1694 --
+ML: -6611.884914228137 Information: 80.65235547616976
+             82     -6714.2792         3.7        -6529.8725      -184.4067 --
+ML: -6626.350371276553 Information: 79.70226343098284
+             82     -6735.1368         3.3        -6544.1218      -191.0150 --
+ML: -6626.489072715355 Information: 109.52617591384387
+            120     -6700.0444         3.5        -6511.2248      -188.8195 --
+ML: -6650.164456177329 Information: 82.81749650619352
+             83     -6752.6247         2.9        -6563.9154      -188.7092 --
+ML: -6611.521853629454 Information: 80.70336565040452
+             83     -6713.4632         3.7        -6529.2939      -184.1693 --
+ML: -6626.485286023666 Information: 109.544076233743
+            121     -6697.3763         3.5        -6511.0993      -186.2769 --
+ML: -6625.916413691435 Information: 80.1577163486254
+             83     -6730.5740         3.3        -6543.9684      -186.6056 --
+ML: -6626.483710946668 Information: 109.55169523099539
+            122     -6702.7455         3.5        -6511.0249      -191.7205 --
+ML: -6647.668066948174 Information: 83.46989475158068
+             84     -6749.2636         2.9        -6563.6953      -185.5683 --
+ML: -6611.339732026843 Information: 80.77508277806828
+             84     -6708.7764         3.8        -6527.3876      -181.3887 --
+ML: -6626.483087428348 Information: 109.55475371273587
+            123     -6697.9929         3.5        -6510.8984      -187.0944 --
+ML: -6625.775798006674 Information: 80.25194016750538
+             84     -6727.9872         3.3        -6542.9671      -185.0200 --
+ML: -6626.482827229141 Information: 109.55606227981843
+            124     -6699.7308         3.5        -6510.8161      -188.9146 --
+ML: -6647.316913779158 Information: 83.26764528534022
+             85     -6743.6487         2.9        -6559.9511      -183.6976 --
+ML: -6610.994655841417 Information: 81.35715684523711
+             85     -6712.9911         3.8        -6527.2842      -185.7069 --
+ML: -6626.482723312349 Information: 109.55659332714276
+ML: -6625.652392846371 Information: 80.42535101682188
+             85     -6728.5368         3.3        -6537.4995      -191.0373 --
+            125     -6696.9635         3.5        -6509.9722      -186.9912 --
+ML: -6626.482634426782 Information: 109.55712250888155
+            126     -6696.1778         3.5        -6509.8847      -186.2931 --
+ML: -6645.593174746571 Information: 84.91095945435222
+             86     -6741.0373         2.9        -6557.7879      -183.2494 --
+ML: -6610.882166681053 Information: 81.49503981889848
+             86     -6715.2301         3.8        -6527.0466      -188.1835 --
+ML: -6623.24389134188 Information: 85.04922043422062
+             86     -6726.1940         3.3        -6537.2851      -188.9088 --
+ML: -6626.482598736971 Information: 109.55733810009133
+            127     -6693.9074         3.5        -6509.4614      -184.4459 --
+ML: -6626.482578689359 Information: 109.55746768492281
+            128     -6699.1897         3.6        -6509.0190      -190.1707 --
+ML: -6644.30415755576 Information: 85.71873367708417
+             87     -6744.4577         2.9        -6557.1707      -187.2869 --
+ML: -6610.833722260761 Information: 81.5572770954268
+             87     -6711.0031         3.8        -6525.4755      -185.5275 --
+ML: -6622.896876845928 Information: 84.96886735647058
+             87     -6724.1319         3.3        -6537.0865      -187.0454 --
+ML: -6626.482567210395 Information: 109.55754695877204
+            129     -6698.2769         3.4        -6508.9724      -189.3045 --
+ML: -6626.482562786205 Information: 109.5575777185395
+            130     -6700.5384         3.5        -6508.5278      -192.0105 --
+ML: -6643.902690400924 Information: 85.78503442076726
+             88     -6744.3056         3.0        -6555.7294      -188.5761 --
+ML: -6610.753333933396 Information: 81.77047505553764
+             88     -6716.1855         3.8        -6525.2439      -190.9416 --
+ML: -6622.773267133282 Information: 84.94310431617487
+             88     -6726.6644         3.3        -6535.8997      -190.7646 --
+ML: -6626.48256024744 Information: 109.55759649776246
+            131     -6698.1451         3.5        -6508.3365      -189.8085 --
+ML: -6626.482559116635 Information: 109.55760507955347
+            132     -6695.6656         3.5        -6507.8805      -187.7851 --
+ML: -6643.487878043329 Information: 86.1810887888114
+             89     -6735.5510         3.0        -6553.6406      -181.9103 --
+ML: -6610.718138461803 Information: 81.86458303483869
+             89     -6714.2972         3.6        -6524.4250      -189.8722 --
+ML: -6622.64211133694 Information: 85.04922885297037
+             89     -6727.5102         3.2        -6535.0082      -192.5020 --
+ML: -6626.48255846025 Information: 109.55761036273907
+            133     -6705.0294         3.5        -6507.5617      -197.4677 --
+ML: -6626.482558128109 Information: 109.55761313917446
+            134     -6700.0174         3.5        -6507.4675      -192.5499 --
+ML: -6642.790407473263 Information: 87.324576111223
+             90     -6742.1343         3.0        -6551.3279      -190.8063 --
+ML: -6610.689692383528 Information: 81.9603352602835
+             90     -6714.9496         3.6        -6524.3022      -190.6473 --
+ML: -6622.537492774661 Information: 85.20134999844231
+             90     -6715.3646         3.2        -6528.7582      -186.6063 --
+ML: -6626.482557993863 Information: 109.55761427581092
+            135     -6698.6740         3.5        -6507.4597      -191.2143 --
+ML: -6626.482557944087 Information: 109.5576146997173
+            136     -6701.2552         3.5        -6507.4232      -193.8319 --
+ML: -6641.737450695195 Information: 88.96574941533572
+             91     -6731.9155         3.0        -6548.5106      -183.4048 --
+ML: -6610.678094348614 Information: 81.99978639998335
+             91     -6708.0743         3.6        -6523.6685      -184.4058 --
+ML: -6619.545360043033 Information: 90.35663792209976
+             91     -6716.6745         3.2        -6526.1908      -190.4836 --
+ML: -6626.4825579250955 Information: 109.55761486077608
+            137     -6703.4071         3.6        -6507.2790      -196.1281 --
+ML: -6626.482557917025 Information: 109.55761493320915
+            138     -6700.8801         3.6        -6507.0997      -193.7803 --
+ML: -6640.126434639452 Information: 90.76493951600219
+             92     -6732.8537         3.0        -6545.3848      -187.4688 --
+ML: -6610.670131529769 Information: 82.03155719239749
+             92     -6715.5473         3.6        -6522.6629      -192.8843 --
+ML: -6617.830923290574 Information: 91.1002258511453
+             92     -6714.7789         3.2        -6526.1872      -188.5917 --
+ML: -6626.482557913473 Information: 109.5576149624585
+            139     -6705.3202         3.4        -6506.9168      -198.4034 --
+ML: -6638.084428845063 Information: 92.18352488620951
+             93     -6728.7943         3.0        -6542.2104      -186.5838 --
+ML: -6626.482557911904 Information: 109.55761497609092
+            140     -6700.8490         3.4        -6506.6078      -194.2412 --
+ML: -6610.66218743405 Information: 82.07089618767804
+             93     -6709.6779         3.7        -6520.7501      -188.9278 --
+ML: -6617.566450066661 Information: 90.96204924669382
+             93     -6710.0225         3.2        -6524.6032      -185.4192 --
+ML: -6626.482557911118 Information: 109.55761498085121
+            141     -6704.6016         3.5        -6506.4769      -198.1246 --
+ML: -6626.482557910789 Information: 109.55761498120319
+            142     -6699.2888         3.5        -6505.5404      -193.7484 --
+ML: -6635.926263584185 Information: 93.28940568406142
+             94     -6726.0004         3.0        -6542.0357      -183.9647 --
+ML: -6610.642666266934 Information: 82.2029597321125
+             94     -6705.8831         3.7        -6520.3479      -185.5351 --
+ML: -6626.48255791048 Information: 109.55761498339052
+            143     -6706.6159         3.5        -6504.6757      -201.9401 --
+ML: -6617.218108943879 Information: 91.20233314045072
+             94     -6710.2394         3.3        -6523.7155      -186.5238 --
+ML: -6626.48255791021 Information: 109.55761498576703
+            144     -6701.3396         3.5        -6504.4654      -196.8742 --
+ML: -6635.598752347944 Information: 93.12978455159464
+             95     -6736.5458         3.0        -6541.6247      -194.9211 --
+ML: -6610.632090279534 Information: 82.27751077529956
+             95     -6706.9057         3.7        -6518.8941      -188.0115 --
+ML: -6626.482557910087 Information: 109.55761498783613
+            145     -6702.5694         3.5        -6503.8665      -198.7029 --
+ML: -6616.984707175567 Information: 91.44775231044059
+             95     -6707.0923         3.3        -6523.0056      -184.0866 --
+ML: -6626.482557910005 Information: 109.55761498692846
+            146     -6701.1468         3.5        -6503.6565      -197.4903 --
+ML: -6635.45468473598 Information: 93.09898419318415
+             96     -6724.1872         3.0        -6541.4086      -182.7786 --
+ML: -6610.615663971612 Information: 82.41521460031436
+             96     -6704.2445         3.7        -6517.4580      -186.7864 --
+ML: -6626.482557909968 Information: 109.55761498744323
+            147     -6702.2966         3.5        -6503.4112      -198.8854 --
+ML: -6616.839953823095 Information: 91.64413246645654
+             96     -6707.9565         3.3        -6522.8447      -185.1118 --
+ML: -6626.482557909951 Information: 109.55761498604897
+            148     -6709.6205         3.6        -6503.2393      -206.3812 --
+ML: -6635.3952193325895 Information: 93.09419640574652
+             97     -6732.5040         3.1        -6540.9430      -191.5610 --
+ML: -6626.482557909943 Information: 109.55761498365973
+            149     -6702.0782         3.4        -6503.1213      -198.9568 --
+ML: -6610.590776945701 Information: 82.65437482453581
+             97     -6708.9907         3.7        -6517.2928      -191.6978 --
+ML: -6616.783356452012 Information: 91.71690384322301
+             97     -6714.0207         3.3        -6522.8118      -191.2089 --
+ML: -6626.482557909941 Information: 109.55761498082575
+            150     -6704.0728         3.4        -6503.0621      -201.0107 --
+ML: -6635.361947527534 Information: 93.10536436179609
+             98     -6719.7892         3.1        -6537.9695      -181.8196 --
+ML: -6626.48255790994 Information: 109.55761497870662
+            151     -6711.5553         3.4        -6502.8718      -208.6835 --
+ML: -6610.58016731211 Information: 82.75609192636784
+             98     -6707.0618         3.7        -6517.0281      -190.0336 --
+ML: -6616.7626528761175 Information: 91.74239820624916
+             98     -6707.8058         3.3        -6520.1823      -187.6235 --
+ML: -6626.482557909939 Information: 109.55761498105312
+            152     -6708.9947         3.4        -6502.5471      -206.4475 --
+ML: -6635.150501215676 Information: 93.7109651691062
+             99     -6722.4592         3.1        -6531.8453      -190.6139 --
+ML: -6626.482557909939 Information: 109.5576149792305
+            153     -6705.1496         3.4        -6502.4829      -202.6666 --
+ML: -6610.575120926065 Information: 82.80538863628772
+             99     -6705.7390         3.7        -6516.5858      -189.1532 --
+ML: -6626.482557909939 Information: 109.55761497851563
+            154     -6711.3070         3.4        -6502.3569      -208.9500 --
+ML: -6616.663227571485 Information: 92.10084712200569
+             99     -6706.6608         3.2        -6518.0072      -188.6536 --
+ML: -6626.482557909939 Information: 109.55761497821732
+            155     -6709.2859         3.5        -6501.7834      -207.5025 --
+ML: -6631.653168867126 Information: 99.51732164957122
+            100     -6716.8950         3.1        -6529.1408      -187.7541 --
+ML: -6610.572243036295 Information: 82.83465054628596
+            100     -6710.6000         3.7        -6516.5455      -194.0545 --
+ML: -6626.482557909939 Information: 109.55761497802268
+            156     -6706.4867         3.5        -6501.7416      -204.7451 --
+ML: -6616.39587930934 Information: 93.37129723934504
+            100     -6704.9928         3.2        -6518.0061      -186.9866 --
+ML: -6626.482557909939 Information: 109.5576149779481
+            157     -6707.9454         3.5        -6501.7373      -206.2080 --
+ML: -6629.807522026854 Information: 100.19369656859294
+            101     -6717.4431         3.1        -6527.0569      -190.3861 --
+ML: -6610.571142962463 Information: 82.84585582141426
+            101     -6701.9862         3.7        -6515.2648      -186.7213 --
+ML: -6626.482557909939 Information: 109.55761497792082
+            158     -6706.1966         3.5        -6501.5719      -204.6247 --
+ML: -6616.31301429072 Information: 93.68752170624794
+            101     -6710.4302         3.2        -6517.4057      -193.0245 --
+ML: -6626.482557909939 Information: 109.557614977909
+            159     -6709.8374         3.5        -6501.5665      -208.2709 --
+ML: -6628.557836507028 Information: 100.76807636589388
+            102     -6713.3516         3.1        -6526.2538      -187.0977 --
+ML: -6610.5696883283845 Information: 82.86251338159309
+            102     -6699.5697         3.7        -6515.1306      -184.4390 --
+ML: -6626.482557909939 Information: 109.55761497790445
+            160     -6713.8750         3.5        -6501.5587      -212.3163 --
+ML: -6616.261059539462 Information: 93.89983320943065
+            102     -6706.0692         3.2        -6517.1000      -188.9692 --
+ML: -6626.482557909939 Information: 109.55761497790263
+            161     -6712.6293         3.5        -6501.4879      -211.1413 --
+ML: -6628.096679292118 Information: 100.87434903382746
+            103     -6715.7143         3.1        -6525.6322      -190.0820 --
+ML: -6610.569076991835 Information: 82.86958816234619
+            103     -6703.4651         3.7        -6514.0708      -189.3943 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            162     -6712.7523         3.5        -6501.3990      -211.3533 --
+ML: -6616.236088543399 Information: 94.00461283946606
+            103     -6705.0215         3.3        -6516.7126      -188.3088 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            163     -6710.1677         3.6        -6501.3761      -208.7915 --
+ML: -6627.871085994916 Information: 100.96988948675698
+            104     -6712.7092         3.1        -6525.0720      -187.6371 --
+ML: -6610.568428361268 Information: 82.87777662334884
+            104     -6704.8644         3.7        -6512.9348      -191.9296 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            164     -6709.9322         3.6        -6501.3515      -208.5807 --
+ML: -6616.222812217781 Information: 94.06412194331733
+            104     -6705.0785         3.3        -6516.2273      -188.8512 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            165     -6717.3905         3.6        -6501.3168      -216.0736 --
+ML: -6627.748789931835 Information: 101.05815147203612
+            105     -6707.5987         3.1        -6523.8180      -183.7807 --
+ML: -6610.5676857495155 Information: 82.88798779073113
+            105     -6700.2780         3.7        -6512.7262      -187.5517 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            166     -6714.6834         3.6        -6501.3067      -213.3767 --
+ML: -6616.2149604673305 Information: 94.10265930449714
+            105     -6706.8973         3.3        -6515.0122      -191.8850 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            167     -6714.1551         3.6        -6501.2185      -212.9366 --
+ML: -6627.610414174681 Information: 101.29099929088807
+            106     -6708.8850         3.1        -6523.2721      -185.6129 --
+ML: -6610.56734938385 Information: 82.89268039946273
+            106     -6697.6236         3.7        -6511.6788      -185.9448 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            168     -6725.6323         3.6        -6501.1274      -224.5049 --
+ML: -6616.205309416857 Information: 94.16120152447911
+            106     -6709.6143         3.3        -6514.4737      -195.1405 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            169     -6714.2923         3.7        -6501.0866      -213.2056 --
+ML: -6627.531547198415 Information: 101.4432279234752
+            107     -6709.2503         3.2        -6523.0001      -186.2501 --
+ML: -6610.566996818388 Information: 82.89796640119403
+            107     -6698.0220         3.8        -6511.1568      -186.8652 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            170     -6716.7864         3.7        -6500.9746      -215.8117 --
+ML: -6616.199273615394 Information: 94.20072112577327
+            107     -6705.6270         3.3        -6512.0148      -193.6122 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            171     -6712.2396         3.7        -6500.9374      -211.3021 --
+ML: -6627.4955834298935 Information: 101.5163514245869
+            108     -6711.0436         3.2        -6521.6020      -189.4416 --
+ML: -6610.566778274179 Information: 82.90135610598463
+            108     -6697.5905         3.8        -6510.6019      -186.9885 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            172     -6721.9138         3.7        -6500.8837      -221.0301 --
+ML: -6616.173719206144 Information: 94.42706200737393
+            108     -6702.6961         3.3        -6511.6533      -191.0428 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            173     -6719.3130         3.7        -6500.8716      -218.4413 --
+ML: -6627.444321014503 Information: 101.68381822898846
+            109     -6708.2752         3.2        -6521.1251      -187.1500 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            174     -6720.8258         3.8        -6500.8609      -219.9648 --
+ML: -6610.566638269201 Information: 82.90360490117018
+            109     -6697.5957         3.7        -6510.5631      -187.0326 --
+ML: -6616.160482816469 Information: 94.54654468421722
+            109     -6700.6095         3.2        -6511.0883      -189.5211 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            175     -6715.9778         3.8        -6500.8295      -215.1482 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            176     -6724.9458         3.8        -6500.6987      -224.2471 --
+ML: -6627.415134773954 Information: 101.7879641570089
+            110     -6717.6112         3.2        -6520.4475      -197.1637 --
+ML: -6610.5665847309265 Information: 82.90446683337814
+            110     -6705.4130         3.7        -6509.9087      -195.5042 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            177     -6724.2880         3.8        -6500.5453      -223.7426 --
+ML: -6616.152008402679 Information: 94.62689127345584
+            110     -6697.5552         3.2        -6510.9443      -186.6108 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            178     -6727.2572         3.8        -6500.4355      -226.8217 --
+ML: -6610.566546838299 Information: 82.90510164791613
+            111     -6697.2485         3.7        -6509.4436      -187.8049 --
+ML: -6627.394511188196 Information: 101.87306862531841
+            111     -6705.1098         3.2        -6519.2061      -185.9036 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            179     -6719.2843         3.8        -6500.4089      -218.8754 --
+ML: -6616.148429553921 Information: 94.66111163181813
+            111     -6710.6828         3.2        -6510.4831      -200.1996 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            180     -6725.1608         3.9        -6500.3748      -224.7859 --
+ML: -6610.566524643489 Information: 82.90548378928361
+            112     -6701.7901         3.7        -6508.9243      -192.8658 --
+ML: -6627.368857116827 Information: 102.00736705229701
+            112     -6707.5657         3.2        -6518.7188      -188.8468 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            181     -6716.5410         3.9        -6500.3677      -216.1732 --
+ML: -6616.146347388033 Information: 94.68191808394931
+            112     -6703.5707         3.3        -6509.7692      -193.8014 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            182     -6718.8594         3.9        -6500.3447      -218.5147 --
+ML: -6610.566510920087 Information: 82.90572719680222
+            113     -6697.7376         3.8        -6508.8234      -188.9142 --
+ML: -6627.353803397283 Information: 102.09156027434437
+            113     -6705.8178         3.2        -6517.8354      -187.9823 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            183     -6716.2837         3.9        -6500.3353      -215.9484 --
+ML: -6616.144786119546 Information: 94.69860186641927
+            113     -6697.1895         3.3        -6509.4623      -187.7271 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            184     -6718.0924         3.9        -6500.2377      -217.8546 --
+ML: -6610.566505335428 Information: 82.90582681418073
+            114     -6697.2918         3.8        -6508.7693      -188.5224 --
+ML: -6627.3405937758735 Information: 102.17581078191506
+            114     -6708.0790         3.2        -6517.7415      -190.3375 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            185     -6720.7353         4.0        -6500.2338      -220.5014 --
+ML: -6616.1440063804175 Information: 94.70716272076879
+            114     -6701.9484         3.3        -6509.4606      -192.4877 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            186     -6728.6770         4.0        -6500.0631      -228.6138 --
+ML: -6610.566503166763 Information: 82.9058656142297
+            115     -6702.2934         3.8        -6508.4333      -193.8601 --
+ML: -6627.335305027326 Information: 102.20967795087472
+            115     -6705.4742         3.2        -6515.9326      -189.5415 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            187     -6719.1146         4.0        -6500.0084      -219.1061 --
+ML: -6616.143719193361 Information: 94.7103144401026
+            115     -6695.7389         3.3        -6509.3544      -186.3845 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            188     -6719.0031         4.0        -6499.9320      -219.0710 --
+ML: -6610.566502050335 Information: 82.905885965577
+            116     -6699.5065         3.8        -6508.2111      -191.2954 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            189     -6735.7109         4.0        -6499.6375      -236.0734 --
+ML: -6627.323530799997 Information: 102.30550868314822
+            116     -6703.7385         3.2        -6515.5041      -188.2344 --
+ML: -6616.143601722388 Information: 94.71161581499018
+            116     -6708.0146         3.3        -6509.1247      -198.8899 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            190     -6725.0738         4.1        -6499.5973      -225.4765 --
+ML: -6610.566501537445 Information: 82.90589542833095
+            117     -6696.3139         3.8        -6508.1422      -188.1717 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            191     -6730.8955         4.1        -6499.5466      -231.3489 --
+ML: -6627.316942696891 Information: 102.36139284324418
+            117     -6708.3349         3.3        -6514.8965      -193.4383 --
+ML: -6616.143547355957 Information: 94.71223052699406
+            117     -6698.3971         3.3        -6508.8460      -189.5511 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            192     -6733.3040         4.1        -6499.4549      -233.8490 --
+ML: -6610.566501335298 Information: 82.90589917372836
+            118     -6696.2242         3.8        -6507.7548      -188.4694 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            193     -6726.4551         4.1        -6499.4531      -227.0020 --
+ML: -6627.312517459352 Information: 102.40138250301789
+            118     -6702.5201         3.3        -6514.8636      -187.6565 --
+ML: -6616.143520926514 Information: 94.71253671501017
+            118     -6701.0704         3.4        -6508.5747      -192.4956 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            194     -6733.7033         4.1        -6499.4463      -234.2570 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            195     -6726.1197         4.2        -6499.3676      -226.7520 --
+ML: -6610.566501225747 Information: 82.90590124570281
+            119     -6696.7338         3.7        -6507.6356      -189.0981 --
+ML: -6627.310840160577 Information: 102.4165436469666
+            119     -6705.6336         3.3        -6513.7476      -191.8859 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            196     -6733.9153         4.2        -6499.3517      -234.5635 --
+ML: -6616.14350817476 Information: 94.71268790218255
+            119     -6699.1121         3.3        -6508.5115      -190.6006 --
+ML: -6610.566501180344 Information: 82.90590211158633
+            120     -6701.6656         3.8        -6506.9687      -194.6968 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            197     -6731.1365         4.2        -6499.2647      -231.8717 --
+ML: -6627.308959911645 Information: 102.43560210064152
+            120     -6698.2324         3.3        -6513.0410      -185.1913 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            198     -6729.5202         4.2        -6499.2094      -230.3108 --
+ML: -6616.143503177323 Information: 94.71274746673407
+            120     -6697.5691         3.3        -6508.2936      -189.2754 --
+ML: -6610.566501147803 Information: 82.9059027538342
+            121     -6701.3280         3.8        -6506.2601      -195.0678 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            199     -6728.9935         4.3        -6499.0134      -229.9800 --
+ML: -6627.307559994112 Information: 102.45075485975758
+            121     -6697.0740         3.3        -6512.8471      -184.2268 --
+ML: -6616.1435008914195 Information: 94.71277521380307
+            121     -6701.0284         3.4        -6508.0813      -192.9470 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            200     -6728.8276         4.3        -6498.9767      -229.8509 --
+ML: -6610.56650112349 Information: 82.90590325039375
+            122     -6697.7235         3.8        -6505.9987      -191.7247 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            201     -6735.1731         4.3        -6498.8544      -236.3186 --
+ML: -6627.30693542541 Information: 102.45762881294013
+            122     -6696.2694         3.3        -6511.8121      -184.4572 --
+ML: -6616.14349985159 Information: 94.7127880566004
+            122     -6698.4124         3.4        -6507.8572      -190.5551 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            202     -6740.5094         4.3        -6498.7730      -241.7364 --
+ML: -6610.566501111874 Information: 82.90590348874775
+            123     -6701.3227         3.8        -6505.6971      -195.6255 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            203     -6744.0044         4.4        -6498.7179      -245.2864 --
+ML: -6627.306289048082 Information: 102.46540661778727
+            123     -6695.8097         3.3        -6511.6678      -184.1418 --
+ML: -6616.14349937294 Information: 94.71279407293605
+            123     -6695.7096         3.4        -6507.6308      -188.0787 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            204     -6736.7784         4.4        -6498.6434      -238.1350 --
+ML: -6610.5665011060955 Information: 82.90590361104933
+            124     -6708.3170         3.8        -6505.2364      -203.0806 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            205     -6739.2942         4.4        -6498.6260      -240.6681 --
+ML: -6627.306014478197 Information: 102.46874845836919
+            124     -6701.0289         3.3        -6511.3940      -189.6348 --
+ML: -6616.143499152126 Information: 94.71279690052233
+            124     -6706.8018         3.4        -6507.5928      -199.2090 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            206     -6747.0383         4.4        -6498.6178      -248.4204 --
+ML: -6610.566501102726 Information: 82.90590368521589
+            125     -6702.5110         3.9        -6505.0723      -197.4386 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            207     -6739.4310         4.4        -6498.5250      -240.9060 --
+ML: -6627.305881681083 Information: 102.47040075786117
+            125     -6704.9116         3.4        -6511.3476      -193.5639 --
+ML: -6616.143499067742 Information: 94.71279798577689
+            125     -6700.8800         3.4        -6506.5531      -194.3269 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            208     -6740.5059         4.5        -6498.4719      -242.0340 --
+ML: -6610.566501101265 Information: 82.9059037171919
+            126     -6704.7953         3.9        -6504.8988      -199.8964 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            209     -6738.5295         4.5        -6498.4650      -240.0644 --
+ML: -6627.305830513033 Information: 102.47103971853085
+            126     -6706.9217         3.4        -6511.2979      -195.6237 --
+ML: -6616.143498979941 Information: 94.71279920308461
+            126     -6698.6927         3.4        -6506.1215      -192.5712 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            210     -6742.3370         4.5        -6498.4494      -243.8876 --
+ML: -6610.566501100626 Information: 82.90590373266423
+            127     -6707.1425         3.9        -6504.6573      -202.4852 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            211     -6744.1597         4.6        -6498.4107      -245.7490 --
+ML: -6627.305810729714 Information: 102.47128773419536
+            127     -6700.2306         3.4        -6511.1290      -189.1016 --
+ML: -6616.143498930206 Information: 94.71279991582378
+            127     -6699.8977         3.5        -6505.9499      -193.9478 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            212     -6747.2577         4.6        -6498.1869      -249.0708 --
+ML: -6610.566501100327 Information: 82.9059037383604
+            128     -6698.4857         3.9        -6504.3262      -194.1595 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            213     -6740.6115         4.6        -6498.1597      -242.4518 --
+ML: -6627.305802112959 Information: 102.47139721659369
+            128     -6704.9811         3.4        -6510.1349      -194.8461 --
+ML: -6616.143498908485 Information: 94.71280023294548
+            128     -6699.6030         3.5        -6505.5808      -194.0222 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            214     -6750.5066         4.6        -6498.1355      -252.3710 --
+ML: -6610.566501100173 Information: 82.90590374406202
+            129     -6704.2382         3.8        -6503.9769      -200.2613 --
+ML: -6627.30579354687 Information: 102.4715145696182
+            129     -6699.5804         3.4        -6509.7379      -189.8424 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            215     -6753.4551         4.7        -6498.1151      -255.3400 --
+ML: -6616.143498896927 Information: 94.7128004043434
+            129     -6701.3515         3.5        -6505.4237      -195.9278 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            216     -6747.1512         4.7        -6498.0570      -249.0942 --
+ML: -6610.566501100093 Information: 82.90590374609292
+            130     -6700.3958         3.8        -6503.8551      -196.5406 --
+ML: -6627.305788860106 Information: 102.47158063434199
+            130     -6698.4620         3.4        -6508.9369      -189.5250 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            217     -6756.2554         4.7        -6498.0458      -258.2096 --
+ML: -6616.143498891952 Information: 94.71280047633991
+            130     -6698.6724         3.5        -6505.3207      -193.3517 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            218     -6747.7767         4.7        -6498.0026      -249.7740 --
+ML: -6610.566501100059 Information: 82.90590374952717
+            131     -6704.1545         3.9        -6503.6902      -200.4643 --
+ML: -6627.30578501891 Information: 102.47163785820521
+            131     -6705.6911         3.4        -6508.4787      -197.2124 --
+ML: -6626.482557909939 Information: 109.55761497790172
+            219     -6748.4332         4.8        -6497.9697      -250.4634 --
+ML: -6616.143498889923 Information: 94.71280050898713
+            131     -6694.8513         3.5        -6505.3081      -189.5431 --
+ML: -6626.482557909939 Information: 109.55761497790172
+220<=20000000&& (220<2.0*109.55761497790172*1||Math.abs(-6626.482557909939 - -6626.482557909939)/Math.abs(-6626.482557909939) > 1.0E-12
+Finished in 220 steps!
+Marginal likelihood: -6625.323728384383 (bootstrap SD=10.082510496751082)
+Marginal likelihood: -6625.760794829572 (subsample SD=12.616158478820058)
+Marginal likelihood: -6628.776277011768(11.078755042297516)
+Information: 109.55761497790172
+SD: 10.46697735632889
+
+Operator                                                                              Tuning    #accept    #reject      Pr(m)  Pr(acc|m)
+ScaleOperator(bcovAlphaScaler.s:pano-full)                                           0.75000      23271       4220    0.00125    0.84650 Try setting scaleFactor to about 0.562
+ScaleOperator(bcovSwitchParamScaler.s:pano-full)                                     0.75000      12249      15231    0.00125    0.44574 Try setting scaleFactor to about 0.578
+beast.base.inference.operator.DeltaExchangeOperator(frequenciesDelta.s:pano-full)    0.01000      12157      15448    0.00125    0.44039 Try setting delta to about 0.019
+ScaleOperator(StrictClockRateScaler.c:clock)                                         0.75000     448409     928522    0.06227    0.32566 
+beast.base.inference.operator.UpDownOperator(strictClockUpDownOperator.c:clock)      0.75000     140784     685651    0.03736    0.17035 
+ScaleOperator(BDSKY_contemp_bds_treeScaler.t:tree)                                   0.50000      43761     779853    0.03736    0.05313 Try setting scaleFactor to about 0.707
+ScaleOperator(BDSKY_contemp_bds_treeRootScaler.t:tree)                               0.50000     112426     714776    0.03736    0.13591 
+Uniform(BDSKY_contemp_bds_UniformOperator.t:tree)                                          -    2890109    5363750    0.37360    0.35015 
+SubtreeSlide(BDSKY_contemp_bds_SubtreeSlide.t:tree)                                  1.00000    3952557     176544    0.18680    0.95724 Try increasing size to about 2
+Exchange(BDSKY_contemp_bds_narrow.t:tree)                                                  -          0          0    0.00000        NaN 
+Exchange(BDSKY_contemp_bds_wide.t:tree)                                                    -      37846     787587    0.03736    0.04585 
+WilsonBalding(BDSKY_contemp_bds_WilsonBalding.t:tree)                                      -      42631     782489    0.03736    0.05167 
+ScaleOperator(BDSKY_contemp_bds_deathRateScaler.t:tree)                              0.75000     449314     101257    0.02491    0.81609 Try setting scaleFactor to about 0.562
+ScaleOperator(BDSKY_contemp_bds_rhoScaler.t:tree)                                    0.75000     107798     167225    0.01245    0.39196 
+ScaleOperator(BDSKY_contemp_bds_birthRateScaler.t:tree)                              0.75000    1783777     968953    0.12453    0.64800 Try setting scaleFactor to about 0.562
+beast.base.inference.operator.UpDownOperator(BDSKY_contemp_bds_updownBD.t:tree)      0.75000     319996     231409    0.02491    0.58033 Try setting scaleFactor to about 0.562
+
+     Tuning: The value of the operator's tuning parameter, or '-' if the operator can't be optimized.
+    #accept: The total number of times a proposal by this operator has been accepted.
+    #reject: The total number of times a proposal by this operator has been rejected.
+      Pr(m): The probability this operator is chosen in a step of the MCMC (i.e. the normalized weight).
+  Pr(acc|m): The acceptance probability (#accept as a fraction of the total proposals for this operator).
+
+
+Total calculation time: 1548.11 seconds
+ML: -6610.566501100045 Information: 82.90590375070587
+ML: -6627.30578278439 Information: 102.47167217293372
+            132     -6703.3291         3.9        -6503.5505      -199.7785 --
+            132     -6701.0310         3.5        -6508.3608      -192.6702 --
+ML: -6616.143498889167 Information: 94.71280052002112
+            132     -6707.9646         3.5        -6504.8883      -203.0763 --
+ML: -6610.566501100038 Information: 82.90590375258125
+            133     -6703.4779         3.9        -6503.2101      -200.2678 --
+ML: -6627.3057818595125 Information: 102.47168648405477
+            133     -6698.2121         3.5        -6507.1615      -191.0506 --
+ML: -6616.143498888744 Information: 94.71280052538805
+            133     -6700.6295         3.6        -6504.5974      -196.0320 --
+ML: -6627.305780730651 Information: 102.47170530721905
+            134     -6702.0848         3.5        -6506.3764      -195.7083 --
+ML: -6610.566501100036 Information: 82.9059037498746
+            134     -6709.2602         3.9        -6503.0936      -206.1666 --
+ML: -6616.143498888536 Information: 94.71280052917518
+            134     -6705.0864         3.6        -6504.5090      -200.5774 --
+ML: -6627.305779820156 Information: 102.47172120449068
+            135     -6697.5253         3.5        -6506.1815      -191.3437 --
+ML: -6610.566501100035 Information: 82.90590374733165
+            135     -6707.1373         3.9        -6502.8841      -204.2531 --
+ML: -6616.143498888452 Information: 94.71280053049759
+            135     -6705.5800         3.6        -6504.3428      -201.2372 --
+ML: -6610.566501100034 Information: 82.90590374942167
+            136     -6708.2461         4.0        -6502.7153      -205.5308 --
+ML: -6627.305779413123 Information: 102.47172839166433
+            136     -6697.4217         3.5        -6506.0894      -191.3323 --
+ML: -6616.143498888416 Information: 94.71280053129885
+            136     -6706.5501         3.6        -6504.0007      -202.5494 --
+ML: -6627.305779248931 Information: 102.47173130531701
+            137     -6704.5754         3.5        -6505.9059      -198.6694 --
+ML: -6610.566501100034 Information: 82.90590374774638
+            137     -6702.5899         4.0        -6502.7131      -199.8768 --
+ML: -6616.143498888397 Information: 94.71280053339251
+            137     -6700.0985         3.6        -6503.9162      -196.1823 --
+ML: -6627.305779176365 Information: 102.4717326062273
+            138     -6699.1975         3.6        -6505.7313      -193.4662 --
+ML: -6610.566501100034 Information: 82.90590374712883
+            138     -6706.5779         4.0        -6502.6808      -203.8971 --
+ML: -6616.143498888389 Information: 94.71280053182
+            138     -6707.8445         3.7        -6503.7668      -204.0776 --
+ML: -6627.305779144576 Information: 102.47173318004207
+            139     -6701.8914         3.6        -6505.3695      -196.5219 --
+ML: -6610.566501100034 Information: 82.90590374689418
+            139     -6708.6193         3.9        -6502.5800      -206.0393 --
+ML: -6616.143498888386 Information: 94.71280053460487
+            139     -6706.6101         3.7        -6503.6201      -202.9899 --
+ML: -6610.566501100034 Information: 82.90590374679869
+            140     -6709.5148         3.9        -6502.5549      -206.9599 --
+ML: -6627.305779127783 Information: 102.4717334881143
+            140     -6705.1648         3.6        -6505.2160      -199.9488 --
+ML: -6616.143498888384 Information: 94.71280053754708
+            140     -6705.7425         3.7        -6503.5722      -202.1703 --
+ML: -6627.305779120581 Information: 102.47173361987188
+            141     -6703.5249         3.6        -6505.0523      -198.4725 --
+ML: -6610.566501100034 Information: 82.9059037467623
+            141     -6706.1778         4.0        -6502.5094      -203.6683 --
+ML: -6616.143498888383 Information: 94.71280054003455
+            141     -6708.1903         3.7        -6503.1172      -205.0731 --
+ML: -6627.305779117461 Information: 102.47173367638152
+            142     -6704.3891         3.6        -6504.9817      -199.4073 --
+ML: -6610.566501100034 Information: 82.90590374674866
+            142     -6700.5896         4.0        -6502.5004      -198.0892 --
+ML: -6616.143498888383 Information: 94.71280053803912
+            142     -6707.0406         3.7        -6502.5217      -204.5188 --
+ML: -6627.305779116228 Information: 102.47173370154451
+            143     -6697.8698         3.6        -6504.8411      -193.0287 --
+ML: -6610.566501100034 Information: 82.9059037467432
+            143     -6710.9976         4.0        -6502.4607      -208.5368 --
+ML: -6616.143498888383 Information: 94.71280053670762
+            143     -6710.0451         3.7        -6502.3321      -207.7130 --
+ML: -6627.305779115706 Information: 102.47173371382087
+            144     -6697.3370         3.6        -6504.6373      -192.6996 --
+ML: -6610.566501100034 Information: 82.90590374674139
+            144     -6708.9050         4.0        -6502.4212      -206.4837 --
+ML: -6616.143498888383 Information: 94.71280053611554
+            144     -6706.8997         3.8        -6502.3116      -204.5880 --
+ML: -6627.305779115471 Information: 102.47173372006091
+            145     -6702.3027         3.7        -6503.7615      -198.5412 --
+ML: -6610.566501100034 Information: 82.90590374674048
+            145     -6710.5308         4.0        -6502.1573      -208.3734 --
+ML: -6616.143498888383 Information: 94.71280053589362
+            145     -6713.9363         3.8        -6502.3106      -211.6256 --
+ML: -6627.305779115263 Information: 102.47173372127145
+            146     -6708.2268         3.7        -6503.7363      -204.4905 --
+ML: -6610.566501100034 Information: 82.90590374674048
+            146     -6703.5550         4.1        -6502.1508      -201.4042 --
+ML: -6616.143498888383 Information: 94.71280053581177
+            146     -6716.6534         3.8        -6502.1953      -214.4581 --
+ML: -6610.566501100034 Information: 82.90590374674048
+            147     -6703.7246         4.1        -6502.1221      -201.6025 --
+ML: -6627.305779115185 Information: 102.47173372160341
+            147     -6702.6348         3.7        -6503.6447      -198.9901 --
+ML: -6616.143498888383 Information: 94.71280053577811
+            147     -6710.7707         3.8        -6502.1435      -208.6271 --
+ML: -6627.305779115153 Information: 102.47173372368616
+            148     -6705.4940         3.7        -6503.3997      -202.0943 --
+ML: -6610.566501100034 Information: 82.90590374674048
+            148     -6703.6135         4.1        -6502.0279      -201.5855 --
+ML: -6616.143498888383 Information: 94.71280053576538
+            148     -6707.7874         3.8        -6502.0842      -205.7031 --
+ML: -6627.305779115139 Information: 102.47173372199268
+            149     -6705.2940         3.7        -6503.3830      -201.9110 --
+ML: -6610.566501100034 Information: 82.90590374674048
+            149     -6710.4683         4.0        -6501.9392      -208.5291 --
+ML: -6616.143498888383 Information: 94.71280053575992
+            149     -6713.0248         3.8        -6501.9066      -211.1181 --
+ML: -6627.305779115133 Information: 102.4717337214488
+            150     -6701.4676         3.8        -6503.3040      -198.1635 --
+ML: -6610.566501100034 Information: 82.90590374674048
+            150     -6710.5088         4.0        -6501.7466      -208.7622 --
+ML: -6616.143498888383 Information: 94.7128005357581
+            150     -6706.4130         3.8        -6501.8999      -204.5130 --
+ML: -6627.305779115131 Information: 102.47173371892586
+            151     -6700.9312         3.8        -6503.1926      -197.7386 --
+ML: -6610.566501100034 Information: 82.90590374674048
+            151     -6710.7470         4.0        -6501.6752      -209.0718 --
+ML: -6616.143498888383 Information: 94.7128005357572
+            151     -6712.3323         3.8        -6501.8594      -210.4728 --
+ML: -6627.3057791151305 Information: 102.47173371894223
+            152     -6708.2116         3.8        -6503.1661      -205.0455 --
+ML: -6610.566501100034 Information: 82.90590374674048
+            152     -6711.9052         4.0        -6501.5862      -210.3190 --
+ML: -6616.143498888383 Information: 94.7128005357572
+            152     -6723.1231         3.9        -6501.3811      -221.7420 --
+ML: -6627.3057791151305 Information: 102.4717337167067
+            153     -6709.0960         3.8        -6503.0948      -206.0012 --
+ML: -6610.566501100034 Information: 82.90590374674048
+            153     -6720.6987         4.1        -6501.5133      -219.1854 --
+ML: -6616.143498888383 Information: 94.7128005357572
+            153     -6715.3378         3.9        -6501.3119      -214.0258 --
+ML: -6627.3057791151305 Information: 102.47173371582358
+            154     -6703.7878         3.8        -6502.8772      -200.9106 --
+ML: -6610.566501100034 Information: 82.90590374674048
+            154     -6711.6588         4.1        -6501.4689      -210.1898 --
+ML: -6616.143498888383 Information: 94.7128005357572
+            154     -6723.4279         3.9        -6501.0550      -222.3729 --
+ML: -6627.3057791151305 Information: 102.47173371541976
+            155     -6704.1579         3.9        -6502.8623      -201.2955 --
+ML: -6610.566501100034 Information: 82.90590374674048
+            155     -6717.0061         4.1        -6501.3701      -215.6359 --
+ML: -6616.143498888383 Information: 94.7128005357572
+            155     -6720.0921         3.9        -6501.0256      -219.0664 --
+ML: -6627.3057791151305 Information: 102.47173371526878
+            156     -6708.1720         3.9        -6502.7640      -205.4080 --
+ML: -6610.566501100034 Information: 82.90590374674048
+            156     -6717.8811         4.1        -6501.3442      -216.5368 --
+ML: -6616.143498888383 Information: 94.7128005357572
+            156     -6714.9006         4.0        -6500.8087      -214.0919 --
+ML: -6627.3057791151305 Information: 102.47173371520785
+            157     -6706.3610         3.9        -6502.7484      -203.6125 --
+ML: -6610.566501100034 Information: 82.90590374674048
+            157     -6714.7838         4.1        -6501.1065      -213.6772 --
+ML: -6616.143498888383 Information: 94.7128005357572
+            157     -6713.4047         4.0        -6500.7246      -212.6801 --
+ML: -6627.3057791151305 Information: 102.47173371518511
+            158     -6705.0467         3.9        -6502.6856      -202.3611 --
+ML: -6610.566501100034 Information: 82.90590374674048
+            158     -6719.7913         4.2        -6501.1031      -218.6881 --
+ML: -6616.143498888383 Information: 94.7128005357572
+            158     -6725.8920         4.0        -6500.5912      -225.3008 --
+ML: -6627.3057791151305 Information: 102.47173371517601
+            159     -6703.9811         3.9        -6502.6399      -201.3411 --
+ML: -6610.566501100034 Information: 82.90590374674048
+            159     -6715.0955         4.0        -6500.9542      -214.1412 --
+ML: -6616.143498888383 Information: 94.7128005357572
+            159     -6718.9170         4.0        -6500.5555      -218.3614 --
+ML: -6627.3057791151305 Information: 102.47173371517238
+            160     -6703.8489         4.0        -6502.4846      -201.3643 --
+ML: -6610.566501100034 Information: 82.90590374674048
+            160     -6717.4505         4.1        -6500.6993      -216.7512 --
+ML: -6616.143498888383 Information: 94.7128005357572
+            160     -6722.3048         4.0        -6500.5131      -221.7916 --
+ML: -6627.3057791151305 Information: 102.47173371517056
+            161     -6710.9972         4.0        -6502.2529      -208.7442 --
+ML: -6610.566501100034 Information: 82.90590374674048
+            161     -6722.0703         4.1        -6500.6179      -221.4524 --
+ML: -6616.143498888383 Information: 94.7128005357572
+            161     -6717.5393         4.0        -6500.4785      -217.0608 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            162     -6705.5685         4.0        -6502.0700      -203.4984 --
+ML: -6610.566501100034 Information: 82.90590374674048
+            162     -6717.1857         4.1        -6500.5245      -216.6612 --
+ML: -6616.143498888383 Information: 94.7128005357572
+            162     -6717.1249         4.1        -6500.4516      -216.6733 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            163     -6711.7445         4.0        -6502.0560      -209.6884 --
+ML: -6610.566501100034 Information: 82.90590374674048
+            163     -6716.3108         4.1        -6500.5024      -215.8084 --
+ML: -6616.143498888383 Information: 94.7128005357572
+            163     -6720.6818         4.1        -6500.3613      -220.3205 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            164     -6711.5616         4.0        -6501.7993      -209.7622 --
+ML: -6610.566501100034 Information: 82.90590374674048
+            164     -6719.0728         4.2        -6500.4014      -218.6713 --
+ML: -6616.143498888383 Information: 94.7128005357572
+            164     -6720.3479         4.1        -6500.2279      -220.1199 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            165     -6714.4416         4.1        -6501.7669      -212.6747 --
+ML: -6610.566501100034 Information: 82.90590374674048
+            165     -6718.7032         4.2        -6500.3567      -218.3464 --
+ML: -6616.143498888383 Information: 94.7128005357572
+            165     -6723.3082         4.1        -6500.1963      -223.1119 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            166     -6715.1654         4.1        -6501.6570      -213.5084 --
+ML: -6610.566501100034 Information: 82.90590374674048
+166<=20000000&& (166<2.0*82.90590374674048*1||Math.abs(-6610.566501100034 - -6610.566501100034)/Math.abs(-6610.566501100034) > 1.0E-12
+Finished in 166 steps!
+Marginal likelihood: -6609.704746397414 (bootstrap SD=9.222495818055183)
+Marginal likelihood: -6607.693675244514 (subsample SD=11.220734162727402)
+Marginal likelihood: -6610.4649970525315(8.816104337714371)
+Information: 82.90590374674048
+SD: 9.105267911859622
+
+Operator                                                                              Tuning    #accept    #reject      Pr(m)  Pr(acc|m)
+ScaleOperator(bcovAlphaScaler.s:pano-full)                                           0.75000      17664       3246    0.00125    0.84476 Try setting scaleFactor to about 0.562
+ScaleOperator(bcovSwitchParamScaler.s:pano-full)                                     0.75000      10311      10476    0.00125    0.49603 Try setting scaleFactor to about 0.562
+beast.base.inference.operator.DeltaExchangeOperator(frequenciesDelta.s:pano-full)    0.01000      10044      10792    0.00125    0.48205 Try setting delta to about 0.02
+ScaleOperator(StrictClockRateScaler.c:clock)                                         0.75000     370160     669653    0.06227    0.35599 
+beast.base.inference.operator.UpDownOperator(strictClockUpDownOperator.c:clock)      0.75000     120223     503832    0.03736    0.19265 
+ScaleOperator(BDSKY_contemp_bds_treeScaler.t:tree)                                   0.50000      36916     586549    0.03736    0.05921 Try setting scaleFactor to about 0.707
+ScaleOperator(BDSKY_contemp_bds_treeRootScaler.t:tree)                               0.50000      91533     533617    0.03736    0.14642 
+Uniform(BDSKY_contemp_bds_UniformOperator.t:tree)                                          -    2408742    3828179    0.37360    0.38621 
+SubtreeSlide(BDSKY_contemp_bds_SubtreeSlide.t:tree)                                  1.00000    3019174      99454    0.18680    0.96811 Try increasing size to about 2
+Exchange(BDSKY_contemp_bds_narrow.t:tree)                                                  -          0          0    0.00000        NaN 
+Exchange(BDSKY_contemp_bds_wide.t:tree)                                                    -      27832     596536    0.03736    0.04458 
+WilsonBalding(BDSKY_contemp_bds_WilsonBalding.t:tree)                                      -      31667     593368    0.03736    0.05066 
+ScaleOperator(BDSKY_contemp_bds_deathRateScaler.t:tree)                              0.75000     341073      74825    0.02491    0.82009 Try setting scaleFactor to about 0.562
+ScaleOperator(BDSKY_contemp_bds_rhoScaler.t:tree)                                    0.75000      80720     127057    0.01245    0.38849 
+ScaleOperator(BDSKY_contemp_bds_birthRateScaler.t:tree)                              0.75000    1354857     725738    0.12453    0.65119 Try setting scaleFactor to about 0.562
+beast.base.inference.operator.UpDownOperator(BDSKY_contemp_bds_updownBD.t:tree)      0.75000     243300     172462    0.02491    0.58519 Try setting scaleFactor to about 0.562
+
+     Tuning: The value of the operator's tuning parameter, or '-' if the operator can't be optimized.
+    #accept: The total number of times a proposal by this operator has been accepted.
+    #reject: The total number of times a proposal by this operator has been rejected.
+      Pr(m): The probability this operator is chosen in a step of the MCMC (i.e. the normalized weight).
+  Pr(acc|m): The acceptance probability (#accept as a fraction of the total proposals for this operator).
+
+
+Total calculation time: 1919.217 seconds
+ML: -6616.143498888383 Information: 94.7128005357572
+            166     -6725.4524         4.2        -6500.1732      -225.2792 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            167     -6708.3008         4.1        -6501.5720      -206.7287 --
+ML: -6616.143498888383 Information: 94.7128005357572
+            167     -6723.9765         4.2        -6500.1495      -223.8270 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            168     -6714.4106         4.1        -6501.5357      -212.8748 --
+ML: -6616.143498888383 Information: 94.7128005357572
+            168     -6724.5462         4.2        -6500.0834      -224.4627 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            169     -6712.5980         4.1        -6501.0915      -211.5064 --
+ML: -6616.143498888383 Information: 94.7128005357572
+            169     -6722.5694         4.2        -6500.0635      -222.5059 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            170     -6714.5465         4.2        -6500.9933      -213.5532 --
+ML: -6616.143498888383 Information: 94.7128005357572
+            170     -6728.4429         4.2        -6500.0404      -228.4025 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            171     -6713.9670         4.2        -6500.9376      -213.0294 --
+ML: -6616.143498888383 Information: 94.7128005357572
+            171     -6733.9285         4.3        -6499.8916      -234.0369 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            172     -6711.6187         4.2        -6500.9011      -210.7175 --
+ML: -6616.143498888383 Information: 94.7128005357572
+            172     -6728.2810         4.3        -6499.8743      -228.4067 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            173     -6714.3165         4.2        -6500.8850      -213.4315 --
+ML: -6616.143498888383 Information: 94.7128005357572
+            173     -6734.6597         4.3        -6499.8600      -234.7996 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            174     -6716.2224         4.2        -6500.8792      -215.3431 --
+ML: -6616.143498888383 Information: 94.7128005357572
+            174     -6727.2744         4.3        -6499.7892      -227.4852 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            175     -6720.4779         4.3        -6500.7975      -219.6803 --
+ML: -6616.143498888383 Information: 94.7128005357572
+            175     -6727.0491         4.4        -6499.5694      -227.4797 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            176     -6719.0832         4.3        -6500.6862      -218.3969 --
+ML: -6616.143498888383 Information: 94.7128005357572
+            176     -6730.6363         4.4        -6499.5199      -231.1163 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            177     -6719.3054         4.3        -6500.6647      -218.6407 --
+ML: -6616.143498888383 Information: 94.7128005357572
+            177     -6728.7563         4.4        -6499.3254      -229.4308 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            178     -6720.5160         4.3        -6500.6501      -219.8659 --
+ML: -6616.143498888383 Information: 94.7128005357572
+            178     -6732.8685         4.4        -6499.1386      -233.7298 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            179     -6716.6681         4.3        -6500.6134      -216.0546 --
+ML: -6616.143498888383 Information: 94.7128005357572
+            179     -6728.9203         4.4        -6499.0184      -229.9018 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            180     -6720.0017         4.4        -6500.5953      -219.4063 --
+ML: -6616.143498888383 Information: 94.7128005357572
+            180     -6737.8209         4.5        -6498.9869      -238.8340 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            181     -6716.0090         4.4        -6500.4976      -215.5114 --
+ML: -6616.143498888383 Information: 94.7128005357572
+            181     -6736.4816         4.5        -6498.9539      -237.5277 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            182     -6722.6190         4.4        -6500.3064      -222.3126 --
+ML: -6616.143498888383 Information: 94.7128005357572
+            182     -6736.4114         4.5        -6498.9538      -237.4575 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            183     -6724.3480         4.4        -6500.2913      -224.0566 --
+ML: -6616.143498888383 Information: 94.7128005357572
+            183     -6733.0846         4.5        -6498.8939      -234.1907 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            184     -6718.3340         4.4        -6500.2794      -218.0545 --
+ML: -6616.143498888383 Information: 94.7128005357572
+            184     -6735.0416         4.6        -6498.8626      -236.1789 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            185     -6724.4454         4.5        -6500.2008      -224.2445 --
+ML: -6616.143498888383 Information: 94.7128005357572
+            185     -6739.7068         4.6        -6498.8305      -240.8762 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            186     -6724.2285         4.5        -6500.1777      -224.0507 --
+ML: -6616.143498888383 Information: 94.7128005357572
+            186     -6741.5582         4.6        -6498.7110      -242.8471 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            187     -6718.4510         4.5        -6500.0663      -218.3846 --
+ML: -6616.143498888383 Information: 94.7128005357572
+            187     -6743.0994         4.7        -6498.6906      -244.4088 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            188     -6720.2672         4.5        -6499.9117      -220.3554 --
+ML: -6616.143498888383 Information: 94.7128005357572
+            188     -6743.7033         4.7        -6498.6708      -245.0325 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            189     -6722.1144         4.5        -6499.8336      -222.2808 --
+ML: -6616.143498888383 Information: 94.7128005357572
+            189     -6742.4854         4.7        -6498.6418      -243.8436 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            190     -6720.2924         4.6        -6499.8198      -220.4726 --
+ML: -6616.143498888383 Information: 94.7128005357572
+190<=20000000&& (190<2.0*94.7128005357572*1||Math.abs(-6616.143498888383 - -6616.143498888383)/Math.abs(-6616.143498888383) > 1.0E-12
+Finished in 190 steps!
+Marginal likelihood: -6615.1560848331455 (bootstrap SD=9.611992923534459)
+Marginal likelihood: -6613.913586064043 (subsample SD=11.319634017629703)
+Marginal likelihood: -6615.296747525673(8.733086746798527)
+Information: 94.7128005357572
+SD: 9.732050171251544
+
+Operator                                                                              Tuning    #accept    #reject      Pr(m)  Pr(acc|m)
+ScaleOperator(bcovAlphaScaler.s:pano-full)                                           0.75000      20182       3520    0.00125    0.85149 Try setting scaleFactor to about 0.562
+ScaleOperator(bcovSwitchParamScaler.s:pano-full)                                     0.75000      10859      13077    0.00125    0.45367 Try setting scaleFactor to about 0.572
+beast.base.inference.operator.DeltaExchangeOperator(frequenciesDelta.s:pano-full)    0.01000      10546      13087    0.00125    0.44624 Try setting delta to about 0.019
+ScaleOperator(StrictClockRateScaler.c:clock)                                         0.75000     392613     795397    0.06227    0.33048 
+beast.base.inference.operator.UpDownOperator(strictClockUpDownOperator.c:clock)      0.75000     125499     588556    0.03736    0.17576 
+ScaleOperator(BDSKY_contemp_bds_treeScaler.t:tree)                                   0.50000      39147     673301    0.03736    0.05495 Try setting scaleFactor to about 0.707
+ScaleOperator(BDSKY_contemp_bds_treeRootScaler.t:tree)                               0.50000      92955     621138    0.03736    0.13017 
+Uniform(BDSKY_contemp_bds_UniformOperator.t:tree)                                          -    2580605    4559361    0.37360    0.36143 
+SubtreeSlide(BDSKY_contemp_bds_SubtreeSlide.t:tree)                                  1.00000    3428131     138549    0.18680    0.96115 Try increasing size to about 2
+Exchange(BDSKY_contemp_bds_narrow.t:tree)                                                  -          0          0    0.00000        NaN 
+Exchange(BDSKY_contemp_bds_wide.t:tree)                                                    -      31467     682467    0.03736    0.04408 
+WilsonBalding(BDSKY_contemp_bds_WilsonBalding.t:tree)                                      -      35748     677831    0.03736    0.05010 
+ScaleOperator(BDSKY_contemp_bds_deathRateScaler.t:tree)                              0.75000     394262      81911    0.02491    0.82798 Try setting scaleFactor to about 0.562
+ScaleOperator(BDSKY_contemp_bds_rhoScaler.t:tree)                                    0.75000      92516     145348    0.01245    0.38894 
+ScaleOperator(BDSKY_contemp_bds_birthRateScaler.t:tree)                              0.75000    1561950     815636    0.12453    0.65695 Try setting scaleFactor to about 0.562
+beast.base.inference.operator.UpDownOperator(BDSKY_contemp_bds_updownBD.t:tree)      0.75000     280183     194158    0.02491    0.59068 Try setting scaleFactor to about 0.562
+
+     Tuning: The value of the operator's tuning parameter, or '-' if the operator can't be optimized.
+    #accept: The total number of times a proposal by this operator has been accepted.
+    #reject: The total number of times a proposal by this operator has been rejected.
+      Pr(m): The probability this operator is chosen in a step of the MCMC (i.e. the normalized weight).
+  Pr(acc|m): The acceptance probability (#accept as a fraction of the total proposals for this operator).
+
+
+Total calculation time: 2838.263 seconds
+ML: -6627.3057791151305 Information: 102.47173371516965
+            191     -6719.0951         4.6        -6499.7923      -219.3027 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            192     -6725.4085         4.6        -6499.7531      -225.6553 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            193     -6725.7375         4.6        -6499.7451      -225.9923 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            194     -6724.3463         4.6        -6499.7126      -224.6337 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            195     -6729.7133         4.7        -6499.6648      -230.0484 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            196     -6724.0056         4.7        -6499.6375      -224.3680 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            197     -6723.8656         4.7        -6499.4861      -224.3795 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            198     -6729.1351         4.7        -6499.4469      -229.6881 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            199     -6727.3622         4.7        -6499.3983      -227.9638 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            200     -6733.8422         4.8        -6499.2137      -234.6285 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            201     -6734.4839         4.8        -6499.0873      -235.3966 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            202     -6732.4760         4.8        -6499.0717      -233.4042 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            203     -6731.9297         4.8        -6499.0564      -232.8732 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+            204     -6738.5577         4.9        -6499.0186      -239.5391 --
+ML: -6627.3057791151305 Information: 102.47173371516965
+205<=20000000&& (205<2.0*102.47173371516965*1||Math.abs(-6627.3057791151305 - -6627.3057791151305)/Math.abs(-6627.3057791151305) > 1.0E-12
+Finished in 205 steps!
+Marginal likelihood: -6626.3698808584195 (bootstrap SD=10.511662911548978)
+Marginal likelihood: -6625.433375852036 (subsample SD=12.307311773763791)
+Marginal likelihood: -6625.2325377610305(9.7561196368212)
+Information: 102.47173371516965
+SD: 10.122832297097965
+
+Done!

@@ -110,3 +110,4 @@ ENV/
 edictor/
 
 analysis/dated_phylogeny/archive/
+analysis/dated_phylogeny/beast_asr/
