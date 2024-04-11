@@ -1,0 +1,59 @@
+Loading package BICEPS v1.1.2 FastRelaxedClockLogNormal v1.2.0 NS v1.2.1 starbeast3 v1.1.8 Babel v0.4.2 SA v2.1.1 BEAST.base v2.7.6 GEO_SPHERE v1.4.1 BEASTLabs v2.0.2 BEAST.app v2.7.6 BDSKY v1.5.0 ORC v1.2.0 MODEL_SELECTION v1.6.2    
+About to invoke nestedsampling.util.NSLogAnalyser public static void nestedsampling.util.NSLogAnalyser.main(java.lang.String[])
+Args:[-N, 4, -noposterior, -log, 0pano_ctmc_gamma4_strict.log, 1pano_ctmc_gamma4_strict.log, 2pano_ctmc_gamma4_strict.log, 3pano_ctmc_gamma4_strict.log]
+
+Loading 0pano_ctmc_gamma4_strict.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 1pano_ctmc_gamma4_strict.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 2pano_ctmc_gamma4_strict.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 3pano_ctmc_gamma4_strict.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Marginal likelihood: -6564.084765158991 sqrt(H/N)=(1.3939444874417446)=?=SD=(1.4036631022814154) Information: 31.089299745107652
+Max ESS: 168.6560740569027
+
+Calculating statistics
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+********************************************************************************
+
+#Particles = 16
+item                                     mean     stddev   
+posterior                                -6726.20 5.104355
+likelihood                               -6532.94 2.442379
+prior                                    -193.259 6.722245
+treeLikelihood.pano-full                 -6532.94 2.442379
+Tree.t:tree.height                       1317.718 82.90391
+Tree.t:tree.treeLength                   11502.29 549.5250
+mutationRate.s:pano-full                 1        NaN     
+gammaShape.s:pano-full                   0.881087 0.045236
+frequencies.s:pano-full.1                0.955163 0.002135
+frequencies.s:pano-full.2                0.044837 0.002135
+clockRate.c:clock                        6.9E-5   4.33E-6 
+BirthDeathSkyContemporaryBDSParam.t:tree -173.269 1.707482
+birthRateBDS.t:tree                      0.002904 0.000867
+deathRateBDS.t:tree                      0.001214 0.001076
+rhoBDS.t:tree                            0.854992 0.062254
+logP(mrca(chacobo))                      -5.97250 0.19988 
+mrca.age(chacobo)                        270.7277 24.88724
+logP(mrca(kashinawa1))                   -12.4710 5.932633
+mrca.age(kashinawa1)                     101.3114 6.553924
+logP(mrca(northern))                     -6.98321 0.128992
+mrca.age(northern)                       405.2099 26.89651
+logP(mrca(chama))                        -8.27287 0.803944
+mrca.age(chama)                          205.2673 4.227628
+Done!
+Done invoking nestedsampling.util.NSLogAnalyser
