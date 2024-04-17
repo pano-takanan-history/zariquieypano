@@ -1,7 +1,17 @@
 {
-    "title": "CLDF dataset reflecting Zariquiey et al.'s \"Annotated Wordlists of Pano\" from 2022",
-    "creators": [],
-    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>+++.</p>\n</blockquote>",
+    "title": "CLDF dataset reflecting Zariquiey, Blum et al.'s \"Tracing the Evolution of Panoan Languages in Parallel with Archaeological Changes in the Ucayali Basin\", work in progress.",
+    "creators": [
+        {
+            "name": "Roberto Zariquiey"
+        },
+        {
+            "name": "Frederic Blum"
+        },
+        {
+            "name": "Johann-Mattis List"
+        }
+    ],
+    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Zariquiey, Roberto and Blum, Frederic and Valenzuela, Pilar and Koile, Ezequiel and Blasi, Damian and Gray, Russell and List, Johann-Mattis. &quot;Tracing the Evolution of Panoan Languages in Parallel with Archaeological Changes in the Ucayali Basin&quot; (work in progress).</p>\n</blockquote>",
     "access_right": "open",
     "keywords": [
         "cldf:Wordlist",

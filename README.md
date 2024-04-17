@@ -1,10 +1,10 @@
-# CLDF dataset reflecting Zariquiey et al.'s "Annotated Wordlists of Pano" from 2022
+# CLDF dataset reflecting Zariquiey, Blum et al.'s "Tracing the Evolution of Panoan Languages in Parallel with Archaeological Changes in the Ucayali Basin", work in progress.
 
 ## How to cite
 
 If you use these data please cite
 - the original source
-  > +++.
+  > Zariquiey, Roberto and Blum, Frederic and Valenzuela, Pilar and Koile, Ezequiel and Blasi, Damian and Gray, Russell and List, Johann-Mattis. "Tracing the Evolution of Panoan Languages in Parallel with Archaeological Changes in the Ucayali Basin" (work in progress).
 - the derived dataset using the DOI of the [particular released version](../../releases/) you were using
 
 ## Description
@@ -30,6 +30,17 @@ This dataset is licensed under a CC-BY-4.0 license
 - **Tokens:** 18,544
 - **Segments:** 59 (0 BIPA errors, 0 CLTS sound class errors, 59 CLTS modified)
 - **Inventory size (avg):** 26.38
+
+# Contributors
+
+Name | GitHub user | Description | Role |
+--- | --- | --- | --- |
+Roberto Zariquiey | | Data collector and annotation | Author |
+Frederic Blum | @FredericBlum | CLDF conversion and annotation | Author |
+Johann-Mattis List | @LinguList| CLDF conversion and annotation | Author |
+
+
+
 
 ## CLDF Datasets
 

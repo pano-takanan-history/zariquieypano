@@ -1,4 +1,8 @@
-# This code is based on the following article: King, B., Greenhill, S. J., Reid, L. A., Ross, M., Walworth, M., & Gray, R. (2023, March 31). Bayesian phylogenetic analysis of Philippine languages supports a rapid migration of Malayo-Polynesian languages. https://doi.org/10.31235/osf.io/re8m6
+# This code is based on the following article: 
+# King, B., Greenhill, S. J., Reid, L. A., Ross, M., Walworth, M., & Gray, R.
+# (2023, March 31). Bayesian phylogenetic analysis of Philippine languages
+# supports a rapid migration of Malayo-Polynesian languages. 
+# https://doi.org/10.31235/osf.io/re8m6
 
 setwd(dirname(rstudioapi::getSourceEditorContext()$path))
 
@@ -19,4 +23,4 @@ tt <- topology_test("../beast/pano_covarion_relaxed.sites.log", #path to output 
                     )
 
 tt$plot
-ggsave('fig_topologyTest.png', tt$plot, height=6, width=10)
+ggsave('fig_topologyTest.png', tt$plot, width=8, height=5)

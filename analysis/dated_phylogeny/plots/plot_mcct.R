@@ -59,7 +59,7 @@ p <- ggtree(tree, aes(color=group), ladderize=TRUE, size=3) %>%
   ) +
   theme_tree2(axis.text.x = element_text(size=24) ) +
   scale_color_manual(values=colors) +
-  scale_x_continuous(breaks = c(-2000, -1500, -1000, -500, 0), limits=c(-2000, 700)) + 
+  scale_x_continuous(breaks = c(-1500, -1000, -500, 0), limits=c(-1700, 700)) + 
   theme(legend.position='none')
 
 col_idx = 2
@@ -84,5 +84,5 @@ for (clade in levels(attr(tree@phylo, 'group'))) {
 }
 p
 
-ggsave('fig_tree.png', p, width=16, height=14)
+ggsave('fig_tree.png', p, width=20, height=14)
 
