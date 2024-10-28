@@ -21,8 +21,8 @@ This dataset is licensed under a CC-BY-4.0 license
 ![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 
-- **Varieties:** 26
-- **Concepts:** 181
+- **Varieties:** 26 (linked to 23 different Glottocodes)
+- **Concepts:** 181 (linked to 181 different Concepticon concept sets)
 - **Lexemes:** 4,265
 - **Sources:** 12
 - **Synonymy:** 1.05

@@ -20,20 +20,20 @@ spdf_sa <- ne_countries(continent=c("south america"),
 # Plotting the language points and labels on the map
 map_lex <- ggplot(data=lex) +
   geom_sf(data = spdf_sa) +
-  coord_sf(ylim=c(-20.5, 2), xlim= c(-80, -45)) +
+  coord_sf(ylim=c(-16, 1), xlim= c(-81, -55)) +
   geom_point(aes(x=Longitude,y=Latitude, shape=Subgroup, fill=Subgroup), size=10) +
-  geom_label_repel(box.padding=0.75, point.padding=0.5,
-                   data=lex, aes(Longitude, Latitude, label=Name),
-                   min.segment.length=unit(0.1, 'lines'),
-                   size=6, max.overlaps=99) +
+  # geom_label_repel(box.padding=0.75, point.padding=0.5,
+  #                  data=lex, aes(Longitude, Latitude, label=Name),
+  #                  min.segment.length=unit(0.1, 'lines'),
+  #                  size=6, max.overlaps=99) +
   # geom_label_repel(aes(label=Name, x=Longitude,y=Latitude), data = lex[lex$Name %in% c("Shipibo-Konibo"),],
   #                  # max.overlaps=10, min.segment.length=unit(0, 'lines'), color="black",
   #                  # box.padding = unit(1.5, "lines"), size=6) +
-  scale_shape_manual(values=c("PANO"=21)) +
+  scale_shape_manual(values=c(21, 22, 23, 24)) +
   scale_fill_viridis_d(guide="legend", option="D") +
-  labs(caption = "Data: Glottolog") +
+  #labs(caption = "Data: Glottolog") +
   theme_bw() +
-  theme(legend.position="none",
+  theme(legend.position="bottom",
         axis.title = element_text(size = rel(1.3)),
         axis.text = element_text(size = rel(1.3)),
         legend.text = element_text(size = rel(1.5)),
@@ -42,4 +42,4 @@ map_lex <- ggplot(data=lex) +
         legend.title = element_text(size = rel(0)))
 
 map_lex
-ggsave('fig_map.png', map_lex, units="px", width=5000, height=4000)
+ggsave('fig_map.png', map_lex, units="px", width=5000, height=3000)
