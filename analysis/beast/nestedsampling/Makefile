@@ -12,11 +12,11 @@ all: $(XMLS) $(LOGS) $(TXTS) results.txt
 
 # Step 2: run pathsampling (may want to do this on cluster)
 %.run: %.xml
-	beast2 -beagle_SSE $< | tee $@
+	beast276 -beagle_SSE $< | tee $@
 
 # summarise
 %.txt: %.run
-	applauncher NSLogAnalyser -N 4 -noposterior -log $(wildcard *$(patsubst %.run,%.log, $<)) > $@ 2>&1
+	/Applications/beast2/beast276/bin/applauncher NSLogAnalyser -N 4 -noposterior -log $(wildcard *$(patsubst %.run,%.log, $<)) > $@ 2>&1
 
 results.txt: $(TXTS)
 	python print_marginal.py $^ | tee $@

@@ -7,7 +7,7 @@ all: $(XMLS) $(LOGS) $(TXTS)
 
 # run BEAST
 %.run: %.xml
-	beast2 -beagle_SSE $< | tee $@
+	beast276 -beagle_SSE $< | tee $@
 
 # summarise
 %.hpd.txt: %.run

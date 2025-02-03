@@ -1,4 +1,6 @@
-Loading package BICEPS v1.1.2 FastRelaxedClockLogNormal v1.2.0 NS v1.2.1 starbeast3 v1.1.8 Babel v0.4.2 SA v2.1.1 BEAST.base v2.7.6 GEO_SPHERE v1.4.1 BEASTLabs v2.0.2 BEAST.app v2.7.6 BDSKY v1.5.0 ORC v1.2.0 MODEL_SELECTION v1.6.2    
+2025-02-01 15:49:27.224 java[80648:105001197] +[IMKClient subclass]: chose IMKClient_Modern
+2025-02-01 15:49:27.225 java[80648:105001197] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+Loading package BICEPS v1.1.2 ClaDS v2.0.3 FastRelaxedClockLogNormal v1.2.0 NS v1.2.2 AlmostDistributions v0.2.0 starbeast3 v1.1.9 IndelDollo v0.0.1 CCD v1.0.1 CorrelatedTrait v0.0.5 phoneme v0.0.2 Babel v0.4.2 SA v2.1.1 BEAST.base v2.7.7 GEO_SPHERE v1.4.1 BEASTLabs v2.0.2 BEAST.app v2.7.7 BEAST_CLASSIC v1.6.3 MM v1.2.1 BDSKY v1.5.1 gammaspike v0.0.3 ORC v1.2.0 BREAK_AWAY v1.2.0 MODEL_SELECTION v1.6.2 FixedTreeAnalysis v0.0.2    
 About to invoke nestedsampling.util.NSLogAnalyser public static void nestedsampling.util.NSLogAnalyser.main(java.lang.String[])
 Args:[-N, 4, -noposterior, -log, 0pano_ctmc_strict.log, 1pano_ctmc_strict.log, 2pano_ctmc_strict.log, 3pano_ctmc_strict.log]
 
@@ -22,8 +24,8 @@ Loading 3pano_ctmc_strict.log, burnin 0%, skipping 0 log lines
 |---------|---------|---------|---------|---------|---------|---------|---------|
 *********************************************************************************
 
-Marginal likelihood: -6734.688215012614 sqrt(H/N)=(1.3568010996865942)=?=SD=(1.3943311216434446) Information: 29.45454758577202
-Max ESS: 188.20100454029148
+Marginal likelihood: -6744.6298720709465 sqrt(H/N)=(1.4439293388174337)=?=SD=(1.5183228419409094) Information: 33.358910967964015
+Max ESS: 222.01726259557694
 
 Calculating statistics
 
@@ -32,27 +34,30 @@ Calculating statistics
 
 #Particles = 16
 item                                     mean     stddev   
-posterior                                -6896.11 4.547052
-likelihood                               -6705.18 2.767518
-prior                                    -190.931 6.371665
-treeLikelihood.pano-full                 -6705.18 2.767518
-Tree.t:tree.height                       994.3800 54.05975
-Tree.t:tree.treeLength                   10122.65 471.3600
-mutationRate.s:pano-full                 1        2.98E-8 
-frequencies.s:pano-full.1                0.91541  0.003072
-frequencies.s:pano-full.2                0.08459  0.003072
-clockRate.c:clock                        0.000114 6.39E-6 
-BirthDeathSkyContemporaryBDSParam.t:tree -170.139 1.57647 
-birthRateBDS.t:tree                      0.003167 0.000867
-deathRateBDS.t:tree                      0.001002 0.000933
-rhoBDS.t:tree                            0.860962 0.065226
-logP(mrca(chacobo))                      -6.15191 0.308393
-mrca.age(chacobo)                        252.2836 21.60440
-logP(mrca(kashinawa1))                   -13.4361 5.859484
-mrca.age(kashinawa1)                     102.4760 6.34149 
-logP(mrca(northern))                     -7.17325 0.162723
-mrca.age(northern)                       371.9266 24.03412
-logP(mrca(chama))                        -8.12576 0.723791
-mrca.age(chama)                          205.7540 4.037731
+posterior                                -6920.45 6.149835
+likelihood                               -6711.18 3.352213
+prior                                    -209.271 8.823895
+treeLikelihood.pano-full                 -6711.18 3.352213
+Tree.t:tree.height                       1224.088 61.73543
+Tree.t:tree.treeLength                   12467.75 517.9984
+mutationRate.s:pano-full                 1        0       
+frequencies.s:pano-full.1                0.915546 0.003344
+frequencies.s:pano-full.2                0.084454 0.003344
+clockRate.c:clock                        9.23E-5  4.71E-6 
+BirthDeathSkyContemporaryBDSParam.t:tree -175.475 1.703347
+birthRateBDS.t:tree                      0.002779 0.000744
+deathRateBDS.t:tree                      0.001011 0.000936
+rhoBDS.t:tree                            0.854629 0.05961 
+logP(mrca(chacobo))                      -5.65497 0.592023
+mrca.age(chacobo)                        319.7985 21.58131
+logP(mrca(kashinawa1))                   -17.5176 7.533983
+mrca.age(kashinawa1)                     106.4880 6.917153
+logP(mrca(northern))                     -5.31379 0.122185
+mrca.age(northern)                       456.3531 26.25181
+logP(mrca(chama))                        -10.1769 2.100279
+mrca.age(chama)                          273.9720 6.534869
+monophyletic(kakataibo.tip)              1        0       
+logP(mrca(kakataibo.tip))                -9.48062 0.348669
+mrca.age(kakataibo.tip.originate)        814.8552 39.64431
 Done!
 Done invoking nestedsampling.util.NSLogAnalyser

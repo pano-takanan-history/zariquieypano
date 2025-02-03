@@ -7,7 +7,7 @@ import subprocess
 import xml.etree.ElementTree as ElementTree
 from collections import Counter
 
-VERSION = '2024-04-02'
+VERSION = '2025-01-10'
 
 
 #---------------------------------------------------------------------------#
@@ -209,10 +209,13 @@ class BeastTest(object):
             raise ValueError("Duplicate IDs in XML: %r" % duplicates)
     
     # helper for testing calibrations
-    def check_calibration(self, clade, members, log=True, monophyletic=True):
+    def check_calibration(self, clade, members, log=True, useOriginate=False, monophyletic=True):
         
-        if log:  # check logging
-            self.is_in_tracelog(clade)
+        if log: # check logging
+            try:
+                self.is_in_tracelog(clade)
+            except AssertionError:
+                raise AssertionError("Unable to find %s in tracelog" % clade)
         
         # check in prior
         prior = self.xml.find('./run/distribution/distribution/[@id="prior"]')
@@ -226,6 +229,11 @@ class BeastTest(object):
             assert cal.get('monophyletic') == 'true'
         else:
             assert cal.get('monophyletic') in ('false', None)
+
+        if useOriginate:
+            assert cal.get('useOriginate') == 'true', 'Expecting useOriginate to be set to true'
+        else:
+            assert cal.get('useOriginate') in ('false', None)
         
         taxa = []
         for t in cal[0].findall('.//taxon'):
@@ -234,6 +242,21 @@ class BeastTest(object):
             else:
                 taxa.append(t.get('idref'))
         self.assertEqual(sorted(members), sorted(taxa))
+        return list(cal)  # = (taxonset, distr)
+    
+    # helper for testing calibration parameters
+    def check_calibration_parameters(self, cal, caltype, meanInRealSpace="false", offset=None, params=None):
+        assert cal.tag == caltype, 'Calibration Type expecting %r got %r' % (caltype, cal.tag)
+        assert cal.attrib.get('meanInRealSpace', 'false') == meanInRealSpace,\
+            'meanInRealSpace expecting %s got %s' % (meanInRealSpace, cal.attrib.get('meanInRealSpace', 'false'))
+
+        assert cal.attrib.get('offset') == offset,\
+            'offset expecting %s got %s' % (offset, cal.attrib.get('offset'))
+
+        if params:
+            foundparams = [p.text for p in cal]
+            assert params == foundparams, 'Parameters expecting %r got %r' % (params, foundparams)
+    
     
     def test_xml(self):
         if not self.validate:
@@ -379,7 +402,7 @@ class ModelGamma(object):
     
     def test_operator_gammaShapeScaler(self):
         """gammaShapeScaler should be in operators"""
-        assert self.is_in_operators(r"gammaShapeScaler\..*")
+        assert self.is_in_operators(r"gammaShapeScaler\.*")
     
     def test_tracelog_gammaShape(self):
         assert self.is_in_tracelog(r'gammaShape\.*')
@@ -720,7 +743,7 @@ class BirthDeathSkylineSerialTreePrior(object):
         assert self.is_in_prior(r'BirthDeathSkySerial\.t:.*')
         
     def test_BDSS_prior_becomeUninfectiousRatePrior(self):
-        assert self.is_in_prior('becomeUninfectiousRatePrior\.t:.*')
+        assert self.is_in_prior(r'becomeUninfectiousRatePrior\.t:.*')
 
     def test_BDSS_prior_originPrior(self):
         assert self.is_in_prior(r'originPrior\.t:.*')
@@ -878,31 +901,189 @@ class Analysis(AscertainmentBias, BirthDeathSkylineContemporaryBDSParamTreePrior
         beta = b.find('./parameter/[@name="beta"]').text
         assert float(alpha) == self.sampling_proportion_alpha, "%r != expected alpha %r" % (alpha, self.sampling_proportion_alpha)
         assert float(beta) == self.sampling_proportion_beta, "%r != expected beta %r" % (beta, self.sampling_proportion_beta)
+    
+    def test_calibration_chacobo(self):
+       taxa = ["Chakobo", "Pakawara"]
+       taxonset, cal = self.check_calibration('chacobo.prior', taxa, monophyletic=True)
+       self.check_calibration_parameters(
+           cal,
+           caltype='LogNormal',
+           meanInRealSpace='true',
+           offset='258',
+           params=['163', '0.6']
+       )
+
+    def test_calibration_northern(self):
+        taxa = ["Matis", "Matses"]
+        taxonset, cal = self.check_calibration('northern.prior', taxa, monophyletic=True)
+        self.check_calibration_parameters(
+            cal,
+            caltype='LogNormal',
+            meanInRealSpace='true',
+            offset='366',
+            params=['173', '0.7']
+        )
+
+    def test_calibration_chama(self):
+        taxa = ["Kapanawa", "ShipiboKonibo"]
+        taxonset, cal = self.check_calibration('chama.prior', taxa, monophyletic=True)
+        self.check_calibration_parameters(
+            cal,
+            caltype='LogNormal',
+            meanInRealSpace='true',
+            offset='258',
+            params=['163', '0.6']
+        )
+
+    def test_calibration_kakataibo(self):
+        taxonset, cal = self.check_calibration('kakataibo.prior', ['Kakataibo'], monophyletic=False, useOriginate="true")
+        self.check_calibration_parameters(
+            cal,
+            caltype='LogNormal',
+            meanInRealSpace='true',
+            offset='258',
+            params=['163', '0.6']
+        )
+
+    def test_calibration_kashinawa1(self):
+        taxa = ["KashinawaB", "KashinawaP"]
+        taxonset, cal = self.check_calibration('kashinawa1.prior', taxa, monophyletic=True)
+        self.check_calibration_parameters(
+            cal,
+            caltype='Normal',
+            params=['80.0', '5.0']
+        )
 
 
 # ANALYSES
 class TestCTMCStrict(Analysis, ModelCTMC, StrictClock, unittest.TestCase):
     filename = 'pano_ctmc_strict.xml'
 
-
 class TestCTMCRelaxed(Analysis, ModelCTMC, OptimisedRelaxedClock, unittest.TestCase):
     filename = 'pano_ctmc_relaxed.xml'
-
 
 class TestCTMCGammaStrict(Analysis, ModelCTMC, ModelGamma, StrictClock, unittest.TestCase):
     filename = 'pano_ctmc_gamma4_strict.xml'
 
-
 class TestCTMCGammaRelaxed(Analysis, ModelCTMC, ModelGamma, OptimisedRelaxedClock, unittest.TestCase):
     filename = 'pano_ctmc_gamma4_relaxed.xml'
-
 
 class TestCovarionStrict(Analysis, ModelCovarion, StrictClock, unittest.TestCase):
     filename = 'pano_covarion_strict.xml'
 
-
 class TestCovarionRelaxed(Analysis, ModelCovarion, OptimisedRelaxedClock, unittest.TestCase):
     filename = 'pano_covarion_relaxed.xml'
+
+class TestCovarionRelaxedConstrained(Analysis, ModelCovarion, OptimisedRelaxedClock, unittest.TestCase):
+    filename = 'pano_covarion_relaxed_constrained.xml'
+
+    def test_extra_constraints(self):
+        self.check_calibration('monophyly.1', [
+            "Matses",
+            "Matis",
+            "Kakataibo",
+            "Kaxarari",
+            "KashinawaB",
+            "KashinawaP",
+            "Pakawara",
+            "Chakobo",
+            "ShipiboKonibo",
+            "Kapanawa",
+            "Amawaka",
+            "Arara",
+            "Chaninawa",
+            "Iskonawa",
+            "Kanamari",
+            "Katukina",
+            "Marinawa",
+            "Marubo",
+            "Mastanawa",
+            "Nawa",
+            "Nukini",
+            "Poyanawa",
+            "Shanenawa",
+            "Sharanawa",
+            "Yaminawa",
+            "Yawanawa",
+        ], monophyletic=True, log=False)
+
+        self.check_calibration('monophyly.3', [
+            "Kaxarari",
+            "Kakataibo",
+            "KashinawaB",
+            "KashinawaP",
+            "Pakawara",
+            "Chakobo",
+            "ShipiboKonibo",
+            "Kapanawa",
+            "Amawaka",
+            "Arara",
+            "Chaninawa",
+            "Iskonawa",
+            "Kanamari",
+            "Katukina",
+            "Marinawa",
+            "Marubo",
+            "Mastanawa",
+            "Nawa",
+            "Nukini",
+            "Poyanawa",
+            "Shanenawa",
+            "Sharanawa",
+            "Yaminawa",
+            "Yawanawa",
+        ], monophyletic=True, log=False)
+
+        self.check_calibration('monophyly.4', [
+            "Kaxarari",
+            "KashinawaB",
+            "KashinawaP",
+            "Pakawara",
+            "Chakobo",
+            "ShipiboKonibo",
+            "Kapanawa",
+            "Amawaka",
+            "Arara",
+            "Chaninawa",
+            "Iskonawa",
+            "Kanamari",
+            "Katukina",
+            "Marinawa",
+            "Marubo",
+            "Mastanawa",
+            "Nawa",
+            "Nukini",
+            "Poyanawa",
+            "Shanenawa",
+            "Sharanawa",
+            "Yaminawa",
+            "Yawanawa",
+        ], monophyletic=True, log=False)
+
+        self.check_calibration('monophyly.5', [
+            "KashinawaB",
+            "KashinawaP",
+            "Pakawara",
+            "Chakobo",
+            "ShipiboKonibo",
+            "Kapanawa",
+            "Amawaka",
+            "Arara",
+            "Chaninawa",
+            "Iskonawa",
+            "Kanamari",
+            "Katukina",
+            "Marinawa",
+            "Marubo",
+            "Mastanawa",
+            "Nawa",
+            "Nukini",
+            "Poyanawa",
+            "Shanenawa",
+            "Sharanawa",
+            "Yaminawa",
+            "Yawanawa",
+        ], monophyletic=True, log=False)
 
 
 
