@@ -1,0 +1,67 @@
+Loading package BICEPS v1.1.2 ClaDS v2.1.2 FastRelaxedClockLogNormal v1.2.0 NS v1.2.2 AlmostDistributions v0.2.0 bModelTest v1.3.3 starbeast3 v1.1.9 IndelDollo v0.0.1 CCD v1.0.3 MSBD v2.0.5 CorrelatedTrait v0.0.5 phoneme v0.0.2 Babel v0.4.2 SA v2.1.1 BEAST.base v2.7.7 MultiTypeTree v8.2.0 BDMM v2.0.0 MASTER v7.0.0 BEASTLabs v2.0.2 BEAST.app v2.7.7 BEAST_CLASSIC v1.6.4 MM v1.2.1 BDSKY v1.5.1 OBAMA v1.1.1 gammaspike v1.0.1 ORC v1.2.0 MODEL_SELECTION v1.6.2 FixedTreeAnalysis v0.0.2    
+About to invoke nestedsampling.util.NSLogAnalyser public static void nestedsampling.util.NSLogAnalyser.main(java.lang.String[])
+Args:[-N, 4, -noposterior, -log, 0pano_ctmc_gamma4_relaxed.log, 1pano_ctmc_gamma4_relaxed.log, 2pano_ctmc_gamma4_relaxed.log, 3pano_ctmc_gamma4_relaxed.log]
+
+Loading 0pano_ctmc_gamma4_relaxed.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 1pano_ctmc_gamma4_relaxed.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 2pano_ctmc_gamma4_relaxed.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 3pano_ctmc_gamma4_relaxed.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Marginal likelihood: -6539.203787957456 sqrt(H/N)=(1.5808131505321374)=?=SD=(1.5775715588164163) Information: 39.98352347032547
+Max ESS: 183.99955243512048
+
+Calculating statistics
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+********************************************************************************
+
+#Particles = 16
+item                                        mean     stddev   
+posterior                                   -6718.53 4.482897
+likelihood                                  -6499.15 2.763945
+prior                                       -219.374 4.274731
+treeLikelihood.pano-full                    -6499.15 2.763945
+Tree.t:tree.height                          1130.441 219.5017
+Tree.t:tree.treeLength                      11813.92 1191.627
+mutationRate.s:pano-full                    1        3.49E-8 
+gammaShape.s:pano-full                      0.880755 0.04912 
+frequencies.s:pano-full.1                   0.953457 0.002386
+frequencies.s:pano-full.2                   0.046543 0.002386
+ORCsigma.c:clock                            0.62974  0.115293
+ORCRatesStat.c:clock.mean                   7.11E-5  8.31E-6 
+ORCRatesStat.c:clock.variance               1.62E-9  5.96E-10
+ORCRatesStat.c:clock.coefficientOfVariation 0.516979 0.058038
+BirthDeathSkyContemporaryBDSParam.t:tree    -173.733 2.587415
+birthRateBDS.t:tree                         0.002896 0.000824
+deathRateBDS.t:tree                         0.001005 0.000923
+rhoBDS.t:tree                               0.842032 0.071046
+ORCucldMean.c:clock                         9.33E-5  1.5E-5  
+logP(mrca(chacobo))                         -5.47166 0.406317
+mrca.age(chacobo)                           375.1742 52.88781
+logP(mrca(kashinawa1))                      -3.14032 0.873273
+mrca.age(kashinawa1)                        82.76357 4.791683
+logP(mrca(northern))                        -5.64561 0.605988
+mrca.age(northern)                          430.3891 32.61323
+logP(mrca(chama))                           -5.62805 0.614798
+mrca.age(chama)                             340.0762 43.58959
+monophyletic(kakataibo.tip)                 1        3.49E-8 
+logP(mrca(kakataibo.tip))                   -10.8796 0.741803
+mrca.age(kakataibo.tip.originate)           986.2835 96.85479
+mrca.age(taxonset.MMK)                      986.2835 96.85479
+Done!
+Done invoking nestedsampling.util.NSLogAnalyser

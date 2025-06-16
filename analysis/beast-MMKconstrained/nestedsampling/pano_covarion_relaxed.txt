@@ -1,0 +1,68 @@
+Loading package BICEPS v1.1.2 ClaDS v2.1.2 FastRelaxedClockLogNormal v1.2.0 NS v1.2.2 AlmostDistributions v0.2.0 bModelTest v1.3.3 starbeast3 v1.1.9 IndelDollo v0.0.1 CCD v1.0.3 MSBD v2.0.5 CorrelatedTrait v0.0.5 phoneme v0.0.2 Babel v0.4.2 SA v2.1.1 BEAST.base v2.7.7 MultiTypeTree v8.2.0 BDMM v2.0.0 MASTER v7.0.0 BEASTLabs v2.0.2 BEAST.app v2.7.7 BEAST_CLASSIC v1.6.4 MM v1.2.1 BDSKY v1.5.1 OBAMA v1.1.1 gammaspike v1.0.1 ORC v1.2.0 MODEL_SELECTION v1.6.2 FixedTreeAnalysis v0.0.2    
+About to invoke nestedsampling.util.NSLogAnalyser public static void nestedsampling.util.NSLogAnalyser.main(java.lang.String[])
+Args:[-N, 4, -noposterior, -log, 0pano_covarion_relaxed.log, 1pano_covarion_relaxed.log, 2pano_covarion_relaxed.log, 3pano_covarion_relaxed.log]
+
+Loading 0pano_covarion_relaxed.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 1pano_covarion_relaxed.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 2pano_covarion_relaxed.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 3pano_covarion_relaxed.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Marginal likelihood: -6514.410914632946 sqrt(H/N)=(1.6445272757196905)=?=SD=(1.6545566614351008) Information: 43.271519369376435
+Max ESS: 183.35918128402264
+
+Calculating statistics
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+********************************************************************************
+
+#Particles = 16
+item                                        mean     stddev   
+posterior                                   -6696.19 5.231841
+likelihood                                  -6471.05 2.819418
+prior                                       -225.138 4.967781
+treeLikelihood.pano-full                    -6471.05 2.819418
+Tree.t:tree.height                          1254.523 269.9021
+Tree.t:tree.treeLength                      12386.60 1541.380
+mutationRate.s:pano-full                    1        3.49E-8 
+bcov_alpha.s:pano-full                      0.002794 0.002776
+bcov_s.s:pano-full                          0.286664 0.015196
+frequencies.s:pano-full.1                   0.94825  0.002372
+frequencies.s:pano-full.2                   0.05175  0.002372
+ORCsigma.c:clock                            0.649264 0.101188
+ORCRatesStat.c:clock.mean                   8.34E-5  1.09E-5 
+ORCRatesStat.c:clock.variance               2.5E-9   9.36E-10
+ORCRatesStat.c:clock.coefficientOfVariation 0.533054 0.052334
+BirthDeathSkyContemporaryBDSParam.t:tree    -174.769 3.026537
+birthRateBDS.t:tree                         0.002878 0.000944
+deathRateBDS.t:tree                         0.001122 0.000989
+rhoBDS.t:tree                               0.858615 0.06547 
+ORCucldMean.c:clock                         0.000114 1.83E-5 
+logP(mrca(chacobo))                         -5.51095 0.447013
+mrca.age(chacobo)                           380.9305 59.55985
+logP(mrca(kashinawa1))                      -3.27003 0.989849
+mrca.age(kashinawa1)                        82.85331 5.379732
+logP(mrca(northern))                        -5.66829 0.628819
+mrca.age(northern)                          434.1988 37.64983
+logP(mrca(chama))                           -5.4598  0.427949
+mrca.age(chama)                             341.7741 37.66648
+monophyletic(kakataibo.tip)                 1        3.49E-8 
+logP(mrca(kakataibo.tip))                   -11.2483 0.913211
+mrca.age(kakataibo.tip.originate)           1036.233 123.7081
+mrca.age(taxonset.MMK)                      1036.233 123.7081
+Done!
+Done invoking nestedsampling.util.NSLogAnalyser
