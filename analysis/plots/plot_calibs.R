@@ -7,13 +7,13 @@ n <- 1e5
 
 kashinawa <- rnorm(n, mean=80, sd=5) %>% 
   tibble() %>% 
-  mutate(group = 'Kashinawa%~% normal(80, 5)') %>% 
+  mutate(group = 'Kashinawa: normal(80, 5)') %>% 
   ggplot(aes(x=.)) + 
   geom_density(aes(alpha=0.7, fill='#0c71ff')) +
   scale_y_continuous(breaks = NULL, name = "Density of values") +
   scale_x_continuous(name='Years BP') +
   theme(legend.position = "none", plot.title = element_text(size = 14)) +  
-  labs(title = "Kashinawa ~ normal(80, 5)")
+  labs(title = "Kashinawa: normal(80, 5)")
 
 # Given values
 mean_real <- 163

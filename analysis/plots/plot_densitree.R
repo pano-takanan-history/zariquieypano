@@ -32,25 +32,21 @@ clades <- list(
     "Marubo" = c("Marubo", "Kanamari", "Katukina"),
     "Ucayali" = c("ShipiboKonibo", "Kapanawa"),
     "Bolivian" = c("Pakawara", "Chakobo"),
-    "Kakataibo" = c("Kakataibo"),
     "Kaxarari" = c("Kaxarari"),
-    "Northern" = c( "Matis", "Matses")
+    "Northern" = c( "Matis", "Matses", "Kakataibo")
 )
 
 colors <- c(
-    "Headwaters" = "#1a3268",
-    "Poyanawa" = "#4069a6",
-    "Marubo" = "#3a6fb0",
-    "Ucayali" = "#5790c1",
     "Bolivian" = "#a8c9df",
-    "Kakataibo" = "#87c27e",
+    "Headwaters" = "#1a3268",
     "Kaxarari" = "#3d7741",
-    "Northern" = "#d55f2b"
+    "Marubo" = "#3a6fb0",
+    "Northern" = "#d55f2b",
+    "Poyanawa" = "#4069a6",
+    "Ucayali" = "#5790c1"
 )
 
-
-
-trees <- treeio::read.beast("../beast/pano_covarion_relaxed.trees")  # slow...
+trees <- treeio::read.beast("../beast-MMKconstrained/pano_covarion_relaxed.trees")  # slow...
 
 # remove burn-in
 trees.subsample <- trees[1001:2001]

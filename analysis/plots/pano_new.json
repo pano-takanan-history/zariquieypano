@@ -12,7 +12,7 @@
     },
     "properties": {
       "title": "Cumancaya,1495",
-      "marker-color": "#ff7f0e",
+      "marker-color": "#2ca02c",
       "marker-symbol": "star"
     }
   },
@@ -27,7 +27,7 @@
     },
     "properties": {
       "title": "Cumancaya,1249",
-      "marker-color": "#ff7f0e",
+      "marker-color": "#2ca02c",
       "marker-symbol": "star"
     }
   },
@@ -42,7 +42,7 @@
     },
     "properties": {
       "title": "Cumancaya,1120",
-      "marker-color": "#ff7f0e",
+      "marker-color": "#2ca02c",
       "marker-symbol": "star"
     }
   },
@@ -57,7 +57,7 @@
     },
     "properties": {
       "title": "Cumancaya,1140",
-      "marker-color": "#ff7f0e",
+      "marker-color": "#2ca02c",
       "marker-symbol": "star"
     }
   },
@@ -102,7 +102,7 @@
     },
     "properties": {
       "title": "Pacacocha,1860",
-      "marker-color": "#2ca02c",
+      "marker-color": "#ff7f0e",
       "marker-symbol": "star"
     }
   },
@@ -117,7 +117,7 @@
     },
     "properties": {
       "title": "Pacacocha,1180",
-      "marker-color": "#2ca02c",
+      "marker-color": "#ff7f0e",
       "marker-symbol": "star"
     }
   },
@@ -4002,6 +4002,7 @@
         "stroke": "#000000"
       },
       "id": 17
-    }
+    },
+    
   ]
 }

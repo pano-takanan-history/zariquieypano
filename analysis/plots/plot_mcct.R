@@ -9,11 +9,12 @@ library('ggplot2')
 library('ggtree')
 library('treeio')
 library('RColorBrewer')
-library('tidyverse')
+library('dplyr')
+library('readr')
 
 # Tree
-tree <- read.beast('../beast/pano_covarion_relaxed.mcct.trees')
-langs <- read_csv('../../../cldf/languages.csv') %>%
+tree <- read.beast('../beast/pano_covarion_relaxed.MCC.trees')
+langs <- read_csv('../../cldf/languages.csv') %>%
   select(ID) %>% arrange(ID) %>% as.vector()
 
 tree@data['rposterior'] <- sprintf('%0.2f', as.numeric(tree@data[['posterior']]))
@@ -39,14 +40,14 @@ print(levels(attr(tree@phylo, 'group')))
 
 colors <- c(
   '#333333', # 0  - i.e. non colored branches.
-  brewer.pal(9, 'Blues')[4], # Bolivian
-  brewer.pal(9, 'Blues')[6],  # Ucayali
-  brewer.pal(9, 'Blues')[9],  # Headwaters
-  brewer.pal(6, 'Greens')[4],   # Kakataibo
-  brewer.pal(6, 'Greens')[6],  # Kaxarari
-  brewer.pal(9, 'Blues')[7],   # Marubo
-  brewer.pal(6, 'Oranges')[5],   # Northern
-  brewer.pal(9, 'Blues')[8]   # Poyanawa
+  "#a8c9df", # Bolivian
+  "#1a3268", # Headwaters
+  "#87c27e", # Kakataibo
+  "#3d7741", # Kaxarari
+  "#3a6fb0", # Marubo
+  "#d55f2b", # Northern
+  "#4069a6", # Poyanawa
+  "#5790c1"  # Ucayali
 )
 
 
@@ -85,4 +86,3 @@ for (clade in levels(attr(tree@phylo, 'group'))) {
 p
 
 ggsave('fig_tree.png', p, width=20, height=14)
-

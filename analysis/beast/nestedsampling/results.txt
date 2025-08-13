@@ -1,8 +1,0 @@
-Filename                      	Marginal Lh	H/N	SD	Information
-pano_covarion_relaxed         	-6514.3479	1.6364	1.6558	42.8473
-pano_covarion_relaxed_constrained	-6512.1565	1.5547	1.5896	38.6750
-pano_covarion_strict          	-6545.4819	1.4574	1.4606	33.9843
-pano_ctmc_gamma4_relaxed      	-6540.8843	1.6161	1.5603	41.7910
-pano_ctmc_gamma4_strict       	-6570.4040	1.3946	1.3853	31.1201
-pano_ctmc_relaxed             	-6711.6489	1.5916	1.5750	40.5306
-pano_ctmc_strict              	-6744.6299	1.4439	1.5183	33.3589
