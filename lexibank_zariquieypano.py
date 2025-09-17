@@ -1,15 +1,10 @@
-from collections import defaultdict
-
 from pathlib import Path
-from pylexibank.dataset import Dataset as BaseDataset 
-from pylexibank import Language, FormSpec, Concept
-from pylexibank import progressbar
-
-from clldutils.misc import slug
 import attr
-from pyedictor import fetch
-from pylexibank import Lexeme
-import lingpy
+import lingpy.basictypes
+from lingpy import Wordlist
+from clldutils.misc import slug
+from pylexibank.dataset import Dataset as BaseDataset 
+from pylexibank import FormSpec, Language, Concept, Lexeme
 
 LANGUAGES = [
         "Arara",
@@ -76,21 +71,18 @@ class Dataset(BaseDataset):
     language_class = CustomLanguage
     lexeme_class = CustomLexeme
     concept_class = CustomConcept
-    form_spec = FormSpec(
-            missing_data=("–", "-")
-            )
+    form_spec = FormSpec(missing_data=("–", "-"))
+
     def cmd_download(self, args):
-        args.log.info('updating ...')
-        with open(self.raw_dir.joinpath("pano.tsv"), "w",
-                encoding="utf-8") as f:
-            f.write(fetch("pano", base_url="https://digling.org/edictor",
-                languages=LANGUAGES))
+        """
+        no EDICTOR upload
+        """
 
     def cmd_makecldf(self, args):
         """
         Convert the raw data to a CLDF dataset.
         """
-        wl = lingpy.Wordlist(str(self.raw_dir / "pano.tsv"))
+        wl = Wordlist(str(self.raw_dir / "pano.tsv"))
         concepts = {}
         for concept in self.concepts:
             idx = concept["NUMBER"] + "_" + slug(concept["ENGLISH"])
@@ -102,13 +94,13 @@ class Dataset(BaseDataset):
                     Concepticon_Gloss=concept["CONCEPTICON_GLOSS"]
                     )
             concepts[concept["ENGLISH"]] = idx
-    
+
+        sources = {}
         for language in self.languages:
             if language["ID"] in LANGUAGES:
                 args.writer.add_language(**language)
-        sources = {}
-        for language in self.languages:
             sources[language["ID"]] = language["Source"]
+
         args.writer.add_sources()
 
         for idx in wl:
@@ -123,6 +115,3 @@ class Dataset(BaseDataset):
                     Motivation_Structure=str(lingpy.basictypes.strings(wl[idx, "morphemes"])) or "?",
                     Source=sources[wl[idx, "doculect"]]
                     )
-
-
-

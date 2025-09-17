@@ -107,24 +107,6 @@ data.long$Language <- factor(data.long$Language, levels=c(
     "Iskonawa", "Poyanawa", "KashinawaB", "Mastanawa"
 ))
 
-
-p <- ggplot(data.long, aes(x=Language, y=Variable, color=factor(State))) +
-    geom_point(size=11, shape=15, color="#333333") +
-    geom_point(size=10, shape=15) +
-    ylab(NULL) +
-    xlab(NULL) +
-    scale_x_discrete(position = "top") +
-    facet_grid(Subset~., drop=TRUE, scales="free_y", space="free_y") +
-    theme(
-        legend.position="top",
-        axis.text.x = element_text(angle = 60, vjust = 1, hjust=0)
-    ) +
-    scale_color_manual(values=c("aliceblue", "dodgerblue4"), na.value="white") +
-    guides(color="none")
-
-ggsave("dotplot.pdf", p)
-
-
 p <- ggplot(data.long, aes(x=Language, y=Variable, color=Change)) +
     geom_point(size=9, shape=15, color="#333333") +
     geom_point(size=8, shape=15) +
@@ -144,10 +126,7 @@ p <- ggplot(data.long, aes(x=Language, y=Variable, color=Change)) +
     ), na.value="white")
 
 
-ggsave("dotplot-changes.pdf", p)
-
-
-
+ggsave("dotplot.pdf", p)
 
 
 tips_to_remove <- tree@phylo$tip.label[tree@phylo$tip.label %in% unique(data.long$Language) == FALSE]
@@ -160,43 +139,6 @@ tree@data['rposterior'] <- sprintf("%0.2f", as.numeric(tree@data[['posterior']])
 tree@data['rposterior'][tree@data['rposterior'] == 'NA',] <- NA
 
 #put this back to wide
-
-data.wide <- data.long %>%
-    select(Language, Variable, State) %>%
-    mutate(State=factor(State)) %>%
-    pivot_wider(names_from = Variable, values_from = State) %>%
-    tibble::column_to_rownames(var="Language")
-
-
-
-p1 <- ggtree(tree, size=1.2, layout='slanted') +
-    geom_tiplab(align=TRUE, linesize=0, offset=1370, hjust=0, angle=90) +
-    geom_label(
-        aes(label=rposterior), label.size=0.3, na.rm=TRUE, size=2,
-        nudge_x=-0.4, nudge_y=0
-    ) +
-    scale_x_continuous(limits = c(-1500, 1600)) +
-    scale_y_continuous(limits = c(-10, 20)) +
-    theme_tree() +
-    coord_flip()
-
-p1 <- revts(p1)
-
-p1 <- gheatmap(
-        p1,
-        data.wide,
-        width=1,
-        hjust=1,
-        offset=10,
-        colnames=TRUE,
-        font.size=5,
-        colnames_position="bottom"
-    ) +
-    scale_fill_manual(values=c("#C6E2FF", "dodgerblue4"), na.value="#7A8B8B") +
-    theme(legend.position="top")
-
-ggsave('treefigure.png', p1, width=10, height=12)
-
 
 data.wide <- data.long %>%
     select(Language, Variable, Change) %>%
@@ -235,7 +177,7 @@ p1 <- gheatmap(
     ), na.value="white") +
     theme(legend.position="top")
 
-ggsave('treefigure-changes.png', p1, width=10, height=12)
+ggsave('treefigure.png', p1, width=10, height=12)
 
 ## QUESTION:
 # - No Mastanawa data for Grammar ?
