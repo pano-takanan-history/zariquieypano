@@ -4,7 +4,6 @@ library(ggtree)
 
 
 add_clade <- function(p, tree, clade, members, color, offset=500) {
-
     if (length(members) == 1) {
         # handle singletons
         m <- which(tree$tip.label == clades[[clade]])
@@ -33,20 +32,22 @@ clades <- list(
     "Ucayali" = c("ShipiboKonibo", "Kapanawa"),
     "Bolivian" = c("Pakawara", "Chakobo"),
     "Kaxarari" = c("Kaxarari"),
-    "Northern" = c( "Matis", "Matses", "Kakataibo")
+    "Kakataibo" = c("Kakataibo"),
+    "Northern" = c( "Matis", "Matses")
 )
 
 colors <- c(
     "Bolivian" = "#a8c9df",
     "Headwaters" = "#1a3268",
     "Kaxarari" = "#3d7741",
+    "Kakataibo" = "#4E964F",
     "Marubo" = "#3a6fb0",
     "Northern" = "#d55f2b",
     "Poyanawa" = "#4069a6",
     "Ucayali" = "#5790c1"
 )
 
-trees <- treeio::read.beast("../beast-MMKconstrained/pano_covarion_relaxed.trees")  # slow...
+trees <- treeio::read.beast("../beast/pano_covarion_relaxed.trees") # slow ...
 
 # remove burn-in
 trees.subsample <- trees[1001:2001]

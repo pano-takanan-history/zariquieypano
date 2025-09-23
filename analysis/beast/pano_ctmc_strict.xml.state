@@ -1,0 +1,26 @@
+<itsabeastystatewerein version='2.0' sample='20000000'>
+<statenode id='Tree.t:tree'>((16:501.2158578359573,15:501.2158578359573)45:795.5474597355084,(11:1092.24845938377,(((((6:108.61694652530379,13:108.61694652530379)39:292.0042639141699,10:400.62121043947366)27:215.22642344464055,(23:309.25686086599853,7:309.25686086599853)43:306.59077301811567)40:160.08366299276133,((0:663.3658002529886,((9:93.04771632485856,8:93.04771632485856)47:434.2896070180832,((24:319.45189776608004,(14:240.06773148723283,(17:224.97136756360584,((12:120.13337123612354,22:120.13337123612354)38:56.48532412080263,3:176.61869535692617)33:48.35267220667967)31:15.096363923626996)35:79.3841662788472)30:123.07044829029479,(1:334.8934325229554,(25:186.12444690709523,21:186.12444690709523)29:148.76898561586015)32:107.62891353341945)37:84.81497728656694)42:136.02847691004683)46:96.7645188738627,(4:390.58934920914726,(20:293.82845559828877,18:293.82845559828877)48:96.76089361085849)36:369.54096991770405)28:15.80097775002423)44:58.34992163879883,((19:346.6294250596562,2:346.6294250596562)41:428.56198176626265,5:775.1914068259189)34:59.08981168975549)26:257.9672408680957)49:204.5148581876956)50:0.0</statenode>
+<statenode id='frequencies.s:pano-full'>frequencies.s:pano-full[2 1] (0.0,1.0): 0.9187356451189199 0.08126435488107693 </statenode>
+<statenode id='birthRateBDS.t:tree'>birthRateBDS.t:tree[1 1] (0.0,1.0): 0.002766021193339578 </statenode>
+<statenode id='deathRateBDS.t:tree'>deathRateBDS.t:tree[1 1] (0.0,1.0): 7.636430345264797E-4 </statenode>
+<statenode id='rhoBDS.t:tree'>rhoBDS.t:tree[1 1] (0.0,1.0): 0.8507445353331342 </statenode>
+<statenode id='clockRate.c:clock'>clockRate.c:clock[1 1] (0.0,1.0): 8.559190184879343E-5 </statenode>
+</itsabeastystatewerein>
+<!--
+{"operators":[
+{"id":"frequenciesDelta.s:pano-full","p":0.02006549489340232,"accept":5979,"reject":18939,"acceptFC":5969,"rejectFC":18931,"rejectIv":0,"rejectOp":0},
+{"id":"StrictClockRateScaler.c:clock","p":0.8083999097291156,"accept":296269,"reject":953230,"acceptFC":296064,"rejectFC":952329,"rejectIv":71,"rejectOp":71},
+{"id":"strictClockUpDownOperator.c:clock","p":0.7794047646089161,"accept":136263,"reject":613631,"acceptFC":136095,"rejectFC":613093,"rejectIv":247908,"rejectOp":31},
+{"id":"BDSKY_contemp_bds_treeScaler.t:tree","p":0.8134222553713742,"accept":114772,"reject":635757,"acceptFC":114737,"rejectFC":635142,"rejectIv":151271,"rejectOp":0},
+{"id":"BDSKY_contemp_bds_treeRootScaler.t:tree","p":0.38410837750486854,"accept":50439,"reject":696440,"acceptFC":49976,"rejectFC":696171,"rejectIv":149493,"rejectOp":149314},
+{"id":"BDSKY_contemp_bds_UniformOperator.t:tree","p":"NaN","accept":2225775,"reject":5267309,"acceptFC":2223586,"rejectFC":5262972,"rejectIv":329114,"rejectOp":0},
+{"id":"BDSKY_contemp_bds_SubtreeSlide.t:tree","p":86.80346631119994,"accept":1382407,"reject":2359634,"acceptFC":1381153,"rejectFC":2357471,"rejectIv":362921,"rejectOp":270179},
+{"id":"BDSKY_contemp_bds_narrow.t:tree","p":"NaN","accept":0,"reject":0,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"BDSKY_contemp_bds_wide.t:tree","p":"NaN","accept":3187,"reject":745261,"acceptFC":3163,"rejectFC":744629,"rejectIv":534220,"rejectOp":381867},
+{"id":"BDSKY_contemp_bds_WilsonBalding.t:tree","p":"NaN","accept":3069,"reject":746757,"acceptFC":3040,"rejectFC":746139,"rejectIv":305769,"rejectOp":113225},
+{"id":"BDSKY_contemp_bds_deathRateScaler.t:tree","p":0.21571416365786839,"accept":191828,"reject":307100,"acceptFC":191729,"rejectFC":306727,"rejectIv":153,"rejectOp":0},
+{"id":"BDSKY_contemp_bds_rhoScaler.t:tree","p":0.34448586487153265,"accept":24940,"reject":224270,"acceptFC":24880,"rejectFC":224115,"rejectIv":165187,"rejectOp":165187},
+{"id":"BDSKY_contemp_bds_birthRateScaler.t:tree","p":0.43909884144571004,"accept":823665,"reject":1674105,"acceptFC":823148,"rejectFC":1672381,"rejectIv":478,"rejectOp":0},
+{"id":"BDSKY_contemp_bds_updownBD.t:tree","p":0.4892530123694304,"accept":167274,"reject":331701,"acceptFC":167216,"rejectFC":331316,"rejectIv":122,"rejectOp":0}
+]}
+-->
