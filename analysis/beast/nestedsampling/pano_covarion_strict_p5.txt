@@ -1,0 +1,100 @@
+Unrecognised element packageapp found. Expected 'provider'
+Loading package BICEPS v1.1.2 SSM v1.2.2 ClaDS v2.1.2 contraband v1.0.2 FastRelaxedClockLogNormal v1.2.0 feast v10.6.0 NS v1.2.2 AlmostDistributions v0.2.1 bModelTest v1.3.3 LPhyBeastExt v1.0.0 starbeast3 v1.2.1 IndelDollo v0.0.1 CCD v1.0.3 Mascot v3.0.7 MSBD v2.0.5 CorrelatedTrait v0.0.5 phoneme v0.0.2 Babel v0.4.2 SA v2.1.1 BEAST.base v2.7.8 MultiTypeTree v8.3.0 BDMM v2.0.0 MASTER v7.0.0 beastmap v0.0.2Unrecognised element packageapp found. Expected 'provider'
+ BEASTLabs v2.0.3 BEAST.app v2.7.8 BEAST_CLASSIC v1.6.4 CodonSubstModels v2.0.1 MM v1.2.1 CoupledMCMC v1.2.2 BDSKY v1.5.1 OBAMA v1.1.1 bdtree v0.0.2 gammaspike v1.1.0 ORC v1.2.1 MODEL_SELECTION v1.6.2 lphybeast v1.3.0 FixedTreeAnalysis v0.0.2 Experimenter v0.2.0    
+About to invoke nestedsampling.util.NSLogAnalyser public static void nestedsampling.util.NSLogAnalyser.main(java.lang.String[])
+Args:[-N, 10, -noposterior, -log, 0pano_covarion_strict_p5.log, 1pano_covarion_strict_p5.log, 2pano_covarion_strict_p5.log, 3pano_covarion_strict_p5.log, 4pano_covarion_strict_p5.log, 5pano_covarion_strict_p5.log, 6pano_covarion_strict_p5.log, 7pano_covarion_strict_p5.log, 8pano_covarion_strict_p5.log, 9pano_covarion_strict_p5.log]
+
+Loading 0pano_covarion_strict_p5.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 1pano_covarion_strict_p5.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 2pano_covarion_strict_p5.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 3pano_covarion_strict_p5.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 4pano_covarion_strict_p5.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 5pano_covarion_strict_p5.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 6pano_covarion_strict_p5.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 7pano_covarion_strict_p5.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 8pano_covarion_strict_p5.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 9pano_covarion_strict_p5.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Marginal likelihood: -6457.94615591856 sqrt(H/N)=(0.5327519059991886)=?=SD=(0.5274558538065651) Information: 28.382459334576833
+Max ESS: 1162.4665132801829
+
+Calculating statistics
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+********************************************************************************
+
+#Particles = 100
+item                                     mean     stddev   
+posterior                                -6641.76 7.819088
+likelihood                               -6429.55 2.689086
+prior                                    -212.210 9.950054
+treeLikelihood.p5                        -1113.32 1.811892
+treeLikelihood.p4                        -1060.74 1.094765
+treeLikelihood.p3                        -1345.59 1.540581
+treeLikelihood.p2                        -1362.42 1.371983
+treeLikelihood.p1                        -1547.45 2.450207
+Tree.t:tree.height                       1813.105 105.4139
+Tree.t:tree.treeLength                   15197.30 739.7925
+mutationRate.s:p5                        2.705304 1.799432
+mutationRate.s:p4                        1.759443 1.177894
+mutationRate.s:p3                        1.522793 1.018445
+mutationRate.s:p2                        0.896585 0.597544
+mutationRate.s:p1                        0.371823 0.248365
+bcov_alpha.s:combined                    0.00298  0.003155
+bcov_s.s:combined                        0.656866 0.032822
+frequencies.s:combined.1                 0.957113 0.00199 
+frequencies.s:combined.2                 0.042887 0.00199 
+clockRate.c:clock                        0.000106 0.000106
+BirthDeathSkyContemporaryBDSParam.t:tree -179.673 1.478095
+birthRateBDS.t:tree                      0.002198 0.000616
+deathRateBDS.t:tree                      0.000803 0.000724
+rhoBDS.t:tree                            0.858075 0.065806
+logP(mrca(chacobo))                      -5.28845 0.214369
+mrca.age(chacobo)                        366.4531 32.01297
+logP(mrca(kashinawa1))                   -17.2102 7.483858
+mrca.age(kashinawa1)                     106.2489 6.714597
+logP(mrca(northern))                     -5.68064 0.294544
+mrca.age(northern)                       524.6004 37.79234
+logP(mrca(chama))                        -10.4492 2.038376
+mrca.age(chama)                          272.9643 5.788026
+Done!
+Done invoking nestedsampling.util.NSLogAnalyser

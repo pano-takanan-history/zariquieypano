@@ -1,0 +1,452 @@
+Unrecognised element packageapp found. Expected 'provider'
+Loading package BICEPS v1.1.2 SSM v1.2.2 ClaDS v2.1.2 contraband v1.0.2 FastRelaxedClockLogNormal v1.2.0 feast v10.6.0 NS v1.2.2 AlmostDistributions v0.2.1 bModelTest v1.3.3 LPhyBeastExt v1.0.0 starbeast3 v1.2.1 IndelDollo v0.0.1 CCD v1.0.3 Mascot v3.0.7 MSBD v2.0.5 CorrelatedTrait v0.0.5 phoneme v0.0.2 Babel v0.4.2 SA v2.1.1 BEAST.base v2.7.8 MultiTypeTree v8.3.0 BDMM v2.0.0 MASTER v7.0.0 beastmap v0.0.2Unrecognised element packageapp found. Expected 'provider'
+ BEASTLabs v2.0.3 BEAST.app v2.7.8 BEAST_CLASSIC v1.6.4 CodonSubstModels v2.0.1 MM v1.2.1 CoupledMCMC v1.2.2 BDSKY v1.5.1 OBAMA v1.1.1 bdtree v0.0.2 gammaspike v1.1.0 ORC v1.2.1 MODEL_SELECTION v1.6.2 lphybeast v1.3.0 FixedTreeAnalysis v0.0.2 Experimenter v0.2.0    
+About to invoke nestedsampling.util.NSLogAnalyser public static void nestedsampling.util.NSLogAnalyser.main(java.lang.String[])
+Args:[-N, 10, -noposterior, -log, 0pano_covarion_strict_words.log, 1pano_covarion_strict_words.log, 2pano_covarion_strict_words.log, 3pano_covarion_strict_words.log, 4pano_covarion_strict_words.log, 5pano_covarion_strict_words.log, 6pano_covarion_strict_words.log, 7pano_covarion_strict_words.log, 8pano_covarion_strict_words.log, 9pano_covarion_strict_words.log]
+
+Loading 0pano_covarion_strict_words.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 1pano_covarion_strict_words.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 2pano_covarion_strict_words.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 3pano_covarion_strict_words.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 4pano_covarion_strict_words.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 5pano_covarion_strict_words.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 6pano_covarion_strict_words.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 7pano_covarion_strict_words.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 8pano_covarion_strict_words.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 9pano_covarion_strict_words.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Marginal likelihood: -6284.1237125031785 sqrt(H/N)=(0.9807453568033342)=?=SD=(0.9548766612813419) Information: 96.18614548912994
+Max ESS: 189.80145994785212
+
+Calculating statistics
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+********************************************************************************
+
+#Particles = 100
+item                                     mean     stddev   
+posterior                                -6748.27 25.09272
+likelihood                               -6187.83 3.523085
+prior                                    -560.434 24.66313
+treeLikelihood.yellow                    -44.8040 0.222274
+treeLikelihood.year                      -25.4781 0.154496
+treeLikelihood.ye_you                    -22.4967 0.222954
+treeLikelihood.worm_ie                   -0.22869 0.186955
+treeLikelihood.woods                     -13.7870 0.148126
+treeLikelihood.woman                     -38.0696 0.238183
+treeLikelihood.wipe                      -56.4291 0.235042
+treeLikelihood.wing                      -21.8185 0.165873
+treeLikelihood.wind                      -48.4967 0.212612
+treeLikelihood.wife                      -31.6393 0.201047
+treeLikelihood.wide                      -46.8280 0.20795 
+treeLikelihood.who                       -7.93500 0.140897
+treeLikelihood.white                     -26.6655 0.188185
+treeLikelihood.where                     -61.6460 0.22278 
+treeLikelihood.when                      -24.5961 0.153667
+treeLikelihood.what                      -17.2808 0.144055
+treeLikelihood.wet                       -26.7834 0.192983
+treeLikelihood.we                        -6.84690 0.125985
+treeLikelihood.water                     -61.3463 0.315678
+treeLikelihood.wash                      -45.9675 0.233041
+treeLikelihood.warm_hot                  -44.7623 0.277273
+treeLikelihood.walk                      -38.8632 0.39512 
+treeLikelihood.vomit                     -24.1309 0.198935
+treeLikelihood.two                       -10.0847 0.3433  
+treeLikelihood.turn_intr                 -55.7902 0.231287
+treeLikelihood.tree                      -35.9150 0.304731
+treeLikelihood.tooth                     -21.7061 0.248601
+treeLikelihood.tongue                    -0.22277 0.182127
+treeLikelihood.tie                       -10.8936 0.118325
+treeLikelihood.throw                     -46.2108 0.237856
+treeLikelihood.thou                      -0.21246 0.170687
+treeLikelihood.this                      -28.1123 0.218998
+treeLikelihood.think                     -9.00709 0.15529 
+treeLikelihood.thin                      -85.6913 0.249607
+treeLikelihood.thick                     -54.2092 0.272325
+treeLikelihood.they                      -40.0348 0.359934
+treeLikelihood.tail                      -28.2711 0.169671
+treeLikelihood.swim                      -57.0403 0.249805
+treeLikelihood.swell                     -47.0960 0.234978
+treeLikelihood.sun                       -30.6459 0.202827
+treeLikelihood.suck                      -30.7352 0.214464
+treeLikelihood.straight                  -49.1207 0.236007
+treeLikelihood.stone                     -78.2251 0.255331
+treeLikelihood.stick_of                  -13.5741 0.187577
+treeLikelihood.star                      -27.0266 0.305259
+treeLikelihood.stand                     -0.15753 0.125555
+treeLikelihood.stab_or                   -47.6415 0.235506
+treeLikelihood.squeeze                   -40.7964 0.254517
+treeLikelihood.split                     -46.2950 0.203332
+treeLikelihood.spit                      -39.5156 0.209826
+treeLikelihood.some                      -29.8721 0.169414
+treeLikelihood.snake                     -28.4785 0.214115
+treeLikelihood.smooth                    -52.6036 0.210412
+treeLikelihood.smoke                     -27.8478 0.234034
+treeLikelihood.smell_tr                  -0.23774 0.217371
+treeLikelihood.small                     -72.4648 0.277061
+treeLikelihood.sleep                     -0.18839 0.176404
+treeLikelihood.sky                       -12.2396 0.161764
+treeLikelihood.skin_of                   -26.0273 0.171085
+treeLikelihood.sit                       -29.4791 0.225255
+treeLikelihood.sing                      -46.7207 0.240789
+treeLikelihood.short                     -79.4972 0.282023
+treeLikelihood.sharp                     -33.6751 0.245683
+treeLikelihood.sew                       -23.5733 0.223693
+treeLikelihood.seed                      -23.9012 0.282561
+treeLikelihood.see                       -28.6292 0.200166
+treeLikelihood.scratch_an                -29.4223 0.18003 
+treeLikelihood.say                       -48.3182 0.222191
+treeLikelihood.sand                      -27.8360 0.284837
+treeLikelihood.salt                      -65.8694 0.259421
+treeLikelihood.rub                       -45.9371 0.203435
+treeLikelihood.rotten                    -38.4680 0.268466
+treeLikelihood.rope                      -46.5733 0.232068
+treeLikelihood.root                      -43.7277 0.21986 
+treeLikelihood.road                      -18.8895 0.277221
+treeLikelihood.river                     -59.3947 1.031072
+treeLikelihood.red                       -37.1023 0.21648 
+treeLikelihood.rain                      -5.17109 0.117185
+treeLikelihood.push                      -43.3298 0.237923
+treeLikelihood.pull                      -22.0359 0.185367
+treeLikelihood.play                      -48.0690 0.178009
+treeLikelihood.person                    -36.2098 0.267882
+treeLikelihood.other                     -0.20314 0.168682
+treeLikelihood.one                       -22.6679 0.199414
+treeLikelihood.old                       -52.8750 0.258444
+treeLikelihood.nose                      -0.20719 0.177176
+treeLikelihood.night                     -50.3171 0.204115
+treeLikelihood.new                       -27.6966 0.205766
+treeLikelihood.neck                      -5.26144 0.202241
+treeLikelihood.near                      -46.7823 0.252582
+treeLikelihood.narrow                    -68.5598 0.317589
+treeLikelihood.name                      -16.3798 0.151612
+treeLikelihood.mouth                     -41.5537 0.354779
+treeLikelihood.mountain                  -41.2359 0.283765
+treeLikelihood.mother                    -30.4982 0.206257
+treeLikelihood.meat                      -0.18102 0.181204
+treeLikelihood.many                      -41.6453 0.212476
+treeLikelihood.man                       -53.8146 0.632558
+treeLikelihood.louse                     -11.9044 0.151747
+treeLikelihood.long                      -50.0256 0.186182
+treeLikelihood.liver                     -15.7909 0.138833
+treeLikelihood.live                      -52.4400 0.14212 
+treeLikelihood.lie_be_lying              -15.0104 0.214138
+treeLikelihood.leg                       -45.3568 0.277903
+treeLikelihood.leaf                      -39.8919 0.217393
+treeLikelihood.laugh                     -59.8995 0.268146
+treeLikelihood.lake                      -16.2254 0.174076
+treeLikelihood.know                      -34.1312 0.235701
+treeLikelihood.kill                      -42.2721 0.273969
+treeLikelihood.husband                   -0.23468 0.23242 
+treeLikelihood.hunt                      -66.4861 0.262968
+treeLikelihood.how                       -35.8678 0.159604
+treeLikelihood.hold_in                   -46.1747 0.258553
+treeLikelihood.hit                       -54.0414 0.254271
+treeLikelihood.here                      -0.19499 0.175368
+treeLikelihood.heavy                     -29.8283 0.220883
+treeLikelihood.heart                     -13.9230 0.144056
+treeLikelihood.hear                      -24.2245 0.364712
+treeLikelihood.head                      -34.2633 0.262708
+treeLikelihood.he                        -34.8745 0.328264
+treeLikelihood.hand                      -0.21479 0.210954
+treeLikelihood.hair                      -15.2953 0.19207 
+treeLikelihood.guts                      -9.02177 0.146045
+treeLikelihood.green                     -62.5899 0.277356
+treeLikelihood.grass                     -23.0343 0.223498
+treeLikelihood.good                      -43.4410 0.282179
+treeLikelihood.give                      -29.3305 0.175592
+treeLikelihood.fruit                     -18.4360 0.154176
+treeLikelihood.foot                      -12.3164 0.221434
+treeLikelihood.fog                       -65.8575 0.195335
+treeLikelihood.fly                       -32.8808 0.267062
+treeLikelihood.flower                    -42.1065 0.286334
+treeLikelihood.flow                      -49.7503 0.247431
+treeLikelihood.float                     -24.1687 0.203091
+treeLikelihood.fish                      -72.7119 0.2688  
+treeLikelihood.fire                      -26.7684 0.243668
+treeLikelihood.fight                     -41.6920 0.192075
+treeLikelihood.few                       -52.6655 0.218019
+treeLikelihood.feather                   -47.4834 0.432873
+treeLikelihood.fear                      -41.8542 0.273623
+treeLikelihood.father                    -30.6165 0.270279
+treeLikelihood.fat                       -8.67393 0.127464
+treeLikelihood.far                       -53.0784 0.259362
+treeLikelihood.fall                      -27.7874 0.183064
+treeLikelihood.eye                       -9.30579 0.133256
+treeLikelihood.egg                       -20.1639 0.220207
+treeLikelihood.eat                       -0.21562 0.200897
+treeLikelihood.earth                     -15.5744 0.157154
+treeLikelihood.ear                       -18.9198 0.326938
+treeLikelihood.dust                      -43.2263 0.236754
+treeLikelihood.dull                      -17.7675 0.148819
+treeLikelihood.dry                       -62.0690 0.224127
+treeLikelihood.drink                     -42.2603 0.334666
+treeLikelihood.dog                       -59.1889 0.217225
+treeLikelihood.dirty                     -61.3702 0.294756
+treeLikelihood.dig                       -71.6501 0.25206 
+treeLikelihood.die                       -51.0668 0.201318
+treeLikelihood.day                       -66.4690 0.270642
+treeLikelihood.cut                       -45.0323 0.238538
+treeLikelihood.count                     -34.6288 0.16042 
+treeLikelihood.come                      -11.3412 0.161068
+treeLikelihood.cold                      -26.8831 0.207849
+treeLikelihood.cloud                     -33.9542 0.39302 
+treeLikelihood.child                     -17.8317 0.166899
+treeLikelihood.burn_tr                   -48.9981 0.21685 
+treeLikelihood.breathe                   -49.4942 0.243727
+treeLikelihood.bone                      -11.8909 0.162937
+treeLikelihood.blow                      -19.6361 0.171651
+treeLikelihood.blood                     -0.17747 0.156009
+treeLikelihood.black                     -62.8468 0.325212
+treeLikelihood.bite                      -37.3370 0.287463
+treeLikelihood.bird                      -58.3381 0.30838 
+treeLikelihood.big                       -38.7018 0.256804
+treeLikelihood.belly                     -64.6087 0.365644
+treeLikelihood.bark_of                   -49.7820 0.305105
+treeLikelihood.bad                       -50.5563 0.246598
+treeLikelihood.back_of                   -26.2687 0.809495
+treeLikelihood.ashes                     -8.76353 0.154389
+treeLikelihood.animal                    -36.6940 0.191694
+treeLikelihood.all                       -56.9511 0.173999
+treeLikelihood.I                         -0.23132 0.199395
+Tree.t:tree.height                       1715.733 86.77170
+Tree.t:tree.treeLength                   15694.39 648.8544
+mutationRate.s:yellow                    1.801898 0.41926 
+mutationRate.s:year                      1.476162 0.348649
+mutationRate.s:ye_you                    1.089797 0.243026
+mutationRate.s:worm_ie                   0.020824 0.018973
+mutationRate.s:woods                     0.43606  0.176009
+mutationRate.s:woman                     1.469094 0.420827
+mutationRate.s:wipe                      5.122096 1.203211
+mutationRate.s:wing                      0.92519  0.255125
+mutationRate.s:wind                      2.136605 0.533583
+mutationRate.s:wife                      1.168224 0.282772
+mutationRate.s:wide                      5.116126 0.898105
+mutationRate.s:who                       0.227642 0.100369
+mutationRate.s:white                     1.062264 0.259484
+mutationRate.s:where                     4.231765 1.08023 
+mutationRate.s:when                      1.503654 0.345183
+mutationRate.s:what                      0.660563 0.193614
+mutationRate.s:wet                       1.035315 0.310022
+mutationRate.s:we                        0.110286 0.057592
+mutationRate.s:water                     2.998017 0.562459
+mutationRate.s:wash                      2.883498 0.566478
+mutationRate.s:warm_hot                  1.559954 0.37761 
+mutationRate.s:walk                      1.827361 0.392721
+mutationRate.s:vomit                     0.842249 0.288904
+mutationRate.s:two                       0.223078 0.09011 
+mutationRate.s:turn_intr                 4.447763 0.956958
+mutationRate.s:tree                      1.35912  0.283144
+mutationRate.s:tooth                     0.689416 0.195833
+mutationRate.s:tongue                    0.020044 0.01842 
+mutationRate.s:tie                       0.359996 0.124657
+mutationRate.s:throw                     2.216116 0.453447
+mutationRate.s:thou                      0.019046 0.016779
+mutationRate.s:this                      1.67463  0.399306
+mutationRate.s:think                     0.293461 0.128467
+mutationRate.s:thin                      4.948226 1.082922
+mutationRate.s:thick                     4.2734   0.907227
+mutationRate.s:they                      1.775288 0.399718
+mutationRate.s:tail                      0.966173 0.31133 
+mutationRate.s:swim                      3.292025 0.695625
+mutationRate.s:swell                     3.585586 0.806538
+mutationRate.s:sun                       1.198332 0.287365
+mutationRate.s:suck                      1.355427 0.319479
+mutationRate.s:straight                  3.853447 0.75558 
+mutationRate.s:stone                     8.426041 1.702449
+mutationRate.s:stick_of                  0.432642 0.179209
+mutationRate.s:star                      1.014506 0.300517
+mutationRate.s:stand                     0.017825 0.016416
+mutationRate.s:stab_or                   3.236358 0.856299
+mutationRate.s:squeeze                   2.899411 0.901304
+mutationRate.s:split                     4.706891 1.010407
+mutationRate.s:spit                      3.368218 0.908328
+mutationRate.s:some                      7.251756 2.008344
+mutationRate.s:snake                     0.864868 0.204517
+mutationRate.s:smooth                    3.754054 0.744858
+mutationRate.s:smoke                     0.761898 0.236106
+mutationRate.s:smell_tr                  0.024045 0.02337 
+mutationRate.s:small                     3.897027 0.771386
+mutationRate.s:sleep                     0.017371 0.018583
+mutationRate.s:sky                       0.31926  0.121986
+mutationRate.s:skin_of                   1.150654 0.268135
+mutationRate.s:sit                       1.683789 0.402914
+mutationRate.s:sing                      2.038564 0.685612
+mutationRate.s:short                     7.129607 1.551947
+mutationRate.s:sharp                     1.731237 0.461036
+mutationRate.s:sew                       1.476989 0.400592
+mutationRate.s:seed                      1.072611 0.304683
+mutationRate.s:see                       1.268559 0.365823
+mutationRate.s:scratch_an                1.876333 0.491163
+mutationRate.s:say                       2.504174 0.545525
+mutationRate.s:sand                      1.020472 0.284548
+mutationRate.s:salt                      3.701188 0.709448
+mutationRate.s:rub                       5.658449 1.479928
+mutationRate.s:rotten                    1.3431   0.362131
+mutationRate.s:rope                      2.847688 0.551566
+mutationRate.s:root                      2.494351 0.490044
+mutationRate.s:road                      0.431332 0.164807
+mutationRate.s:river                     2.771054 0.545248
+mutationRate.s:red                       1.847313 0.455444
+mutationRate.s:rain                      0.095031 0.048553
+mutationRate.s:push                      3.17943  0.743668
+mutationRate.s:pull                      1.271776 0.333156
+mutationRate.s:play                      4.365358 0.899116
+mutationRate.s:person                    1.800338 0.412492
+mutationRate.s:other                     0.024856 0.023836
+mutationRate.s:one                       0.921977 0.311671
+mutationRate.s:old                       2.365904 0.489374
+mutationRate.s:nose                      0.018521 0.017766
+mutationRate.s:night                     2.79946  0.51965 
+mutationRate.s:new                       1.163856 0.357338
+mutationRate.s:neck                      0.102421 0.062239
+mutationRate.s:near                      2.024556 0.495234
+mutationRate.s:narrow                    10.59898 2.16544 
+mutationRate.s:name                      0.49748  0.184802
+mutationRate.s:mouth                     1.873488 0.397383
+mutationRate.s:mountain                  1.228366 0.277017
+mutationRate.s:mother                    1.485642 0.310619
+mutationRate.s:meat                      0.016636 0.018427
+mutationRate.s:many                      1.67433  0.430392
+mutationRate.s:man                       2.63837  0.589713
+mutationRate.s:louse                     0.410331 0.138908
+mutationRate.s:long                      3.328697 0.652446
+mutationRate.s:liver                     0.494473 0.166149
+mutationRate.s:live                      5.564222 1.264996
+mutationRate.s:lie_be_lying              0.596465 0.218011
+mutationRate.s:leg                       1.967733 0.387902
+mutationRate.s:leaf                      1.975166 0.407407
+mutationRate.s:laugh                     3.658917 0.771589
+mutationRate.s:lake                      0.465228 0.179278
+mutationRate.s:know                      1.586933 0.408491
+mutationRate.s:kill                      0.963144 0.292925
+mutationRate.s:husband                   0.022222 0.025198
+mutationRate.s:hunt                      5.521631 1.053869
+mutationRate.s:how                       3.005976 0.687224
+mutationRate.s:hold_in                   4.225589 0.80497 
+mutationRate.s:hit                       2.908615 0.592838
+mutationRate.s:here                      0.021203 0.021001
+mutationRate.s:heavy                     1.156631 0.274994
+mutationRate.s:heart                     0.430172 0.157136
+mutationRate.s:hear                      1.06573  0.298436
+mutationRate.s:head                      1.572376 0.34328 
+mutationRate.s:he                        1.321745 0.321019
+mutationRate.s:hand                      0.019695 0.021412
+mutationRate.s:hair                      0.540726 0.159126
+mutationRate.s:guts                      0.234624 0.106121
+mutationRate.s:green                     3.323655 0.660609
+mutationRate.s:grass                     0.770712 0.262204
+mutationRate.s:good                      2.245211 0.611956
+mutationRate.s:give                      1.649067 0.363691
+mutationRate.s:fruit                     0.625761 0.201085
+mutationRate.s:foot                      0.191524 0.104595
+mutationRate.s:fog                       6.738045 1.307369
+mutationRate.s:fly                       1.387594 0.436285
+mutationRate.s:flower                    1.639193 0.37889 
+mutationRate.s:flow                      4.809262 1.110473
+mutationRate.s:float                     1.279452 0.422449
+mutationRate.s:fish                      4.440429 0.845984
+mutationRate.s:fire                      0.798422 0.207137
+mutationRate.s:fight                     2.872438 0.688665
+mutationRate.s:few                       1.965383 0.493429
+mutationRate.s:feather                   1.876947 0.363764
+mutationRate.s:fear                      1.436183 0.34912 
+mutationRate.s:father                    1.136015 0.279647
+mutationRate.s:fat                       0.338473 0.13352 
+mutationRate.s:far                       2.483773 0.561258
+mutationRate.s:fall                      0.907961 0.253786
+mutationRate.s:eye                       0.294297 0.10938 
+mutationRate.s:egg                       0.613681 0.210522
+mutationRate.s:eat                       0.019607 0.019522
+mutationRate.s:earth                     0.424249 0.143814
+mutationRate.s:ear                       0.417047 0.158955
+mutationRate.s:dust                      2.421079 0.552846
+mutationRate.s:dull                      0.970364 0.315347
+mutationRate.s:dry                       4.070656 0.7817  
+mutationRate.s:drink                     1.525275 0.435068
+mutationRate.s:dog                       4.173569 0.801117
+mutationRate.s:dirty                     4.024032 0.935412
+mutationRate.s:dig                       6.840417 1.337789
+mutationRate.s:die                       2.648558 0.594149
+mutationRate.s:day                       2.690836 0.540329
+mutationRate.s:cut                       1.841283 0.441968
+mutationRate.s:count                     3.071711 0.744378
+mutationRate.s:come                      0.314243 0.134905
+mutationRate.s:cold                      1.038278 0.208114
+mutationRate.s:cloud                     1.240584 0.35835 
+mutationRate.s:child                     0.568961 0.191609
+mutationRate.s:burn_tr                   2.572394 0.642859
+mutationRate.s:breathe                   2.467404 0.549312
+mutationRate.s:bone                      0.409834 0.137192
+mutationRate.s:blow                      0.734493 0.237068
+mutationRate.s:blood                     0.016039 0.015608
+mutationRate.s:black                     3.350598 0.618268
+mutationRate.s:bite                      1.596759 0.435187
+mutationRate.s:bird                      3.401651 0.709397
+mutationRate.s:big                       0.966619 0.28868 
+mutationRate.s:belly                     2.786865 0.566818
+mutationRate.s:bark_of                   1.996557 0.39603 
+mutationRate.s:bad                       2.187584 0.534235
+mutationRate.s:back_of                   0.996395 0.262233
+mutationRate.s:ashes                     0.212743 0.10193 
+mutationRate.s:animal                    1.436807 0.331105
+mutationRate.s:all                       5.925806 1.178614
+mutationRate.s:I                         0.020854 0.019938
+bcov_alpha.s:combined                    0.108692 0.037124
+bcov_s.s:combined                        0.973906 0.024646
+frequencies.s:combined.1                 0.966603 0.001559
+frequencies.s:combined.2                 0.033397 0.001559
+clockRate.c:clock                        2.64E-5  4E-6    
+BirthDeathSkyContemporaryBDSParam.t:tree -180.485 1.412848
+birthRateBDS.t:tree                      0.002077 0.000501
+deathRateBDS.t:tree                      0.00068  0.000572
+rhoBDS.t:tree                            0.850854 0.065633
+logP(mrca(chacobo))                      -6.21125 0.44696 
+mrca.age(chacobo)                        485.8014 42.63746
+logP(mrca(kashinawa1))                   -23.7248 5.083255
+mrca.age(kashinawa1)                     112.2914 4.133992
+logP(mrca(northern))                     -5.50757 0.221271
+mrca.age(northern)                       502.7748 30.50192
+logP(mrca(chama))                        -11.2621 1.965778
+mrca.age(chama)                          270.5950 4.068374
+Done!
+Done invoking nestedsampling.util.NSLogAnalyser
