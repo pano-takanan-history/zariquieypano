@@ -1151,6 +1151,7 @@ name="alignment">
             <parameter id="deathRateBDS.t:tree" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">5.0E-4</parameter>
             <parameter id="rhoBDS.t:tree" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.9</parameter>
             <parameter id="clockRate.c:clock" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">1.0</parameter>
+            <parameter id="gammaShape.s:pano-full" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
         </state>
         <init id="RandomTree.t:tree" spec="beastlabs.evolution.tree.SimpleRandomTree" estimate="false" initial="@Tree.t:tree" taxa="@pano-full"/>
         <distribution id="posterior" spec="CompoundDistribution">
@@ -1179,6 +1180,11 @@ name="alignment">
                         <parameter id="RealParameter.75" spec="parameter.RealParameter" estimate="false" name="alpha">26.0</parameter>
                         <parameter id="RealParameter.76" spec="parameter.RealParameter" estimate="false" name="beta">4.0</parameter>
                     </Beta>
+                </prior>
+                <prior id="GammaShapePrior.s:pano-full" name="distribution" x="@gammaShape.s:pano-full">
+                    <Exponential id="Exponential.gammashape" name="distr">
+                        <parameter id="RealParameter.gammashape" spec="parameter.RealParameter" lower="0.0" name="mean" upper="0.0">1.0</parameter>
+                    </Exponential>
                 </prior>
                 <distribution id="chacobo.prior" spec="beast.base.evolution.tree.MRCAPrior" monophyletic="true" tree="@Tree.t:tree">
                     <taxonset id="chacobo" spec="TaxonSet">
@@ -1232,9 +1238,8 @@ excludeto="1"
 filter="-">
                         <userDataType id="Binary.0" spec="beast.base.evolution.datatype.Binary" />
                     </data>
-                    <siteModel id="SiteModel.s:pano-full" spec="SiteModel" gammaCategoryCount="1">
+                    <siteModel id="SiteModel.s:pano-full" spec="SiteModel" gammaCategoryCount="8" shape="@gammaShape.s:pano-full">
                         <parameter id="mutationRate.s:pano-full" spec="parameter.RealParameter" estimate="false" name="mutationRate">1.0</parameter>
-                        <parameter id="gammaShape.s:pano-full" spec="parameter.RealParameter" estimate="false" name="shape">1.0</parameter>
                         <parameter id="proportionInvariant.s:pano-full" spec="parameter.RealParameter" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
                         <substModel id="CTMC.s:pano-full" spec="GeneralSubstitutionModel">
                             <parameter id="rates.s:pano-full" spec="parameter.RealParameter" dimension="2" estimate="false" lower="0.0" name="rates">0.5 0.5</parameter>
@@ -1248,6 +1253,8 @@ filter="-">
         <operator id="frequenciesDelta.s:pano-full" spec="operator.DeltaExchangeOperator" delta="0.01" weight="0.1">
             <parameter idref="frequencies.s:pano-full"/>
         </operator>
+
+        <operator id="gammaShapeScaler.s:pano-full" spec="ScaleOperator" parameter="@gammaShape.s:pano-full" scaleFactor="0.5" weight="0.1" />
         
         <operator id="StrictClockRateScaler.c:clock" spec="ScaleOperator" parameter="@clockRate.c:clock" scaleFactor="0.75" weight="5.0" />
 
@@ -1277,6 +1284,7 @@ filter="-">
             <log idref="treeLikelihood.pano-full"/>
             <log id="TreeHeight.t:tree" spec="beast.base.evolution.tree.TreeStatLogger" tree="@Tree.t:tree"/>
             <log idref="mutationRate.s:pano-full"/>
+            <log idref="gammaShape.s:pano-full" />
             <log idref="frequencies.s:pano-full"/>
             <log idref="clockRate.c:clock" />
             <log idref="BirthDeathSkyContemporaryBDSParam.t:tree"/>

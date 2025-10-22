@@ -1147,10 +1147,13 @@ name="alignment">
                 </taxonset>
             </tree>
             <parameter id="frequencies.s:pano-full" spec="parameter.RealParameter" dimension="2" lower="0.0" name="stateNode" upper="1.0">0.5 0.5</parameter>
+            <parameter id="ORCsigma.c:clock" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="2.0">0.05</parameter>
+            <parameter id="ORCRates.c:clock" spec="parameter.RealParameter" dimension="50" lower="1.0E-100" name="stateNode" upper="2.0">1.0E-5</parameter>
             <parameter id="birthRateBDS.t:tree" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.001</parameter>
             <parameter id="deathRateBDS.t:tree" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">5.0E-4</parameter>
             <parameter id="rhoBDS.t:tree" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.9</parameter>
-            <parameter id="clockRate.c:clock" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">1.0</parameter>
+            <parameter id="ORCucldMean.c:clock" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
+            <parameter id="gammaShape.s:pano-full" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
         </state>
         <init id="RandomTree.t:tree" spec="beastlabs.evolution.tree.SimpleRandomTree" estimate="false" initial="@Tree.t:tree" taxa="@pano-full"/>
         <distribution id="posterior" spec="CompoundDistribution">
@@ -1158,7 +1161,18 @@ name="alignment">
                 <distribution id="BirthDeathSkyContemporaryBDSParam.t:tree" spec="bdsky.evolution.speciation.BirthDeathSkylineModel" birthRate="@birthRateBDS.t:tree" conditionOnRoot="true" contemp="true" deathRate="@deathRateBDS.t:tree" rho="@rhoBDS.t:tree" tree="@Tree.t:tree">
                     <parameter id="samplingRateBDS.t:tree" spec="parameter.RealParameter" name="samplingRate">0.0</parameter>
                 </distribution>
-                <prior id="ClockPrior.c:clock" name="distribution" x="@clockRate.c:clock">
+                <prior id="ORCRatePriorDistribution.c:clock" name="distribution" x="@ORCRates.c:clock">
+                    <LogNormal id="LogNormalDistributionModel.ORCRatePriorDistribution" S="@ORCsigma.c:clock" meanInRealSpace="true" name="distr">
+                        <parameter spec="parameter.RealParameter" estimate="false" name="M">1.0</parameter>
+                    </LogNormal>
+                </prior>
+                <prior id="ORCsigmaPrior.c:clock" name="distribution" x="@ORCsigma.c:clock">
+                    <Gamma id="Gamma.3" name="distr">
+                        <parameter id="RealParameter.71" spec="parameter.RealParameter" estimate="false" name="alpha">0.5</parameter>
+                        <parameter id="RealParameter.72" spec="parameter.RealParameter" estimate="false" name="beta">0.38</parameter>
+                    </Gamma>
+                </prior>
+                <prior id="ORCucldMeanPrior.c:clock" name="distribution" x="@ORCucldMean.c:clock">
                     <Gamma id="Gamma.clock" name="distr">
                         <parameter id="RealParameter.clock.alpha" spec="parameter.RealParameter" estimate="false" name="alpha">0.1</parameter>
                         <parameter id="RealParameter.clock.beta" spec="parameter.RealParameter" estimate="false" name="beta">100</parameter>
@@ -1180,6 +1194,12 @@ name="alignment">
                         <parameter id="RealParameter.76" spec="parameter.RealParameter" estimate="false" name="beta">4.0</parameter>
                     </Beta>
                 </prior>
+                <prior id="GammaShapePrior.s:pano-full" name="distribution" x="@gammaShape.s:pano-full">
+                    <Exponential id="Exponential.gammashape" name="distr">
+                        <parameter id="RealParameter.gammashape" spec="parameter.RealParameter" lower="0.0" name="mean" upper="0.0">1.0</parameter>
+                    </Exponential>
+                </prior>
+                
                 <distribution id="chacobo.prior" spec="beast.base.evolution.tree.MRCAPrior" monophyletic="true" tree="@Tree.t:tree">
                     <taxonset id="chacobo" spec="TaxonSet">
                         <taxon id="Chakobo" spec="Taxon"/>
@@ -1232,16 +1252,19 @@ excludeto="1"
 filter="-">
                         <userDataType id="Binary.0" spec="beast.base.evolution.datatype.Binary" />
                     </data>
-                    <siteModel id="SiteModel.s:pano-full" spec="SiteModel" gammaCategoryCount="1">
+                    <siteModel id="SiteModel.s:pano-full" spec="SiteModel" gammaCategoryCount="8" shape="@gammaShape.s:pano-full">
                         <parameter id="mutationRate.s:pano-full" spec="parameter.RealParameter" estimate="false" name="mutationRate">1.0</parameter>
-                        <parameter id="gammaShape.s:pano-full" spec="parameter.RealParameter" estimate="false" name="shape">1.0</parameter>
                         <parameter id="proportionInvariant.s:pano-full" spec="parameter.RealParameter" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
                         <substModel id="CTMC.s:pano-full" spec="GeneralSubstitutionModel">
                             <parameter id="rates.s:pano-full" spec="parameter.RealParameter" dimension="2" estimate="false" lower="0.0" name="rates">0.5 0.5</parameter>
                             <frequencies id="estimatedFreqs.s:pano-full" spec="Frequencies" frequencies="@frequencies.s:pano-full" />
                         </substModel>
                     </siteModel>
-                    <branchRateModel id="StrictClock.c:clock" spec="beast.base.evolution.branchratemodel.StrictClockModel" clock.rate="@clockRate.c:clock" />
+                    <branchRateModel id="OptimisedRelaxedClock.c:clock" spec="beast.base.evolution.branchratemodel.UCRelaxedClockModel" clock.rate="@ORCucldMean.c:clock" rates="@ORCRates.c:clock" tree="@Tree.t:tree">
+                        <LogNormal id="ORCLogNormalDistributionModel.c:clock" S="@ORCsigma.c:clock" meanInRealSpace="true" name="distr">
+                            <parameter id="RealParameter.0" spec="parameter.RealParameter" estimate="false" name="M">1.0</parameter>
+                        </LogNormal>
+                    </branchRateModel>
                 </distribution>
             </distribution>
         </distribution>
@@ -1249,13 +1272,51 @@ filter="-">
             <parameter idref="frequencies.s:pano-full"/>
         </operator>
         
-        <operator id="StrictClockRateScaler.c:clock" spec="ScaleOperator" parameter="@clockRate.c:clock" scaleFactor="0.75" weight="5.0" />
-
-        <operator id="strictClockUpDownOperator.c:clock" spec="UpDownOperator" scaleFactor="0.75" weight="3.0">
-            <up idref="clockRate.c:clock" />
-            <down idref="Tree.t:tree" />
+        <operator id="gammaShapeScaler.s:pano-full" spec="ScaleOperator" parameter="@gammaShape.s:pano-full" scaleFactor="0.5" weight="0.1" />
+        
+        <operator id="ORCAdaptableOperatorSampler_sigma.c:clock" spec="AdaptableOperatorSampler" weight="3.0">
+            <parameter idref="ORCsigma.c:clock"/>
+            <operator id="ORCucldStdevScaler.c:clock" spec="orc.consoperators.UcldScalerOperator" distr="@ORCLogNormalDistributionModel.c:clock" rates="@ORCRates.c:clock" scaleFactor="0.5" stdev="@ORCsigma.c:clock" weight="1.0">
+                <kernel id="KernelDistribution$Bactrian.1" spec="operator.kernel.KernelDistribution$Bactrian"/>
+            </operator>
+            <operator id="ORCUcldStdevRandomWalk.c:clock" spec="operator.kernel.BactrianRandomWalkOperator" parameter="@ORCsigma.c:clock" scaleFactor="0.1" weight="1.0">
+                <kernelDistribution id="KernelDistribution$Bactrian.2" spec="operator.kernel.KernelDistribution$Bactrian"/>
+            </operator>
+            <operator id="ORCUcldStdevScale.c:clock" spec="kernel.BactrianScaleOperator" parameter="@ORCsigma.c:clock" scaleFactor="0.5" upper="10.0" weight="1.0">
+                <kernelDistribution id="KernelDistribution$Bactrian.3" spec="operator.kernel.KernelDistribution$Bactrian"/>
+            </operator>
+            <operator id="ORCSampleFromPriorOperator_sigma.c:clock" spec="orc.operators.SampleFromPriorOperator" parameter="@ORCsigma.c:clock" prior2="@ORCsigmaPrior.c:clock" weight="1.0"/>
         </operator>
-
+        <operator id="ORCAdaptableOperatorSampler_rates_root.c:clock" spec="AdaptableOperatorSampler" weight="1.0">
+            <parameter idref="ORCRates.c:clock"/>
+            <tree idref="Tree.t:tree"/>
+            <operator id="ORCRootOperator1.c:clock" spec="orc.consoperators.SimpleDistance" clockModel="@OptimisedRelaxedClock.c:clock" rates="@ORCRates.c:clock" tree="@Tree.t:tree" twindowSize="0.005" weight="1.0">
+                <kernel id="KernelDistribution$Bactrian.4" spec="operator.kernel.KernelDistribution$Bactrian"/>
+            </operator>
+            <operator id="ORCRootOperator2.c:clock" spec="orc.consoperators.SmallPulley" clockModel="@OptimisedRelaxedClock.c:clock" dwindowSize="0.005" rates="@ORCRates.c:clock" tree="@Tree.t:tree" weight="1.0">
+                <kernel id="KernelDistribution$Bactrian.5" spec="operator.kernel.KernelDistribution$Bactrian"/>
+            </operator>
+        </operator>
+        <operator id="ORCAdaptableOperatorSampler_rates_internal.c:clock" spec="AdaptableOperatorSampler" weight="20.0">
+            <parameter idref="ORCRates.c:clock"/>
+            <tree idref="Tree.t:tree"/>
+            <operator id="ORCInternalnodesOperator.c:clock" spec="orc.consoperators.InConstantDistanceOperator" clockModel="@OptimisedRelaxedClock.c:clock" rates="@ORCRates.c:clock" tree="@Tree.t:tree" twindowSize="0.005" weight="1.0">
+                <kernel id="KernelDistribution$Bactrian.6" spec="operator.kernel.KernelDistribution$Bactrian"/>
+            </operator>
+            <operator id="ORCRatesRandomWalk.c:clock" spec="operator.kernel.BactrianRandomWalkOperator" parameter="@ORCRates.c:clock" scaleFactor="0.1" weight="1.0">
+                <kernelDistribution id="KernelDistribution$Bactrian.7" spec="operator.kernel.KernelDistribution$Bactrian"/>
+            </operator>
+            <operator id="ORCRatesScale.c:clock" spec="kernel.BactrianScaleOperator" parameter="@ORCRates.c:clock" scaleFactor="0.5" upper="10.0" weight="1.0">
+                <kernelDistribution id="KernelDistribution$Bactrian.8" spec="operator.kernel.KernelDistribution$Bactrian"/>
+            </operator>
+            <operator id="ORCSampleFromPriorOperator.rates.c:clock" spec="orc.operators.SampleFromPriorOperator" parameter="@ORCRates.c:clock" prior2="@ORCRatePriorDistribution.c:clock" weight="1.0"/>
+        </operator>
+        <operator id="ORCAdaptableOperatorSampler_NER.c:clock" spec="AdaptableOperatorSampler" weight="15.0">
+            <tree idref="Tree.t:tree"/>
+            <operator id="ORCNER_null.c:clock" spec="Exchange" tree="@Tree.t:tree" weight="1.0"/>
+            <operator id="ORCNER_dAE_dBE_dCE.c:clock" spec="orc.ner.NEROperator_dAE_dBE_dCE" rates="@ORCRates.c:clock" tree="@Tree.t:tree" weight="1.0"/>
+            <metric id="RNNIMetric.0" spec="beastlabs.evolution.tree.RNNIMetric" taxonset="@TaxonSet.pano-full"/>
+        </operator>
         <operator id="BDSKY_contemp_bds_treeScaler.t:tree" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:tree" weight="3.0"/>
         <operator id="BDSKY_contemp_bds_treeRootScaler.t:tree" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:tree" weight="3.0"/>
         <operator id="BDSKY_contemp_bds_UniformOperator.t:tree" spec="Uniform" tree="@Tree.t:tree" weight="30.0"/>
@@ -1270,6 +1331,11 @@ filter="-">
             <up idref="birthRateBDS.t:tree"/>
             <down idref="deathRateBDS.t:tree"/>
         </operator>
+        <operator id="ORCucldMeanScaler.c:clock" spec="ScaleOperator" parameter="@ORCucldMean.c:clock" scaleFactor="0.5" weight="3.0"/>
+        <operator id="ORC.UpDown.c:clock" spec="operator.kernel.BactrianUpDownOperator" scaleFactor="0.75" weight="3.0">
+            <up idref="ORCucldMean.c:clock"/>
+            <down idref="Tree.t:tree"/>
+        </operator>
         <logger id="tracelog" spec="Logger" fileName="$(filebase).log" logEvery="10000" model="@posterior" sort="smart">
             <log idref="posterior"/>
             <log idref="likelihood"/>
@@ -1277,12 +1343,15 @@ filter="-">
             <log idref="treeLikelihood.pano-full"/>
             <log id="TreeHeight.t:tree" spec="beast.base.evolution.tree.TreeStatLogger" tree="@Tree.t:tree"/>
             <log idref="mutationRate.s:pano-full"/>
+            <log idref="gammaShape.s:pano-full" />
             <log idref="frequencies.s:pano-full"/>
-            <log idref="clockRate.c:clock" />
+            <log idref="ORCsigma.c:clock"/>
+            <log id="ORCRatesStat.c:clock" spec="beast.base.evolution.RateStatistic" branchratemodel="@OptimisedRelaxedClock.c:clock" tree="@Tree.t:tree"/>
             <log idref="BirthDeathSkyContemporaryBDSParam.t:tree"/>
             <log idref="birthRateBDS.t:tree"/>
             <log idref="deathRateBDS.t:tree"/>
             <log idref="rhoBDS.t:tree"/>
+            <log idref="ORCucldMean.c:clock"/>
             <log idref="chacobo.prior"/>
             <log idref="kashinawa1.prior"/>
             <log idref="northern.prior"/>
@@ -1298,7 +1367,7 @@ filter="-">
             <log idref="prior"/>
         </logger>
         <logger id="treelog.t:tree" spec="Logger" fileName="$(filebase).trees" logEvery="10000" mode="tree">
-            <log id="TreeWithMetaDataLogger.t:tree" spec="beast.base.evolution.TreeWithMetaDataLogger" tree="@Tree.t:tree"/>
+            <log id="TreeWithMetaDataLogger.t:tree" spec="beast.base.evolution.TreeWithMetaDataLogger" branchratemodel="@OptimisedRelaxedClock.c:clock" tree="@Tree.t:tree"/>
         </logger>
     </run>
 
