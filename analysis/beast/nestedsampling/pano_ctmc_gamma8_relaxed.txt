@@ -1,0 +1,95 @@
+Unrecognised element packageapp found. Expected 'provider'
+Loading package BICEPS v1.1.2 SSM v1.2.2 ClaDS v2.1.2 contraband v1.0.2 FastRelaxedClockLogNormal v1.2.0 feast v10.6.0 NS v1.2.2 AlmostDistributions v0.2.1 bModelTest v1.3.3 LPhyBeastExt v1.0.0 starbeast3 v1.2.1 IndelDollo v0.0.1 CCD v1.0.3 Mascot v3.0.7 MSBD v2.0.5 CorrelatedTrait v0.0.5 phoneme v0.0.2 Babel v0.4.2 SA v2.1.1 BEAST.base v2.7.8 MultiTypeTree v8.3.0 BDMM v2.0.0 MASTER v7.0.0 beastmap v0.0.2Unrecognised element packageapp found. Expected 'provider'
+ BEASTLabs v2.0.3 BEAST.app v2.7.8 BEAST_CLASSIC v1.6.4 CodonSubstModels v2.0.1 MM v1.2.1 CoupledMCMC v1.2.2 BDSKY v1.5.1 OBAMA v1.1.1 bdtree v0.0.2 gammaspike v1.1.0 ORC v1.2.1 MODEL_SELECTION v1.6.2 lphybeast v1.3.0 FixedTreeAnalysis v0.0.2 Experimenter v0.2.0    
+About to invoke nestedsampling.util.NSLogAnalyser public static void nestedsampling.util.NSLogAnalyser.main(java.lang.String[])
+Args:[-N, 10, -noposterior, -log, 0pano_ctmc_gamma8_relaxed.log, 1pano_ctmc_gamma8_relaxed.log, 2pano_ctmc_gamma8_relaxed.log, 3pano_ctmc_gamma8_relaxed.log, 4pano_ctmc_gamma8_relaxed.log, 5pano_ctmc_gamma8_relaxed.log, 6pano_ctmc_gamma8_relaxed.log, 7pano_ctmc_gamma8_relaxed.log, 8pano_ctmc_gamma8_relaxed.log, 9pano_ctmc_gamma8_relaxed.log]
+
+Loading 0pano_ctmc_gamma8_relaxed.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 1pano_ctmc_gamma8_relaxed.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 2pano_ctmc_gamma8_relaxed.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 3pano_ctmc_gamma8_relaxed.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 4pano_ctmc_gamma8_relaxed.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 5pano_ctmc_gamma8_relaxed.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 6pano_ctmc_gamma8_relaxed.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 7pano_ctmc_gamma8_relaxed.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 8pano_ctmc_gamma8_relaxed.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 9pano_ctmc_gamma8_relaxed.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Marginal likelihood: -6530.343326096449 sqrt(H/N)=(0.5718311966364017)=?=SD=(0.5846603730143513) Information: 32.699091744661914
+Max ESS: 1028.8655635873592
+
+Calculating statistics
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+********************************************************************************
+
+#Particles = 100
+item                                        mean     stddev   
+posterior                                   -6702.59 4.525932
+likelihood                                  -6497.63 2.452074
+prior                                       -204.965 4.561899
+treeLikelihood.pano-full                    -6497.63 2.452074
+Tree.t:tree.height                          1274.511 229.8895
+Tree.t:tree.treeLength                      11873.44 1283.280
+mutationRate.s:pano-full                    1        NaN     
+gammaShape.s:pano-full                      0.992179 0.051576
+frequencies.s:pano-full.1                   0.952121 0.002142
+frequencies.s:pano-full.2                   0.047879 0.002142
+ORCsigma.c:clock                            0.561451 0.089428
+ORCRatesStat.c:clock.mean                   7.34E-5  8.52E-6 
+ORCRatesStat.c:clock.variance               1.4E-9   4.54E-10
+ORCRatesStat.c:clock.coefficientOfVariation 0.471183 0.046447
+BirthDeathSkyContemporaryBDSParam.t:tree    -173.577 2.730335
+birthRateBDS.t:tree                         0.002717 0.000684
+deathRateBDS.t:tree                         0.000779 0.000703
+rhoBDS.t:tree                               0.858219 0.064134
+ORCucldMean.c:clock                         9.03E-5  1.22E-5 
+logP(mrca(chacobo))                         -5.47391 0.476447
+mrca.age(chacobo)                           367.1669 53.54769
+logP(mrca(kashinawa1))                      -3.25317 0.95186 
+mrca.age(kashinawa1)                        83.31972 5.021906
+logP(mrca(northern))                        -5.54921 0.473832
+mrca.age(northern)                          462.8494 54.93181
+logP(mrca(chama))                           -5.62705 0.693058
+mrca.age(chama)                             332.8414 35.95927
+Done!
+Done invoking nestedsampling.util.NSLogAnalyser
