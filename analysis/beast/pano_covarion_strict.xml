@@ -1167,7 +1167,9 @@ name="alignment">
                     </Gamma>
                 </prior>
                 <prior id="bcov_alpha_prior.s:pano-full" name="distribution" x="@bcov_alpha.s:pano-full">
-                    <Uniform id="Uniform.16" name="distr" upper="10.0"/>
+                    <Exponential id="Exponential.bcovalpha" name="distr">
+                        <parameter id="RealParameter.bcovalpha" spec="parameter.RealParameter" estimate="false" name="mean">1</parameter>
+                    </Exponential>
                 </prior>
                 <prior id="bcov_s_prior.s:pano-full" name="distribution" x="@bcov_s.s:pano-full">
                     <Gamma id="Gamma.8" name="distr">
@@ -1182,7 +1184,7 @@ name="alignment">
                 </prior>
                 <prior id="deathRatePriorContempBDS.t:tree" name="distribution" x="@deathRateBDS.t:tree">
                     <Exponential id="Exponential.6" name="distr">
-                        <parameter id="RealParameter.19" spec="parameter.RealParameter" estimate="false" name="mean">0.05</parameter>
+                        <parameter id="RealParameter.19" spec="parameter.RealParameter" estimate="false" name="mean">0.002</parameter>
                     </Exponential>
                 </prior>
                 <prior id="rhoPriorContempBDS.t:tree" name="distribution" x="@rhoBDS.t:tree">
@@ -1231,15 +1233,6 @@ name="alignment">
                           <parameter id="sdlog.northern" spec="parameter.RealParameter" estimate="false" name="S">0.7</parameter>
                     </LogNormal>
                 </distribution>
-                <distribution id="kakataibo.prior" spec="beast.base.evolution.tree.MRCAPrior" tree="@Tree.t:tree" useOriginate="true">
-                    <taxonset id="kakataibo.tip" spec="TaxonSet">
-                        <taxon id="Kakataibo" spec="Taxon"/>
-                    </taxonset>
-                    <LogNormal id="LogNormal.kakataibo" meanInRealSpace="true" name="distr" offset="258">
-                          <parameter id="meanlog.kakataibo" spec="parameter.RealParameter" estimate="false" name="M">163</parameter>
-                          <parameter id="sdlog.kakataibo" spec="parameter.RealParameter" estimate="false" name="S">0.6</parameter>
-                    </LogNormal>
-                </distribution>
             </distribution>
             <distribution id="likelihood" spec="CompoundDistribution" useThreads="true">
                 <distribution id="treeLikelihood.pano-full" spec="TreeLikelihood" tree="@Tree.t:tree" useAmbiguities="true">
@@ -1282,7 +1275,7 @@ filter="-">
         <operator id="BDSKY_contemp_bds_treeRootScaler.t:tree" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:tree" weight="3.0"/>
         <operator id="BDSKY_contemp_bds_UniformOperator.t:tree" spec="Uniform" tree="@Tree.t:tree" weight="30.0"/>
         <operator id="BDSKY_contemp_bds_SubtreeSlide.t:tree" spec="SubtreeSlide" tree="@Tree.t:tree" weight="15.0"/>
-        <operator id="BDSKY_contemp_bds_narrow.t:tree" spec="Exchange" tree="@Tree.t:tree" weight="0.0"/>
+        <operator id="BDSKY_contemp_bds_narrow.t:tree" spec="Exchange" tree="@Tree.t:tree" weight="2.0"/>
         <operator id="BDSKY_contemp_bds_wide.t:tree" spec="Exchange" isNarrow="false" tree="@Tree.t:tree" weight="3.0"/>
         <operator id="BDSKY_contemp_bds_WilsonBalding.t:tree" spec="WilsonBalding" tree="@Tree.t:tree" weight="3.0"/>
         <operator id="BDSKY_contemp_bds_deathRateScaler.t:tree" spec="ScaleOperator" parameter="@deathRateBDS.t:tree" weight="2.0"/>
@@ -1292,7 +1285,7 @@ filter="-">
             <up idref="birthRateBDS.t:tree"/>
             <down idref="deathRateBDS.t:tree"/>
         </operator>
-        <logger id="tracelog" spec="Logger" fileName="pano_covarion_strict.log" logEvery="10000" model="@posterior" sort="smart">
+        <logger id="tracelog" spec="Logger" fileName="$(filebase).log" logEvery="10000" model="@posterior" sort="smart">
             <log idref="posterior"/>
             <log idref="likelihood"/>
             <log idref="prior"/>
@@ -1311,9 +1304,8 @@ filter="-">
             <log idref="kashinawa1.prior"/>
             <log idref="northern.prior"/>
             <log idref="chama.prior"/>
-            <log idref="kakataibo.prior"/>
         </logger>
-        <logger id="Sitelikelihoods" fileName="pano_covarion_strict.sites.log" logEvery="10000" mode="tree">
+        <logger id="Sitelikelihoods" fileName="$(filebase).sites.log" logEvery="10000" mode="tree">
             <log id="sitelik.all" spec="babel.util.SiteLikelihoodLogger" likelihood="@treeLikelihood.pano-full" value="_ascertainment I all all all all all all all all all all all all animal animal animal animal animal animal animal ashes ashes back_of_body back_of_body bad bad bad bad bad bad bad bad bad bad bark_of_tree bark_of_tree bark_of_tree bark_of_tree bark_of_tree belly belly belly belly belly belly belly belly big big big big big big big big big bird bird bird bird bird bird bird bird bird bird bird bite bite bite bite bite black black black black black black black blood blow_wind blow_wind blow_wind blow_wind blow_wind bone bone bone breathe breathe breathe breathe breathe breathe breathe breathe breathe burn_tr_v burn_tr_v burn_tr_v burn_tr_v burn_tr_v burn_tr_v burn_tr_v burn_tr_v burn_tr_v child child child child cloud cloud cloud cloud cold_weather cold_weather cold_weather cold_weather come come come count_verb count_verb count_verb count_verb count_verb count_verb count_verb count_verb cut_verb cut_verb cut_verb cut_verb cut_verb cut_verb cut_verb cut_verb cut_verb cut_verb day_daytime day_daytime day_daytime day_daytime day_daytime day_daytime day_daytime day_daytime die die die die die die die die die die dig dig dig dig dig dig dig dig dig dig dig dig dig dig dirty dirty dirty dirty dirty dirty dirty dirty dirty dirty dirty dirty dirty dog dog dog dog dog dog dog dog dog drink_verb drink_verb drink_verb drink_verb drink_verb drink_verb drink_verb dry_adjv dry_adjv dry_adjv dry_adjv dry_adjv dry_adjv dry_adjv dry_adjv dry_adjv dry_adjv dry_adjv dry_adjv dull_knife dull_knife dull_knife dull_knife dust dust dust dust ear ear ear earth_soil earth_soil earth_soil earth_soil eat egg egg eye eye fall_drop fall_drop fall_drop fall_drop fall_drop far far far far far far far far far far far far fat_grease fat_grease father father father father fear_verb fear_verb fear_verb fear_verb feather_large feather_large feather_large feather_large feather_large few few few few few few few few few few few fight fight fight fight fight fight fight fight fight fight fire fire fire fire fire fire fish_noun fish_noun fish_noun fish_noun fish_noun fish_noun fish_noun fish_noun fish_noun fish_noun fish_noun fish_noun float float float float float flow flow flow flow flow flow flow flow flow flow flower flower flower flower flower flower fly_verb fly_verb fly_verb fly_verb fly_verb fly_verb fly_verb fog fog fog fog fog fog fog fog fog fog fog fog foot foot fruit_berry fruit_berry fruit_berry fruit_berry give give good good good good good good good grass grass grass grass green_color green_color green_color green_color green_color green_color green_color green_color green_color green_color green_color green_color green_color guts guts hair hair hair hair hand he he he head head hear hear hear hear heart heart heart heavy heavy heavy here hit hit hit hit hit hit hit hit hit hold_in_hand hold_in_hand hold_in_hand hold_in_hand hold_in_hand hold_in_hand hold_in_hand how_interr how_interr how_interr how_interr how_interr how_interr how_interr how_interr hunt hunt hunt hunt hunt hunt hunt hunt hunt hunt hunt hunt hunt husband kill kill kill kill kill kill kill kill know_facts know_facts know_facts know_facts know_facts lake lake lake laugh laugh laugh laugh laugh laugh laugh laugh leaf leaf leaf leaf leaf leg leg leg leg leg lie_be_lying_down lie_be_lying_down lie_be_lying_down lie_be_lying_down live live live live live live live live live live live live liver liver liver long long long long long long long long long long louse louse louse man_male man_male man_male man_male man_male man_male man_male many many many many many many many many many many meat_flesh mother mother mother mother mountain mountain mountain mountain mountain mountain mountain mountain mouth mouth mouth name name name narrow narrow narrow narrow narrow narrow narrow narrow narrow narrow narrow narrow narrow narrow narrow narrow narrow narrow narrow near near near near near near near near near near near neck neck new new new new new new night night night night night nose old_adj old_adj old_adj old_adj old_adj old_adj old_adj old_adj one one one one one other person_human person_human person_human person_human play play play play play play play play play play play pull pull pull pull push push push push push push push push rain rain red red red red red red red river river river river river river river river road_path road_path road_path root root root root root rope_cord rope_cord rope_cord rope_cord rope_cord rope_cord rotten_log rotten_log rotten_log rotten_log rotten_log rotten_log rub rub rub rub rub rub rub rub rub rub rub rub rub salt salt salt salt salt salt salt salt salt sand sand say say say say say say say say scratch_an_itch scratch_an_itch scratch_an_itch scratch_an_itch scratch_an_itch scratch_an_itch see see see see seed seed seed sew sew sew sew sew sew sharp_knife sharp_knife sharp_knife sharp_knife sharp_knife sharp_knife sharp_knife short short short short short short short short short short short short short short short short short sing sing sing sing sing sing sing sing sing sing sing sing sing sit sit sit skin_of_person skin_of_person skin_of_person sky sky sky sleep small small small small small small small small small small small smell_tr_v smoke_noun smoke_noun smoke_noun smoke_noun smoke_noun smooth smooth smooth smooth smooth smooth smooth snake snake snake snake snake snake some some some some some some some spit_verb spit_verb spit_verb spit_verb spit_verb spit_verb spit_verb spit_verb spit_verb spit_verb split split split split split split split split split squeeze squeeze squeeze squeeze squeeze squeeze squeeze squeeze squeeze squeeze stab_or_pierce stab_or_pierce stab_or_pierce stab_or_pierce stab_or_pierce stab_or_pierce stab_or_pierce stab_or_pierce stab_or_pierce stab_or_pierce stab_or_pierce stab_or_pierce stand star star star star star stick_of_wood stick_of_wood stick_of_wood stone stone stone stone stone stone stone stone stone stone stone stone straight straight straight straight straight straight suck suck suck suck suck suck sun sun sun sun sun swell swell swell swell swell swell swell swell swim swim swim swim swim swim swim swim tail tail tail tail tail they they they thick thick thick thick thick thick thick thick thin thin thin thin thin thin thin thin thin thin thin thin thin thin thin thin thin thin think think this this this this thou_you throw throw throw throw throw tie_verb tie_verb tie_verb tongue tooth_front tooth_front tree tree tree turn_intr_v turn_intr_v turn_intr_v turn_intr_v turn_intr_v turn_intr_v turn_intr_v turn_intr_v turn_intr_v turn_intr_v turn_intr_v turn_intr_v turn_intr_v two two vomit_verb vomit_verb vomit_verb vomit_verb vomit_verb walk walk walk walk walk warm_hot_weather warm_hot_weather warm_hot_weather warm_hot_weather warm_hot_weather warm_hot_weather warm_hot_weather wash wash wash wash wash wash water water water water we we wet wet wet wet wet wet what_interr what_interr what_interr what_interr when_interr when_interr when_interr when_interr when_interr when_interr where_interr where_interr where_interr where_interr where_interr where_interr where_interr where_interr where_interr where_interr where_interr where_interr where_interr where_interr white white white white white who_interr who_interr wide wide wide wide wide wide wide wife wife wife wife wife wife wind_breeze wind_breeze wind_breeze wind_breeze wind_breeze wind_breeze wind_breeze wind_breeze wind_breeze wing wing wing wing wipe wipe wipe wipe wipe wipe wipe wipe wipe wipe wipe woman woman woman woman woman woman woods_forest woods_forest woods_forest worm_ie_earthworm ye_you_all ye_you_all year year year year yellow yellow yellow yellow"/>
         </logger>
         <logger id="screenlog" spec="Logger" logEvery="1000">
@@ -1322,7 +1314,7 @@ filter="-">
             <log idref="likelihood"/>
             <log idref="prior"/>
         </logger>
-        <logger id="treelog.t:tree" spec="Logger" fileName="pano_covarion_strict.trees" logEvery="10000" mode="tree">
+        <logger id="treelog.t:tree" spec="Logger" fileName="$(filebase).trees" logEvery="10000" mode="tree">
             <log id="TreeWithMetaDataLogger.t:tree" spec="beast.base.evolution.TreeWithMetaDataLogger" tree="@Tree.t:tree"/>
         </logger>
     </run>

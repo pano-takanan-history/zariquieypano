@@ -1,8 +1,8 @@
-2025-02-01 15:49:00.397 java[80611:105000379] +[IMKClient subclass]: chose IMKClient_Modern
-2025-02-01 15:49:00.397 java[80611:105000379] +[IMKInputSession subclass]: chose IMKInputSession_Modern
-Loading package BICEPS v1.1.2 ClaDS v2.0.3 FastRelaxedClockLogNormal v1.2.0 NS v1.2.2 AlmostDistributions v0.2.0 starbeast3 v1.1.9 IndelDollo v0.0.1 CCD v1.0.1 CorrelatedTrait v0.0.5 phoneme v0.0.2 Babel v0.4.2 SA v2.1.1 BEAST.base v2.7.7 GEO_SPHERE v1.4.1 BEASTLabs v2.0.2 BEAST.app v2.7.7 BEAST_CLASSIC v1.6.3 MM v1.2.1 BDSKY v1.5.1 gammaspike v0.0.3 ORC v1.2.0 BREAK_AWAY v1.2.0 MODEL_SELECTION v1.6.2 FixedTreeAnalysis v0.0.2    
+Unrecognised element packageapp found. Expected 'provider'
+Loading package BICEPS v1.1.2 SSM v1.2.2 ClaDS v2.1.2 contraband v1.0.2 FastRelaxedClockLogNormal v1.2.0 feast v10.6.0 NS v1.2.2 AlmostDistributions v0.2.1 bModelTest v1.3.3 LPhyBeastExt v1.0.0 starbeast3 v1.2.1 IndelDollo v0.0.1 CCD v1.0.3 Mascot v3.0.7 MSBD v2.0.5 CorrelatedTrait v0.0.5 phoneme v0.0.2 Babel v0.4.2 SA v2.1.1 BEAST.base v2.7.8 MultiTypeTree v8.3.0 BDMM v2.0.0 MASTER v7.0.0 beastmap v0.0.2Unrecognised element packageapp found. Expected 'provider'
+ BEASTLabs v2.0.3 BEAST.app v2.7.8 BEAST_CLASSIC v1.6.4 CodonSubstModels v2.0.1 MM v1.2.1 CoupledMCMC v1.2.2 BDSKY v1.5.1 OBAMA v1.1.1 bdtree v0.0.2 gammaspike v1.1.0 ORC v1.2.1 MODEL_SELECTION v1.6.2 lphybeast v1.3.0 FixedTreeAnalysis v0.0.2 Experimenter v0.2.0    
 About to invoke nestedsampling.util.NSLogAnalyser public static void nestedsampling.util.NSLogAnalyser.main(java.lang.String[])
-Args:[-N, 4, -noposterior, -log, 0pano_covarion_strict.log, 1pano_covarion_strict.log, 2pano_covarion_strict.log, 3pano_covarion_strict.log]
+Args:[-N, 10, -noposterior, -log, 0pano_covarion_strict.log, 1pano_covarion_strict.log, 2pano_covarion_strict.log, 3pano_covarion_strict.log, 4pano_covarion_strict.log, 5pano_covarion_strict.log, 6pano_covarion_strict.log, 7pano_covarion_strict.log, 8pano_covarion_strict.log, 9pano_covarion_strict.log]
 
 Loading 0pano_covarion_strict.log, burnin 0%, skipping 0 log lines
 
@@ -24,42 +24,69 @@ Loading 3pano_covarion_strict.log, burnin 0%, skipping 0 log lines
 |---------|---------|---------|---------|---------|---------|---------|---------|
 *********************************************************************************
 
-Marginal likelihood: -6545.481873897884 sqrt(H/N)=(1.4574010615412107)=?=SD=(1.4606140082911316) Information: 33.98428566690317
-Max ESS: 185.57157779641372
+Loading 4pano_covarion_strict.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 5pano_covarion_strict.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 6pano_covarion_strict.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 7pano_covarion_strict.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 8pano_covarion_strict.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 9pano_covarion_strict.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Marginal likelihood: -6537.3198428324 sqrt(H/N)=(0.5250391384843901)=?=SD=(0.496699576969915) Information: 27.566609694043056
+Max ESS: 1230.9518919574439
 
 Calculating statistics
 
 |---------|---------|---------|---------|---------|---------|---------|---------|
 ********************************************************************************
 
-#Particles = 16
+#Particles = 100
 item                                     mean     stddev   
-posterior                                -6726.13 5.575869
-likelihood                               -6511.46 2.69288 
-prior                                    -214.673 7.628335
-treeLikelihood.pano-full                 -6511.46 2.69288 
-Tree.t:tree.height                       1710.532 110.0776
-Tree.t:tree.treeLength                   14187.87 668.4214
-mutationRate.s:pano-full                 1        1.05E-8 
-bcov_alpha.s:pano-full                   0.003373 0.0034  
-bcov_s.s:pano-full                       0.298836 0.016993
-frequencies.s:pano-full.1                0.94891  0.002697
-frequencies.s:pano-full.2                0.05109  0.002697
-clockRate.c:clock                        7.17E-5  5.12E-6 
-BirthDeathSkyContemporaryBDSParam.t:tree -178.320 1.572488
-birthRateBDS.t:tree                      0.002587 0.000703
-deathRateBDS.t:tree                      0.001081 0.000906
-rhoBDS.t:tree                            0.858887 0.058731
-logP(mrca(chacobo))                      -5.36012 0.413045
-mrca.age(chacobo)                        338.4701 25.23827
-logP(mrca(kashinawa1))                   -15.1606 6.439953
-mrca.age(kashinawa1)                     104.3043 6.3962  
-logP(mrca(northern))                     -5.60566 0.27951 
-mrca.age(northern)                       514.6074 37.55572
-logP(mrca(chama))                        -10.0934 2.0139  
-mrca.age(chama)                          274.0548 6.270172
-monophyletic(kakataibo.tip)              1        1.05E-8 
-logP(mrca(kakataibo.tip))                -10.5129 0.395836
-mrca.age(kakataibo.tip.originate)        937.6283 49.13241
+posterior                                -6714.74 8.011533
+likelihood                               -6509.74 2.876858
+prior                                    -204.998 10.43782
+treeLikelihood.pano-full                 -6509.74 2.876858
+Tree.t:tree.height                       1745.353 101.5838
+Tree.t:tree.treeLength                   14528.87 657.8361
+mutationRate.s:pano-full                 1        5.48E-8 
+bcov_alpha.s:pano-full                   0.003081 0.00296 
+bcov_s.s:pano-full                       0.298172 0.014159
+frequencies.s:pano-full.1                0.948527 0.002295
+frequencies.s:pano-full.2                0.051473 0.002295
+clockRate.c:clock                        7.04E-5  4.43E-6 
+BirthDeathSkyContemporaryBDSParam.t:tree -178.602 1.423236
+birthRateBDS.t:tree                      0.00225  0.000562
+deathRateBDS.t:tree                      0.000775 0.000675
+rhoBDS.t:tree                            0.862098 0.062114
+logP(mrca(chacobo))                      -5.3026  0.295646
+mrca.age(chacobo)                        346.5838 26.76783
+logP(mrca(kashinawa1))                   -20.2208 8.996925
+mrca.age(kashinawa1)                     108.8010 7.424583
+logP(mrca(northern))                     -5.73884 0.30815 
+mrca.age(northern)                       531.8285 38.88567
+logP(mrca(chama))                        -10.6834 2.24831 
+mrca.age(chama)                          272.5707 6.046384
 Done!
 Done invoking nestedsampling.util.NSLogAnalyser

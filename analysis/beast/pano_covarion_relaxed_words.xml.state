@@ -1,0 +1,398 @@
+<itsabeastystatewerein version='2.0' sample='40000000'>
+<statenode id='Tree.t:tree'>(((((((0:615.9930281125439,(((1:296.62941211468075,(21:212.23042197493103,25:212.23042197493103)34:84.39899013974971)28:95.55798227321156,(((3:201.13688342473023,17:201.13688342473023)32:17.32651376647962,((12:113.70856690952765,22:113.70856690952765)33:89.40605620302027,14:203.11462311254792)41:15.348774078661933)39:60.27707930780875,24:278.7404764990186)29:113.44691788887371)37:83.74358120962489,(8:84.05864149720543,9:84.05864149720543)43:391.8723341003118)30:140.06205251502672)27:19.920748727944442,((4:425.96511062900015,20:425.96511062900015)42:57.52942940424947,18:483.4945400332496)31:152.41923680723875)46:101.36626695504981,(((6:145.00481449730654,13:145.00481449730654)36:374.4742027913324,10:519.4790172886389)44:165.14110100534288,(7:297.84391994548,23:297.84391994548)49:386.7761983485018)40:52.65992550155636)38:150.91702717270368,(2:438.89618941494393,19:438.89618941494393)47:449.3008815532979)26:80.6963947910051,5:968.893465759247)35:131.7538325936141,11:1100.647298352861)48:776.5600745182678,(15:435.096402956915,16:435.096402956915)45:1442.110969914214)50:0.0</statenode>
+<statenode id='bcov_alpha.s:combined'>bcov_alpha.s:combined[1 1] (1.0E-4,1.0): 0.00824442632917999 </statenode>
+<statenode id='bcov_s.s:combined'>bcov_s.s:combined[1 1] (1.0E-4,1.0): 0.4500553297828748 </statenode>
+<statenode id='frequencies.s:combined'>frequencies.s:combined[2 1] (0.0,1.0): 0.9565234687153948 0.04347653128460032 </statenode>
+<statenode id='ORCsigma.c:clock'>ORCsigma.c:clock[1 1] (0.0,2.0): 0.40524530906437595 </statenode>
+<statenode id='ORCRates.c:clock'>ORCRates.c:clock[50 1] (0.0,2.0): 0.9876195925214726 1.0674992072439242 0.74371291050075 0.6306444407152093 0.8234918672309461 0.6989334895854769 0.9000782047461091 0.4341759965466106 1.719711310000447 1.2098959626193524 0.8122009294873508 1.5506950767228347 0.9602419101819568 1.1037905690441807 0.7261399256253169 0.662259161659206 1.312302462089202 0.9629212529517011 0.8544679467673439 1.1668929109760717 1.8616318765276383 0.8685781250998076 0.5949713472708884 0.5871122251436881 0.8755204419357329 0.515300747123196 1.8928288027941915 1.226885543026739 0.8293730218634399 1.2729913148428635 0.8328021716577638 0.5919055382745166 0.7228589170619194 0.8441617820346298 0.7994523555718961 0.6461970271913747 0.8167604287206062 1.2424133060314806 0.7884483150375278 0.7080586793511131 0.7150350490577123 1.342211934410871 1.4032550876540144 0.9175885786835899 1.253443758315976 0.6203634270748647 1.517018203771646 1.0355850700521667 0.7008358932268592 0.6667473665417946 </statenode>
+<statenode id='birthRateBDS.t:tree'>birthRateBDS.t:tree[1 1] (0.0,1.0): 0.001605920230008548 </statenode>
+<statenode id='deathRateBDS.t:tree'>deathRateBDS.t:tree[1 1] (0.0,1.0): 2.284991268852239E-4 </statenode>
+<statenode id='rhoBDS.t:tree'>rhoBDS.t:tree[1 1] (0.0,1.0): 0.8670299476992005 </statenode>
+<statenode id='ORCucldMean.c:clock'>ORCucldMean.c:clock[1 1] (-Infinity,Infinity): 5.259597004324522E-5 </statenode>
+<statenode id='mutationRate.s:yellow'>mutationRate.s:yellow[1 1] (0.0,Infinity): 1.6399594941072961 </statenode>
+<statenode id='mutationRate.s:year'>mutationRate.s:year[1 1] (0.0,Infinity): 0.4332190831166242 </statenode>
+<statenode id='mutationRate.s:ye_you'>mutationRate.s:ye_you[1 1] (0.0,Infinity): 1.1536749316671868 </statenode>
+<statenode id='mutationRate.s:worm_ie'>mutationRate.s:worm_ie[1 1] (0.0,Infinity): 0.07037380559470799 </statenode>
+<statenode id='mutationRate.s:woods'>mutationRate.s:woods[1 1] (0.0,Infinity): 1.0855307360852706 </statenode>
+<statenode id='mutationRate.s:woman'>mutationRate.s:woman[1 1] (0.0,Infinity): 0.7613162248151621 </statenode>
+<statenode id='mutationRate.s:wipe'>mutationRate.s:wipe[1 1] (0.0,Infinity): 2.2249912186239196 </statenode>
+<statenode id='mutationRate.s:wing'>mutationRate.s:wing[1 1] (0.0,Infinity): 0.9683974004713304 </statenode>
+<statenode id='mutationRate.s:wind'>mutationRate.s:wind[1 1] (0.0,Infinity): 0.807433854269031 </statenode>
+<statenode id='mutationRate.s:wife'>mutationRate.s:wife[1 1] (0.0,Infinity): 0.43924522951059275 </statenode>
+<statenode id='mutationRate.s:wide'>mutationRate.s:wide[1 1] (0.0,Infinity): 5.033208882280402 </statenode>
+<statenode id='mutationRate.s:who'>mutationRate.s:who[1 1] (0.0,Infinity): 0.4005244511594537 </statenode>
+<statenode id='mutationRate.s:white'>mutationRate.s:white[1 1] (0.0,Infinity): 1.4531647240909733 </statenode>
+<statenode id='mutationRate.s:where'>mutationRate.s:where[1 1] (0.0,Infinity): 1.198450812566449 </statenode>
+<statenode id='mutationRate.s:when'>mutationRate.s:when[1 1] (0.0,Infinity): 0.6480903836130605 </statenode>
+<statenode id='mutationRate.s:what'>mutationRate.s:what[1 1] (0.0,Infinity): 1.9537156474524553 </statenode>
+<statenode id='mutationRate.s:wet'>mutationRate.s:wet[1 1] (0.0,Infinity): 0.656154412809503 </statenode>
+<statenode id='mutationRate.s:we'>mutationRate.s:we[1 1] (0.0,Infinity): 0.3368640697287587 </statenode>
+<statenode id='mutationRate.s:water'>mutationRate.s:water[1 1] (0.0,Infinity): 1.4474146621550403 </statenode>
+<statenode id='mutationRate.s:wash'>mutationRate.s:wash[1 1] (0.0,Infinity): 2.91132890672271 </statenode>
+<statenode id='mutationRate.s:warm_hot'>mutationRate.s:warm_hot[1 1] (0.0,Infinity): 1.8212025128686948 </statenode>
+<statenode id='mutationRate.s:walk'>mutationRate.s:walk[1 1] (0.0,Infinity): 1.5460050696448568 </statenode>
+<statenode id='mutationRate.s:vomit'>mutationRate.s:vomit[1 1] (0.0,Infinity): 0.27472429002422594 </statenode>
+<statenode id='mutationRate.s:two'>mutationRate.s:two[1 1] (0.0,Infinity): 0.40235063565222673 </statenode>
+<statenode id='mutationRate.s:turn_intr'>mutationRate.s:turn_intr[1 1] (0.0,Infinity): 8.668573982247175 </statenode>
+<statenode id='mutationRate.s:tree'>mutationRate.s:tree[1 1] (0.0,Infinity): 0.8287067378493572 </statenode>
+<statenode id='mutationRate.s:tooth'>mutationRate.s:tooth[1 1] (0.0,Infinity): 0.612460166847682 </statenode>
+<statenode id='mutationRate.s:tongue'>mutationRate.s:tongue[1 1] (0.0,Infinity): 0.05224997531361268 </statenode>
+<statenode id='mutationRate.s:tie'>mutationRate.s:tie[1 1] (0.0,Infinity): 0.2168414000869097 </statenode>
+<statenode id='mutationRate.s:throw'>mutationRate.s:throw[1 1] (0.0,Infinity): 2.1020114611851395 </statenode>
+<statenode id='mutationRate.s:thou'>mutationRate.s:thou[1 1] (0.0,Infinity): 0.15662530640549888 </statenode>
+<statenode id='mutationRate.s:this'>mutationRate.s:this[1 1] (0.0,Infinity): 1.0591449066945176 </statenode>
+<statenode id='mutationRate.s:think'>mutationRate.s:think[1 1] (0.0,Infinity): 0.1485125812067239 </statenode>
+<statenode id='mutationRate.s:thin'>mutationRate.s:thin[1 1] (0.0,Infinity): 1.368207344681609 </statenode>
+<statenode id='mutationRate.s:thick'>mutationRate.s:thick[1 1] (0.0,Infinity): 1.9142472943705569 </statenode>
+<statenode id='mutationRate.s:they'>mutationRate.s:they[1 1] (0.0,Infinity): 1.7501804261994298 </statenode>
+<statenode id='mutationRate.s:tail'>mutationRate.s:tail[1 1] (0.0,Infinity): 1.252305610454938 </statenode>
+<statenode id='mutationRate.s:swim'>mutationRate.s:swim[1 1] (0.0,Infinity): 1.9012655167353572 </statenode>
+<statenode id='mutationRate.s:swell'>mutationRate.s:swell[1 1] (0.0,Infinity): 2.454520753679791 </statenode>
+<statenode id='mutationRate.s:sun'>mutationRate.s:sun[1 1] (0.0,Infinity): 2.6707782607053177 </statenode>
+<statenode id='mutationRate.s:suck'>mutationRate.s:suck[1 1] (0.0,Infinity): 0.9769770089988177 </statenode>
+<statenode id='mutationRate.s:straight'>mutationRate.s:straight[1 1] (0.0,Infinity): 4.369514332180003 </statenode>
+<statenode id='mutationRate.s:stone'>mutationRate.s:stone[1 1] (0.0,Infinity): 6.136753037834961 </statenode>
+<statenode id='mutationRate.s:stick_of'>mutationRate.s:stick_of[1 1] (0.0,Infinity): 0.4784836786048346 </statenode>
+<statenode id='mutationRate.s:star'>mutationRate.s:star[1 1] (0.0,Infinity): 0.17823998815714653 </statenode>
+<statenode id='mutationRate.s:stand'>mutationRate.s:stand[1 1] (0.0,Infinity): 0.05591503791060106 </statenode>
+<statenode id='mutationRate.s:stab_or'>mutationRate.s:stab_or[1 1] (0.0,Infinity): 3.475138227422912 </statenode>
+<statenode id='mutationRate.s:squeeze'>mutationRate.s:squeeze[1 1] (0.0,Infinity): 1.7800165210522743 </statenode>
+<statenode id='mutationRate.s:split'>mutationRate.s:split[1 1] (0.0,Infinity): 4.915278361650582 </statenode>
+<statenode id='mutationRate.s:spit'>mutationRate.s:spit[1 1] (0.0,Infinity): 1.2854668784878798 </statenode>
+<statenode id='mutationRate.s:some'>mutationRate.s:some[1 1] (0.0,Infinity): 37.82220872421236 </statenode>
+<statenode id='mutationRate.s:snake'>mutationRate.s:snake[1 1] (0.0,Infinity): 0.9654360835574857 </statenode>
+<statenode id='mutationRate.s:smooth'>mutationRate.s:smooth[1 1] (0.0,Infinity): 2.016775721063678 </statenode>
+<statenode id='mutationRate.s:smoke'>mutationRate.s:smoke[1 1] (0.0,Infinity): 0.2158603605573308 </statenode>
+<statenode id='mutationRate.s:smell_tr'>mutationRate.s:smell_tr[1 1] (0.0,Infinity): 0.14754307700830083 </statenode>
+<statenode id='mutationRate.s:small'>mutationRate.s:small[1 1] (0.0,Infinity): 2.912615932090915 </statenode>
+<statenode id='mutationRate.s:sleep'>mutationRate.s:sleep[1 1] (0.0,Infinity): 0.1271853914373156 </statenode>
+<statenode id='mutationRate.s:sky'>mutationRate.s:sky[1 1] (0.0,Infinity): 0.37086042585639617 </statenode>
+<statenode id='mutationRate.s:skin_of'>mutationRate.s:skin_of[1 1] (0.0,Infinity): 2.336282154357112 </statenode>
+<statenode id='mutationRate.s:sit'>mutationRate.s:sit[1 1] (0.0,Infinity): 0.7496115456940191 </statenode>
+<statenode id='mutationRate.s:sing'>mutationRate.s:sing[1 1] (0.0,Infinity): 3.618891320018973 </statenode>
+<statenode id='mutationRate.s:short'>mutationRate.s:short[1 1] (0.0,Infinity): 1.9638456038007106 </statenode>
+<statenode id='mutationRate.s:sharp'>mutationRate.s:sharp[1 1] (0.0,Infinity): 0.7067608859333465 </statenode>
+<statenode id='mutationRate.s:sew'>mutationRate.s:sew[1 1] (0.0,Infinity): 0.8528556399640812 </statenode>
+<statenode id='mutationRate.s:seed'>mutationRate.s:seed[1 1] (0.0,Infinity): 1.000222578477423 </statenode>
+<statenode id='mutationRate.s:see'>mutationRate.s:see[1 1] (0.0,Infinity): 0.5424634363951911 </statenode>
+<statenode id='mutationRate.s:scratch_an'>mutationRate.s:scratch_an[1 1] (0.0,Infinity): 2.1952768659251367 </statenode>
+<statenode id='mutationRate.s:say'>mutationRate.s:say[1 1] (0.0,Infinity): 1.2334240410366235 </statenode>
+<statenode id='mutationRate.s:sand'>mutationRate.s:sand[1 1] (0.0,Infinity): 1.0111454032984455 </statenode>
+<statenode id='mutationRate.s:salt'>mutationRate.s:salt[1 1] (0.0,Infinity): 2.337613584523367 </statenode>
+<statenode id='mutationRate.s:rub'>mutationRate.s:rub[1 1] (0.0,Infinity): 7.877080843206123 </statenode>
+<statenode id='mutationRate.s:rotten'>mutationRate.s:rotten[1 1] (0.0,Infinity): 2.133240822455278 </statenode>
+<statenode id='mutationRate.s:rope'>mutationRate.s:rope[1 1] (0.0,Infinity): 5.368992040695846 </statenode>
+<statenode id='mutationRate.s:root'>mutationRate.s:root[1 1] (0.0,Infinity): 2.45577384016917 </statenode>
+<statenode id='mutationRate.s:road'>mutationRate.s:road[1 1] (0.0,Infinity): 0.20580912796326237 </statenode>
+<statenode id='mutationRate.s:river'>mutationRate.s:river[1 1] (0.0,Infinity): 1.276738894993433 </statenode>
+<statenode id='mutationRate.s:red'>mutationRate.s:red[1 1] (0.0,Infinity): 0.5545834478782081 </statenode>
+<statenode id='mutationRate.s:rain'>mutationRate.s:rain[1 1] (0.0,Infinity): 0.1333259519487194 </statenode>
+<statenode id='mutationRate.s:push'>mutationRate.s:push[1 1] (0.0,Infinity): 3.743732537328111 </statenode>
+<statenode id='mutationRate.s:pull'>mutationRate.s:pull[1 1] (0.0,Infinity): 1.0857630604108228 </statenode>
+<statenode id='mutationRate.s:play'>mutationRate.s:play[1 1] (0.0,Infinity): 4.4827797995001255 </statenode>
+<statenode id='mutationRate.s:person'>mutationRate.s:person[1 1] (0.0,Infinity): 1.3406298668073835 </statenode>
+<statenode id='mutationRate.s:other'>mutationRate.s:other[1 1] (0.0,Infinity): 0.04390359336416006 </statenode>
+<statenode id='mutationRate.s:one'>mutationRate.s:one[1 1] (0.0,Infinity): 1.2307703458813382 </statenode>
+<statenode id='mutationRate.s:old'>mutationRate.s:old[1 1] (0.0,Infinity): 3.840030539506913 </statenode>
+<statenode id='mutationRate.s:nose'>mutationRate.s:nose[1 1] (0.0,Infinity): 0.34059696137765905 </statenode>
+<statenode id='mutationRate.s:night'>mutationRate.s:night[1 1] (0.0,Infinity): 1.5427764809939688 </statenode>
+<statenode id='mutationRate.s:new'>mutationRate.s:new[1 1] (0.0,Infinity): 0.5036581811079038 </statenode>
+<statenode id='mutationRate.s:neck'>mutationRate.s:neck[1 1] (0.0,Infinity): 0.10281171141884415 </statenode>
+<statenode id='mutationRate.s:near'>mutationRate.s:near[1 1] (0.0,Infinity): 1.9545119483146187 </statenode>
+<statenode id='mutationRate.s:narrow'>mutationRate.s:narrow[1 1] (0.0,Infinity): 7.196702058968454 </statenode>
+<statenode id='mutationRate.s:name'>mutationRate.s:name[1 1] (0.0,Infinity): 0.9214624224424455 </statenode>
+<statenode id='mutationRate.s:mouth'>mutationRate.s:mouth[1 1] (0.0,Infinity): 1.650218055904068 </statenode>
+<statenode id='mutationRate.s:mountain'>mutationRate.s:mountain[1 1] (0.0,Infinity): 1.4853147292031161 </statenode>
+<statenode id='mutationRate.s:mother'>mutationRate.s:mother[1 1] (0.0,Infinity): 0.8634168252431041 </statenode>
+<statenode id='mutationRate.s:meat'>mutationRate.s:meat[1 1] (0.0,Infinity): 0.1525513780060933 </statenode>
+<statenode id='mutationRate.s:many'>mutationRate.s:many[1 1] (0.0,Infinity): 0.9212793500179663 </statenode>
+<statenode id='mutationRate.s:man'>mutationRate.s:man[1 1] (0.0,Infinity): 0.6393254033046294 </statenode>
+<statenode id='mutationRate.s:louse'>mutationRate.s:louse[1 1] (0.0,Infinity): 0.5747471413703203 </statenode>
+<statenode id='mutationRate.s:long'>mutationRate.s:long[1 1] (0.0,Infinity): 2.7222285937457036 </statenode>
+<statenode id='mutationRate.s:liver'>mutationRate.s:liver[1 1] (0.0,Infinity): 0.24917662816008754 </statenode>
+<statenode id='mutationRate.s:live'>mutationRate.s:live[1 1] (0.0,Infinity): 8.568353129548301 </statenode>
+<statenode id='mutationRate.s:lie_be_lying'>mutationRate.s:lie_be_lying[1 1] (0.0,Infinity): 0.5141712643932043 </statenode>
+<statenode id='mutationRate.s:leg'>mutationRate.s:leg[1 1] (0.0,Infinity): 1.5462415063393735 </statenode>
+<statenode id='mutationRate.s:leaf'>mutationRate.s:leaf[1 1] (0.0,Infinity): 1.777329050968654 </statenode>
+<statenode id='mutationRate.s:laugh'>mutationRate.s:laugh[1 1] (0.0,Infinity): 1.6033207435121348 </statenode>
+<statenode id='mutationRate.s:lake'>mutationRate.s:lake[1 1] (0.0,Infinity): 0.2880114927536543 </statenode>
+<statenode id='mutationRate.s:know'>mutationRate.s:know[1 1] (0.0,Infinity): 0.7394324758472854 </statenode>
+<statenode id='mutationRate.s:kill'>mutationRate.s:kill[1 1] (0.0,Infinity): 0.6740402233305484 </statenode>
+<statenode id='mutationRate.s:husband'>mutationRate.s:husband[1 1] (0.0,Infinity): 0.019615517831667078 </statenode>
+<statenode id='mutationRate.s:hunt'>mutationRate.s:hunt[1 1] (0.0,Infinity): 2.735835881903538 </statenode>
+<statenode id='mutationRate.s:how'>mutationRate.s:how[1 1] (0.0,Infinity): 2.776790719778086 </statenode>
+<statenode id='mutationRate.s:hold_in'>mutationRate.s:hold_in[1 1] (0.0,Infinity): 5.498387479940547 </statenode>
+<statenode id='mutationRate.s:hit'>mutationRate.s:hit[1 1] (0.0,Infinity): 2.4933248264478944 </statenode>
+<statenode id='mutationRate.s:here'>mutationRate.s:here[1 1] (0.0,Infinity): 0.03615146671262998 </statenode>
+<statenode id='mutationRate.s:heavy'>mutationRate.s:heavy[1 1] (0.0,Infinity): 0.4788007516475745 </statenode>
+<statenode id='mutationRate.s:heart'>mutationRate.s:heart[1 1] (0.0,Infinity): 0.3943416825110924 </statenode>
+<statenode id='mutationRate.s:hear'>mutationRate.s:hear[1 1] (0.0,Infinity): 0.8096502267175735 </statenode>
+<statenode id='mutationRate.s:head'>mutationRate.s:head[1 1] (0.0,Infinity): 2.279969210289884 </statenode>
+<statenode id='mutationRate.s:he'>mutationRate.s:he[1 1] (0.0,Infinity): 0.24408572831958372 </statenode>
+<statenode id='mutationRate.s:hand'>mutationRate.s:hand[1 1] (0.0,Infinity): 0.022135724532075667 </statenode>
+<statenode id='mutationRate.s:hair'>mutationRate.s:hair[1 1] (0.0,Infinity): 2.3429642526967913 </statenode>
+<statenode id='mutationRate.s:guts'>mutationRate.s:guts[1 1] (0.0,Infinity): 0.050807056860463606 </statenode>
+<statenode id='mutationRate.s:green'>mutationRate.s:green[1 1] (0.0,Infinity): 4.724286087654974 </statenode>
+<statenode id='mutationRate.s:grass'>mutationRate.s:grass[1 1] (0.0,Infinity): 1.8988413136421758 </statenode>
+<statenode id='mutationRate.s:good'>mutationRate.s:good[1 1] (0.0,Infinity): 1.4748219208634445 </statenode>
+<statenode id='mutationRate.s:give'>mutationRate.s:give[1 1] (0.0,Infinity): 1.5234608352051802 </statenode>
+<statenode id='mutationRate.s:fruit'>mutationRate.s:fruit[1 1] (0.0,Infinity): 0.5890613479104749 </statenode>
+<statenode id='mutationRate.s:foot'>mutationRate.s:foot[1 1] (0.0,Infinity): 0.0819341842663073 </statenode>
+<statenode id='mutationRate.s:fog'>mutationRate.s:fog[1 1] (0.0,Infinity): 4.070591621672886 </statenode>
+<statenode id='mutationRate.s:fly'>mutationRate.s:fly[1 1] (0.0,Infinity): 1.4378845810368084 </statenode>
+<statenode id='mutationRate.s:flower'>mutationRate.s:flower[1 1] (0.0,Infinity): 1.7957445567971169 </statenode>
+<statenode id='mutationRate.s:flow'>mutationRate.s:flow[1 1] (0.0,Infinity): 6.32117385200872 </statenode>
+<statenode id='mutationRate.s:float'>mutationRate.s:float[1 1] (0.0,Infinity): 0.5899420067707097 </statenode>
+<statenode id='mutationRate.s:fish'>mutationRate.s:fish[1 1] (0.0,Infinity): 4.018059549156145 </statenode>
+<statenode id='mutationRate.s:fire'>mutationRate.s:fire[1 1] (0.0,Infinity): 0.9789840585700652 </statenode>
+<statenode id='mutationRate.s:fight'>mutationRate.s:fight[1 1] (0.0,Infinity): 3.8248843903580076 </statenode>
+<statenode id='mutationRate.s:few'>mutationRate.s:few[1 1] (0.0,Infinity): 1.7795404267596495 </statenode>
+<statenode id='mutationRate.s:feather'>mutationRate.s:feather[1 1] (0.0,Infinity): 2.155478892338055 </statenode>
+<statenode id='mutationRate.s:fear'>mutationRate.s:fear[1 1] (0.0,Infinity): 1.6132954448294419 </statenode>
+<statenode id='mutationRate.s:father'>mutationRate.s:father[1 1] (0.0,Infinity): 0.487882633632599 </statenode>
+<statenode id='mutationRate.s:fat'>mutationRate.s:fat[1 1] (0.0,Infinity): 0.5813329525613641 </statenode>
+<statenode id='mutationRate.s:far'>mutationRate.s:far[1 1] (0.0,Infinity): 4.087986583791467 </statenode>
+<statenode id='mutationRate.s:fall'>mutationRate.s:fall[1 1] (0.0,Infinity): 0.8623815042608949 </statenode>
+<statenode id='mutationRate.s:eye'>mutationRate.s:eye[1 1] (0.0,Infinity): 0.6413888586465573 </statenode>
+<statenode id='mutationRate.s:egg'>mutationRate.s:egg[1 1] (0.0,Infinity): 0.16604425588204919 </statenode>
+<statenode id='mutationRate.s:eat'>mutationRate.s:eat[1 1] (0.0,Infinity): 0.013166458106199659 </statenode>
+<statenode id='mutationRate.s:earth'>mutationRate.s:earth[1 1] (0.0,Infinity): 0.8757432094697258 </statenode>
+<statenode id='mutationRate.s:ear'>mutationRate.s:ear[1 1] (0.0,Infinity): 0.2094227547124778 </statenode>
+<statenode id='mutationRate.s:dust'>mutationRate.s:dust[1 1] (0.0,Infinity): 1.339774980446216 </statenode>
+<statenode id='mutationRate.s:dull'>mutationRate.s:dull[1 1] (0.0,Infinity): 1.808943055057554 </statenode>
+<statenode id='mutationRate.s:dry'>mutationRate.s:dry[1 1] (0.0,Infinity): 2.983826095116244 </statenode>
+<statenode id='mutationRate.s:drink'>mutationRate.s:drink[1 1] (0.0,Infinity): 3.564156525302693 </statenode>
+<statenode id='mutationRate.s:dog'>mutationRate.s:dog[1 1] (0.0,Infinity): 3.6958884320521292 </statenode>
+<statenode id='mutationRate.s:dirty'>mutationRate.s:dirty[1 1] (0.0,Infinity): 2.0416261261906548 </statenode>
+<statenode id='mutationRate.s:dig'>mutationRate.s:dig[1 1] (0.0,Infinity): 6.163931229546867 </statenode>
+<statenode id='mutationRate.s:die'>mutationRate.s:die[1 1] (0.0,Infinity): 1.9055843442416551 </statenode>
+<statenode id='mutationRate.s:day'>mutationRate.s:day[1 1] (0.0,Infinity): 1.5949380721722333 </statenode>
+<statenode id='mutationRate.s:cut'>mutationRate.s:cut[1 1] (0.0,Infinity): 1.6227953632116 </statenode>
+<statenode id='mutationRate.s:count'>mutationRate.s:count[1 1] (0.0,Infinity): 2.486642720267997 </statenode>
+<statenode id='mutationRate.s:come'>mutationRate.s:come[1 1] (0.0,Infinity): 1.3973498192889835 </statenode>
+<statenode id='mutationRate.s:cold'>mutationRate.s:cold[1 1] (0.0,Infinity): 1.0782983148127094 </statenode>
+<statenode id='mutationRate.s:cloud'>mutationRate.s:cloud[1 1] (0.0,Infinity): 1.154486671926522 </statenode>
+<statenode id='mutationRate.s:child'>mutationRate.s:child[1 1] (0.0,Infinity): 0.41361086644014383 </statenode>
+<statenode id='mutationRate.s:burn_tr'>mutationRate.s:burn_tr[1 1] (0.0,Infinity): 3.026099515227059 </statenode>
+<statenode id='mutationRate.s:breathe'>mutationRate.s:breathe[1 1] (0.0,Infinity): 3.969565836241344 </statenode>
+<statenode id='mutationRate.s:bone'>mutationRate.s:bone[1 1] (0.0,Infinity): 0.6685220084624964 </statenode>
+<statenode id='mutationRate.s:blow'>mutationRate.s:blow[1 1] (0.0,Infinity): 1.2032309229383482 </statenode>
+<statenode id='mutationRate.s:blood'>mutationRate.s:blood[1 1] (0.0,Infinity): 0.07309058746927101 </statenode>
+<statenode id='mutationRate.s:black'>mutationRate.s:black[1 1] (0.0,Infinity): 6.431360256933729 </statenode>
+<statenode id='mutationRate.s:bite'>mutationRate.s:bite[1 1] (0.0,Infinity): 2.1918305315800355 </statenode>
+<statenode id='mutationRate.s:bird'>mutationRate.s:bird[1 1] (0.0,Infinity): 2.1055860351847495 </statenode>
+<statenode id='mutationRate.s:big'>mutationRate.s:big[1 1] (0.0,Infinity): 0.2829321262108583 </statenode>
+<statenode id='mutationRate.s:belly'>mutationRate.s:belly[1 1] (0.0,Infinity): 7.293407490080001 </statenode>
+<statenode id='mutationRate.s:bark_of'>mutationRate.s:bark_of[1 1] (0.0,Infinity): 1.4193222276742317 </statenode>
+<statenode id='mutationRate.s:bad'>mutationRate.s:bad[1 1] (0.0,Infinity): 1.660444005466476 </statenode>
+<statenode id='mutationRate.s:back_of'>mutationRate.s:back_of[1 1] (0.0,Infinity): 1.4619700935166895 </statenode>
+<statenode id='mutationRate.s:ashes'>mutationRate.s:ashes[1 1] (0.0,Infinity): 0.4017854190884468 </statenode>
+<statenode id='mutationRate.s:animal'>mutationRate.s:animal[1 1] (0.0,Infinity): 1.4806370410919354 </statenode>
+<statenode id='mutationRate.s:all'>mutationRate.s:all[1 1] (0.0,Infinity): 1.9856342499238213 </statenode>
+<statenode id='mutationRate.s:I'>mutationRate.s:I[1 1] (0.0,Infinity): 0.048417421417774074 </statenode>
+</itsabeastystatewerein>
+<!--
+{"operators":[
+{"id":"bcovAlphaScaler.s:combined","p":0.2078833058081308,"accept":4800,"reject":8305,"acceptFC":4797,"rejectFC":8305,"rejectIv":13,"rejectOp":13},
+{"id":"bcovSwitchParamScaler.s:combined","p":0.5956202954700585,"accept":3747,"reject":9419,"acceptFC":3744,"rejectFC":9418,"rejectIv":9,"rejectOp":9},
+{"id":"frequenciesDelta.s:combined","p":0.012339239618687223,"accept":124706,"reject":531386,"acceptFC":124609,"rejectFC":531302,"rejectIv":0,"rejectOp":0},
+{"id":"ORCAdaptableOperatorSampler_sigma.c:clock","p":"NaN","accept":133965,"reject":258780,"acceptFC":133950,"rejectFC":258680,"rejectIv":14878,"rejectOp":10458,"nProposals":392745,"param_mean_sum":"[0.5232487130141638]","param_mean_SS":"[0.4593385903212278]","numAccepts":"[8002, 54551, 69445, 1967]","numProposals":"[19201, 106397, 233823, 32325]","operator_mean_runtimes":"[1.8125873652413875, 0.3130852655620801, 0.3413801978415702, 0.3475070997680904]","mean_SS":"[[0.0012619377300315119], [0.0015338518137002278], [0.006032244053341443], [0.003905584712320746]]","weights":"[0.033220462929111315, 0.2875981660077378, 0.6008780449099603, 0.07830332615319047]","operators":[{"id":"ORCucldStdevScaler.c:clock","p":0.10912718130588168,"accept":8002,"reject":11473,"acceptFC":8002,"rejectFC":11447,"rejectIv":4373,"rejectOp":3},{"id":"ORCUcldStdevRandomWalk.c:clock","p":0.05013510535780264,"accept":54551,"reject":52091,"acceptFC":54541,"rejectFC":52072,"rejectIv":9094,"rejectOp":9094},{"id":"ORCUcldStdevScale.c:clock","p":0.2221281021783877,"accept":69445,"reject":164626,"acceptFC":69441,"rejectFC":164595,"rejectIv":1361,"rejectOp":1361},{"id":"ORCSampleFromPriorOperator_sigma.c:clock","p":0.11923320442622887,"accept":1967,"reject":30590,"acceptFC":1966,"rejectFC":30566,"rejectIv":50,"rejectOp":0}]},
+{"id":"ORCAdaptableOperatorSampler_rates_root.c:clock","p":"NaN","accept":125104,"reject":6149,"acceptFC":125064,"rejectFC":6147,"rejectIv":1400,"rejectOp":469,"nProposals":131253,"param_mean_sum":"[0.891921536657894, 240.35560154434162]","param_mean_SS":"[0.8538383493796733, 64893.45469331477]","numAccepts":"[95820, 29284]","numProposals":"[100606, 29648]","operator_mean_runtimes":"[0.4725799355898428, 0.47105261737731857]","mean_SS":"[[0.0050700683691569624, 43.89201610421206], [7.87803375049269E-4, 0.0]]","weights":"[0.8688370203649954, 0.13116297963500445]","operators":[{"id":"ORCRootOperator1.c:clock","p":10.121569827843805,"accept":95820,"reject":5304,"acceptFC":95795,"rejectFC":5304,"rejectIv":1324,"rejectOp":469},{"id":"ORCRootOperator2.c:clock","p":1.3761876721191382,"accept":29284,"reject":845,"acceptFC":29269,"rejectFC":843,"rejectIv":76,"rejectOp":0}]},
+{"id":"ORCAdaptableOperatorSampler_rates_internal.c:clock","p":"NaN","accept":1238771,"reject":1379868,"acceptFC":1238456,"rejectFC":1379422,"rejectIv":223984,"rejectOp":136400,"nProposals":2618639,"param_mean_sum":"[0.8859974757950401, 257.26842602279345]","param_mean_SS":"[0.8477804587315406, 116309.78795412603]","numAccepts":"[515895, 118646, 177800, 426430]","numProposals":"[712829, 177422, 833754, 893635]","operator_mean_runtimes":"[0.620492544492222, 0.6120975020011231, 0.5231361396734707, 0.6181240830970163]","mean_SS":"[[0.05570325332138729, 101.23445226343979], [0.01978927218471979, 0.0], [0.21018790782966978, 0.0], [0.11812539360882997, 0.0]]","weights":"[0.24702578392234362, 0.08201429712939637, 0.3250285812218483, 0.3459313377264117]","operators":[{"id":"ORCInternalnodesOperator.c:clock","p":14.43819464237535,"accept":515895,"reject":197185,"acceptFC":515719,"rejectFC":197176,"rejectIv":59635,"rejectOp":0},{"id":"ORCRatesRandomWalk.c:clock","p":0.19438984549615942,"accept":118646,"reject":59024,"acceptFC":118608,"rejectFC":58862,"rejectIv":4507,"rejectOp":4507},{"id":"ORCRatesScale.c:clock","p":0.6008854471931233,"accept":177800,"reject":656204,"acceptFC":177717,"rejectFC":656105,"rejectIv":131893,"rejectOp":131893},{"id":"ORCSampleFromPriorOperator.rates.c:clock","p":0.6166200796071771,"accept":426430,"reject":467455,"acceptFC":426412,"rejectFC":467279,"rejectIv":27949,"rejectOp":0}]},
+{"id":"ORCAdaptableOperatorSampler_NER.c:clock","p":"NaN","accept":307215,"reject":1661135,"acceptFC":307094,"rejectFC":1660708,"rejectIv":230945,"rejectOp":112309,"nProposals":1968350,"param_mean_sum":"[0.0]","param_mean_SS":"[0.0]","numAccepts":"[110648, 196567]","numProposals":"[715472, 1251879]","operator_mean_runtimes":"[0.6740994769864198, 0.5997275902891528]","mean_SS":"[[10.170278721712029], [12.90423621462405]]","weights":"[0.40849774583133874, 0.5915022541686612]","operators":[{"id":"ORCNER_null.c:clock","p":"NaN","accept":110648,"reject":605333,"acceptFC":110586,"rejectFC":605113,"rejectIv":22698,"rejectOp":0},{"id":"ORCNER_dAE_dBE_dCE.c:clock","p":0,"accept":196567,"reject":1055802,"acceptFC":196508,"rejectFC":1055595,"rejectIv":208247,"rejectOp":112309}]},
+{"id":"BDSKY_contemp_bds_treeScaler.t:tree","p":0.7795432194714771,"accept":69490,"reject":323605,"acceptFC":69472,"rejectFC":323501,"rejectIv":53244,"rejectOp":0},
+{"id":"BDSKY_contemp_bds_treeRootScaler.t:tree","p":0.6403010536077224,"accept":78769,"reject":314586,"acceptFC":78746,"rejectFC":314496,"rejectIv":65924,"rejectOp":65924},
+{"id":"BDSKY_contemp_bds_UniformOperator.t:tree","p":"NaN","accept":1268557,"reject":2662007,"acceptFC":1268219,"rejectFC":2661200,"rejectIv":160128,"rejectOp":0},
+{"id":"BDSKY_contemp_bds_SubtreeSlide.t:tree","p":252.49706942267065,"accept":296471,"reject":1669295,"acceptFC":296305,"rejectFC":1668905,"rejectIv":540807,"rejectOp":451205},
+{"id":"BDSKY_contemp_bds_narrow.t:tree","p":"NaN","accept":40363,"reject":222620,"acceptFC":40344,"rejectFC":222553,"rejectIv":9080,"rejectOp":0},
+{"id":"BDSKY_contemp_bds_wide.t:tree","p":"NaN","accept":1796,"reject":391339,"acceptFC":1794,"rejectFC":391227,"rejectIv":278569,"rejectOp":200571},
+{"id":"BDSKY_contemp_bds_WilsonBalding.t:tree","p":"NaN","accept":1946,"reject":392040,"acceptFC":1944,"rejectFC":391938,"rejectIv":158739,"rejectOp":59616},
+{"id":"BDSKY_contemp_bds_deathRateScaler.t:tree","p":0.27290151743850605,"accept":124893,"reject":137196,"acceptFC":124823,"rejectFC":137185,"rejectIv":0,"rejectOp":0},
+{"id":"BDSKY_contemp_bds_rhoScaler.t:tree","p":0.3773939172242443,"accept":14131,"reject":117110,"acceptFC":14126,"rejectFC":117074,"rejectIv":84095,"rejectOp":84095},
+{"id":"BDSKY_contemp_bds_birthRateScaler.t:tree","p":0.4598642650433033,"accept":465495,"reject":845745,"acceptFC":465245,"rejectFC":845609,"rejectIv":0,"rejectOp":0},
+{"id":"BDSKY_contemp_bds_updownBD.t:tree","p":0.5328251761710728,"accept":102266,"reject":159492,"acceptFC":102230,"rejectFC":159459,"rejectIv":0,"rejectOp":0},
+{"id":"ORCucldMeanScaler.c:clock","p":0.7015745608876532,"accept":69336,"reject":323830,"acceptFC":69321,"rejectFC":323743,"rejectIv":0,"rejectOp":0},
+{"id":"ORC.UpDown.c:clock","p":0.10495520755028521,"accept":96667,"reject":297391,"acceptFC":96665,"rejectFC":297271,"rejectIv":32675,"rejectOp":0},
+{"id":"mutationRateScaler.s:yellow","p":0.20685205580919874,"accept":36238,"reject":94700,"acceptFC":36215,"rejectFC":94684,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:year","p":0.16154249702201565,"accept":34533,"reject":96367,"acceptFC":34506,"rejectFC":96350,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:ye_you","p":0.17172268027233067,"accept":37529,"reject":93554,"acceptFC":37499,"rejectFC":93539,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:worm_ie","p":0.14684456794152792,"accept":33953,"reject":97058,"acceptFC":33934,"rejectFC":97039,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:woods","p":0.15972232748157783,"accept":34838,"reject":96158,"acceptFC":34817,"rejectFC":96155,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:woman","p":0.1837245496538049,"accept":35223,"reject":96118,"acceptFC":35188,"rejectFC":96107,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:wipe","p":0.18465275704199305,"accept":35817,"reject":95377,"acceptFC":35785,"rejectFC":95370,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:wing","p":0.16804820139621085,"accept":36048,"reject":95185,"acceptFC":36022,"rejectFC":95175,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:wind","p":0.1934833706529185,"accept":36998,"reject":93743,"acceptFC":36977,"rejectFC":93723,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:wife","p":0.17364304075202228,"accept":37554,"reject":93338,"acceptFC":37537,"rejectFC":93330,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:wide","p":0.1881405083023672,"accept":34433,"reject":96445,"acceptFC":34402,"rejectFC":96432,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:who","p":0.16716780864149144,"accept":38291,"reject":92964,"acceptFC":38270,"rejectFC":92951,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:white","p":0.17607199432214923,"accept":36635,"reject":94205,"acceptFC":36605,"rejectFC":94196,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:where","p":0.18646553578121933,"accept":35174,"reject":95831,"acceptFC":35162,"rejectFC":95819,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:when","p":0.1844394220408142,"accept":36626,"reject":93996,"acceptFC":36593,"rejectFC":93987,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:what","p":0.16027588644706092,"accept":35501,"reject":95091,"acceptFC":35481,"rejectFC":95077,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:wet","p":0.17185594447013494,"accept":36230,"reject":94759,"acceptFC":36208,"rejectFC":94742,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:we","p":0.1657901215820033,"accept":39153,"reject":91769,"acceptFC":39127,"rejectFC":91759,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:water","p":0.2391581529109378,"accept":33795,"reject":97237,"acceptFC":33768,"rejectFC":97222,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:wash","p":0.19780962361590587,"accept":35679,"reject":94772,"acceptFC":35653,"rejectFC":94745,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:warm_hot","p":0.19333324937909557,"accept":34441,"reject":96209,"acceptFC":34421,"rejectFC":96198,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:walk","p":0.2118199226951718,"accept":37128,"reject":93707,"acceptFC":37106,"rejectFC":93692,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:vomit","p":0.17781609420075162,"accept":36181,"reject":94596,"acceptFC":36164,"rejectFC":94587,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:two","p":0.1619319482932433,"accept":37322,"reject":92922,"acceptFC":37306,"rejectFC":92900,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:turn_intr","p":0.1962651434867036,"accept":35833,"reject":95484,"acceptFC":35814,"rejectFC":95465,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:tree","p":0.20785745563927613,"accept":34533,"reject":96844,"acceptFC":34502,"rejectFC":96834,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:tooth","p":0.16233030019889355,"accept":35978,"reject":95322,"acceptFC":35956,"rejectFC":95305,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:tongue","p":0.16351594913651918,"accept":38164,"reject":92476,"acceptFC":38134,"rejectFC":92455,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:tie","p":0.15863086601378762,"accept":35987,"reject":94899,"acceptFC":35949,"rejectFC":94885,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:throw","p":0.2405262624734413,"accept":35432,"reject":95475,"acceptFC":35403,"rejectFC":95464,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:thou","p":0.1528830276652759,"accept":35925,"reject":95959,"acceptFC":35905,"rejectFC":95942,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:this","p":0.1743120716276475,"accept":36199,"reject":94863,"acceptFC":36172,"rejectFC":94840,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:think","p":0.14840673044021582,"accept":34526,"reject":96746,"acceptFC":34497,"rejectFC":96736,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:thin","p":0.1935791351494947,"accept":33377,"reject":97928,"acceptFC":33361,"rejectFC":97911,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:thick","p":0.20289179592706832,"accept":33465,"reject":97442,"acceptFC":33441,"rejectFC":97427,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:they","p":0.209393575900757,"accept":33793,"reject":97171,"acceptFC":33765,"rejectFC":97160,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:tail","p":0.15970657223901907,"accept":32644,"reject":98277,"acceptFC":32620,"rejectFC":98264,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:swim","p":0.19269843166747413,"accept":34589,"reject":96520,"acceptFC":34569,"rejectFC":96498,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:swell","p":0.17575182551239826,"accept":32909,"reject":98197,"acceptFC":32886,"rejectFC":98172,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:sun","p":0.1659210412842222,"accept":35352,"reject":95387,"acceptFC":35327,"rejectFC":95366,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:suck","p":0.16098148023532072,"accept":32584,"reject":98679,"acceptFC":32557,"rejectFC":98668,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:straight","p":0.18646589471019415,"accept":32971,"reject":98614,"acceptFC":32946,"rejectFC":98606,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:stone","p":0.1967779610827842,"accept":34181,"reject":96506,"acceptFC":34151,"rejectFC":96496,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:stick_of","p":0.17172653791156406,"accept":37717,"reject":93594,"acceptFC":37694,"rejectFC":93581,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:star","p":0.17111285538701415,"accept":34951,"reject":96514,"acceptFC":34923,"rejectFC":96491,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:stand","p":0.15823665663687717,"accept":37474,"reject":93487,"acceptFC":37447,"rejectFC":93470,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:stab_or","p":0.17839876648466488,"accept":37011,"reject":94265,"acceptFC":36981,"rejectFC":94252,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:squeeze","p":0.17453937665227043,"accept":34237,"reject":96903,"acceptFC":34217,"rejectFC":96889,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:split","p":0.17658332760162604,"accept":37317,"reject":94002,"acceptFC":37289,"rejectFC":93991,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:spit","p":0.17727165292557515,"accept":37016,"reject":94299,"acceptFC":36995,"rejectFC":94285,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:some","p":0.17140073788347657,"accept":36424,"reject":94539,"acceptFC":36394,"rejectFC":94524,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:snake","p":0.15903210989775846,"accept":34652,"reject":95970,"acceptFC":34625,"rejectFC":95959,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:smooth","p":0.2103392524196813,"accept":35817,"reject":95022,"acceptFC":35790,"rejectFC":95007,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:smoke","p":0.16282093433681746,"accept":34669,"reject":96254,"acceptFC":34647,"rejectFC":96239,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:smell_tr","p":0.16104530787960422,"accept":38009,"reject":93051,"acceptFC":37984,"rejectFC":93032,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:small","p":0.20647409199849934,"accept":31989,"reject":99491,"acceptFC":31971,"rejectFC":99476,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:sleep","p":0.15441688310853516,"accept":36364,"reject":94228,"acceptFC":36340,"rejectFC":94212,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:sky","p":0.14914522981978404,"accept":33414,"reject":98171,"acceptFC":33382,"rejectFC":98155,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:skin_of","p":0.15596305629533225,"accept":33822,"reject":97149,"acceptFC":33784,"rejectFC":97135,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:sit","p":0.15833777667525747,"accept":34113,"reject":96987,"acceptFC":34096,"rejectFC":96970,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:sing","p":0.17744178736261365,"accept":36515,"reject":94868,"acceptFC":36493,"rejectFC":94852,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:short","p":0.18342782455952195,"accept":34498,"reject":97086,"acceptFC":34469,"rejectFC":97067,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:sharp","p":0.17845115903212364,"accept":37105,"reject":93581,"acceptFC":37080,"rejectFC":93571,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:sew","p":0.1623677024461713,"accept":35061,"reject":96197,"acceptFC":35036,"rejectFC":96186,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:seed","p":0.2040397357655183,"accept":41243,"reject":89834,"acceptFC":41222,"rejectFC":89813,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:see","p":0.17816580129089044,"accept":35195,"reject":96147,"acceptFC":35166,"rejectFC":96133,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:scratch_an","p":0.16509810678926837,"accept":36818,"reject":94174,"acceptFC":36789,"rejectFC":94162,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:say","p":0.19651961815124858,"accept":34445,"reject":96213,"acceptFC":34426,"rejectFC":96195,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:sand","p":0.1756637674433848,"accept":37395,"reject":93711,"acceptFC":37364,"rejectFC":93697,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:salt","p":0.21566467306156176,"accept":32491,"reject":98424,"acceptFC":32468,"rejectFC":98408,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:rub","p":0.16210972259373235,"accept":32881,"reject":98428,"acceptFC":32857,"rejectFC":98413,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:rotten","p":0.17501029016412903,"accept":32971,"reject":98057,"acceptFC":32945,"rejectFC":98045,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:rope","p":0.1835310985967298,"accept":37331,"reject":93576,"acceptFC":37307,"rejectFC":93564,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:root","p":0.19164019541871935,"accept":35483,"reject":95476,"acceptFC":35461,"rejectFC":95461,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:road","p":0.17402222708451365,"accept":37974,"reject":92896,"acceptFC":37953,"rejectFC":92884,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:river","p":0.20996578121557838,"accept":33671,"reject":97023,"acceptFC":33643,"rejectFC":97010,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:red","p":0.18714804898172852,"accept":34597,"reject":96267,"acceptFC":34573,"rejectFC":96257,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:rain","p":0.14847128552507655,"accept":34525,"reject":96175,"acceptFC":34505,"rejectFC":96170,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:push","p":0.19384980736281074,"accept":38163,"reject":92852,"acceptFC":38144,"rejectFC":92835,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:pull","p":0.17701822139989068,"accept":36478,"reject":94720,"acceptFC":36453,"rejectFC":94704,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:play","p":0.17628815058780556,"accept":36335,"reject":94523,"acceptFC":36311,"rejectFC":94512,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:person","p":0.18919058526112298,"accept":35169,"reject":96311,"acceptFC":35148,"rejectFC":96300,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:other","p":0.15455650859025466,"accept":36373,"reject":94462,"acceptFC":36354,"rejectFC":94444,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:one","p":0.1490624618585933,"accept":31820,"reject":99540,"acceptFC":31789,"rejectFC":99534,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:old","p":0.18726583917808534,"accept":36579,"reject":93744,"acceptFC":36552,"rejectFC":93725,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:nose","p":0.15372117120888742,"accept":35870,"reject":95340,"acceptFC":35853,"rejectFC":95324,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:night","p":0.1815266318172242,"accept":36150,"reject":95251,"acceptFC":36130,"rejectFC":95234,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:new","p":0.1636948040813853,"accept":35820,"reject":95701,"acceptFC":35803,"rejectFC":95684,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:neck","p":0.16273382747855764,"accept":38307,"reject":93015,"acceptFC":38283,"rejectFC":92998,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:near","p":0.18580327203843242,"accept":36163,"reject":94770,"acceptFC":36130,"rejectFC":94758,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:narrow","p":0.17544387895192542,"accept":37216,"reject":93473,"acceptFC":37204,"rejectFC":93457,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:name","p":0.1732497046017973,"accept":38468,"reject":92298,"acceptFC":38443,"rejectFC":92287,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:mouth","p":0.19087324777223258,"accept":35360,"reject":95856,"acceptFC":35337,"rejectFC":95849,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:mountain","p":0.1797702883430729,"accept":37892,"reject":92577,"acceptFC":37861,"rejectFC":92562,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:mother","p":0.16757903382380454,"accept":35634,"reject":95410,"acceptFC":35610,"rejectFC":95396,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:meat","p":0.14616815696148033,"accept":34823,"reject":97240,"acceptFC":34801,"rejectFC":97226,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:many","p":0.17178496639614232,"accept":33727,"reject":97051,"acceptFC":33697,"rejectFC":97040,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:man","p":0.22837543909482313,"accept":35269,"reject":96183,"acceptFC":35250,"rejectFC":96160,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:louse","p":0.16279992417024727,"accept":37278,"reject":93520,"acceptFC":37246,"rejectFC":93505,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:long","p":0.17840165303028838,"accept":35812,"reject":94963,"acceptFC":35788,"rejectFC":94947,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:liver","p":0.16006072265413931,"accept":35429,"reject":96137,"acceptFC":35398,"rejectFC":96113,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:live","p":0.17628600416940055,"accept":36591,"reject":94570,"acceptFC":36568,"rejectFC":94550,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:lie_be_lying","p":0.1475654346879399,"accept":32862,"reject":98292,"acceptFC":32838,"rejectFC":98273,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:leg","p":0.18473808845417217,"accept":36254,"reject":94949,"acceptFC":36238,"rejectFC":94941,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:leaf","p":0.18438575455670012,"accept":33233,"reject":98572,"acceptFC":33210,"rejectFC":98551,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:laugh","p":0.22501726123452162,"accept":32592,"reject":98252,"acceptFC":32567,"rejectFC":98234,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:lake","p":0.16233526973858087,"accept":35011,"reject":95767,"acceptFC":34986,"rejectFC":95755,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:know","p":0.19468676462339224,"accept":36418,"reject":94642,"acceptFC":36400,"rejectFC":94632,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:kill","p":0.1848505167216105,"accept":32622,"reject":97988,"acceptFC":32585,"rejectFC":97979,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:husband","p":0.15659606282176397,"accept":36854,"reject":94794,"acceptFC":36831,"rejectFC":94781,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:hunt","p":0.2015675231773286,"accept":34192,"reject":97092,"acceptFC":34165,"rejectFC":97072,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:how","p":0.16399697509574143,"accept":33194,"reject":97506,"acceptFC":33176,"rejectFC":97489,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:hold_in","p":0.19533406669303494,"accept":35089,"reject":95895,"acceptFC":35065,"rejectFC":95881,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:hit","p":0.18542656771237526,"accept":32145,"reject":98865,"acceptFC":32118,"rejectFC":98849,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:here","p":0.1585323883790631,"accept":36879,"reject":93368,"acceptFC":36857,"rejectFC":93347,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:heavy","p":0.17086982204315568,"accept":34769,"reject":96220,"acceptFC":34752,"rejectFC":96209,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:heart","p":0.16457704145419097,"accept":36416,"reject":94624,"acceptFC":36376,"rejectFC":94608,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:hear","p":0.170426384889039,"accept":35349,"reject":96218,"acceptFC":35323,"rejectFC":96195,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:head","p":0.2028509366077631,"accept":37038,"reject":93593,"acceptFC":37014,"rejectFC":93580,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:he","p":0.213401137491706,"accept":39125,"reject":92792,"acceptFC":39103,"rejectFC":92781,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:hand","p":0.14710121431539144,"accept":34883,"reject":96437,"acceptFC":34859,"rejectFC":96424,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:hair","p":0.17563671521690355,"accept":39689,"reject":91293,"acceptFC":39659,"rejectFC":91289,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:guts","p":0.15035728074902566,"accept":34473,"reject":95944,"acceptFC":34449,"rejectFC":95930,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:green","p":0.19528932435783403,"accept":34312,"reject":96561,"acceptFC":34288,"rejectFC":96545,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:grass","p":0.16839642759789666,"accept":35448,"reject":95326,"acceptFC":35422,"rejectFC":95316,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:good","p":0.1961968082443305,"accept":35916,"reject":95152,"acceptFC":35887,"rejectFC":95137,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:give","p":0.17121962847951785,"accept":35105,"reject":96028,"acceptFC":35086,"rejectFC":96017,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:fruit","p":0.15528744572990713,"accept":34172,"reject":96654,"acceptFC":34144,"rejectFC":96644,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:foot","p":0.14699697656863228,"accept":33781,"reject":96944,"acceptFC":33748,"rejectFC":96931,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:fog","p":0.19890251789715777,"accept":37830,"reject":93353,"acceptFC":37815,"rejectFC":93338,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:fly","p":0.1870723084711849,"accept":34509,"reject":96801,"acceptFC":34486,"rejectFC":96787,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:flower","p":0.17206225088375135,"accept":33874,"reject":97286,"acceptFC":33859,"rejectFC":97267,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:flow","p":0.19337877931173403,"accept":36961,"reject":94092,"acceptFC":36938,"rejectFC":94081,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:float","p":0.17596196675775397,"accept":34984,"reject":95635,"acceptFC":34956,"rejectFC":95621,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:fish","p":0.19246627040756198,"accept":36662,"reject":94274,"acceptFC":36638,"rejectFC":94264,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:fire","p":0.17179251786365138,"accept":38048,"reject":92865,"acceptFC":38022,"rejectFC":92856,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:fight","p":0.1799704339192762,"accept":36739,"reject":94411,"acceptFC":36717,"rejectFC":94388,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:few","p":0.1792156190352147,"accept":33679,"reject":98059,"acceptFC":33654,"rejectFC":98050,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:feather","p":0.21259394609650495,"accept":34587,"reject":97055,"acceptFC":34561,"rejectFC":97042,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:fear","p":0.1980043012992994,"accept":34001,"reject":97582,"acceptFC":33973,"rejectFC":97568,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:father","p":0.18347364418146034,"accept":35712,"reject":95319,"acceptFC":35687,"rejectFC":95305,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:fat","p":0.16102612709782907,"accept":37258,"reject":93138,"acceptFC":37240,"rejectFC":93122,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:far","p":0.16991948276240407,"accept":34545,"reject":96418,"acceptFC":34521,"rejectFC":96404,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:fall","p":0.15971186499585285,"accept":35106,"reject":96065,"acceptFC":35081,"rejectFC":96048,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:eye","p":0.16203453872490925,"accept":37986,"reject":93125,"acceptFC":37962,"rejectFC":93110,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:egg","p":0.16198633762124948,"accept":35474,"reject":96011,"acceptFC":35446,"rejectFC":95997,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:eat","p":0.16713528870996658,"accept":39690,"reject":91340,"acceptFC":39679,"rejectFC":91319,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:earth","p":0.15482704422738594,"accept":35236,"reject":96004,"acceptFC":35211,"rejectFC":95986,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:ear","p":0.15316413455271902,"accept":34629,"reject":96488,"acceptFC":34611,"rejectFC":96481,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:dust","p":0.17969718073120886,"accept":33800,"reject":97389,"acceptFC":33773,"rejectFC":97374,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:dull","p":0.17498543326054233,"accept":36661,"reject":94659,"acceptFC":36640,"rejectFC":94646,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:dry","p":0.17042216344607522,"accept":34482,"reject":95840,"acceptFC":34456,"rejectFC":95825,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:drink","p":0.19306767292487925,"accept":36385,"reject":94655,"acceptFC":36359,"rejectFC":94635,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:dog","p":0.2052343230215688,"accept":35867,"reject":95848,"acceptFC":35838,"rejectFC":95833,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:dirty","p":0.20179083472697903,"accept":39797,"reject":91758,"acceptFC":39770,"rejectFC":91740,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:dig","p":0.1743537767763115,"accept":32997,"reject":97823,"acceptFC":32973,"rejectFC":97804,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:die","p":0.17292936494884925,"accept":34917,"reject":95878,"acceptFC":34899,"rejectFC":95859,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:day","p":0.19160347524896573,"accept":33782,"reject":97512,"acceptFC":33756,"rejectFC":97503,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:cut","p":0.19656111641292176,"accept":35539,"reject":95293,"acceptFC":35517,"rejectFC":95281,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:count","p":0.16645730412629436,"accept":34537,"reject":96447,"acceptFC":34519,"rejectFC":96430,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:come","p":0.16026184413887404,"accept":36531,"reject":94329,"acceptFC":36508,"rejectFC":94318,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:cold","p":0.17143812943913367,"accept":37513,"reject":93783,"acceptFC":37477,"rejectFC":93774,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:cloud","p":0.1703497780343563,"accept":34183,"reject":97195,"acceptFC":34161,"rejectFC":97184,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:child","p":0.16612748228692756,"accept":35731,"reject":94693,"acceptFC":35702,"rejectFC":94678,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:burn_tr","p":0.15880335667797008,"accept":32656,"reject":98607,"acceptFC":32632,"rejectFC":98591,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:breathe","p":0.17859222804313885,"accept":36004,"reject":95053,"acceptFC":35984,"rejectFC":95033,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:bone","p":0.17075883566577682,"accept":39066,"reject":92007,"acceptFC":39047,"rejectFC":91986,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:blow","p":0.17417839596839918,"accept":36774,"reject":94258,"acceptFC":36746,"rejectFC":94251,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.spec:blood","p":0.16890582615516314,"accept":39501,"reject":91264,"acceptFC":39478,"rejectFC":91248,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:black","p":0.18670292426081314,"accept":34880,"reject":95967,"acceptFC":34863,"rejectFC":95950,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:bite","p":0.1829739523766767,"accept":34898,"reject":96580,"acceptFC":34872,"rejectFC":96564,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:bird","p":0.20697436154245888,"accept":37384,"reject":93556,"acceptFC":37349,"rejectFC":93537,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:big","p":0.16662435209022225,"accept":33135,"reject":98113,"acceptFC":33116,"rejectFC":98099,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:belly","p":0.20196158780048878,"accept":32321,"reject":98869,"acceptFC":32294,"rejectFC":98853,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:bark_of","p":0.2376411341817626,"accept":34245,"reject":96515,"acceptFC":34227,"rejectFC":96499,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:bad","p":0.19165028818669344,"accept":33679,"reject":97445,"acceptFC":33660,"rejectFC":97430,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:back_of","p":0.18762771969659048,"accept":34485,"reject":96711,"acceptFC":34462,"rejectFC":96699,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:ashes","p":0.15970176649402762,"accept":37089,"reject":94052,"acceptFC":37067,"rejectFC":94034,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:animal","p":0.17956103991902211,"accept":34952,"reject":95504,"acceptFC":34932,"rejectFC":95491,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:all","p":0.1859086626431569,"accept":37599,"reject":93482,"acceptFC":37577,"rejectFC":93464,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:I","p":0.15396235409284587,"accept":35900,"reject":95281,"acceptFC":35880,"rejectFC":95261,"rejectIv":0,"rejectOp":0}
+]}
+-->

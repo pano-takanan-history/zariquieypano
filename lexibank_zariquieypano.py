@@ -3,7 +3,7 @@ import attr
 import lingpy.basictypes
 from lingpy import Wordlist
 from clldutils.misc import slug
-from pylexibank.dataset import Dataset as BaseDataset 
+from pylexibank.dataset import Dataset as BaseDataset
 from pylexibank import FormSpec, Language, Concept, Lexeme
 
 LANGUAGES = [

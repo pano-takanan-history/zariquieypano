@@ -1,6 +1,8 @@
-Loading package BICEPS v1.1.2 ClaDS v2.0.3 FastRelaxedClockLogNormal v1.2.0 NS v1.2.2 AlmostDistributions v0.2.0 starbeast3 v1.1.9 IndelDollo v0.0.1 CCD v1.0.1 CorrelatedTrait v0.0.5 phoneme v0.0.2 Babel v0.4.2 SA v2.1.1 BEAST.base v2.7.7 GEO_SPHERE v1.4.1 BEASTLabs v2.0.2 BEAST.app v2.7.7 BEAST_CLASSIC v1.6.3 MM v1.2.1 BDSKY v1.5.1 gammaspike v0.0.3 ORC v1.2.0 BREAK_AWAY v1.2.0 MODEL_SELECTION v1.6.2 FixedTreeAnalysis v0.0.2    
+Unrecognised element packageapp found. Expected 'provider'
+Loading package BICEPS v1.1.2 SSM v1.2.2 ClaDS v2.1.2 contraband v1.0.2 FastRelaxedClockLogNormal v1.2.0 feast v10.6.0 NS v1.2.2 AlmostDistributions v0.2.1 bModelTest v1.3.3 LPhyBeastExt v1.0.0 starbeast3 v1.2.1 IndelDollo v0.0.1 CCD v1.0.3 Mascot v3.0.7 MSBD v2.0.5 CorrelatedTrait v0.0.5 phoneme v0.0.2 Babel v0.4.2 SA v2.1.1 BEAST.base v2.7.8 MultiTypeTree v8.3.0 BDMM v2.0.0 MASTER v7.0.0 beastmap v0.0.2Unrecognised element packageapp found. Expected 'provider'
+ BEASTLabs v2.0.3 BEAST.app v2.7.8 BEAST_CLASSIC v1.6.4 CodonSubstModels v2.0.1 MM v1.2.1 CoupledMCMC v1.2.2 BDSKY v1.5.1 OBAMA v1.1.1 bdtree v0.0.2 gammaspike v1.1.0 ORC v1.2.1 MODEL_SELECTION v1.6.2 lphybeast v1.3.0 FixedTreeAnalysis v0.0.2 Experimenter v0.2.0    
 About to invoke nestedsampling.util.NSLogAnalyser public static void nestedsampling.util.NSLogAnalyser.main(java.lang.String[])
-Args:[-N, 4, -noposterior, -log, 0pano_ctmc_gamma4_strict.log, 1pano_ctmc_gamma4_strict.log, 2pano_ctmc_gamma4_strict.log, 3pano_ctmc_gamma4_strict.log]
+Args:[-N, 10, -noposterior, -log, 0pano_ctmc_gamma4_strict.log, 1pano_ctmc_gamma4_strict.log, 2pano_ctmc_gamma4_strict.log, 3pano_ctmc_gamma4_strict.log, 4pano_ctmc_gamma4_strict.log, 5pano_ctmc_gamma4_strict.log, 6pano_ctmc_gamma4_strict.log, 7pano_ctmc_gamma4_strict.log, 8pano_ctmc_gamma4_strict.log, 9pano_ctmc_gamma4_strict.log]
 
 Loading 0pano_ctmc_gamma4_strict.log, burnin 0%, skipping 0 log lines
 
@@ -22,41 +24,68 @@ Loading 3pano_ctmc_gamma4_strict.log, burnin 0%, skipping 0 log lines
 |---------|---------|---------|---------|---------|---------|---------|---------|
 *********************************************************************************
 
-Marginal likelihood: -6570.403965502124 sqrt(H/N)=(1.394633886247116)=?=SD=(1.385294549469335) Information: 31.120058826699736
-Max ESS: 208.5753981596185
+Loading 4pano_ctmc_gamma4_strict.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 5pano_ctmc_gamma4_strict.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 6pano_ctmc_gamma4_strict.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 7pano_ctmc_gamma4_strict.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 8pano_ctmc_gamma4_strict.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Loading 9pano_ctmc_gamma4_strict.log, burnin 0%, skipping 0 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Marginal likelihood: -6562.697981629524 sqrt(H/N)=(0.5135621821735765)=?=SD=(0.5054985246197624) Information: 26.374611495888576
+Max ESS: 1165.0890254654973
 
 Calculating statistics
 
 |---------|---------|---------|---------|---------|---------|---------|---------|
 ********************************************************************************
 
-#Particles = 16
+#Particles = 100
 item                                     mean     stddev   
-posterior                                -6750.12 5.791069
-likelihood                               -6539.22 3.126155
-prior                                    -210.896 8.275026
-treeLikelihood.pano-full                 -6539.22 3.126155
-Tree.t:tree.height                       1602.561 105.8267
-Tree.t:tree.treeLength                   14019.98 694.5342
-mutationRate.s:pano-full                 1        2.11E-8 
-gammaShape.s:pano-full                   0.877584 0.045918
-frequencies.s:pano-full.1                0.955059 0.002475
-frequencies.s:pano-full.2                0.044941 0.002475
-clockRate.c:clock                        5.71E-5  4.26E-6 
-BirthDeathSkyContemporaryBDSParam.t:tree -178.062 1.69386 
-birthRateBDS.t:tree                      0.002517 0.000731
-deathRateBDS.t:tree                      0.001023 0.000854
-rhoBDS.t:tree                            0.860716 0.066987
-logP(mrca(chacobo))                      -5.37125 0.313142
-mrca.age(chacobo)                        335.9584 25.59791
-logP(mrca(kashinawa1))                   -15.4973 6.969618
-mrca.age(kashinawa1)                     104.5405 6.797983
-logP(mrca(northern))                     -5.45433 0.201678
-mrca.age(northern)                       489.4211 35.23091
-logP(mrca(chama))                        -9.97491 1.911363
-mrca.age(chama)                          274.3213 6.047105
-monophyletic(kakataibo.tip)              1        2.11E-8 
-logP(mrca(kakataibo.tip))                -10.4114 0.429782
-mrca.age(kakataibo.tip.originate)        925.2241 53.12255
+posterior                                -6742.74 8.909671
+likelihood                               -6536.31 2.747668
+prior                                    -206.424 11.28137
+treeLikelihood.pano-full                 -6536.31 2.747668
+Tree.t:tree.height                       1634.942 89.88183
+Tree.t:tree.treeLength                   14314.40 619.5744
+mutationRate.s:pano-full                 1        2.98E-8 
+gammaShape.s:pano-full                   0.878753 0.039711
+frequencies.s:pano-full.1                0.955577 0.002081
+frequencies.s:pano-full.2                0.044423 0.002081
+clockRate.c:clock                        5.52E-5  3.6E-6  
+BirthDeathSkyContemporaryBDSParam.t:tree -178.185 1.388168
+birthRateBDS.t:tree                      0.002248 0.000557
+deathRateBDS.t:tree                      0.000694 0.00067 
+rhoBDS.t:tree                            0.857449 0.066811
+logP(mrca(chacobo))                      -5.35135 0.324643
+mrca.age(chacobo)                        337.4089 24.17253
+logP(mrca(kashinawa1))                   -23.1453 9.872668
+mrca.age(kashinawa1)                     111.2074 7.546454
+logP(mrca(northern))                     -5.48864 0.21188 
+mrca.age(northern)                       499.0914 31.18747
+logP(mrca(chama))                        -11.0646 2.161073
+mrca.age(chama)                          271.4456 5.420957
 Done!
 Done invoking nestedsampling.util.NSLogAnalyser
