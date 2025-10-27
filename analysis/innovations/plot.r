@@ -7,7 +7,7 @@ library(tidyr)
 
 ggplot2::theme_set(theme_classic(base_size=18))
 
-tree <- treeio::read.beast('pano_covarion_relaxed.mcct.trees')
+tree <- treeio::read.beast('../beast/pano_covarion_relaxed_words.MCC.tree')
 
 data <- read.delim("data.tsv", sep="\t", check.names=FALSE, header=TRUE, strip.white=TRUE, row.names=1, na.strings="?")
 data2 <- read.delim("data2.tsv", sep="\t", check.names=FALSE, header=TRUE, strip.white=TRUE, row.names=1, na.strings="?")
@@ -126,7 +126,7 @@ p <- ggplot(data.long, aes(x=Language, y=Variable, color=Change)) +
     ), na.value="white")
 
 
-ggsave("dotplot.pdf", p)
+ggsave("dotplot.pdf", p, width=10, dpi=500)
 
 
 tips_to_remove <- tree@phylo$tip.label[tree@phylo$tip.label %in% unique(data.long$Language) == FALSE]

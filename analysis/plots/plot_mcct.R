@@ -13,7 +13,7 @@ library('dplyr')
 library('readr')
 
 # Tree
-tree <- read.beast('../beast/pano_covarion_relaxed.MCC.trees')
+tree <- read.beast('../beast/pano_covarion_relaxed_words.MCC.tree')
 langs <- read_csv('../../cldf/languages.csv') %>%
   select(ID) %>% arrange(ID) %>% as.vector()
 
@@ -56,11 +56,11 @@ p <- ggtree(tree, aes(color=group), ladderize=TRUE, size=3) %>%
   geom_tiplab(align=TRUE, size=9) +
   geom_label(
     aes(label=rposterior), 
-    label.size=1.5, na.rm=TRUE, size=9, nudge_x=-22, nudge_y=0
+    na.rm=TRUE, nudge_x=-20, nudge_y=0, size=9
   ) +
-  theme_tree2(axis.text.x = element_text(size=24) ) +
+  theme_tree2(axis.text.x = element_text(size=20) ) +
   scale_color_manual(values=colors) +
-  scale_x_continuous(breaks = c(-1500, -1000, -500, 0), limits=c(-1700, 700)) + 
+  scale_x_continuous(breaks = c(-1500, -1000, -500, 0), limits=c(-1500, 450)) + 
   theme(legend.position='none')
 
 col_idx = 2
@@ -73,8 +73,8 @@ for (clade in levels(attr(tree@phylo, 'group'))) {
       node=m, label=clade, color = colors[col_idx],
       extend=0.45, # extending the bars up/down
       
-      offset=450,  # bars from node?
-      offset.text=10, # offset of text from labels
+      offset=300,  # bars from node?
+      offset.text=15, # offset of text from labels
       
       # General
       barsize=2.5,
@@ -85,4 +85,4 @@ for (clade in levels(attr(tree@phylo, 'group'))) {
 }
 p
 
-ggsave('fig_tree.png', p, width=20, height=14)
+ggsave('fig_tree.pdf', p, width=20, height=20, dpi=500)
