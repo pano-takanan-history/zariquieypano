@@ -13,7 +13,7 @@
         {
             "rdf:about": "https://github.com/pano-tacanan-history/zariquieypano",
             "rdf:type": "prov:Entity",
-            "dc:created": "v0.1-12-ge093fa8",
+            "dc:created": "v0.1-16-gd8ef7f2",
             "dc:title": "Repository"
         },
         {
@@ -42,7 +42,7 @@
         },
         {
             "dc:title": "python",
-            "dc:description": "3.13.7"
+            "dc:description": "3.14.0"
         },
         {
             "dc:title": "python-packages",
