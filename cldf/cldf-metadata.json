@@ -1,19 +1,18 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
     "aboutUrl": null,
-    "dc:bibliographicCitation": "Zariquiey, Roberto and Blum, Frederic and Valenzuela, Pilar and Koile, Ezequiel and Blasi, Damian and Gray, Russell and List, Johann-Mattis. \"Tracing the Evolution of Panoan Languages in Parallel with Archaeological Changes in the Ucayali Basin\" (work in progress).",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
     "dc:isVersionOf": null,
     "dc:license": "https://creativecommons.org/licenses/by/4.0/",
     "dc:related": null,
     "dc:source": "sources.bib",
-    "dc:title": "CLDF dataset reflecting Zariquiey, Blum et al.'s \"Tracing the Evolution of Panoan Languages in Parallel with Archaeological Changes in the Ucayali Basin\", work in progress.",
+    "dc:title": "CLDF dataset for Pano languages.",
     "dcat:accessURL": "https://github.com/pano-tacanan-history/zariquieypano",
     "prov:wasDerivedFrom": [
         {
             "rdf:about": "https://github.com/pano-tacanan-history/zariquieypano",
             "rdf:type": "prov:Entity",
-            "dc:created": "v0.1-16-gd8ef7f2",
+            "dc:created": "v0.1-36-g30b29cf",
             "dc:title": "Repository"
         },
         {

@@ -1,6 +1,4 @@
 {
-    "title": "CLDF dataset reflecting Zariquiey, Blum et al.'s \"Tracing the Evolution of Panoan Languages in Parallel with Archaeological Changes in the Ucayali Basin\", work in progress.",
-    "url": "",
-    "license": "CC-BY-4.0",
-    "citation": "Zariquiey, Roberto and Blum, Frederic and Valenzuela, Pilar and Koile, Ezequiel and Blasi, Damian and Gray, Russell and List, Johann-Mattis. \"Tracing the Evolution of Panoan Languages in Parallel with Archaeological Changes in the Ucayali Basin\" (work in progress)."
+    "title": "CLDF dataset for Pano languages.",
+    "license": "CC-BY-4.0"
 }

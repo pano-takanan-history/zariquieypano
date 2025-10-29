@@ -1,6 +1,6 @@
 <a name="ds-cldfmetadatajson"> </a>
 
-# Wordlist CLDF dataset reflecting Zariquiey, Blum et al.'s "Tracing the Evolution of Panoan Languages in Parallel with Archaeological Changes in the Ucayali Basin", work in progress.
+# Wordlist CLDF dataset for Pano languages.
 
 **CLDF Metadata**: [cldf-metadata.json](./cldf-metadata.json)
 
@@ -8,11 +8,10 @@
 
 property | value
  --- | ---
-[dc:bibliographicCitation](http://purl.org/dc/terms/bibliographicCitation) | Zariquiey, Roberto and Blum, Frederic and Valenzuela, Pilar and Koile, Ezequiel and Blasi, Damian and Gray, Russell and List, Johann-Mattis. "Tracing the Evolution of Panoan Languages in Parallel with Archaeological Changes in the Ucayali Basin" (work in progress).
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF Wordlist](http://cldf.clld.org/v1.0/terms.rdf#Wordlist)
 [dc:license](http://purl.org/dc/terms/license) | https://creativecommons.org/licenses/by/4.0/
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/pano-tacanan-history/zariquieypano
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/pano-tacanan-history/zariquieypano/tree/d8ef7f2">pano-tacanan-history/zariquieypano v0.1-16-gd8ef7f2</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v5.2.1">Glottolog v5.2.1</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/v3.4.0">Concepticon v3.4.0</a></li><li><a href="https://github.com/cldf-clts/clts/tree/v2.3.0">CLTS v2.3.0</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/pano-tacanan-history/zariquieypano/tree/30b29cf">pano-tacanan-history/zariquieypano v0.1-36-g30b29cf</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v5.2.1">Glottolog v5.2.1</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/v3.4.0">Concepticon v3.4.0</a></li><li><a href="https://github.com/cldf-clts/clts/tree/v2.3.0">CLTS v2.3.0</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>lingpy-rcParams</strong>: <a href="./lingpy-rcParams.json">lingpy-rcParams.json</a></li><li><strong>python</strong>: 3.14.0</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | zariquieypano
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution

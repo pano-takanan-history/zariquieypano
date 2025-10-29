@@ -1,11 +1,9 @@
-# CLDF dataset reflecting Zariquiey, Blum et al.'s "Tracing the Evolution of Panoan Languages in Parallel with Archaeological Changes in the Ucayali Basin", work in progress.
+# CLDF dataset for Pano languages.
 
 ## How to cite
 
 If you use these data please cite
-- the original source
-  > Zariquiey, Roberto and Blum, Frederic and Valenzuela, Pilar and Koile, Ezequiel and Blasi, Damian and Gray, Russell and List, Johann-Mattis. "Tracing the Evolution of Panoan Languages in Parallel with Archaeological Changes in the Ucayali Basin" (work in progress).
-- the derived dataset using the DOI of the [particular released version](../../releases/) you were using
+this dataset using the DOI of the [particular released version](../../releases/) you were using
 
 ## Description
 
