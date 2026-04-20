@@ -51,9 +51,9 @@ colors <- c(
 )
 
 
-p <- ggtree(tree, aes(color=group), ladderize=TRUE, size=3) %>% 
+p <- ggtree(tree, aes(color=group), ladderize=TRUE, linewidth=3) %>% 
   revts() + 
-  geom_tiplab(align=TRUE, size=9) +
+  geom_tiplab(align=TRUE, linesize=9) +
   geom_label(
     aes(label=rposterior), 
     na.rm=TRUE, nudge_x=-20, nudge_y=0, size=9

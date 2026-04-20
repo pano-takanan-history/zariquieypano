@@ -3,7 +3,8 @@ library(xml2)
 library(ggthemes)
 
 # Library that is work in progress
-devtools::load_all("../../../../lachesis_src/")
+#remotes::install_github("SimonGreenhill/lachesis_src")
+library(lachesis)
 
 ticking <-c(0, 200, 400, 600, 800)
 

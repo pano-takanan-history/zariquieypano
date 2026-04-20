@@ -1,21 +1,25 @@
+# Setup renv
+library(renv)
+# renv::init()
+# renv::snapshot()
+renv::activate()
+# renv::restore()
+
+# Load packages
 library(treeio)
 library(ggplot2)
+library(ape)
+
+# library(remotes)
+#remotes::install_github("YuLab-SMU/ggtree")
 library(ggtree)
 
 
-trees <- treeio::read.beast("../beast/pano_covarion_relaxed_words.trees") # slow ...
-
-# remove burn-in
-trees.subsample <- trees[2001:3001]
-# sample a small number
-# Note -- too many makes this messy. Play around with it
-trees.subsample <- sample(trees.subsample, 300)
-
-# add OTU info so we can color branches
-trees.subsample <- lapply(1:length(trees.subsample), function(x) groupOTU(trees.subsample[[x]], clades, overlap="origin", connect=FALSE))
+#remotes::install_github("SimonGreenhill/lachesis_src")
+library(lachesis)   # only for get_rootheight
 
 
-add_clade <- function(p, tree, clade, members, color, offset=450) {
+add_clade <- function(p, tree, clade, members, color, offset=500) {
     if (length(members) == 1) {
         # handle singletons
         m <- which(tree$tip.label == clades[[clade]])
@@ -23,12 +27,13 @@ add_clade <- function(p, tree, clade, members, color, offset=450) {
         m <- ape::getMRCA(tree, members)
     }
     p <- p + geom_cladelabel(
-        node=m, label=clade, color=color,
+        node=m, label=clade,
+        color=c(color, "#333333"),
+        #color=color,
         offset=offset,
-        offset.text=50,
+        offset.text=150,
         extend=0.4,
-        barsize=5,
-        fontsize=10
+        barsize=2
     )
     p
 }
@@ -41,38 +46,66 @@ clades <- list(
     ),
     "Poyanawa" = c("Poyanawa", "Iskonawa", "Nukini"),
     "Marubo" = c("Marubo", "Kanamari", "Katukina"),
-    "Ucayali" = c("ShipiboKonibo", "Kapanawa"),
+    "Chama" = c("ShipiboKonibo", "Kapanawa"),
     "Bolivian" = c("Pakawara", "Chakobo"),
-    "Kaxarari" = c("Kaxarari"),
     "Kakataibo" = c("Kakataibo"),
+    "Kaxarari" = c("Kaxarari"),
     "Northern" = c( "Matis", "Matses")
 )
 
 colors <- c(
-    "Bolivian" = "#a8c9df",
     "Headwaters" = "#1a3268",
-    "Kaxarari" = "#3d7741",
-    "Kakataibo" = "#4E964F",
-    "Marubo" = "#3a6fb0",
-    "Northern" = "#d55f2b",
     "Poyanawa" = "#4069a6",
-    "Ucayali" = "#5790c1"
+    "Marubo" = "#3a6fb0",
+    "Chama" = "#5790c1",
+    "Bolivian" = "#a8c9df",
+    "Kakataibo" = "#87c27e",
+    "Kaxarari" = "#3d7741",
+    "Northern" = "#d55f2b"
 )
 
+
+trees <- treeio::read.beast("../beast/pano_covarion_relaxed.trees.gz")
+
+# remove burn-in
+trees.subsample <- trees[1001:2001]
+# sample a small number
+# Note -- too many makes this messy. Play around with it
+trees.subsample <- sample(trees.subsample, 200)
+
+# add OTU info so we can color branches
+trees.subsample <- lapply(
+    1:length(trees.subsample), 
+    function(x) groupOTU(trees.subsample[[x]], clades, overlap="origin", connect=FALSE))
+
+
 p <- ggdensitree(trees.subsample, aes(color=group), alpha=0.2) +
-    geom_tiplab(color="#333333", size=9) +
+    geom_tiplab(color="#333333") +
     scale_x_continuous(
         breaks = seq(-2000, 0, by = 500),
-        limits = c(-2100.0, 700.0)
+        limits = c(-2100.0, 1000.0)
     ) +
-    theme_tree2(axis.text.x = element_text(size=26) ) +
+    theme_tree2() +
     scale_color_manual(values=colors) +
-    guides(color="none")
+    guides(color="none", fill="none")
 
 
 for (clade in names(clades)) {
-    # hopefully the number of the mrca doesn't change or this won't work :)
+    # hopefully the number of the mrca doesn't change or this won't work
     p <- add_clade(p, trees.subsample[[1]]@phylo, clade, clades[[clade]], colors[[clade]])
 }
 
-ggsave('fig_densitree.pdf', p, width=20, height=20, dpi=500)
+
+ages <- data.frame(Root=sapply(trees.subsample, get_rootheight))
+
+p <- p + geom_density(
+    data = ages, aes(-Root, y=after_stat(density) * 750), group = 1,
+    inherit.aes = FALSE,
+    color = "#333333",
+    fill = "#666666",
+    linewidth = 0.2,
+    alpha = 0.5
+)
+
+p
+ggsave('fig_densitree.pdf', p, width=8, height=10, dpi=500)
