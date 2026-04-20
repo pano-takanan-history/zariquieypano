@@ -1,12 +1,21 @@
+# Setup renv
+library(renv)
+# renv::init()
+# renv::snapshot()
+renv::activate()
+# renv::restore()
+
+# Load packages
 library(treeio)
 library(ggplot2)
 library(ape)
 
+# library(remotes)
 #remotes::install_github("YuLab-SMU/ggtree")
 library(ggtree)
 
 
-#remotes::install_github("SimonGreenhill/lachesis")
+#remotes::install_github("SimonGreenhill/lachesis_src")
 library(lachesis)   # only for get_rootheight
 
 
@@ -74,7 +83,7 @@ p <- ggdensitree(trees.subsample, aes(color=group), alpha=0.2) +
     geom_tiplab(color="#333333") +
     scale_x_continuous(
         breaks = seq(-2000, 0, by = 500),
-        limits = c(-2000.0, 1000.0)
+        limits = c(-2100.0, 1000.0)
     ) +
     theme_tree2() +
     scale_color_manual(values=colors) +
@@ -87,21 +96,16 @@ for (clade in names(clades)) {
 }
 
 
-ages <- data.frame(
-    Root=sapply(trees.subsample, get_rootheight)
-)
+ages <- data.frame(Root=sapply(trees.subsample, get_rootheight))
 
 p <- p + geom_density(
-    data = ages, aes(-Root, y=..density.. * 750), group = 1,
+    data = ages, aes(-Root, y=after_stat(density) * 750), group = 1,
     inherit.aes = FALSE,
     color = "#333333",
     fill = "#666666",
-    size = 0.1,
+    linewidth = 0.2,
     alpha = 0.5
 )
 
-
-ggsave('fig_densitree.pdf', p, width=9, height=15)
-
-
-
+p
+ggsave('fig_densitree.pdf', p, width=8, height=10, dpi=500)
