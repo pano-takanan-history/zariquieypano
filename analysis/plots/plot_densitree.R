@@ -46,7 +46,7 @@ clades <- list(
     ),
     "Poyanawa" = c("Poyanawa", "Iskonawa", "Nukini"),
     "Marubo" = c("Marubo", "Kanamari", "Katukina"),
-    "Chama" = c("ShipiboKonibo", "Kapanawa"),
+    "Ucayali" = c("ShipiboKonibo", "Kapanawa"),
     "Bolivian" = c("Pakawara", "Chakobo"),
     "Kakataibo" = c("Kakataibo"),
     "Kaxarari" = c("Kaxarari"),
@@ -54,14 +54,14 @@ clades <- list(
 )
 
 colors <- c(
-    "Headwaters" = "#1a3268",
-    "Poyanawa" = "#4069a6",
-    "Marubo" = "#3a6fb0",
-    "Chama" = "#5790c1",
-    "Bolivian" = "#a8c9df",
-    "Kakataibo" = "#87c27e",
+    "Headwaters" = "#f8d56a",
+    "Poyanawa" = "#e0a23f",
+    "Marubo" = "#f1864e",
+    "Ucayali" = "#d1803f",
+    "Bolivian" = "#b08258",
+    "Kakataibo" = "#4e964f",
     "Kaxarari" = "#3d7741",
-    "Northern" = "#d55f2b"
+    "Northern" = "#e000db"
 )
 
 
