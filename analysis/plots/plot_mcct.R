@@ -40,27 +40,27 @@ print(levels(attr(tree@phylo, 'group')))
 
 colors <- c(
   '#333333', # 0  - i.e. non colored branches.
-  "#a8c9df", # Bolivian
-  "#1a3268", # Headwaters
-  "#87c27e", # Kakataibo
+  "#b08258", # Bolivian
+  "#f8d56a", # Headwaters
+  "#4e964f", # Kakataibo
   "#3d7741", # Kaxarari
-  "#3a6fb0", # Marubo
-  "#d55f2b", # Northern
-  "#4069a6", # Poyanawa
-  "#5790c1"  # Ucayali
+  "#f1864e", # Marubo
+  "#e000db", # Northern
+  "#e0a23f", # Poyanawa
+  "#d1803f"  # Ucayali
 )
 
 
-p <- ggtree(tree, aes(color=group), ladderize=TRUE, linewidth=3) %>% 
+p <- ggtree(tree, aes(color=group), ladderize=TRUE, linewidth=4) %>% 
   revts() + 
-  geom_tiplab(align=TRUE, linesize=9) +
+  geom_tiplab(align=TRUE, linesize=10, size=8, color='black') +
   geom_label(
     aes(label=rposterior), 
-    na.rm=TRUE, nudge_x=-20, nudge_y=0, size=9
+    na.rm=TRUE, nudge_x=-20, nudge_y=0, size=10
   ) +
   theme_tree2(axis.text.x = element_text(size=20) ) +
   scale_color_manual(values=colors) +
-  scale_x_continuous(breaks = c(-1500, -1000, -500, 0), limits=c(-1500, 450)) + 
+  scale_x_continuous(breaks = c(-1500, -1000, -500, 0), limits=c(-1500, 500)) + 
   theme(legend.position='none')
 
 col_idx = 2
@@ -70,7 +70,7 @@ for (clade in levels(attr(tree@phylo, 'group'))) {
   if (!is.null(m)) {
     cat(paste(clade, m, col_idx, colors[col_idx]), '\n')
     p <- p + geom_cladelabel(
-      node=m, label=clade, color = colors[col_idx],
+      node=m, label=clade, color=colors[col_idx],
       extend=0.45, # extending the bars up/down
       
       offset=300,  # bars from node?
@@ -85,4 +85,4 @@ for (clade in levels(attr(tree@phylo, 'group'))) {
 }
 p
 
-ggsave('fig_tree.pdf', p, width=20, height=20, dpi=500)
+ggsave('fig_tree.pdf', p, width=16, height=20, dpi=500)
