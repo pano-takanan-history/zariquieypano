@@ -11,7 +11,7 @@ ggplot2::theme_set(theme_classic(base_size=18))
 
 
 results <- NULL
-for (logfile in list.files('.', pattern="^[a-zA-Z0-9_\\-]+\\.log$")) {
+for (logfile in list.files('../models/', pattern="^[a-zA-Z0-9_\\-]+\\.log$")) {
     results <- rbind(
         results,
         readr::read_delim(

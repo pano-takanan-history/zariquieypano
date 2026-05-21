@@ -7,7 +7,7 @@ library(tidyr)
 
 ggplot2::theme_set(theme_classic(base_size=18))
 
-tree <- treeio::read.beast('../beast/pano_covarion_relaxed_words.MCC.tree')
+tree <- treeio::read.beast('../beast//models/pano_covarion_relaxed_words.MCC.tree')
 
 data <- read.delim("data.tsv", sep="\t", check.names=FALSE, header=TRUE, strip.white=TRUE, row.names=1, na.strings="?")
 data2 <- read.delim("data2.tsv", sep="\t", check.names=FALSE, header=TRUE, strip.white=TRUE, row.names=1, na.strings="?")
