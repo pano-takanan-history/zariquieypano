@@ -68,7 +68,7 @@ colors <- c(
 trees <- treeio::read.beast("../beast/pano_covarion_relaxed.trees.gz")
 
 # remove burn-in
-trees.subsample <- trees[1001:2001]
+trees.subsample <- trees[1701:2001]
 # sample a small number
 # Note -- too many makes this messy. Play around with it
 trees.subsample <- sample(trees.subsample, 200)
