@@ -1,82 +1,70 @@
 from pathlib import Path
-import attr
+import dataclasses
 import lingpy.basictypes
 from lingpy import Wordlist
 from clldutils.misc import slug
 from pylexibank.dataset import Dataset as BaseDataset
-from pylexibank import FormSpec, Language, Concept, Lexeme
-
-LANGUAGES = [
-        "Arara",
-        "Amawaka",
-        "Chakobo",
-        "Chaninawa",
-        "Iskonawa",
-        "Kakataibo",
-        "Kanamari",
-        "Kapanawa",
-        "Kashinawa_B",
-        "Kashinawa_P",
-        "Katukina",
-        "Kaxarari",
-        "Marinawa",
-        "Marubo",
-        "Mastanawa",
-        "Matis",
-        "Matses",
-        "Nawa",
-        "Nukini",
-        "Pakawara",
-        "Poyanawa",
-        "Shanenawa",
-        "Sharanawa",
-        "Shipibo_Konibo",
-        "Yaminawa",
-        "Yawanawa",
-        ]
-
-@attr.s
-class CustomLanguage(Language):
-    SubGroup = attr.ib(default=None)
-    Family = attr.ib(default='Pano')
-    Note = attr.ib(default=None)
-    SourceDate = attr.ib(default=None)
-    Source = attr.ib(default=None)
+from pylexibank import Concept, Language, Lexeme
+from edictor.wordlist import fetch_wordlist
 
 
-@attr.s
+@dataclasses.dataclass
 class CustomConcept(Concept):
-    Spanish_Gloss = attr.ib(default=None)
+    Spanish_Gloss: Optional[str] = None
 
 
-@attr.s
+@dataclasses.dataclass
 class CustomLexeme(Lexeme):
-    Partial_Cognacy = attr.ib(default=None)
-    Motivation_Structure = attr.ib(default=None)
+    Partial_Cognacy: Optional[str] = None
+    Alignment: Optional[str] = None
+    Morphemes: Optional[str] = None
+    Note: Optional[str] = None
 
 
-def desegment(tokens):
+@dataclasses.dataclass
+class CustomLanguage(Language):
+    SubGroup: Optional[str] = None
+    SourceDate: Optional[str] = None
+    Source: Optional[str] = None
+
+
+def desegment(sequence):
     out = []
-    for t in tokens:
-        if '.' in t:
-            out += t.split('.')
-        else:
-            out += [t]
+    for tok in sequence:
+        out += tok.split('.')
     return out
 
 
 class Dataset(BaseDataset):
     dir = Path(__file__).parent
     id = "zariquieypano"
-    language_class = CustomLanguage
     lexeme_class = CustomLexeme
     concept_class = CustomConcept
-    form_spec = FormSpec(missing_data=("–", "-"))
+    language_class = CustomLanguage
 
-    def cmd_download(self, args):
-        """
-        no EDICTOR upload
-        """
+    def cmd_download(self, _):
+        """Download the most recent data from Edictor."""
+        print("updating ...")
+        with open(self.raw_dir.joinpath("raw.tsv"), "w", encoding="utf-8") as f:
+            f.write(
+                fetch_wordlist(
+                    "zariquieypano",
+                    columns=[
+                        "CONCEPT",
+                        "DOCULECT",
+                        "FORM",
+                        "VALUE",
+                        "TOKENS",
+                        "COGID",
+                        "COGIDS",
+                        "ALIGNMENT",
+                        "MORPHEMES",
+                        "NOTE"
+                    ],
+                    base_url='http://lingulist.de/pth/',
+                    script_url='get_data.py'
+                )
+            )
 
     def cmd_makecldf(self, args):
         """
@@ -97,8 +85,7 @@ class Dataset(BaseDataset):
 
         sources = {}
         for language in self.languages:
-            if language["ID"] in LANGUAGES:
-                args.writer.add_language(**language)
+            args.writer.add_language(**language)
             sources[language["ID"]] = language["Source"]
 
         args.writer.add_sources()
@@ -112,6 +99,8 @@ class Dataset(BaseDataset):
                     Segments=desegment(wl[idx, "tokens"]),
                     Cognacy=wl[idx, 'cogid'],
                     Partial_Cognacy=str(lingpy.basictypes.ints(wl[idx, "cogids"])) or 0,
-                    Motivation_Structure=str(lingpy.basictypes.strings(wl[idx, "morphemes"])) or "?",
+                    Alignment=wl[idx, 'alignment'],
+                    Morphemes=str(lingpy.basictypes.strings(wl[idx, "morphemes"])) or "?",
+                    Note=wl[idx, 'note'],
                     Source=sources[wl[idx, "doculect"]]
                     )

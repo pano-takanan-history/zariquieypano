@@ -2,23 +2,21 @@
     "@context": "http://www.w3.org/ns/csvw",
     "aboutUrl": null,
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
-    "dc:isVersionOf": null,
     "dc:license": "https://creativecommons.org/licenses/by/4.0/",
-    "dc:related": null,
     "dc:source": "sources.bib",
     "dc:title": "CLDF dataset for Pano languages.",
-    "dcat:accessURL": "https://github.com/pano-tacanan-history/zariquieypano",
+    "dcat:accessURL": "https://github.com/pano-takanan-history/zariquieypano",
     "prov:wasDerivedFrom": [
         {
-            "rdf:about": "https://github.com/pano-tacanan-history/zariquieypano",
+            "rdf:about": "https://github.com/pano-takanan-history/zariquieypano",
             "rdf:type": "prov:Entity",
-            "dc:created": "v0.1-36-g30b29cf",
+            "dc:created": "v0.4",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v5.2.1",
+            "dc:created": "v5.3",
             "dc:title": "Glottolog"
         },
         {
@@ -41,7 +39,7 @@
         },
         {
             "dc:title": "python",
-            "dc:description": "3.14.0"
+            "dc:description": "3.14.7"
         },
         {
             "dc:title": "python-packages",
@@ -53,6 +51,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
+            "dc:description": "CustomLexeme(ID: str, Form: str, Value: str, Language_ID: str, Parameter_ID: str, Local_ID: str | None = None, Segments: list[str] = <factory>, Graphemes: list[str] | None = None, Profile: str | None = None, Source: list[str] = <factory>, Comment: str | None = None, Cognacy: str | None = None, Loan: bool | None = None, Partial_Cognacy: Optional[__annotationlib_name_1__] = None, Alignment: Optional[__annotationlib_name_2__] = None, Morphemes: Optional[__annotationlib_name_3__] = None, Note: Optional[__annotationlib_name_4__] = None)",
             "dc:extent": 4265,
             "tableSchema": {
                 "columns": [
@@ -129,7 +128,15 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "Motivation_Structure"
+                        "name": "Alignment"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Morphemes"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Note"
                     }
                 ],
                 "foreignKeys": [
@@ -164,7 +171,8 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 26,
+            "dc:description": "CustomLanguage(ID: str = '', Name: str | None = None, ISO639P3code: str | None = None, Glottocode: str | None = None, Macroarea: str | None = None, Latitude: float | None = None, Longitude: float | None = None, Glottolog_Name: str | None = None, Family: str | None = None, SubGroup: Optional[__annotationlib_name_1__] = None, SourceDate: Optional[__annotationlib_name_2__] = None, Source: Optional[__annotationlib_name_3__] = None)",
+            "dc:extent": 30,
             "tableSchema": {
                 "columns": [
                     {
@@ -227,10 +235,6 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "Note"
-                    },
-                    {
-                        "datatype": "string",
                         "name": "SourceDate"
                     },
                     {
@@ -246,6 +250,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
+            "dc:description": "CustomConcept(ID: str | None = '', Name: str | None = '', Concepticon_ID: str | None = None, Concepticon_Gloss: str | None = None, Spanish_Gloss: Optional[__annotationlib_name_1__] = None)",
             "dc:extent": 181,
             "tableSchema": {
                 "columns": [

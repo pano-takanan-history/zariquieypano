@@ -1,0 +1,48 @@
+{
+  "remote": {
+    "remotezariquieypano": {
+      "triples.py": {
+        "url":  "http://lingulist.de/pth/triples.py",
+        "data": {
+          "file": "zariquieypano",
+          "remote_dbase": "zariquieypano",
+          "columns": "DOCULECT|CONCEPT|VALUE|FORM|TOKENS|COGID|COGIDS|ALIGNMENT|PATTERNS|MORPHEMES|SUBGROUP|NOTE"
+        }
+      },
+      "update.py": {
+        "url": "http://lingulist.de/pth/updater.py",
+        "data": {
+          "file": "zariquieypano",
+          "remote_dbase": "zariquieypano"
+        }
+      },
+      "new_id.py": {
+        "url": "http://lingulist.de/pth/triples.py",
+        "data": {
+          "file": "zariquieypano",
+          "remote_dbase": "zariquieypano"
+        }
+      },
+      "modifications.py": {
+        "url": "http://lingulist.de/pth/triples.py",
+        "data": {
+          "file": "zariquieypano",
+          "remote_dbase": "zariquieypano"
+        }
+      }
+    }
+  },
+  "links": [
+    {
+      "url": "edictor.html",
+      "name": "Pano Phylogeny (Remote)",
+      "data": {
+        "file": "remotezariquieypano",
+        "remote_dbase": "remotezariquieypano",
+        "async": "true",
+        "preview": 30,
+        "basics": "DOCULECT|CONCEPT|FORM|TOKENS|COGID|ALIGNMENT|SUBGROUP|NOTE"
+      }
+    }
+  ]
+}
