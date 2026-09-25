@@ -1445,7 +1445,7 @@ ID	CONCEPT	DOCULECT	FORM	VALUE	TOKENS	COGID	COGIDS	ALIGNMENT	MORPHEMES	NOTE
 1444	water	Iskonawa	ɨpaha	ɨpaha	ɨ p a h a	1394	0	ɨ p a h a		None
 1445	water	Chakobo	hɨnɨ	hɨnɨ	h ɨ n ɨ	1390	0	h ɨ n ɨ		None
 1446	water	Pakawara	hɨnɨ	hɨnɨ	h ɨ n ɨ	1390	0	h ɨ n ɨ		None
-1447	water	Kakataibo	unpaʂ	onpaʂ	u n p a ʂ	1392	0	o n p a ʂ		None
+1447	water	Kakataibo	unpaʂ	onpaʂ	u n p a ʂ	29	0	o n p a ʂ		Borrowing
 1448	water	Kaxarari	waka	waka	w a k a	1391	0	w a k a		None
 1449	water	Mastanawa	ɨdɨ	ɨdɨ	ɨ d ɨ	1390	0	- ɨ d ɨ		None
 1450	water	Chaninawa	ɨdɨ	ɨdɨ	ɨ d ɨ	1390	0	- ɨ d ɨ		None
@@ -1976,7 +1976,7 @@ ID	CONCEPT	DOCULECT	FORM	VALUE	TOKENS	COGID	COGIDS	ALIGNMENT	MORPHEMES	NOTE
 1975	we	Matses	nuki	nuki	n u + k i	1398	0	n u - - + k i		None
 1976	we	Matis	nuki	nuki	n u + k i	1398	0	n u - - + k i		None
 1977	we	Marubo	nukɨ	nukɨ	n u + k ɨ	1398	0	n u - - + k ɨ		None
-1978	we	Shipibo_Konibo	nu	un	n u	1398	0	n u - -		None
+1978	we	Shipibo_Konibo	nu	nu	n u	1398	0	n u - -		None
 1979	we	Kapanawa	nukɨ	nukɨ	n u + k ɨ	1398	0	n u - - + k ɨ		None
 1980	we	Arara	nɨ	nɨ	n ɨ	1398	0	n ɨ - -		None
 1981	we	Shanenawa	nu	nu	n u	1398	0	n u - -		None
@@ -2480,7 +2480,7 @@ ID	CONCEPT	DOCULECT	FORM	VALUE	TOKENS	COGID	COGIDS	ALIGNMENT	MORPHEMES	NOTE
 2479	turn [intr. v.]	Yawanawa	nitã	nitã	n i t ã	1351	0	n i t ã		None
 2480	turn [intr. v.]	Iskonawa	maja	maja	m a j a	1349	0	m a j a		None
 2481	turn [intr. v.]	Chakobo	βupi	βupi	β u p i	1356	0	β u p i		None
-2482	turn [intr. v.]	Kakataibo	raβɨ	kwanankɨ	r a β ɨ	1348	0	r a β - - ɨ		None
+2482	turn [intr. v.]	Kakataibo	kwanankɨ	kwanankɨ	kʷ a n a n k ɨ	1348	0	kʷ a n a n k ɨ		None
 2483	turn [intr. v.]	Kaxarari	pu	pu	p u	1353	0	p u		None
 2484	turn [intr. v.]	Mastanawa	ɾaɸɨ	ɸuswakaw	ɸ u sʷ a k a w	1346	0	ɸ u sʷ a k a w		None
 2485	turn [intr. v.]	Chaninawa	ɾaɸɨ	ɾaɸɨ	ɾ a ɸ ɨ	1343	0	ɾ a ɸ - - ɨ		None
@@ -2695,15 +2695,15 @@ ID	CONCEPT	DOCULECT	FORM	VALUE	TOKENS	COGID	COGIDS	ALIGNMENT	MORPHEMES	NOTE
 2694	stab [or pierce]	Poyanawa	du	du	d u	1175	0	d u		None
 2695	stab [or pierce]	Iskonawa	masta	masta	m a s t a	1170	0	m a s t a		None
 2696	stab [or pierce]	Chakobo	tsaka	tsaka	ts a k a	1169	0	ts a k a		None
-2697	stab [or pierce]	Kakataibo	pɨti	tʃatʃi	p ɨ + t i	191	0	p ɨ + t i		None
+2697	stab [or pierce]	Kakataibo	pɨti	pɨti	p ɨ + t i	191	0	p ɨ + t i		None
 2698	stab [or pierce]	Kaxarari	tʃulawa	tʃulawa	tʃ u l a w a	1173	0	tʃ u l a w a		None
 2699	stab [or pierce]	Kaxarari	poha	poha	p o h a	1177	0	p o h a		None
-2700	stab [or pierce]	Mastanawa	sɨwɨ	sɨwɨ	s ɨ w ɨ	1167	0	s ɨ w ɨ		None
+2700	stab [or pierce]	Mastanawa	sɨwɨ	sɨwɨ	s ɨ w ɨ	27	0	s ɨ w ɨ		None
 2701	stab [or pierce]	Chaninawa	ʂu	ʂu	ʂ u	1167	0	ʂ u - - - -		None
 2702	stab [or pierce]	Sharanawa	ʂu	ʂu	ʂ u	1167	0	ʂ u - - - -		None
 2703	stab [or pierce]	Amawaka	çuwi	çuwi	ç u w i	1167	0	ç u w - - i		None
 2704	stab [or pierce]	Nawa	basta	bastaj	b a s t a	1170	0	b a s t a		None
-2705	stab [or pierce]	Marinawa	tsɨwɨ	tsɨwɨ	ts ɨ w ɨ	1167	0	ts ɨ w ɨ		None
+2705	stab [or pierce]	Marinawa	tsɨwɨ	tsɨwɨ	ts ɨ w ɨ	27	0	ts ɨ w ɨ		None
 2706	stab [or pierce]	Yaminawa	ʂuwiwa	ʂuwiwa	ʂ u w i w a	1167	0	ʂ u w i w a		None
 2707	stab [or pierce]	Kashinawa_P	ʂuki	ʂukja	ʂ u k i	1167	0	ʂ u k - - i		None
 2708	cut [verb]	Matses	te	te	t e	195	0	t e		None
@@ -2811,23 +2811,23 @@ ID	CONCEPT	DOCULECT	FORM	VALUE	TOKENS	COGID	COGIDS	ALIGNMENT	MORPHEMES	NOTE
 2810	squeeze	Kashinawa_P	tsinki	tsinkja	ts i n k i	1246	0	ts i n k i		None
 2811	bite	Matses	pe	pe	p e	93	0	p e		None
 2812	bite	Matis	pe	pe	p e	93	0	p e		None
-2813	bite	Marubo	naʂa	naʃa	n a + ʂ a	1558	0	n a + - - ʂ a -		None
-2814	bite	Katukina	naʂa	naxa	n a + ʂ a	1558	0	n a + - - ʂ a -		None
-2815	bite	Shipibo_Konibo	natɨʂ	natɨʂ	n a + t ɨ ʂ	1558	0	n a + t ɨ ʂ - -		None
-2816	bite	Kapanawa	natɨʂ	natɨʂ	n a + t ɨ ʂ	1558	0	n a + t ɨ ʂ - -		None
+2813	bite	Marubo	naʂa	naʃa	n a + ʂ a	1558	0	n a + - - ʂ a		None
+2814	bite	Katukina	naʂa	naxa	n a + ʂ a	1558	0	n a + - - ʂ a		None
+2815	bite	Shipibo_Konibo	natɨʂ	natɨʂ	n a + t ɨ ʂ	1558	0	n a + t ɨ ʂ -		None
+2816	bite	Kapanawa	natɨʂ	natɨʂ	n a + t ɨ ʂ	1558	0	n a + t ɨ ʂ -		None
 2817	bite	Arara	daka	daka	d a + k a	90	0	d a k a		None
 2818	bite	Shanenawa	naka	naka	n a + k a	90	0	n a k a		None
 2819	bite	Yawanawa	naka	naka	n a + k a	90	0	n a k a		None
-2820	bite	Poyanawa	daça	daça	d a + ç a	1558	0	- - - d a + ç a		None
+2820	bite	Poyanawa	daça	daça	d a + ç a	1558	0	d a + - - ç a		None
 2821	bite	Iskonawa	kiwi	kiwi	k i w i	89	0	k i w i		None
-2822	bite	Chakobo	tɨʂa	tɨʂa	t ɨ ʂ a	1558	0	- - - t ɨ ʂ a -		None
-2823	bite	Kakataibo	natɨʂ	natɨʂ	n a + t ɨ ʂ	1558	0	n a + t ɨ ʂ - -		None
+2822	bite	Chakobo	tɨʂa	tɨʂa	t ɨ ʂ a	1558	0	- - - t ɨ ʂ a		None
+2823	bite	Kakataibo	natɨʂ	natɨʂ	n a + t ɨ ʂ	7	0	n a + t ɨ ʂ -		Borrowing
 2824	bite	Kaxarari	ʃɨla	ʃɨla	ʃ ɨ l a	96	0	ʃ ɨ l a		None
-2825	bite	Mastanawa	ʂatɨ	ʂatɨa	ʂ a t ɨ	1558	0	- - - ʂ a - t ɨ		None
+2825	bite	Mastanawa	ʂatɨ	ʂatɨa	ʂ a t ɨ	1558	0	ʂ a - t ɨ - -		None
 2826	bite	Mastanawa	kɨju	kɨju	k ɨ j u	89	0	k ɨ j u		None
 2827	bite	Chaninawa	kɨju	kɨjuj	k ɨ j u	89	0	k ɨ j u		None
 2828	bite	Sharanawa	kɨju	kɨjuwi	k ɨ j u	89	0	k ɨ j u		None
-2829	bite	Amawaka	natɨçɨ	naʔtɨçɨ	n a + t ɨ ç ɨ	1558	0	n a + t ɨ ç ɨ -		None
+2829	bite	Amawaka	natɨçɨ	naʔtɨçɨ	n a + t ɨ ç ɨ	1558	0	n a + t ɨ ç ɨ		None
 2830	bite	Nawa	kɨju	kɨjuɸi	k ɨ j u	89	0	k ɨ j u		None
 2831	bite	Marinawa	kɨju	kɨju	k ɨ j u	89	0	k ɨ j u		None
 2832	bite	Yaminawa	kɨju	kɨjuwi	k ɨ j u	89	0	k ɨ j u		None
@@ -3085,8 +3085,8 @@ ID	CONCEPT	DOCULECT	FORM	VALUE	TOKENS	COGID	COGIDS	ALIGNMENT	MORPHEMES	NOTE
 3084	hunt	Kashinawa_B	piajaka	piajaka	p i a j a k a	626	0	p i a j a k a		None
 3085	drink [verb]	Matses	ak	ak	a k	274	0	a k		None
 3086	drink [verb]	Matis	ak	ak	a k	274	0	a k		None
-3087	drink [verb]	Marubo	a	a	a	274	0	a		None
-3088	drink [verb]	Katukina	aka	aka	a k a	274	0	a k a		None
+3087	drink [verb]	Marubo	a	a	a	23	0	a		None
+3088	drink [verb]	Katukina	aka	aka	a k a	25	0	a k a		None
 3089	drink [verb]	Shipibo_Konibo	ʂɨa	ʂɨa	ʂ ɨ a	272	0	ʂ ɨ a		None
 3090	drink [verb]	Kapanawa	ʂɨa	ʂɨa	ʂ ɨ a	272	0	ʂ ɨ a		None
 3091	drink [verb]	Arara	numã	numã	n u m ã	282	0	n u m ã		None
@@ -3095,8 +3095,8 @@ ID	CONCEPT	DOCULECT	FORM	VALUE	TOKENS	COGID	COGIDS	ALIGNMENT	MORPHEMES	NOTE
 3094	drink [verb]	Nukini	aya	aya	a j a	277	0	a j a		None
 3095	drink [verb]	Poyanawa	aja	aja	a j a	277	0	a j a		None
 3096	drink [verb]	Iskonawa	aja	aja	a j a	277	0	a j a		None
-3097	drink [verb]	Chakobo	a	a	a	274	0	a		None
-3098	drink [verb]	Kakataibo	kwaʂkati	ʂɨa	kʷ a ʂ k a + t i	105	0	kʷ a ʂ k a + t i		None
+3097	drink [verb]	Chakobo	a	a	a	18	0	a		None
+3098	drink [verb]	Kakataibo	kwaʂkati	kwaʂkati	kʷ a ʂ k a + t i	105	0	kʷ a ʂ k a + t i		None
 3099	drink [verb]	Kaxarari	kula	kula	k u l a	278	0	k u l a		None
 3100	drink [verb]	Mastanawa	aja	aja	a j a	277	0	a j a		None
 3101	drink [verb]	Chaninawa	aja	aja	a j a	277	0	a j a		None

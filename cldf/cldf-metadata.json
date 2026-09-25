@@ -10,7 +10,7 @@
         {
             "rdf:about": "https://github.com/pano-takanan-history/zariquieypano",
             "rdf:type": "prov:Entity",
-            "dc:created": "v0.4",
+            "dc:created": "v0.4-1-g6837615",
             "dc:title": "Repository"
         },
         {
