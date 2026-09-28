@@ -4,8 +4,8 @@ library(dplyr)
 # Archaeological traditions
 arch <- tibble(
   phase=c("Yarinacocha", "Pacacocha", "Cumancaya", "Caimito"),
-  xmin =c(2200, 1800, 1300, 600),
-  xmax =c(1800, 1300, 600, 0),
+  xmin =c(1900, 1700, 1400, 800),
+  xmax =c(1700, 1100, 300, 500),
   y    =c(2, 3, 4, 5)
 )
 
@@ -40,7 +40,7 @@ ggplot(df) +
     "Yarinacocha"="#b4b4b4",
     "Pacacocha"  ="#fa73bf",
     "Cumancaya"  ="#a1e573",
-    "Caimito"    ="#ffa300",
+    "Caimito"    ="#FFA300",
     "Early origin"= "#7A9997",
     "Recent origin"="#B6D95F"
   )) +

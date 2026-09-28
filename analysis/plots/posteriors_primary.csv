@@ -1,0 +1,1937 @@
+parameter,cal_AD,cal_BP,density,cum_older
+Start Yarinacocha,-1250,3200,0,0
+Start Yarinacocha,-1245,3195,7.45963e-07,3.72981e-07
+Start Yarinacocha,-1240,3190,7.45963e-07,1.11894e-06
+Start Yarinacocha,-1235,3185,9.91691e-07,1.98777e-06
+Start Yarinacocha,-1230,3180,9.91691e-07,2.97946e-06
+Start Yarinacocha,-1225,3175,7.45963e-07,3.84829e-06
+Start Yarinacocha,-1220,3170,7.45963e-07,4.59425e-06
+Start Yarinacocha,-1215,3165,7.45963e-07,5.34021e-06
+Start Yarinacocha,-1210,3160,5.00234e-07,5.96331e-06
+Start Yarinacocha,-1205,3155,1.49193e-06,6.95939e-06
+Start Yarinacocha,-1200,3150,7.45963e-07,8.07834e-06
+Start Yarinacocha,-1195,3145,2.45729e-07,8.57418e-06
+Start Yarinacocha,-1190,3140,7.45963e-07,9.07003e-06
+Start Yarinacocha,-1185,3135,9.91691e-07,9.93885e-06
+Start Yarinacocha,-1180,3130,0,1.04347e-05
+Start Yarinacocha,-1175,3125,7.45963e-07,1.08077e-05
+Start Yarinacocha,-1170,3120,7.45963e-07,1.15536e-05
+Start Yarinacocha,-1165,3115,1.23742e-06,1.25453e-05
+Start Yarinacocha,-1160,3110,9.91691e-07,1.36599e-05
+Start Yarinacocha,-1155,3105,9.91691e-07,1.46516e-05
+Start Yarinacocha,-1150,3100,1.73765e-06,1.60163e-05
+Start Yarinacocha,-1145,3095,1.23742e-06,1.75038e-05
+Start Yarinacocha,-1140,3090,1.23742e-06,1.87412e-05
+Start Yarinacocha,-1135,3085,7.45963e-07,1.97329e-05
+Start Yarinacocha,-1130,3080,1.73765e-06,2.09747e-05
+Start Yarinacocha,-1125,3075,1.49193e-06,2.25895e-05
+Start Yarinacocha,-1120,3070,1.23742e-06,2.39542e-05
+Start Yarinacocha,-1115,3065,1.49193e-06,2.53188e-05
+Start Yarinacocha,-1110,3060,2.22911e-06,2.71794e-05
+Start Yarinacocha,-1105,3055,1.98338e-06,2.92856e-05
+Start Yarinacocha,-1100,3050,1.49193e-06,3.10233e-05
+Start Yarinacocha,-1095,3045,2.97507e-06,3.32568e-05
+Start Yarinacocha,-1090,3040,1.49193e-06,3.54903e-05
+Start Yarinacocha,-1085,3035,3.47531e-06,3.79739e-05
+Start Yarinacocha,-1080,3030,2.22911e-06,4.08261e-05
+Start Yarinacocha,-1075,3025,9.91691e-07,4.24365e-05
+Start Yarinacocha,-1070,3020,3.47531e-06,4.467e-05
+Start Yarinacocha,-1065,3015,1.23742e-06,4.70264e-05
+Start Yarinacocha,-1060,3010,1.73765e-06,4.85139e-05
+Start Yarinacocha,-1055,3005,3.96677e-06,5.13661e-05
+Start Yarinacocha,-1050,3000,2.72935e-06,5.47142e-05
+Start Yarinacocha,-1045,2995,3.47531e-06,5.78165e-05
+Start Yarinacocha,-1040,2990,2.48362e-06,6.07959e-05
+Start Yarinacocha,-1035,2985,1.73765e-06,6.29066e-05
+Start Yarinacocha,-1030,2980,4.467e-06,6.60089e-05
+Start Yarinacocha,-1025,2975,2.48362e-06,6.94842e-05
+Start Yarinacocha,-1020,2970,5.70442e-06,7.35782e-05
+Start Yarinacocha,-1015,2965,2.48362e-06,7.76723e-05
+Start Yarinacocha,-1010,2960,6.94184e-06,8.2385e-05
+Start Yarinacocha,-1005,2955,3.96677e-06,8.78393e-05
+Start Yarinacocha,-1000,2950,4.467e-06,9.20562e-05
+Start Yarinacocha,-995,2945,6.20465e-06,9.7392e-05
+Start Yarinacocha,-990,2940,6.20465e-06,0.000103597
+Start Yarinacocha,-985,2935,6.45038e-06,0.000109924
+Start Yarinacocha,-980,2930,7.19634e-06,0.000116748
+Start Yarinacocha,-975,2925,5.20419e-06,0.000122948
+Start Yarinacocha,-970,2920,7.6878e-06,0.000129394
+Start Yarinacocha,-965,2915,8.92522e-06,0.0001377
+Start Yarinacocha,-960,2910,8.67949e-06,0.000146503
+Start Yarinacocha,-955,2905,7.19634e-06,0.000154441
+Start Yarinacocha,-950,2900,1.09086e-05,0.000163493
+Start Yarinacocha,-945,2895,1.11631e-05,0.000174529
+Start Yarinacocha,-940,2890,1.38925e-05,0.000187057
+Start Yarinacocha,-935,2885,1.53756e-05,0.000201691
+Start Yarinacocha,-930,2880,1.48841e-05,0.000216821
+Start Yarinacocha,-925,2875,1.48841e-05,0.000231705
+Start Yarinacocha,-920,2870,1.61216e-05,0.000247208
+Start Yarinacocha,-915,2865,2.08343e-05,0.000265686
+Start Yarinacocha,-910,2860,1.86052e-05,0.000285405
+Start Yarinacocha,-905,2855,2.40551e-05,0.000306735
+Start Yarinacocha,-900,2850,2.6293e-05,0.000331909
+Start Yarinacocha,-895,2845,2.80219e-05,0.000359067
+Start Yarinacocha,-890,2840,2.38094e-05,0.000384983
+Start Yarinacocha,-885,2835,3.0014e-05,0.000411894
+Start Yarinacocha,-880,2830,3.0014e-05,0.000441908
+Start Yarinacocha,-875,2825,3.24889e-05,0.00047316
+Start Yarinacocha,-870,2820,3.86935e-05,0.000508751
+Start Yarinacocha,-865,2815,4.46437e-05,0.000550419
+Start Yarinacocha,-860,2810,5.13398e-05,0.000598411
+Start Yarinacocha,-855,2805,4.88562e-05,0.000648509
+Start Yarinacocha,-850,2800,5.43149e-05,0.000700095
+Start Yarinacocha,-845,2795,6.25029e-05,0.000758504
+Start Yarinacocha,-840,2790,6.79528e-05,0.000823731
+Start Yarinacocha,-835,2785,7.292e-05,0.000894168
+Start Yarinacocha,-830,2780,7.44032e-05,0.000967829
+Start Yarinacocha,-825,2775,8.23455e-05,0.0010462
+Start Yarinacocha,-820,2770,8.87871e-05,0.00113177
+Start Yarinacocha,-815,2765,9.87128e-05,0.00122552
+Start Yarinacocha,-810,2760,0.000107884,0.00132882
+Start Yarinacocha,-805,2755,0.000119793,0.00144266
+Start Yarinacocha,-800,2750,0.000118301,0.0015617
+Start Yarinacocha,-795,2745,0.000126735,0.00168422
+Start Yarinacocha,-790,2740,0.000142365,0.00181877
+Start Yarinacocha,-785,2735,0.000156749,0.00196833
+Start Yarinacocha,-780,2730,0.000149061,0.00212123
+Start Yarinacocha,-775,2725,0.000169886,0.00228071
+Start Yarinacocha,-770,2720,0.000173862,0.00245258
+Start Yarinacocha,-765,2715,0.000196179,0.0026376
+Start Yarinacocha,-760,2710,0.000218251,0.00284482
+Start Yarinacocha,-755,2705,0.000240577,0.00307423
+Start Yarinacocha,-750,2700,0.000268845,0.00332894
+Start Yarinacocha,-745,2695,0.000272074,0.0035994
+Start Yarinacocha,-740,2690,0.000280254,0.00387557
+Start Yarinacocha,-735,2685,0.000312751,0.00417207
+Start Yarinacocha,-730,2680,0.000319939,0.00448841
+Start Yarinacocha,-725,2675,0.000336806,0.00481679
+Start Yarinacocha,-720,2670,0.000336561,0.00515347
+Start Yarinacocha,-715,2665,0.000377975,0.00551074
+Start Yarinacocha,-710,2660,0.000390621,0.00589504
+Start Yarinacocha,-705,2655,0.000404759,0.00629273
+Start Yarinacocha,-700,2650,0.000421873,0.00670604
+Start Yarinacocha,-695,2645,0.000455353,0.00714465
+Start Yarinacocha,-690,2640,0.000454616,0.00759964
+Start Yarinacocha,-685,2635,0.000496276,0.00807508
+Start Yarinacocha,-680,2630,0.00051166,0.00857905
+Start Yarinacocha,-675,2625,0.000540428,0.0091051
+Start Yarinacocha,-670,2620,0.000537453,0.00964404
+Start Yarinacocha,-665,2615,0.00055382,0.0101897
+Start Yarinacocha,-660,2610,0.000600447,0.0107668
+Start Yarinacocha,-655,2605,0.000621773,0.0113779
+Start Yarinacocha,-650,2600,0.000636903,0.0120073
+Start Yarinacocha,-645,2595,0.000664188,0.0126578
+Start Yarinacocha,-640,2590,0.000693947,0.0133369
+Start Yarinacocha,-635,2585,0.000724698,0.0140462
+Start Yarinacocha,-630,2580,0.00075595,0.0147865
+Start Yarinacocha,-625,2575,0.000773309,0.0155511
+Start Yarinacocha,-620,2570,0.000818207,0.0163469
+Start Yarinacocha,-615,2565,0.000834074,0.017173
+Start Yarinacocha,-610,2560,0.000870784,0.0180255
+Start Yarinacocha,-605,2555,0.000893356,0.0189075
+Start Yarinacocha,-600,2550,0.000967013,0.0198377
+Start Yarinacocha,-595,2545,0.00096453,0.0208035
+Start Yarinacocha,-590,2540,0.000987848,0.0217797
+Start Yarinacocha,-585,2535,0.00100942,0.0227783
+Start Yarinacocha,-580,2530,0.00106448,0.0238153
+Start Yarinacocha,-575,2525,0.0010997,0.0248974
+Start Yarinacocha,-570,2520,0.00112351,0.026009
+Start Yarinacocha,-565,2515,0.0011818,0.0271616
+Start Yarinacocha,-560,2510,0.00120684,0.0283559
+Start Yarinacocha,-555,2505,0.0012562,0.0295875
+Start Yarinacocha,-550,2500,0.00126686,0.030849
+Start Yarinacocha,-545,2495,0.0013569,0.0321609
+Start Yarinacocha,-540,2490,0.00134747,0.0335131
+Start Yarinacocha,-535,2485,0.00141369,0.0348936
+Start Yarinacocha,-530,2480,0.00144941,0.0363252
+Start Yarinacocha,-525,2475,0.00149157,0.0377957
+Start Yarinacocha,-520,2470,0.00152703,0.039305
+Start Yarinacocha,-515,2465,0.00155059,0.0408438
+Start Yarinacocha,-510,2460,0.00162872,0.0424334
+Start Yarinacocha,-505,2455,0.00167113,0.0440834
+Start Yarinacocha,-500,2450,0.00167312,0.0457555
+Start Yarinacocha,-495,2445,0.00173313,0.0474586
+Start Yarinacocha,-490,2440,0.00180208,0.0492262
+Start Yarinacocha,-485,2435,0.00183457,0.0510445
+Start Yarinacocha,-480,2430,0.0018626,0.0528931
+Start Yarinacocha,-475,2425,0.00188963,0.0547692
+Start Yarinacocha,-470,2420,0.00195561,0.0566918
+Start Yarinacocha,-465,2415,0.002,0.0586696
+Start Yarinacocha,-460,2410,0.00199578,0.0606675
+Start Yarinacocha,-455,2405,0.00211186,0.0627214
+Start Yarinacocha,-450,2400,0.00217088,0.0648627
+Start Yarinacocha,-445,2395,0.002188,0.0670422
+Start Yarinacocha,-440,2390,0.00228423,0.0692783
+Start Yarinacocha,-435,2385,0.00222866,0.0715347
+Start Yarinacocha,-430,2380,0.00229513,0.0737966
+Start Yarinacocha,-425,2375,0.00237227,0.0761303
+Start Yarinacocha,-420,2370,0.00244816,0.0785405
+Start Yarinacocha,-415,2365,0.00247147,0.0810003
+Start Yarinacocha,-410,2360,0.00249157,0.0834819
+Start Yarinacocha,-405,2355,0.00261929,0.0860373
+Start Yarinacocha,-400,2350,0.00262946,0.0886617
+Start Yarinacocha,-395,2345,0.0027123,0.0913326
+Start Yarinacocha,-390,2340,0.00280754,0.0940925
+Start Yarinacocha,-385,2335,0.0028125,0.0969025
+Start Yarinacocha,-380,2330,0.00283333,0.0997254
+Start Yarinacocha,-375,2325,0.00286706,0.102576
+Start Yarinacocha,-370,2320,0.00293551,0.105477
+Start Yarinacocha,-365,2315,0.00303224,0.108461
+Start Yarinacocha,-360,2310,0.00307068,0.111512
+Start Yarinacocha,-355,2305,0.00314013,0.114618
+Start Yarinacocha,-350,2300,0.00315103,0.117763
+Start Yarinacocha,-345,2295,0.00320263,0.12094
+Start Yarinacocha,-340,2290,0.00329935,0.124191
+Start Yarinacocha,-335,2285,0.003313,0.127497
+Start Yarinacocha,-330,2280,0.00333655,0.130822
+Start Yarinacocha,-325,2275,0.00343576,0.134208
+Start Yarinacocha,-320,2270,0.00350347,0.137678
+Start Yarinacocha,-315,2265,0.00349032,0.141175
+Start Yarinacocha,-310,2260,0.00359127,0.144715
+Start Yarinacocha,-305,2255,0.0037247,0.148373
+Start Yarinacocha,-300,2250,0.00364533,0.152058
+Start Yarinacocha,-295,2245,0.00375868,0.15576
+Start Yarinacocha,-290,2240,0.00375297,0.159516
+Start Yarinacocha,-285,2235,0.00384896,0.163317
+Start Yarinacocha,-280,2230,0.00392832,0.167206
+Start Yarinacocha,-275,2225,0.00392088,0.17113
+Start Yarinacocha,-270,2220,0.00408333,0.175133
+Start Yarinacocha,-265,2215,0.00405927,0.179204
+Start Yarinacocha,-260,2210,0.00412648,0.183297
+Start Yarinacocha,-255,2205,0.00414335,0.187432
+Start Yarinacocha,-250,2200,0.00419815,0.191602
+Start Yarinacocha,-245,2195,0.00429464,0.195849
+Start Yarinacocha,-240,2190,0.00435937,0.200176
+Start Yarinacocha,-235,2185,0.00448734,0.204599
+Start Yarinacocha,-230,2180,0.00453025,0.209108
+Start Yarinacocha,-225,2175,0.00462251,0.213684
+Start Yarinacocha,-220,2170,0.00471825,0.218355
+Start Yarinacocha,-215,2165,0.00476512,0.223096
+Start Yarinacocha,-210,2160,0.00480778,0.227883
+Start Yarinacocha,-205,2155,0.00484796,0.232711
+Start Yarinacocha,-200,2150,0.00495386,0.237612
+Start Yarinacocha,-195,2145,0.00499999,0.242589
+Start Yarinacocha,-190,2140,0.00503,0.247604
+Start Yarinacocha,-185,2135,0.0052356,0.252736
+Start Yarinacocha,-180,2130,0.00517956,0.257944
+Start Yarinacocha,-175,2125,0.00528025,0.263174
+Start Yarinacocha,-170,2120,0.00531175,0.26847
+Start Yarinacocha,-165,2115,0.00550148,0.273876
+Start Yarinacocha,-160,2110,0.00551487,0.279385
+Start Yarinacocha,-155,2105,0.0055982,0.284941
+Start Yarinacocha,-150,2100,0.00562524,0.290553
+Start Yarinacocha,-145,2095,0.00565053,0.296191
+Start Yarinacocha,-140,2090,0.00573685,0.301884
+Start Yarinacocha,-135,2085,0.00591071,0.307708
+Start Yarinacocha,-130,2080,0.00595783,0.313643
+Start Yarinacocha,-125,2075,0.00595287,0.319598
+Start Yarinacocha,-120,2070,0.00604463,0.325597
+Start Yarinacocha,-115,2065,0.00621626,0.331727
+Start Yarinacocha,-110,2060,0.00626314,0.337967
+Start Yarinacocha,-105,2055,0.00634374,0.34427
+Start Yarinacocha,-100,2050,0.00639285,0.350639
+Start Yarinacocha,-95,2045,0.00645088,0.35706
+Start Yarinacocha,-90,2040,0.00654687,0.363559
+Start Yarinacocha,-85,2035,0.00660341,0.370134
+Start Yarinacocha,-80,2030,0.00676562,0.376819
+Start Yarinacocha,-75,2025,0.00684275,0.383623
+Start Yarinacocha,-70,2020,0.0068668,0.390478
+Start Yarinacocha,-65,2015,0.00691938,0.397371
+Start Yarinacocha,-60,2010,0.00719046,0.404426
+Start Yarinacocha,-55,2005,0.00714458,0.411593
+Start Yarinacocha,-50,2000,0.00726438,0.418798
+Start Yarinacocha,-45,1995,0.00733853,0.426099
+Start Yarinacocha,-40,1990,0.00746403,0.433501
+Start Yarinacocha,-35,1985,0.00748536,0.440975
+Start Yarinacocha,-30,1980,0.00747643,0.448456
+Start Yarinacocha,-25,1975,0.00758183,0.455985
+Start Yarinacocha,-20,1970,0.00769171,0.463622
+Start Yarinacocha,-15,1965,0.00778545,0.471361
+Start Yarinacocha,-10,1960,0.00769418,0.479101
+Start Yarinacocha,-5,1955,0.00793005,0.486913
+Start Yarinacocha,0,1950,0.00795187,0.494854
+Start Yarinacocha,5,1945,0.0079494,0.502804
+Start Yarinacocha,10,1940,0.00802429,0.510791
+Start Yarinacocha,15,1935,0.00815822,0.518882
+Start Yarinacocha,20,1930,0.0082552,0.527089
+Start Yarinacocha,25,1925,0.0082862,0.53536
+Start Yarinacocha,30,1920,0.00823684,0.543621
+Start Yarinacocha,35,1915,0.00837871,0.551929
+Start Yarinacocha,40,1910,0.00835118,0.560294
+Start Yarinacocha,45,1905,0.00843947,0.568689
+Start Yarinacocha,50,1900,0.00842261,0.57712
+Start Yarinacocha,55,1895,0.00848536,0.585574
+Start Yarinacocha,60,1890,0.00862127,0.594128
+Start Yarinacocha,65,1885,0.00851809,0.602697
+Start Yarinacocha,70,1880,0.00858208,0.611247
+Start Yarinacocha,75,1875,0.00877603,0.619926
+Start Yarinacocha,80,1870,0.00862325,0.628626
+Start Yarinacocha,85,1865,0.00858258,0.637229
+Start Yarinacocha,90,1860,0.00854091,0.645791
+Start Yarinacocha,95,1855,0.00852182,0.654322
+Start Yarinacocha,100,1850,0.00853397,0.66285
+Start Yarinacocha,105,1845,0.00860441,0.671419
+Start Yarinacocha,110,1840,0.00861705,0.68003
+Start Yarinacocha,115,1835,0.00857216,0.688625
+Start Yarinacocha,120,1830,0.00849404,0.697158
+Start Yarinacocha,125,1825,0.00851809,0.705664
+Start Yarinacocha,130,1820,0.00847568,0.714161
+Start Yarinacocha,135,1815,0.00824925,0.722523
+Start Yarinacocha,140,1810,0.00826809,0.730782
+Start Yarinacocha,145,1805,0.00826487,0.739048
+Start Yarinacocha,150,1800,0.00801363,0.747187
+Start Yarinacocha,155,1795,0.00797717,0.755183
+Start Yarinacocha,160,1790,0.00795956,0.763151
+Start Yarinacocha,165,1785,0.00776611,0.771014
+Start Yarinacocha,170,1780,0.00767236,0.778733
+Start Yarinacocha,175,1775,0.00750595,0.786322
+Start Yarinacocha,180,1770,0.00743724,0.793794
+Start Yarinacocha,185,1765,0.00731224,0.801169
+Start Yarinacocha,190,1760,0.00727678,0.808463
+Start Yarinacocha,195,1755,0.00700693,0.815605
+Start Yarinacocha,200,1750,0.00696527,0.822591
+Start Yarinacocha,205,1745,0.00686011,0.829504
+Start Yarinacocha,210,1740,0.00672296,0.836295
+Start Yarinacocha,215,1735,0.00653992,0.842927
+Start Yarinacocha,220,1730,0.00652504,0.849459
+Start Yarinacocha,225,1725,0.00627058,0.855857
+Start Yarinacocha,230,1720,0.00606026,0.862023
+Start Yarinacocha,235,1715,0.00586284,0.867984
+Start Yarinacocha,240,1710,0.00573363,0.873782
+Start Yarinacocha,245,1705,0.00564236,0.87947
+Start Yarinacocha,250,1700,0.00535118,0.884967
+Start Yarinacocha,255,1695,0.00533357,0.89031
+Start Yarinacocha,260,1690,0.00508184,0.895517
+Start Yarinacocha,265,1685,0.00502876,0.900573
+Start Yarinacocha,270,1680,0.00505208,0.905613
+Start Yarinacocha,275,1675,0.00490252,0.91059
+Start Yarinacocha,280,1670,0.00494493,0.915514
+Start Yarinacocha,285,1665,0.00478719,0.92038
+Start Yarinacocha,290,1660,0.00470486,0.925126
+Start Yarinacocha,295,1655,0.00447718,0.929717
+Start Yarinacocha,300,1650,0.00441567,0.934164
+Start Yarinacocha,305,1645,0.00414112,0.938442
+Start Yarinacocha,310,1640,0.00404018,0.942533
+Start Yarinacocha,315,1635,0.00385169,0.946478
+Start Yarinacocha,320,1630,0.00355183,0.95018
+Start Yarinacocha,325,1625,0.00336408,0.953638
+Start Yarinacocha,330,1620,0.00313517,0.956888
+Start Yarinacocha,335,1615,0.00295783,0.959934
+Start Yarinacocha,340,1610,0.00275,0.962788
+Start Yarinacocha,345,1605,0.00256225,0.965444
+Start Yarinacocha,350,1600,0.00247644,0.967964
+Start Yarinacocha,355,1595,0.00238616,0.970395
+Start Yarinacocha,360,1590,0.00215873,0.972667
+Start Yarinacocha,365,1585,0.00197271,0.974733
+Start Yarinacocha,370,1580,0.00191071,0.976675
+Start Yarinacocha,375,1575,0.00176959,0.978515
+Start Yarinacocha,380,1570,0.00160788,0.980204
+Start Yarinacocha,385,1565,0.00158284,0.981799
+Start Yarinacocha,390,1560,0.00136483,0.983273
+Start Yarinacocha,395,1555,0.00129142,0.984601
+Start Yarinacocha,400,1550,0.00118526,0.985839
+Start Yarinacocha,405,1545,0.00107862,0.986971
+Start Yarinacocha,410,1540,0.000874505,0.987948
+Start Yarinacocha,415,1535,0.000764629,0.988768
+Start Yarinacocha,420,1530,0.000678571,0.989489
+Start Yarinacocha,425,1525,0.000658975,0.990158
+Start Yarinacocha,430,1520,0.000596226,0.990785
+Start Yarinacocha,435,1515,0.000581842,0.991375
+Start Yarinacocha,440,1510,0.000549353,0.99194
+Start Yarinacocha,445,1505,0.000574154,0.992502
+Start Yarinacocha,450,1500,0.000512898,0.993045
+Start Yarinacocha,455,1495,0.00052034,0.993562
+Start Yarinacocha,460,1490,0.00050471,0.994075
+Start Yarinacocha,465,1485,0.00049008,0.994572
+Start Yarinacocha,470,1480,0.000487351,0.995061
+Start Yarinacocha,475,1475,0.00046577,0.995537
+Start Yarinacocha,480,1470,0.000426094,0.995983
+Start Yarinacocha,485,1465,0.000415677,0.996404
+Start Yarinacocha,490,1460,0.00041121,0.996817
+Start Yarinacocha,495,1455,0.000352682,0.997199
+Start Yarinacocha,500,1450,0.00033284,0.997542
+Start Yarinacocha,505,1445,0.000350444,0.997884
+Start Yarinacocha,510,1440,0.000276541,0.998197
+Start Yarinacocha,515,1435,0.000278025,0.998475
+Start Yarinacocha,520,1430,0.000239085,0.998733
+Start Yarinacocha,525,1425,0.000187746,0.998947
+Start Yarinacocha,530,1420,0.00017882,0.99913
+Start Yarinacocha,535,1415,0.000127726,0.999283
+Start Yarinacocha,540,1410,9.82126e-05,0.999396
+Start Yarinacocha,545,1405,9.4746e-05,0.999493
+Start Yarinacocha,550,1400,8.68037e-05,0.999583
+Start Yarinacocha,555,1395,8.2837e-05,0.999668
+Start Yarinacocha,560,1390,7.44032e-05,0.999747
+Start Yarinacocha,565,1385,7.49034e-05,0.999821
+Start Yarinacocha,570,1380,5.01024e-05,0.999884
+Start Yarinacocha,575,1375,4.58811e-05,0.999932
+Start Yarinacocha,580,1370,3.37263e-05,0.999972
+Start Yarinacocha,585,1365,1.14088e-05,0.999994
+Start of post-Yarinacocha period,-165,2115,0,0
+Start of post-Yarinacocha period,-160,2110,9.92034e-06,4.96017e-06
+Start of post-Yarinacocha period,-155,2105,5.94851e-06,1.28946e-05
+Start of post-Yarinacocha period,-150,2100,9.42156e-06,2.05796e-05
+Start of post-Yarinacocha period,-145,2095,1.56287e-05,3.31048e-05
+Start of post-Yarinacocha period,-140,2090,1.71158e-05,4.9477e-05
+Start of post-Yarinacocha period,-135,2085,1.95913e-05,6.78306e-05
+Start of post-Yarinacocha period,-130,2080,2.40619e-05,8.96572e-05
+Start of post-Yarinacocha period,-125,2075,2.38125e-05,0.000113594
+Start of post-Yarinacocha period,-120,2070,1.88523e-05,0.000134927
+Start of post-Yarinacocha period,-115,2065,3.05092e-05,0.000159608
+Start of post-Yarinacocha period,-110,2060,3.42224e-05,0.000191973
+Start of post-Yarinacocha period,-105,2055,3.32341e-05,0.000225702
+Start of post-Yarinacocha period,-100,2050,3.67071e-05,0.000260672
+Start of post-Yarinacocha period,-95,2045,4.21661e-05,0.000300109
+Start of post-Yarinacocha period,-90,2040,5.65478e-05,0.000349466
+Start of post-Yarinacocha period,-85,2035,4.58793e-05,0.000400679
+Start of post-Yarinacocha period,-80,2030,6.37433e-05,0.000455491
+Start of post-Yarinacocha period,-75,2025,5.82843e-05,0.000516505
+Start of post-Yarinacocha period,-70,2020,6.54798e-05,0.000578387
+Start of post-Yarinacocha period,-65,2015,6.59694e-05,0.000644111
+Start of post-Yarinacocha period,-60,2010,7.49014e-05,0.000714547
+Start of post-Yarinacocha period,-55,2005,7.19271e-05,0.000787961
+Start of post-Yarinacocha period,-50,2000,8.06097e-05,0.000864229
+Start of post-Yarinacocha period,-45,1995,9.92034e-05,0.000954136
+Start of post-Yarinacocha period,-40,1990,0.00012624,0.00106686
+Start of post-Yarinacocha period,-35,1985,0.000143106,0.00120153
+Start of post-Yarinacocha period,-30,1980,0.000167159,0.00135666
+Start of post-Yarinacocha period,-25,1975,0.000199903,0.00154019
+Start of post-Yarinacocha period,-20,1970,0.000206351,0.00174332
+Start of post-Yarinacocha period,-15,1965,0.000239335,0.00196616
+Start of post-Yarinacocha period,-10,1960,0.000233876,0.00220277
+Start of post-Yarinacocha period,-5,1955,0.00027232,0.00245587
+Start of post-Yarinacocha period,0,1950,0.000262649,0.00272335
+Start of post-Yarinacocha period,5,1945,0.000293897,0.00300162
+Start of post-Yarinacocha period,10,1940,0.000309775,0.00330346
+Start of post-Yarinacocha period,15,1935,0.000330854,0.00362378
+Start of post-Yarinacocha period,20,1930,0.000345485,0.00396194
+Start of post-Yarinacocha period,25,1925,0.000393849,0.00433161
+Start of post-Yarinacocha period,30,1920,0.000408979,0.00473303
+Start of post-Yarinacocha period,35,1915,0.000460816,0.00516792
+Start of post-Yarinacocha period,40,1910,0.000491814,0.00564424
+Start of post-Yarinacocha period,45,1905,0.000529261,0.00615477
+Start of post-Yarinacocha period,50,1900,0.000562993,0.0067009
+Start of post-Yarinacocha period,55,1895,0.000579361,0.00727208
+Start of post-Yarinacocha period,60,1890,0.000643603,0.00788356
+Start of post-Yarinacocha period,65,1885,0.00067559,0.00854316
+Start of post-Yarinacocha period,70,1880,0.000721728,0.00924182
+Start of post-Yarinacocha period,75,1875,0.000787947,0.00999665
+Start of post-Yarinacocha period,80,1870,0.000847718,0.0108145
+Start of post-Yarinacocha period,85,1865,0.00094791,0.0117123
+Start of post-Yarinacocha period,90,1860,0.000997022,0.0126848
+Start of post-Yarinacocha period,95,1855,0.00108159,0.0137241
+Start of post-Yarinacocha period,100,1850,0.0010992,0.0148145
+Start of post-Yarinacocha period,105,1845,0.00117113,0.0159496
+Start of post-Yarinacocha period,110,1840,0.00123239,0.0171514
+Start of post-Yarinacocha period,115,1835,0.00132167,0.0184284
+Start of post-Yarinacocha period,120,1830,0.00143303,0.0198058
+Start of post-Yarinacocha period,125,1825,0.00150024,0.0212724
+Start of post-Yarinacocha period,130,1820,0.00152033,0.0227827
+Start of post-Yarinacocha period,135,1815,0.00167014,0.0243779
+Start of post-Yarinacocha period,140,1810,0.00172619,0.0260761
+Start of post-Yarinacocha period,145,1805,0.00181101,0.0278447
+Start of post-Yarinacocha period,150,1800,0.00194394,0.0297222
+Start of post-Yarinacocha period,155,1795,0.00202306,0.0317057
+Start of post-Yarinacocha period,160,1790,0.00215227,0.0337933
+Start of post-Yarinacocha period,165,1785,0.00224355,0.0359912
+Start of post-Yarinacocha period,170,1780,0.00232241,0.0382742
+Start of post-Yarinacocha period,175,1775,0.002406,0.0406384
+Start of post-Yarinacocha period,180,1770,0.002561,0.0431219
+Start of post-Yarinacocha period,185,1765,0.00266666,0.0457358
+Start of post-Yarinacocha period,190,1760,0.00270038,0.0484193
+Start of post-Yarinacocha period,195,1755,0.00283357,0.0511863
+Start of post-Yarinacocha period,200,1750,0.00294765,0.0540769
+Start of post-Yarinacocha period,205,1745,0.00303967,0.0570705
+Start of post-Yarinacocha period,210,1740,0.00318996,0.0601854
+Start of post-Yarinacocha period,215,1735,0.00332786,0.0634443
+Start of post-Yarinacocha period,220,1730,0.00343624,0.0668263
+Start of post-Yarinacocha period,225,1725,0.00358307,0.070336
+Start of post-Yarinacocha period,230,1720,0.00368575,0.0739704
+Start of post-Yarinacocha period,235,1715,0.00382315,0.0777248
+Start of post-Yarinacocha period,240,1710,0.00395187,0.0816123
+Start of post-Yarinacocha period,245,1705,0.00406522,0.0856209
+Start of post-Yarinacocha period,250,1700,0.00415624,0.0897316
+Start of post-Yarinacocha period,255,1695,0.00426858,0.093944
+Start of post-Yarinacocha period,260,1690,0.00429686,0.0982267
+Start of post-Yarinacocha period,265,1685,0.00430182,0.102526
+Start of post-Yarinacocha period,270,1680,0.0044174,0.106886
+Start of post-Yarinacocha period,275,1675,0.00452056,0.111355
+Start of post-Yarinacocha period,280,1670,0.00456074,0.115895
+Start of post-Yarinacocha period,285,1665,0.00468153,0.120516
+Start of post-Yarinacocha period,290,1660,0.00485911,0.125287
+Start of post-Yarinacocha period,295,1655,0.00491318,0.130173
+Start of post-Yarinacocha period,300,1650,0.00510762,0.135183
+Start of post-Yarinacocha period,305,1645,0.00521128,0.140343
+Start of post-Yarinacocha period,310,1640,0.00541045,0.145654
+Start of post-Yarinacocha period,315,1635,0.00553867,0.151128
+Start of post-Yarinacocha period,320,1630,0.0056793,0.156737
+Start of post-Yarinacocha period,325,1625,0.00584273,0.162498
+Start of post-Yarinacocha period,330,1620,0.00597046,0.168405
+Start of post-Yarinacocha period,335,1615,0.00609299,0.174437
+Start of post-Yarinacocha period,340,1610,0.00626708,0.180617
+Start of post-Yarinacocha period,345,1605,0.00636332,0.186932
+Start of post-Yarinacocha period,350,1600,0.00637299,0.1933
+Start of post-Yarinacocha period,355,1595,0.00653545,0.199754
+Start of post-Yarinacocha period,360,1590,0.00659025,0.206317
+Start of post-Yarinacocha period,365,1585,0.00671253,0.212968
+Start of post-Yarinacocha period,370,1580,0.00677676,0.219713
+Start of post-Yarinacocha period,375,1575,0.0069345,0.226569
+Start of post-Yarinacocha period,380,1570,0.00691218,0.233492
+Start of post-Yarinacocha period,385,1565,0.00696352,0.24043
+Start of post-Yarinacocha period,390,1560,0.00705479,0.247439
+Start of post-Yarinacocha period,395,1555,0.00717383,0.254553
+Start of post-Yarinacocha period,400,1550,0.00726361,0.261772
+Start of post-Yarinacocha period,405,1545,0.0072527,0.26903
+Start of post-Yarinacocha period,410,1540,0.00744219,0.276378
+Start of post-Yarinacocha period,415,1535,0.00744268,0.28382
+Start of post-Yarinacocha period,420,1530,0.00749402,0.291288
+Start of post-Yarinacocha period,425,1525,0.00753569,0.298803
+Start of post-Yarinacocha period,430,1520,0.00750121,0.306322
+Start of post-Yarinacocha period,435,1515,0.00750394,0.313824
+Start of post-Yarinacocha period,440,1510,0.00755007,0.321351
+Start of post-Yarinacocha period,445,1505,0.00757586,0.328914
+Start of post-Yarinacocha period,450,1500,0.00759124,0.336498
+Start of post-Yarinacocha period,455,1495,0.00753321,0.34406
+Start of post-Yarinacocha period,460,1490,0.00769293,0.351673
+Start of post-Yarinacocha period,465,1485,0.00772418,0.359382
+Start of post-Yarinacocha period,470,1480,0.00777849,0.367133
+Start of post-Yarinacocha period,475,1475,0.00785637,0.37495
+Start of post-Yarinacocha period,480,1470,0.00775344,0.382755
+Start of post-Yarinacocha period,485,1465,0.00782561,0.390545
+Start of post-Yarinacocha period,490,1460,0.00787721,0.398396
+Start of post-Yarinacocha period,495,1455,0.00793326,0.406301
+Start of post-Yarinacocha period,500,1450,0.0080766,0.414306
+Start of post-Yarinacocha period,505,1445,0.00801584,0.422353
+Start of post-Yarinacocha period,510,1440,0.00809943,0.43041
+Start of post-Yarinacocha period,515,1435,0.00813166,0.438526
+Start of post-Yarinacocha period,520,1430,0.00829833,0.446741
+Start of post-Yarinacocha period,525,1425,0.00829114,0.455036
+Start of post-Yarinacocha period,530,1420,0.00834918,0.463356
+Start of post-Yarinacocha period,535,1415,0.00844441,0.471753
+Start of post-Yarinacocha period,540,1410,0.00839729,0.480173
+Start of post-Yarinacocha period,545,1405,0.0084831,0.488614
+Start of post-Yarinacocha period,550,1400,0.00848608,0.497098
+Start of post-Yarinacocha period,555,1395,0.00848261,0.505582
+Start of post-Yarinacocha period,560,1390,0.00859819,0.514123
+Start of post-Yarinacocha period,565,1385,0.00874129,0.522793
+Start of post-Yarinacocha period,570,1380,0.00874153,0.531534
+Start of post-Yarinacocha period,575,1375,0.00872591,0.540268
+Start of post-Yarinacocha period,580,1370,0.008715,0.548988
+Start of post-Yarinacocha period,585,1365,0.00871227,0.557702
+Start of post-Yarinacocha period,590,1360,0.00885835,0.566487
+Start of post-Yarinacocha period,595,1355,0.00892086,0.575377
+Start of post-Yarinacocha period,600,1350,0.00895606,0.584315
+Start of post-Yarinacocha period,605,1345,0.00894392,0.593265
+Start of post-Yarinacocha period,610,1340,0.00901733,0.602246
+Start of post-Yarinacocha period,615,1335,0.00894541,0.611227
+Start of post-Yarinacocha period,620,1330,0.00899501,0.620197
+Start of post-Yarinacocha period,625,1325,0.0090332,0.629212
+Start of post-Yarinacocha period,630,1320,0.00894317,0.6382
+Start of post-Yarinacocha period,635,1315,0.00912671,0.647235
+Start of post-Yarinacocha period,640,1310,0.00905503,0.656326
+Start of post-Yarinacocha period,645,1305,0.00901484,0.66536
+Start of post-Yarinacocha period,650,1300,0.00911108,0.674423
+Start of post-Yarinacocha period,655,1295,0.0090709,0.683514
+Start of post-Yarinacocha period,660,1290,0.00923682,0.692668
+Start of post-Yarinacocha period,665,1285,0.00901385,0.701794
+Start of post-Yarinacocha period,670,1280,0.00909496,0.710848
+Start of post-Yarinacocha period,675,1275,0.00904014,0.719916
+Start of post-Yarinacocha period,680,1270,0.00895111,0.728911
+Start of post-Yarinacocha period,685,1265,0.0088524,0.737813
+Start of post-Yarinacocha period,690,1260,0.00881519,0.746647
+Start of post-Yarinacocha period,695,1255,0.00866614,0.755387
+Start of post-Yarinacocha period,700,1250,0.00856321,0.764002
+Start of post-Yarinacocha period,705,1245,0.00851931,0.772543
+Start of post-Yarinacocha period,710,1240,0.00843796,0.781022
+Start of post-Yarinacocha period,715,1235,0.00833851,0.78941
+Start of post-Yarinacocha period,720,1230,0.00827924,0.797719
+Start of post-Yarinacocha period,725,1225,0.00809769,0.805908
+Start of post-Yarinacocha period,730,1220,0.00782661,0.81387
+Start of post-Yarinacocha period,735,1215,0.00786381,0.821715
+Start of post-Yarinacocha period,740,1210,0.00772641,0.82951
+Start of post-Yarinacocha period,745,1205,0.00761256,0.837179
+Start of post-Yarinacocha period,750,1200,0.00736333,0.844667
+Start of post-Yarinacocha period,755,1195,0.00724749,0.851973
+Start of post-Yarinacocha period,760,1190,0.0070399,0.859117
+Start of post-Yarinacocha period,765,1185,0.00694391,0.866108
+Start of post-Yarinacocha period,770,1180,0.00680628,0.872984
+Start of post-Yarinacocha period,775,1175,0.0065285,0.879651
+Start of post-Yarinacocha period,780,1170,0.00629065,0.886061
+Start of post-Yarinacocha period,785,1165,0.00619095,0.892301
+Start of post-Yarinacocha period,790,1160,0.00587745,0.898336
+Start of post-Yarinacocha period,795,1155,0.00569343,0.904121
+Start of post-Yarinacocha period,800,1150,0.00545187,0.909694
+Start of post-Yarinacocha period,805,1145,0.00529115,0.915065
+Start of post-Yarinacocha period,810,1140,0.00494988,0.920186
+Start of post-Yarinacocha period,815,1135,0.00475594,0.925039
+Start of post-Yarinacocha period,820,1130,0.00471005,0.929772
+Start of post-Yarinacocha period,825,1125,0.00433927,0.934296
+Start of post-Yarinacocha period,830,1120,0.00412994,0.938531
+Start of post-Yarinacocha period,835,1115,0.00386531,0.942528
+Start of post-Yarinacocha period,840,1110,0.0036927,0.946307
+Start of post-Yarinacocha period,845,1105,0.00354116,0.949924
+Start of post-Yarinacocha period,850,1100,0.00330108,0.953345
+Start of post-Yarinacocha period,855,1095,0.00315549,0.956574
+Start of post-Yarinacocha period,860,1090,0.0028993,0.959601
+Start of post-Yarinacocha period,865,1085,0.002748,0.962425
+Start of post-Yarinacocha period,870,1080,0.002561,0.965079
+Start of post-Yarinacocha period,875,1075,0.00238441,0.967552
+Start of post-Yarinacocha period,880,1070,0.00223065,0.96986
+Start of post-Yarinacocha period,885,1065,0.00214334,0.972047
+Start of post-Yarinacocha period,890,1060,0.00197296,0.974105
+Start of post-Yarinacocha period,895,1055,0.00180233,0.975992
+Start of post-Yarinacocha period,900,1050,0.00173238,0.97776
+Start of post-Yarinacocha period,905,1045,0.00167485,0.979463
+Start of post-Yarinacocha period,910,1040,0.00155753,0.981079
+Start of post-Yarinacocha period,915,1035,0.00143948,0.982578
+Start of post-Yarinacocha period,920,1030,0.00127529,0.983935
+Start of post-Yarinacocha period,925,1025,0.00120635,0.985176
+Start of post-Yarinacocha period,930,1020,0.00114683,0.986353
+Start of post-Yarinacocha period,935,1015,0.00107886,0.987466
+Start of post-Yarinacocha period,940,1010,0.000993549,0.988502
+Start of post-Yarinacocha period,945,1005,0.000888388,0.989443
+Start of post-Yarinacocha period,950,1000,0.000810762,0.990292
+Start of post-Yarinacocha period,955,995,0.000786949,0.991091
+Start of post-Yarinacocha period,960,990,0.000678565,0.991824
+Start of post-Yarinacocha period,965,985,0.000620779,0.992474
+Start of post-Yarinacocha period,970,980,0.000619541,0.993094
+Start of post-Yarinacocha period,975,975,0.000573413,0.99369
+Start of post-Yarinacocha period,980,970,0.00053472,0.994244
+Start of post-Yarinacocha period,985,965,0.000457592,0.99474
+Start of post-Yarinacocha period,990,960,0.000484619,0.995212
+Start of post-Yarinacocha period,995,955,0.000389138,0.995648
+Start of post-Yarinacocha period,1000,950,0.000364328,0.996025
+Start of post-Yarinacocha period,1005,945,0.000353918,0.996384
+Start of post-Yarinacocha period,1010,940,0.000303319,0.996713
+Start of post-Yarinacocha period,1015,935,0.000316712,0.997023
+Start of post-Yarinacocha period,1020,930,0.000243058,0.997303
+Start of post-Yarinacocha period,1025,925,0.000271572,0.99756
+Start of post-Yarinacocha period,1030,920,0.000224205,0.997808
+Start of post-Yarinacocha period,1035,915,0.000230154,0.998035
+Start of post-Yarinacocha period,1040,910,0.000187498,0.998244
+Start of post-Yarinacocha period,1045,905,0.000203127,0.998439
+Start of post-Yarinacocha period,1050,900,0.000157737,0.99862
+Start of post-Yarinacocha period,1055,895,0.000145582,0.998771
+Start of post-Yarinacocha period,1060,890,0.000137398,0.998913
+Start of post-Yarinacocha period,1065,885,0.000146579,0.999055
+Start of post-Yarinacocha period,1070,880,0.000148066,0.999202
+Start of post-Yarinacocha period,1075,875,0.00012599,0.999339
+Start of post-Yarinacocha period,1080,870,0.000111608,0.999458
+Start of post-Yarinacocha period,1085,865,9.6728e-05,0.999562
+Start of post-Yarinacocha period,1090,860,0.000125491,0.999673
+Start of post-Yarinacocha period,1095,855,0.000107387,0.99979
+Start of post-Yarinacocha period,1100,850,0.00011582,0.999901
+Start of post-Yarinacocha period,1105,845,4.06697e-05,0.99998
+Jose's Hill Yarinacocha (N-313),-340,2290,0,0
+Jose's Hill Yarinacocha (N-313),-335,2285,2.50495e-05,1.25248e-05
+Jose's Hill Yarinacocha (N-313),-330,2280,4.26625e-05,4.63808e-05
+Jose's Hill Yarinacocha (N-313),-325,2275,4.73756e-05,9.13998e-05
+Jose's Hill Yarinacocha (N-313),-320,2270,3.54705e-05,0.000132823
+Jose's Hill Yarinacocha (N-313),-315,2265,1.9097e-05,0.000160107
+Jose's Hill Yarinacocha (N-313),-310,2260,2.38101e-05,0.00018156
+Jose's Hill Yarinacocha (N-313),-305,2255,1.76129e-05,0.000202272
+Jose's Hill Yarinacocha (N-313),-300,2250,1.63735e-05,0.000219265
+Jose's Hill Yarinacocha (N-313),-295,2245,2.05811e-05,0.000237742
+Jose's Hill Yarinacocha (N-313),-290,2240,2.15759e-05,0.000258821
+Jose's Hill Yarinacocha (N-313),-285,2235,1.93416e-05,0.000279279
+Jose's Hill Yarinacocha (N-313),-280,2230,1.56233e-05,0.000296762
+Jose's Hill Yarinacocha (N-313),-275,2225,1.48732e-05,0.00031201
+Jose's Hill Yarinacocha (N-313),-270,2220,1.28999e-05,0.000325897
+Jose's Hill Yarinacocha (N-313),-265,2215,1.36337e-05,0.000339163
+Jose's Hill Yarinacocha (N-313),-260,2210,1.33891e-05,0.000352675
+Jose's Hill Yarinacocha (N-313),-255,2205,1.78576e-05,0.000368298
+Jose's Hill Yarinacocha (N-313),-250,2200,1.88524e-05,0.000386653
+Jose's Hill Yarinacocha (N-313),-245,2195,1.68628e-05,0.000404511
+Jose's Hill Yarinacocha (N-313),-240,2190,1.53787e-05,0.000420631
+Jose's Hill Yarinacocha (N-313),-235,2185,1.95862e-05,0.000438114
+Jose's Hill Yarinacocha (N-313),-230,2180,2.05811e-05,0.000458197
+Jose's Hill Yarinacocha (N-313),-225,2175,2.18205e-05,0.000479398
+Jose's Hill Yarinacocha (N-313),-220,2170,2.55388e-05,0.000503078
+Jose's Hill Yarinacocha (N-313),-215,2165,2.25707e-05,0.000527133
+Jose's Hill Yarinacocha (N-313),-210,2160,2.00918e-05,0.000548464
+Jose's Hill Yarinacocha (N-313),-205,2155,3.19968e-05,0.000574508
+Jose's Hill Yarinacocha (N-313),-200,2150,4.56306e-05,0.000613322
+Jose's Hill Yarinacocha (N-313),-195,2145,6.34881e-05,0.000667881
+Jose's Hill Yarinacocha (N-313),-190,2140,9.10165e-05,0.000745134
+Jose's Hill Yarinacocha (N-313),-185,2135,0.000107145,0.000844214
+Jose's Hill Yarinacocha (N-313),-180,2130,0.000114093,0.000954834
+Jose's Hill Yarinacocha (N-313),-175,2125,0.000139142,0.00108145
+Jose's Hill Yarinacocha (N-313),-170,2120,0.000181299,0.00124167
+Jose's Hill Yarinacocha (N-313),-165,2115,0.000206349,0.0014355
+Jose's Hill Yarinacocha (N-313),-160,2110,0.000245537,0.00166144
+Jose's Hill Yarinacocha (N-313),-155,2105,0.00026165,0.00191503
+Jose's Hill Yarinacocha (N-313),-150,2100,0.000316462,0.00220409
+Jose's Hill Yarinacocha (N-313),-145,2095,0.000358635,0.00254164
+Jose's Hill Yarinacocha (N-313),-140,2090,0.000420395,0.00293115
+Jose's Hill Yarinacocha (N-313),-135,2085,0.000439981,0.00336134
+Jose's Hill Yarinacocha (N-313),-130,2080,0.000460318,0.00381149
+Jose's Hill Yarinacocha (N-313),-125,2075,0.000447173,0.00426524
+Jose's Hill Yarinacocha (N-313),-120,2070,0.000435757,0.0047067
+Jose's Hill Yarinacocha (N-313),-115,2065,0.000449897,0.00514953
+Jose's Hill Yarinacocha (N-313),-110,2060,0.000484372,0.00561666
+Jose's Hill Yarinacocha (N-313),-105,2055,0.00053894,0.00612832
+Jose's Hill Yarinacocha (N-313),-100,2050,0.000644096,0.00671984
+Jose's Hill Yarinacocha (N-313),-95,2045,0.000683774,0.00738377
+Jose's Hill Yarinacocha (N-313),-90,2040,0.000796872,0.00812409
+Jose's Hill Yarinacocha (N-313),-85,2035,0.000871775,0.00895842
+Jose's Hill Yarinacocha (N-313),-80,2030,0.000872526,0.00983057
+Jose's Hill Yarinacocha (N-313),-75,2025,0.000754959,0.0106443
+Jose's Hill Yarinacocha (N-313),-70,2020,0.000746528,0.0113951
+Jose's Hill Yarinacocha (N-313),-65,2015,0.000786206,0.0121614
+Jose's Hill Yarinacocha (N-313),-60,2010,0.000878217,0.0129936
+Jose's Hill Yarinacocha (N-313),-55,2005,0.00106522,0.0139654
+Jose's Hill Yarinacocha (N-313),-50,2000,0.00144048,0.0152182
+Jose's Hill Yarinacocha (N-313),-45,1995,0.00197322,0.0169251
+Jose's Hill Yarinacocha (N-313),-40,1990,0.00260119,0.0192123
+Jose's Hill Yarinacocha (N-313),-35,1985,0.00314037,0.022083
+Jose's Hill Yarinacocha (N-313),-30,1980,0.00339038,0.0253484
+Jose's Hill Yarinacocha (N-313),-25,1975,0.0034432,0.0287652
+Jose's Hill Yarinacocha (N-313),-20,1970,0.00339956,0.0321866
+Jose's Hill Yarinacocha (N-313),-15,1965,0.00316568,0.0354692
+Jose's Hill Yarinacocha (N-313),-10,1960,0.00281721,0.0384606
+Jose's Hill Yarinacocha (N-313),-5,1955,0.00265401,0.0411963
+Jose's Hill Yarinacocha (N-313),0,1950,0.00273834,0.0438924
+Jose's Hill Yarinacocha (N-313),5,1945,0.00284524,0.0466842
+Jose's Hill Yarinacocha (N-313),10,1940,0.00307241,0.049643
+Jose's Hill Yarinacocha (N-313),15,1935,0.00339832,0.0528784
+Jose's Hill Yarinacocha (N-313),20,1930,0.0039561,0.0565556
+Jose's Hill Yarinacocha (N-313),25,1925,0.00483309,0.0609502
+Jose's Hill Yarinacocha (N-313),30,1920,0.00550024,0.0661169
+Jose's Hill Yarinacocha (N-313),35,1915,0.00579712,0.0717656
+Jose's Hill Yarinacocha (N-313),40,1910,0.00585293,0.0775906
+Jose's Hill Yarinacocha (N-313),45,1905,0.00567907,0.0833566
+Jose's Hill Yarinacocha (N-313),50,1900,0.00552653,0.0889594
+Jose's Hill Yarinacocha (N-313),55,1895,0.00569369,0.0945695
+Jose's Hill Yarinacocha (N-313),60,1890,0.00635144,0.100592
+Jose's Hill Yarinacocha (N-313),65,1885,0.00722941,0.107382
+Jose's Hill Yarinacocha (N-313),70,1880,0.00766196,0.114828
+Jose's Hill Yarinacocha (N-313),75,1875,0.0080997,0.122709
+Jose's Hill Yarinacocha (N-313),80,1870,0.00868155,0.1311
+Jose's Hill Yarinacocha (N-313),85,1865,0.00955853,0.14022
+Jose's Hill Yarinacocha (N-313),90,1860,0.0100233,0.150011
+Jose's Hill Yarinacocha (N-313),95,1855,0.00980332,0.159924
+Jose's Hill Yarinacocha (N-313),100,1850,0.00902182,0.169336
+Jose's Hill Yarinacocha (N-313),105,1845,0.00897544,0.178335
+Jose's Hill Yarinacocha (N-313),110,1840,0.0091064,0.187376
+Jose's Hill Yarinacocha (N-313),115,1835,0.0100699,0.196964
+Jose's Hill Yarinacocha (N-313),120,1830,0.0109152,0.207457
+Jose's Hill Yarinacocha (N-313),125,1825,0.0119616,0.218895
+Jose's Hill Yarinacocha (N-313),130,1820,0.0128301,0.231291
+Jose's Hill Yarinacocha (N-313),135,1815,0.013192,0.244302
+Jose's Hill Yarinacocha (N-313),140,1810,0.0134013,0.257599
+Jose's Hill Yarinacocha (N-313),145,1805,0.0134745,0.271036
+Jose's Hill Yarinacocha (N-313),150,1800,0.0136902,0.284619
+Jose's Hill Yarinacocha (N-313),155,1795,0.0138522,0.29839
+Jose's Hill Yarinacocha (N-313),160,1790,0.0138666,0.312249
+Jose's Hill Yarinacocha (N-313),165,1785,0.014213,0.326289
+Jose's Hill Yarinacocha (N-313),170,1780,0.0143867,0.340589
+Jose's Hill Yarinacocha (N-313),175,1775,0.0144514,0.355008
+Jose's Hill Yarinacocha (N-313),180,1770,0.0145915,0.36953
+Jose's Hill Yarinacocha (N-313),185,1765,0.0145806,0.384116
+Jose's Hill Yarinacocha (N-313),190,1760,0.0143509,0.398581
+Jose's Hill Yarinacocha (N-313),195,1755,0.0144102,0.412962
+Jose's Hill Yarinacocha (N-313),200,1750,0.014967,0.427651
+Jose's Hill Yarinacocha (N-313),205,1745,0.015401,0.442835
+Jose's Hill Yarinacocha (N-313),210,1740,0.0158053,0.458438
+Jose's Hill Yarinacocha (N-313),215,1735,0.0160479,0.474364
+Jose's Hill Yarinacocha (N-313),220,1730,0.0159293,0.490353
+Jose's Hill Yarinacocha (N-313),225,1725,0.0162076,0.506421
+Jose's Hill Yarinacocha (N-313),230,1720,0.0163083,0.522679
+Jose's Hill Yarinacocha (N-313),235,1715,0.0160905,0.538879
+Jose's Hill Yarinacocha (N-313),240,1710,0.0159618,0.554905
+Jose's Hill Yarinacocha (N-313),245,1705,0.0154258,0.570599
+Jose's Hill Yarinacocha (N-313),250,1700,0.0142964,0.58546
+Jose's Hill Yarinacocha (N-313),255,1695,0.0125374,0.598877
+Jose's Hill Yarinacocha (N-313),260,1690,0.0109529,0.610622
+Jose's Hill Yarinacocha (N-313),265,1685,0.0100365,0.621116
+Jose's Hill Yarinacocha (N-313),270,1680,0.0098797,0.631075
+Jose's Hill Yarinacocha (N-313),275,1675,0.0105402,0.641285
+Jose's Hill Yarinacocha (N-313),280,1670,0.011563,0.652336
+Jose's Hill Yarinacocha (N-313),285,1665,0.0124806,0.664358
+Jose's Hill Yarinacocha (N-313),290,1660,0.0132361,0.677216
+Jose's Hill Yarinacocha (N-313),295,1655,0.0141803,0.690925
+Jose's Hill Yarinacocha (N-313),300,1650,0.0151617,0.705596
+Jose's Hill Yarinacocha (N-313),305,1645,0.0154318,0.720892
+Jose's Hill Yarinacocha (N-313),310,1640,0.0154876,0.736352
+Jose's Hill Yarinacocha (N-313),315,1635,0.0154509,0.751821
+Jose's Hill Yarinacocha (N-313),320,1630,0.014935,0.767014
+Jose's Hill Yarinacocha (N-313),325,1625,0.0146111,0.781787
+Jose's Hill Yarinacocha (N-313),330,1620,0.0139447,0.796065
+Jose's Hill Yarinacocha (N-313),335,1615,0.0132103,0.809643
+Jose's Hill Yarinacocha (N-313),340,1610,0.0118165,0.822156
+Jose's Hill Yarinacocha (N-313),345,1605,0.0108281,0.833478
+Jose's Hill Yarinacocha (N-313),350,1600,0.0104559,0.84412
+Jose's Hill Yarinacocha (N-313),355,1595,0.0107051,0.854701
+Jose's Hill Yarinacocha (N-313),360,1590,0.01041,0.865258
+Jose's Hill Yarinacocha (N-313),365,1585,0.00921354,0.87507
+Jose's Hill Yarinacocha (N-313),370,1580,0.00868155,0.884018
+Jose's Hill Yarinacocha (N-313),375,1575,0.00848784,0.892602
+Jose's Hill Yarinacocha (N-313),380,1570,0.00816591,0.900929
+Jose's Hill Yarinacocha (N-313),385,1565,0.00780606,0.908915
+Jose's Hill Yarinacocha (N-313),390,1560,0.00730531,0.916471
+Jose's Hill Yarinacocha (N-313),395,1555,0.00697471,0.923611
+Jose's Hill Yarinacocha (N-313),400,1550,0.00737524,0.930786
+Jose's Hill Yarinacocha (N-313),405,1545,0.00718403,0.938065
+Jose's Hill Yarinacocha (N-313),410,1540,0.00626959,0.944792
+Jose's Hill Yarinacocha (N-313),415,1535,0.00479242,0.950323
+Jose's Hill Yarinacocha (N-313),420,1530,0.00343527,0.954437
+Jose's Hill Yarinacocha (N-313),425,1525,0.00274454,0.957527
+Jose's Hill Yarinacocha (N-313),430,1520,0.00230878,0.960054
+Jose's Hill Yarinacocha (N-313),435,1515,0.00191443,0.962165
+Jose's Hill Yarinacocha (N-313),440,1510,0.0015754,0.96391
+Jose's Hill Yarinacocha (N-313),445,1505,0.00139137,0.965394
+Jose's Hill Yarinacocha (N-313),450,1500,0.00155778,0.966868
+Jose's Hill Yarinacocha (N-313),455,1495,0.00161036,0.968452
+Jose's Hill Yarinacocha (N-313),460,1490,0.00170585,0.97011
+Jose's Hill Yarinacocha (N-313),465,1485,0.00185218,0.971889
+Jose's Hill Yarinacocha (N-313),470,1480,0.00190874,0.97377
+Jose's Hill Yarinacocha (N-313),475,1475,0.00172545,0.975587
+Jose's Hill Yarinacocha (N-313),480,1470,0.00144592,0.977173
+Jose's Hill Yarinacocha (N-313),485,1465,0.00134796,0.97857
+Jose's Hill Yarinacocha (N-313),490,1460,0.00135218,0.97992
+Jose's Hill Yarinacocha (N-313),495,1455,0.00145437,0.981323
+Jose's Hill Yarinacocha (N-313),500,1450,0.00156077,0.98283
+Jose's Hill Yarinacocha (N-313),505,1445,0.00160615,0.984414
+Jose's Hill Yarinacocha (N-313),510,1440,0.00166716,0.986051
+Jose's Hill Yarinacocha (N-313),515,1435,0.00179663,0.987782
+Jose's Hill Yarinacocha (N-313),520,1430,0.00180233,0.989582
+Jose's Hill Yarinacocha (N-313),525,1425,0.0016555,0.991311
+Jose's Hill Yarinacocha (N-313),530,1420,0.0013631,0.99282
+Jose's Hill Yarinacocha (N-313),535,1415,0.00107912,0.994041
+Jose's Hill Yarinacocha (N-313),540,1410,0.000796872,0.994979
+Jose's Hill Yarinacocha (N-313),545,1405,0.00054985,0.995653
+Jose's Hill Yarinacocha (N-313),550,1400,0.000446928,0.996151
+Jose's Hill Yarinacocha (N-313),555,1395,0.000387892,0.996568
+Jose's Hill Yarinacocha (N-313),560,1390,0.000415926,0.99697
+Jose's Hill Yarinacocha (N-313),565,1385,0.000414181,0.997385
+Jose's Hill Yarinacocha (N-313),570,1380,0.000385919,0.997785
+Jose's Hill Yarinacocha (N-313),575,1375,0.000314978,0.998136
+Jose's Hill Yarinacocha (N-313),580,1370,0.000214535,0.998401
+Jose's Hill Yarinacocha (N-313),585,1365,0.000196433,0.998606
+Jose's Hill Yarinacocha (N-313),590,1360,0.000170634,0.99879
+Jose's Hill Yarinacocha (N-313),595,1355,0.000150297,0.99895
+Jose's Hill Yarinacocha (N-313),600,1350,0.000120045,0.999085
+Jose's Hill Yarinacocha (N-313),605,1345,9.17667e-05,0.999191
+Jose's Hill Yarinacocha (N-313),610,1340,7.36645e-05,0.999274
+Jose's Hill Yarinacocha (N-313),615,1335,7.14303e-05,0.999346
+Jose's Hill Yarinacocha (N-313),620,1330,7.71382e-05,0.999421
+Jose's Hill Yarinacocha (N-313),625,1325,6.79566e-05,0.999493
+Jose's Hill Yarinacocha (N-313),630,1320,7.41538e-05,0.999564
+Jose's Hill Yarinacocha (N-313),635,1315,6.20041e-05,0.999632
+Jose's Hill Yarinacocha (N-313),640,1310,4.8615e-05,0.999688
+Jose's Hill Yarinacocha (N-313),645,1305,3.8194e-05,0.999731
+Jose's Hill Yarinacocha (N-313),650,1300,3.47203e-05,0.999768
+Jose's Hill Yarinacocha (N-313),655,1295,3.57151e-05,0.999803
+Jose's Hill Yarinacocha (N-313),660,1290,2.85232e-05,0.999835
+Jose's Hill Yarinacocha (N-313),665,1285,3.24861e-05,0.999865
+Jose's Hill Yarinacocha (N-313),670,1280,3.47203e-05,0.999899
+Jose's Hill Yarinacocha (N-313),675,1275,2.67782e-05,0.99993
+Jose's Hill Yarinacocha (N-313),680,1270,2.00918e-05,0.999953
+Jose's Hill Yarinacocha (N-313),685,1265,2.60443e-05,0.999976
+Jose's Hill Yarinacocha (N-313),690,1260,1.06656e-05,0.999995
+Nueva Esperanza (N-312),525,1425,0,0
+Nueva Esperanza (N-312),530,1420,1.24618e-06,6.23089e-07
+Nueva Esperanza (N-312),535,1415,3.22641e-06,2.85938e-06
+Nueva Esperanza (N-312),540,1410,4.96764e-06,6.9564e-06
+Nueva Esperanza (N-312),545,1405,8.67203e-06,1.37762e-05
+Nueva Esperanza (N-312),550,1400,1.16594e-05,2.3942e-05
+Nueva Esperanza (N-312),555,1395,1.6115e-05,3.78292e-05
+Nueva Esperanza (N-312),560,1390,1.98364e-05,5.58049e-05
+Nueva Esperanza (N-312),565,1385,2.23288e-05,7.68875e-05
+Nueva Esperanza (N-312),570,1380,2.10826e-05,9.85931e-05
+Nueva Esperanza (N-312),575,1375,3.2247e-05,0.000125258
+Nueva Esperanza (N-312),580,1370,3.69586e-05,0.000159861
+Nueva Esperanza (N-312),585,1365,4.71158e-05,0.000201898
+Nueva Esperanza (N-312),590,1360,5.43197e-05,0.000252616
+Nueva Esperanza (N-312),595,1355,8.1599e-05,0.000320575
+Nueva Esperanza (N-312),600,1350,9.22684e-05,0.000407509
+Nueva Esperanza (N-312),605,1345,0.000131446,0.000519366
+Nueva Esperanza (N-312),610,1340,0.00017187,0.000671024
+Nueva Esperanza (N-312),615,1335,0.000214035,0.000863977
+Nueva Esperanza (N-312),620,1330,0.000213796,0.00107789
+Nueva Esperanza (N-312),625,1325,0.000219993,0.00129479
+Nueva Esperanza (N-312),630,1320,0.000207839,0.0015087
+Nueva Esperanza (N-312),635,1315,0.000213796,0.00171952
+Nueva Esperanza (N-312),640,1310,0.000261168,0.001957
+Nueva Esperanza (N-312),645,1305,0.000353419,0.0022643
+Nueva Esperanza (N-312),650,1300,0.000515132,0.00269857
+Nueva Esperanza (N-312),655,1295,0.000742056,0.00332717
+Nueva Esperanza (N-312),660,1290,0.00101413,0.00420526
+Nueva Esperanza (N-312),665,1285,0.00143106,0.00542786
+Nueva Esperanza (N-312),670,1280,0.00181152,0.00704914
+Nueva Esperanza (N-312),675,1275,0.00228547,0.00909764
+Nueva Esperanza (N-312),680,1270,0.00290426,0.0116925
+Nueva Esperanza (N-312),685,1265,0.00341122,0.0148502
+Nueva Esperanza (N-312),690,1260,0.00419544,0.0186536
+Nueva Esperanza (N-312),695,1255,0.00486061,0.0231816
+Nueva Esperanza (N-312),700,1250,0.00524653,0.0282352
+Nueva Esperanza (N-312),705,1245,0.00551488,0.0336159
+Nueva Esperanza (N-312),710,1240,0.00597073,0.0393587
+Nueva Esperanza (N-312),715,1235,0.0063931,0.0455406
+Nueva Esperanza (N-312),720,1230,0.00667311,0.0520737
+Nueva Esperanza (N-312),725,1225,0.00696875,0.0588946
+Nueva Esperanza (N-312),730,1220,0.00714633,0.0659521
+Nueva Esperanza (N-312),735,1215,0.00732838,0.0731895
+Nueva Esperanza (N-312),740,1210,0.0072485,0.0804779
+Nueva Esperanza (N-312),745,1205,0.00683855,0.0875215
+Nueva Esperanza (N-312),750,1200,0.00637823,0.0941299
+Nueva Esperanza (N-312),755,1195,0.00607739,0.100358
+Nueva Esperanza (N-312),760,1190,0.00596677,0.10638
+Nueva Esperanza (N-312),765,1185,0.00596851,0.112347
+Nueva Esperanza (N-312),770,1180,0.00636259,0.118513
+Nueva Esperanza (N-312),775,1175,0.00780333,0.125596
+Nueva Esperanza (N-312),780,1170,0.00976563,0.13438
+Nueva Esperanza (N-312),785,1165,0.0108609,0.144694
+Nueva Esperanza (N-312),790,1160,0.0113296,0.155789
+Nueva Esperanza (N-312),795,1155,0.0115,0.167204
+Nueva Esperanza (N-312),800,1150,0.0117599,0.178834
+Nueva Esperanza (N-312),805,1145,0.0119234,0.190675
+Nueva Esperanza (N-312),810,1140,0.0125496,0.202912
+Nueva Esperanza (N-312),815,1135,0.012537,0.215455
+Nueva Esperanza (N-312),820,1130,0.0124995,0.227973
+Nueva Esperanza (N-312),825,1125,0.012714,0.24058
+Nueva Esperanza (N-312),830,1120,0.0130454,0.25346
+Nueva Esperanza (N-312),835,1115,0.0131381,0.266552
+Nueva Esperanza (N-312),840,1110,0.0136419,0.279942
+Nueva Esperanza (N-312),845,1105,0.0139685,0.293747
+Nueva Esperanza (N-312),850,1100,0.0142691,0.307865
+Nueva Esperanza (N-312),855,1095,0.0143584,0.322179
+Nueva Esperanza (N-312),860,1090,0.0144965,0.336607
+Nueva Esperanza (N-312),865,1085,0.0143522,0.351031
+Nueva Esperanza (N-312),870,1080,0.014499,0.365457
+Nueva Esperanza (N-312),875,1075,0.0147562,0.380084
+Nueva Esperanza (N-312),880,1070,0.0153098,0.395117
+Nueva Esperanza (N-312),885,1065,0.0155196,0.410532
+Nueva Esperanza (N-312),890,1060,0.0158693,0.426226
+Nueva Esperanza (N-312),895,1055,0.016251,0.442286
+Nueva Esperanza (N-312),900,1050,0.0158705,0.458347
+Nueva Esperanza (N-312),905,1045,0.0156624,0.474114
+Nueva Esperanza (N-312),910,1040,0.0156823,0.489786
+Nueva Esperanza (N-312),915,1035,0.0156711,0.505463
+Nueva Esperanza (N-312),920,1030,0.0156699,0.521133
+Nueva Esperanza (N-312),925,1025,0.0158341,0.536885
+Nueva Esperanza (N-312),930,1020,0.0159134,0.552759
+Nueva Esperanza (N-312),935,1015,0.0166624,0.569047
+Nueva Esperanza (N-312),940,1010,0.0165811,0.585669
+Nueva Esperanza (N-312),945,1005,0.0169655,0.602442
+Nueva Esperanza (N-312),950,1000,0.0167884,0.619319
+Nueva Esperanza (N-312),955,995,0.0170709,0.636249
+Nueva Esperanza (N-312),960,990,0.0170196,0.653294
+Nueva Esperanza (N-312),965,985,0.0167619,0.670185
+Nueva Esperanza (N-312),970,980,0.0165069,0.686819
+Nueva Esperanza (N-312),975,975,0.0164467,0.703296
+Nueva Esperanza (N-312),980,970,0.0162989,0.719669
+Nueva Esperanza (N-312),985,965,0.0161121,0.735874
+Nueva Esperanza (N-312),990,960,0.0159191,0.75189
+Nueva Esperanza (N-312),995,955,0.0145047,0.767102
+Nueva Esperanza (N-312),1000,950,0.0131699,0.780939
+Nueva Esperanza (N-312),1005,945,0.0125248,0.793786
+Nueva Esperanza (N-312),1010,940,0.0125536,0.806326
+Nueva Esperanza (N-312),1015,935,0.0124174,0.818811
+Nueva Esperanza (N-312),1020,930,0.0119206,0.83098
+Nueva Esperanza (N-312),1025,925,0.010875,0.842378
+Nueva Esperanza (N-312),1030,920,0.00972818,0.852679
+Nueva Esperanza (N-312),1035,915,0.00860615,0.861847
+Nueva Esperanza (N-312),1040,910,0.00772618,0.870013
+Nueva Esperanza (N-312),1045,905,0.00712549,0.877439
+Nueva Esperanza (N-312),1050,900,0.0064876,0.884245
+Nueva Esperanza (N-312),1055,895,0.00565724,0.890318
+Nueva Esperanza (N-312),1060,890,0.00508159,0.895687
+Nueva Esperanza (N-312),1065,885,0.0047113,0.900583
+Nueva Esperanza (N-312),1070,880,0.00450174,0.90519
+Nueva Esperanza (N-312),1075,875,0.00413195,0.909507
+Nueva Esperanza (N-312),1080,870,0.00391443,0.91353
+Nueva Esperanza (N-312),1085,865,0.00390178,0.917438
+Nueva Esperanza (N-312),1090,860,0.00402258,0.9214
+Nueva Esperanza (N-312),1095,855,0.00403398,0.925429
+Nueva Esperanza (N-312),1100,850,0.00398562,0.929438
+Nueva Esperanza (N-312),1105,845,0.00381076,0.933337
+Nueva Esperanza (N-312),1110,840,0.00379861,0.937141
+Nueva Esperanza (N-312),1115,835,0.00370956,0.940895
+Nueva Esperanza (N-312),1120,830,0.00366692,0.944584
+Nueva Esperanza (N-312),1125,825,0.00359871,0.948216
+Nueva Esperanza (N-312),1130,820,0.00347322,0.951752
+Nueva Esperanza (N-312),1135,815,0.003374,0.955176
+Nueva Esperanza (N-312),1140,810,0.00318154,0.958454
+Nueva Esperanza (N-312),1145,805,0.00319245,0.961641
+Nueva Esperanza (N-312),1150,800,0.00304663,0.96476
+Nueva Esperanza (N-312),1155,795,0.00271006,0.967639
+Nueva Esperanza (N-312),1160,790,0.00240203,0.970195
+Nueva Esperanza (N-312),1165,785,0.00210937,0.97245
+Nueva Esperanza (N-312),1170,780,0.00203199,0.974521
+Nueva Esperanza (N-312),1175,775,0.00176488,0.976419
+Nueva Esperanza (N-312),1180,770,0.00169098,0.978147
+Nueva Esperanza (N-312),1185,765,0.00157565,0.979781
+Nueva Esperanza (N-312),1190,760,0.0014117,0.981274
+Nueva Esperanza (N-312),1195,755,0.00132936,0.982645
+Nueva Esperanza (N-312),1200,750,0.00126117,0.98394
+Nueva Esperanza (N-312),1205,745,0.00120883,0.985175
+Nueva Esperanza (N-312),1210,740,0.0010563,0.986308
+Nueva Esperanza (N-312),1215,735,0.000986614,0.987329
+Nueva Esperanza (N-312),1220,730,0.000912202,0.988279
+Nueva Esperanza (N-312),1225,725,0.000816963,0.989143
+Nueva Esperanza (N-312),1230,720,0.00073784,0.989921
+Nueva Esperanza (N-312),1235,715,0.000637155,0.990608
+Nueva Esperanza (N-312),1240,710,0.000620784,0.991237
+Nueva Esperanza (N-312),1245,705,0.000570442,0.991833
+Nueva Esperanza (N-312),1250,700,0.000545143,0.99239
+Nueva Esperanza (N-312),1255,695,0.000502978,0.992915
+Nueva Esperanza (N-312),1260,690,0.000455845,0.993394
+Nueva Esperanza (N-312),1265,685,0.000467761,0.993856
+Nueva Esperanza (N-312),1270,680,0.000423359,0.994301
+Nueva Esperanza (N-312),1275,675,0.000371276,0.994699
+Nueva Esperanza (N-312),1280,670,0.000357892,0.995063
+Nueva Esperanza (N-312),1285,665,0.000311254,0.995398
+Nueva Esperanza (N-312),1290,660,0.000320933,0.995714
+Nueva Esperanza (N-312),1295,655,0.000280253,0.996014
+Nueva Esperanza (N-312),1300,650,0.000244797,0.996277
+Nueva Esperanza (N-312),1305,645,0.000245531,0.996522
+Nueva Esperanza (N-312),1310,640,0.000217262,0.996754
+Nueva Esperanza (N-312),1315,635,0.000200157,0.996962
+Nueva Esperanza (N-312),1320,630,0.000217006,0.997171
+Nueva Esperanza (N-312),1325,625,0.000171136,0.997365
+Nueva Esperanza (N-312),1330,620,0.000173355,0.997537
+Nueva Esperanza (N-312),1335,615,0.000159716,0.997704
+Nueva Esperanza (N-312),1340,610,0.000164427,0.997866
+Nueva Esperanza (N-312),1345,605,0.000141859,0.998019
+Nueva Esperanza (N-312),1350,600,0.000126001,0.998153
+Nueva Esperanza (N-312),1355,595,0.000120538,0.998276
+Nueva Esperanza (N-312),1360,590,0.000136158,0.998404
+Nueva Esperanza (N-312),1365,585,0.00011062,0.998528
+Nueva Esperanza (N-312),1370,580,9.87041e-05,0.998632
+Nueva Esperanza (N-312),1375,575,0.000107137,0.998735
+Nueva Esperanza (N-312),1380,570,9.02711e-05,0.998834
+Nueva Esperanza (N-312),1385,565,9.42486e-05,0.998926
+Nueva Esperanza (N-312),1390,560,8.28452e-05,0.999015
+Nueva Esperanza (N-312),1395,555,7.19198e-05,0.999092
+Nueva Esperanza (N-312),1400,550,7.78776e-05,0.999167
+Nueva Esperanza (N-312),1405,545,6.4972e-05,0.999239
+Nueva Esperanza (N-312),1410,540,6.32478e-05,0.999303
+Nueva Esperanza (N-312),1415,535,6.22577e-05,0.999365
+Nueva Esperanza (N-312),1420,530,4.56306e-05,0.999419
+Nueva Esperanza (N-312),1425,525,5.40636e-05,0.999469
+Nueva Esperanza (N-312),1430,520,5.13323e-05,0.999522
+Nueva Esperanza (N-312),1435,515,4.61256e-05,0.999571
+Nueva Esperanza (N-312),1440,510,3.2981e-05,0.99961
+Nueva Esperanza (N-312),1445,505,3.94338e-05,0.999646
+Nueva Esperanza (N-312),1450,500,3.2742e-05,0.999683
+Nueva Esperanza (N-312),1455,495,2.92596e-05,0.999714
+Nueva Esperanza (N-312),1460,490,2.57942e-05,0.999741
+Nueva Esperanza (N-312),1465,485,2.4309e-05,0.999766
+Nueva Esperanza (N-312),1470,480,2.70404e-05,0.999792
+Nueva Esperanza (N-312),1475,475,3.05057e-05,0.999821
+Nueva Esperanza (N-312),1480,470,1.86073e-05,0.999845
+Nueva Esperanza (N-312),1485,465,1.56199e-05,0.999862
+Nueva Esperanza (N-312),1490,460,1.51248e-05,0.999878
+Nueva Esperanza (N-312),1495,455,1.51248e-05,0.999893
+Nueva Esperanza (N-312),1500,450,1.41347e-05,0.999907
+Nueva Esperanza (N-312),1505,445,1.53809e-05,0.999922
+Nueva Esperanza (N-312),1510,440,1.6371e-05,0.999938
+Nueva Esperanza (N-312),1515,435,1.36397e-05,0.999953
+Nueva Esperanza (N-312),1520,430,8.67203e-06,0.999964
+Nueva Esperanza (N-312),1525,425,7.93798e-06,0.999972
+Nueva Esperanza (N-312),1530,420,1.6115e-05,0.999984
+Nueva Esperanza (N-312),1535,415,4.96764e-06,0.999995
+Nueva Esperanza (N-312),1540,410,2.47528e-06,0.999999
+Start Cumancaya,40,1910,0,0
+Start Cumancaya,45,1905,5.95433e-06,2.97717e-06
+Start Cumancaya,50,1900,1.41415e-05,1.30251e-05
+Start Cumancaya,55,1895,1.11644e-05,2.56781e-05
+Start Cumancaya,60,1890,1.46377e-05,3.85791e-05
+Start Cumancaya,65,1885,1.51339e-05,5.3465e-05
+Start Cumancaya,70,1880,1.83592e-05,7.02115e-05
+Start Cumancaya,75,1875,1.66225e-05,8.77024e-05
+Start Cumancaya,80,1870,1.95997e-05,0.000105813
+Start Cumancaya,85,1865,2.23288e-05,0.000126778
+Start Cumancaya,90,1860,1.81111e-05,0.000146998
+Start Cumancaya,95,1855,2.82654e-05,0.000170186
+Start Cumancaya,100,1850,2.92578e-05,0.000198947
+Start Cumancaya,105,1845,2.5554e-05,0.000226353
+Start Cumancaya,110,1840,3.0002e-05,0.000254131
+Start Cumancaya,115,1835,3.07463e-05,0.000284506
+Start Cumancaya,120,1830,3.44678e-05,0.000317113
+Start Cumancaya,125,1825,4.38955e-05,0.000356294
+Start Cumancaya,130,1820,4.11664e-05,0.000398825
+Start Cumancaya,135,1815,4.53841e-05,0.0004421
+Start Cumancaya,140,1810,4.46398e-05,0.000487112
+Start Cumancaya,145,1805,5.65485e-05,0.000537707
+Start Cumancaya,150,1800,5.92775e-05,0.000595619
+Start Cumancaya,155,1795,5.72927e-05,0.000653905
+Start Cumancaya,160,1790,7.59e-05,0.000720501
+Start Cumancaya,165,1785,6.89533e-05,0.000792928
+Start Cumancaya,170,1780,7.24267e-05,0.000863618
+Start Cumancaya,175,1775,8.45657e-05,0.000942114
+Start Cumancaya,180,1770,8.30771e-05,0.00102594
+Start Cumancaya,185,1765,9.96997e-05,0.00111732
+Start Cumancaya,190,1760,9.7963e-05,0.00121616
+Start Cumancaya,195,1755,0.000105406,0.00131784
+Start Cumancaya,200,1750,0.000108383,0.00142473
+Start Cumancaya,205,1745,0.000122773,0.00154031
+Start Cumancaya,210,1740,0.000125254,0.00166433
+Start Cumancaya,215,1735,0.000135656,0.00179478
+Start Cumancaya,220,1730,0.000144588,0.0019349
+Start Cumancaya,225,1725,0.000156992,0.00208569
+Start Cumancaya,230,1720,0.000165924,0.00224715
+Start Cumancaya,235,1715,0.000176344,0.00241828
+Start Cumancaya,240,1710,0.000192949,0.00260293
+Start Cumancaya,245,1705,0.000195678,0.00279724
+Start Cumancaya,250,1700,0.000207835,0.002999
+Start Cumancaya,255,1695,0.000233637,0.00321974
+Start Cumancaya,260,1690,0.00023711,0.00345511
+Start Cumancaya,265,1685,0.000261902,0.00370461
+Start Cumancaya,270,1680,0.000260165,0.00396565
+Start Cumancaya,275,1675,0.000272074,0.00423177
+Start Cumancaya,280,1670,0.000289441,0.00451253
+Start Cumancaya,285,1665,0.000297362,0.00480593
+Start Cumancaya,290,1660,0.000334081,0.00512165
+Start Cumancaya,295,1655,0.000344501,0.00546094
+Start Cumancaya,300,1650,0.000347726,0.00580705
+Start Cumancaya,305,1645,0.000394102,0.00617797
+Start Cumancaya,310,1640,0.000397824,0.00657393
+Start Cumancaya,315,1635,0.000401297,0.00697349
+Start Cumancaya,320,1630,0.000445441,0.00739686
+Start Cumancaya,325,1625,0.000484126,0.00786164
+Start Cumancaya,330,1620,0.000483382,0.0083454
+Start Cumancaya,335,1615,0.000518346,0.00884626
+Start Cumancaya,340,1610,0.000544644,0.00937776
+Start Cumancaya,345,1605,0.000545885,0.00992302
+Start Cumancaya,350,1600,0.000595487,0.0104937
+Start Cumancaya,355,1595,0.000607395,0.0110951
+Start Cumancaya,360,1590,0.00066444,0.0117311
+Start Cumancaya,365,1585,0.000705358,0.012416
+Start Cumancaya,370,1580,0.000723717,0.0131305
+Start Cumancaya,375,1575,0.000768605,0.0138767
+Start Cumancaya,380,1570,0.000789676,0.0146558
+Start Cumancaya,385,1565,0.00083483,0.0154681
+Start Cumancaya,390,1560,0.000866568,0.0163188
+Start Cumancaya,395,1555,0.000920388,0.0172122
+Start Cumancaya,400,1550,0.000995295,0.0181701
+Start Cumancaya,405,1545,0.00101711,0.0191763
+Start Cumancaya,410,1540,0.00104366,0.0202067
+Start Cumancaya,415,1535,0.00106969,0.0212633
+Start Cumancaya,420,1530,0.00114534,0.0223709
+Start Cumancaya,425,1525,0.00118948,0.0235383
+Start Cumancaya,430,1520,0.00121008,0.024738
+Start Cumancaya,435,1515,0.00130481,0.0259955
+Start Cumancaya,440,1510,0.00136111,0.0273285
+Start Cumancaya,445,1505,0.00143131,0.0287247
+Start Cumancaya,450,1500,0.00144915,0.0301649
+Start Cumancaya,455,1495,0.00154662,0.0316628
+Start Cumancaya,460,1490,0.00156796,0.0332201
+Start Cumancaya,465,1485,0.00163989,0.034824
+Start Cumancaya,470,1480,0.00174926,0.0365186
+Start Cumancaya,475,1475,0.001812,0.0382992
+Start Cumancaya,480,1470,0.0018936,0.040152
+Start Cumancaya,485,1465,0.00196305,0.0420803
+Start Cumancaya,490,1460,0.0020439,0.0440838
+Start Cumancaya,495,1455,0.00217014,0.0461908
+Start Cumancaya,500,1450,0.00222173,0.0483868
+Start Cumancaya,505,1445,0.00230208,0.0506487
+Start Cumancaya,510,1440,0.00240723,0.0530033
+Start Cumancaya,515,1435,0.00255556,0.0554847
+Start Cumancaya,520,1430,0.00265154,0.0580883
+Start Cumancaya,525,1425,0.00276389,0.060796
+Start Cumancaya,530,1420,0.00279191,0.0635739
+Start Cumancaya,535,1415,0.00293006,0.0664349
+Start Cumancaya,540,1410,0.00311904,0.0694594
+Start Cumancaya,545,1405,0.00324777,0.0726428
+Start Cumancaya,550,1400,0.00335442,0.0759439
+Start Cumancaya,555,1395,0.00350248,0.0793724
+Start Cumancaya,560,1390,0.00358781,0.0829175
+Start Cumancaya,565,1385,0.00374703,0.0865849
+Start Cumancaya,570,1380,0.00390874,0.0904128
+Start Cumancaya,575,1375,0.00407392,0.0944041
+Start Cumancaya,580,1370,0.00428274,0.0985825
+Start Cumancaya,585,1365,0.00443353,0.102941
+Start Cumancaya,590,1360,0.00465725,0.107486
+Start Cumancaya,595,1355,0.00496627,0.112298
+Start Cumancaya,600,1350,0.00506845,0.117315
+Start Cumancaya,605,1345,0.00534549,0.122522
+Start Cumancaya,610,1340,0.0055501,0.12797
+Start Cumancaya,615,1335,0.00581671,0.133653
+Start Cumancaya,620,1330,0.00600918,0.139566
+Start Cumancaya,625,1325,0.00640376,0.145773
+Start Cumancaya,630,1320,0.00660095,0.152275
+Start Cumancaya,635,1315,0.00688071,0.159016
+Start Cumancaya,640,1310,0.00724231,0.166077
+Start Cumancaya,645,1305,0.00751116,0.173454
+Start Cumancaya,650,1300,0.00795958,0.181189
+Start Cumancaya,655,1295,0.00815848,0.189249
+Start Cumancaya,660,1290,0.00866841,0.197662
+Start Cumancaya,665,1285,0.00901711,0.206505
+Start Cumancaya,670,1280,0.00950868,0.215768
+Start Cumancaya,675,1275,0.00989311,0.225469
+Start Cumancaya,680,1270,0.0102086,0.235519
+Start Cumancaya,685,1265,0.0107096,0.245978
+Start Cumancaya,690,1260,0.0110776,0.256872
+Start Cumancaya,695,1255,0.0113849,0.268103
+Start Cumancaya,700,1250,0.0116969,0.279644
+Start Cumancaya,705,1245,0.0119789,0.291482
+Start Cumancaya,710,1240,0.0123224,0.303633
+Start Cumancaya,715,1235,0.0126602,0.316124
+Start Cumancaya,720,1230,0.0128299,0.328869
+Start Cumancaya,725,1225,0.013338,0.341953
+Start Cumancaya,730,1220,0.0135543,0.355399
+Start Cumancaya,735,1215,0.0137056,0.369029
+Start Cumancaya,740,1210,0.0140052,0.382885
+Start Cumancaya,745,1205,0.0142354,0.397005
+Start Cumancaya,750,1200,0.0145794,0.411412
+Start Cumancaya,755,1195,0.015038,0.426221
+Start Cumancaya,760,1190,0.0155883,0.441534
+Start Cumancaya,765,1185,0.0161238,0.45739
+Start Cumancaya,770,1180,0.0165613,0.473733
+Start Cumancaya,775,1175,0.017159,0.490593
+Start Cumancaya,780,1170,0.0174911,0.507918
+Start Cumancaya,785,1165,0.0175937,0.52546
+Start Cumancaya,790,1160,0.017659,0.543087
+Start Cumancaya,795,1155,0.0175947,0.560714
+Start Cumancaya,800,1150,0.0177212,0.578371
+Start Cumancaya,805,1145,0.0176505,0.596057
+Start Cumancaya,810,1140,0.0176109,0.613688
+Start Cumancaya,815,1135,0.0173762,0.631182
+Start Cumancaya,820,1130,0.0172949,0.648517
+Start Cumancaya,825,1125,0.0169536,0.665641
+Start Cumancaya,830,1120,0.0166944,0.682465
+Start Cumancaya,835,1115,0.0164229,0.699024
+Start Cumancaya,840,1110,0.0159345,0.715203
+Start Cumancaya,845,1105,0.0157361,0.731038
+Start Cumancaya,850,1100,0.0151486,0.746481
+Start Cumancaya,855,1095,0.0147131,0.761411
+Start Cumancaya,860,1090,0.0142502,0.775893
+Start Cumancaya,865,1085,0.013622,0.789829
+Start Cumancaya,870,1080,0.0128281,0.803054
+Start Cumancaya,875,1075,0.0120166,0.815477
+Start Cumancaya,880,1070,0.011283,0.827126
+Start Cumancaya,885,1065,0.0105729,0.838054
+Start Cumancaya,890,1060,0.00972272,0.848202
+Start Cumancaya,895,1055,0.00906225,0.857595
+Start Cumancaya,900,1050,0.00853075,0.866391
+Start Cumancaya,905,1045,0.00813219,0.874723
+Start Cumancaya,910,1040,0.00780753,0.882692
+Start Cumancaya,915,1035,0.0074933,0.890343
+Start Cumancaya,920,1030,0.00710145,0.89764
+Start Cumancaya,925,1025,0.00683829,0.90461
+Start Cumancaya,930,1020,0.00657167,0.911315
+Start Cumancaya,935,1015,0.00628845,0.917745
+Start Cumancaya,940,1010,0.0057505,0.923765
+Start Cumancaya,945,1005,0.00541295,0.929346
+Start Cumancaya,950,1000,0.00506051,0.934583
+Start Cumancaya,955,995,0.0045935,0.93941
+Start Cumancaya,960,990,0.00426438,0.943839
+Start Cumancaya,965,985,0.00391023,0.947926
+Start Cumancaya,970,980,0.00368626,0.951725
+Start Cumancaya,975,975,0.00331003,0.955223
+Start Cumancaya,980,970,0.00304118,0.958398
+Start Cumancaya,985,965,0.00289063,0.961364
+Start Cumancaya,990,960,0.00268477,0.964152
+Start Cumancaya,995,955,0.00239137,0.96669
+Start Cumancaya,1000,950,0.00229687,0.969034
+Start Cumancaya,1005,945,0.00215501,0.97126
+Start Cumancaya,1010,940,0.00191196,0.973294
+Start Cumancaya,1015,935,0.00177083,0.975135
+Start Cumancaya,1020,930,0.00167485,0.976858
+Start Cumancaya,1025,925,0.00155903,0.978475
+Start Cumancaya,1030,920,0.00147843,0.979993
+Start Cumancaya,1035,915,0.0013693,0.981417
+Start Cumancaya,1040,910,0.00118303,0.982693
+Start Cumancaya,1045,905,0.0011684,0.983869
+Start Cumancaya,1050,900,0.00105902,0.984983
+Start Cumancaya,1055,895,0.00098562,0.986005
+Start Cumancaya,1060,890,0.000906494,0.986951
+Start Cumancaya,1065,885,0.000859373,0.987834
+Start Cumancaya,1070,880,0.000797367,0.988663
+Start Cumancaya,1075,875,0.00074578,0.989434
+Start Cumancaya,1080,870,0.000648314,0.990131
+Start Cumancaya,1085,865,0.00063963,0.990775
+Start Cumancaya,1090,860,0.000563004,0.991376
+Start Cumancaya,1095,855,0.000570181,0.991943
+Start Cumancaya,1100,850,0.000517106,0.992487
+Start Cumancaya,1105,845,0.000520827,0.993006
+Start Cumancaya,1110,840,0.000480901,0.993507
+Start Cumancaya,1115,835,0.000479164,0.993987
+Start Cumancaya,1120,830,0.000406986,0.99443
+Start Cumancaya,1125,825,0.000414677,0.99484
+Start Cumancaya,1130,820,0.000379961,0.995238
+Start Cumancaya,1135,815,0.000333833,0.995595
+Start Cumancaya,1140,810,0.000322916,0.995923
+Start Cumancaya,1145,805,0.000263639,0.996216
+Start Cumancaya,1150,800,0.000271082,0.996484
+Start Cumancaya,1155,795,0.000269097,0.996754
+Start Cumancaya,1160,790,0.000229171,0.997003
+Start Cumancaya,1165,785,0.000216518,0.997226
+Start Cumancaya,1170,780,0.000214285,0.997441
+Start Cumancaya,1175,775,0.000199399,0.997648
+Start Cumancaya,1180,770,0.000199896,0.997848
+Start Cumancaya,1185,765,0.000179321,0.998037
+Start Cumancaya,1190,760,0.000158977,0.998206
+Start Cumancaya,1195,755,0.000154511,0.998363
+Start Cumancaya,1200,750,0.000128975,0.998505
+Start Cumancaya,1205,745,0.000142355,0.998641
+Start Cumancaya,1210,740,0.000126494,0.998775
+Start Cumancaya,1215,735,0.000111112,0.998894
+Start Cumancaya,1220,730,0.000102181,0.999
+Start Cumancaya,1225,725,0.000103669,0.999103
+Start Cumancaya,1230,720,0.000131952,0.999221
+Start Cumancaya,1235,715,9.47377e-05,0.999335
+Start Cumancaya,1240,710,7.24267e-05,0.999418
+Start Cumancaya,1245,705,6.10142e-05,0.999485
+Start Cumancaya,1250,700,5.60523e-05,0.999543
+Start Cumancaya,1255,695,6.17585e-05,0.999602
+Start Cumancaya,1260,690,6.94495e-05,0.999668
+Start Cumancaya,1265,685,5.95256e-05,0.999732
+Start Cumancaya,1270,680,5.25789e-05,0.999788
+Start Cumancaya,1275,675,5.5308e-05,0.999842
+Start Cumancaya,1280,670,4.31512e-05,0.999892
+Start Cumancaya,1285,665,6.15104e-05,0.999944
+Start Cumancaya,1290,660,2.53059e-05,0.999987
+End Cumancaya,875,1075,0,0
+End Cumancaya,880,1070,2.8767e-05,1.43835e-05
+End Cumancaya,885,1065,0.000101947,7.97403e-05
+End Cumancaya,890,1060,4.06637e-05,0.000151046
+End Cumancaya,895,1055,7.61289e-05,0.000209442
+End Cumancaya,900,1050,7.88781e-05,0.000286945
+End Cumancaya,905,1045,0.000131688,0.000392229
+End Cumancaya,910,1040,8.80505e-05,0.000502098
+End Cumancaya,915,1035,7.73785e-05,0.000584813
+End Cumancaya,920,1030,5.55596e-05,0.000651282
+End Cumancaya,925,1025,7.61289e-05,0.000717126
+End Cumancaya,930,1020,8.25771e-05,0.000796479
+End Cumancaya,935,1015,7.71286e-05,0.000876332
+End Cumancaya,940,1010,8.80505e-05,0.000958921
+End Cumancaya,945,1005,8.55762e-05,0.00104573
+End Cumancaya,950,1000,9.07748e-05,0.00113391
+End Cumancaya,955,995,0.000101697,0.00123015
+End Cumancaya,960,990,8.90253e-05,0.00132551
+End Cumancaya,965,985,8.40766e-05,0.00141206
+End Cumancaya,970,980,7.66287e-05,0.00149241
+End Cumancaya,975,975,7.66287e-05,0.00156904
+End Cumancaya,980,970,8.30769e-05,0.00164889
+End Cumancaya,985,965,9.87226e-05,0.00173979
+End Cumancaya,990,960,0.000100947,0.00183963
+End Cumancaya,995,955,0.000100947,0.00194057
+End Cumancaya,1000,950,0.000102172,0.00204213
+End Cumancaya,1005,945,0.000103671,0.00214505
+End Cumancaya,1010,940,0.000104171,0.00224898
+End Cumancaya,1015,935,9.69731e-05,0.00234955
+End Cumancaya,1020,930,0.000101697,0.00244888
+End Cumancaya,1025,925,0.000138636,0.00256905
+End Cumancaya,1030,920,0.000149558,0.00271315
+End Cumancaya,1035,915,0.00014236,0.00285911
+End Cumancaya,1040,910,0.000110619,0.0029856
+End Cumancaya,1045,905,0.000164929,0.00312337
+End Cumancaya,1050,900,0.000179075,0.00329537
+End Cumancaya,1055,895,0.000201394,0.00348561
+End Cumancaya,1060,890,0.000226937,0.00369977
+End Cumancaya,1065,885,0.000226437,0.00392646
+End Cumancaya,1070,880,0.000205593,0.00414247
+End Cumancaya,1075,875,0.000254954,0.00437275
+End Cumancaya,1080,870,0.000253979,0.00462721
+End Cumancaya,1085,865,0.000258178,0.00488329
+End Cumancaya,1090,860,0.000218264,0.00512151
+End Cumancaya,1095,855,0.000210317,0.00533581
+End Cumancaya,1100,850,0.000245282,0.0055636
+End Cumancaya,1105,845,0.000229911,0.0058012
+End Cumancaya,1110,840,0.00025273,0.00604252
+End Cumancaya,1115,835,0.000236359,0.00628707
+End Cumancaya,1120,830,0.000225687,0.00651809
+End Cumancaya,1125,825,0.000196171,0.00672902
+End Cumancaya,1130,820,0.000193446,0.00692383
+End Cumancaya,1135,815,0.000204368,0.00712273
+End Cumancaya,1140,810,0.000225437,0.00733764
+End Cumancaya,1145,805,0.000190722,0.00754572
+End Cumancaya,1150,800,0.000205593,0.00774387
+End Cumancaya,1155,795,0.000193196,0.00794327
+End Cumancaya,1160,790,0.00019792,0.00813883
+End Cumancaya,1165,785,0.000185024,0.0083303
+End Cumancaya,1170,780,0.000202619,0.00852412
+End Cumancaya,1175,775,0.000227937,0.0087394
+End Cumancaya,1180,770,0.000192696,0.00894971
+End Cumancaya,1185,765,0.000229911,0.00916102
+End Cumancaya,1190,760,0.000218514,0.00938523
+End Cumancaya,1195,755,0.000220739,0.00960486
+End Cumancaya,1200,750,0.000221488,0.00982597
+End Cumancaya,1205,745,0.000221488,0.0100475
+End Cumancaya,1210,740,0.00023486,0.0102756
+End Cumancaya,1215,735,0.000250006,0.0105181
+End Cumancaya,1220,730,0.000263652,0.0107749
+End Cumancaya,1225,725,0.00025348,0.0110335
+End Cumancaya,1230,720,0.000262902,0.0112917
+End Cumancaya,1235,715,0.000288695,0.0115674
+End Cumancaya,1240,710,0.000305065,0.0118643
+End Cumancaya,1245,705,0.000295643,0.0121647
+End Cumancaya,1250,700,0.000330108,0.0124776
+End Cumancaya,1255,695,0.000317212,0.0128012
+End Cumancaya,1260,690,0.00032366,0.0131217
+End Cumancaya,1265,685,0.000318711,0.0134428
+End Cumancaya,1270,680,0.000326384,0.0137654
+End Cumancaya,1275,675,0.0003611,0.0141091
+End Cumancaya,1280,670,0.000411711,0.0144955
+End Cumancaya,1285,665,0.000480666,0.0149417
+End Cumancaya,1290,660,0.000656493,0.0155103
+End Cumancaya,1295,655,0.000810525,0.0162438
+End Cumancaya,1300,650,0.00110342,0.0172008
+End Cumancaya,1305,645,0.00156399,0.0185345
+End Cumancaya,1310,640,0.00223166,0.0204323
+End Cumancaya,1315,635,0.00278573,0.022941
+End Cumancaya,1320,630,0.0036146,0.0261412
+End Cumancaya,1325,625,0.00453099,0.030214
+End Cumancaya,1330,620,0.00607341,0.0355162
+End Cumancaya,1335,615,0.00776984,0.0424378
+End Cumancaya,1340,610,0.00903844,0.0508419
+End Cumancaya,1345,605,0.0103477,0.060535
+End Cumancaya,1350,600,0.0114901,0.0714539
+End Cumancaya,1355,595,0.0123517,0.0833748
+End Cumancaya,1360,590,0.0126533,0.0958773
+End Cumancaya,1365,585,0.0131647,0.108786
+End Cumancaya,1370,580,0.0129784,0.121858
+End Cumancaya,1375,575,0.0130588,0.134876
+End Cumancaya,1380,570,0.0129415,0.147877
+End Cumancaya,1385,565,0.0129856,0.16084
+End Cumancaya,1390,560,0.0133554,0.174011
+End Cumancaya,1395,555,0.0138988,0.187638
+End Cumancaya,1400,550,0.0145573,0.201866
+End Cumancaya,1405,545,0.0159916,0.21714
+End Cumancaya,1410,540,0.0171243,0.233698
+End Cumancaya,1415,535,0.0186064,0.251563
+End Cumancaya,1420,530,0.020028,0.270881
+End Cumancaya,1425,525,0.0211602,0.291475
+End Cumancaya,1430,520,0.0222669,0.313188
+End Cumancaya,1435,515,0.023382,0.336013
+End Cumancaya,1440,510,0.0242202,0.359814
+End Cumancaya,1445,505,0.0247029,0.384275
+End Cumancaya,1450,500,0.0248631,0.409058
+End Cumancaya,1455,495,0.0249931,0.433986
+End Cumancaya,1460,490,0.0246515,0.458809
+End Cumancaya,1465,485,0.0239558,0.483112
+End Cumancaya,1470,480,0.0232187,0.5067
+End Cumancaya,1475,475,0.0226243,0.529621
+End Cumancaya,1480,470,0.0217428,0.551805
+End Cumancaya,1485,465,0.0209873,0.57317
+End Cumancaya,1490,460,0.0202297,0.593778
+End Cumancaya,1495,455,0.019371,0.613579
+End Cumancaya,1500,450,0.0185848,0.632557
+End Cumancaya,1505,445,0.0177979,0.650748
+End Cumancaya,1510,440,0.0170377,0.668166
+End Cumancaya,1515,435,0.0160806,0.684725
+End Cumancaya,1520,430,0.0153388,0.700435
+End Cumancaya,1525,425,0.0146419,0.715425
+End Cumancaya,1530,420,0.013631,0.729561
+End Cumancaya,1535,415,0.013159,0.742956
+End Cumancaya,1540,410,0.012499,0.755785
+End Cumancaya,1545,405,0.011817,0.767943
+End Cumancaya,1550,400,0.0111404,0.779422
+End Cumancaya,1555,395,0.0106652,0.790325
+End Cumancaya,1560,390,0.0100637,0.800689
+End Cumancaya,1565,385,0.00958506,0.810514
+End Cumancaya,1570,380,0.00916865,0.81989
+End Cumancaya,1575,375,0.00868824,0.828819
+End Cumancaya,1580,370,0.0082696,0.837298
+End Cumancaya,1585,365,0.0080186,0.845442
+End Cumancaya,1590,360,0.00762253,0.853262
+End Cumancaya,1595,355,0.00732514,0.860736
+End Cumancaya,1600,350,0.00696576,0.867882
+End Cumancaya,1605,345,0.0065868,0.874658
+End Cumancaya,1610,340,0.00642881,0.881166
+End Cumancaya,1615,335,0.0062205,0.887491
+End Cumancaya,1620,330,0.00592385,0.893563
+End Cumancaya,1625,325,0.005657,0.899353
+End Cumancaya,1630,320,0.00537698,0.90487
+End Cumancaya,1635,315,0.00508706,0.910102
+End Cumancaya,1640,310,0.00488392,0.915088
+End Cumancaya,1645,305,0.00464931,0.919854
+End Cumancaya,1650,300,0.0044117,0.924385
+End Cumancaya,1655,295,0.0042247,0.928703
+End Cumancaya,1660,290,0.00391666,0.932774
+End Cumancaya,1665,285,0.00374331,0.936604
+End Cumancaya,1670,280,0.00358161,0.940266
+End Cumancaya,1675,275,0.00335864,0.943736
+End Cumancaya,1680,270,0.00320039,0.947016
+End Cumancaya,1685,265,0.003063,0.950147
+End Cumancaya,1690,260,0.00288467,0.953121
+End Cumancaya,1695,255,0.00271405,0.955921
+End Cumancaya,1700,250,0.00254984,0.958553
+End Cumancaya,1705,245,0.00241618,0.961036
+End Cumancaya,1710,240,0.00230209,0.963395
+End Cumancaya,1715,235,0.0021756,0.965634
+End Cumancaya,1720,230,0.00209647,0.96777
+End Cumancaya,1725,225,0.00198537,0.96981
+End Cumancaya,1730,220,0.00187178,0.971739
+End Cumancaya,1735,215,0.00172717,0.973539
+End Cumancaya,1740,210,0.00168156,0.975243
+End Cumancaya,1745,205,0.00162475,0.976896
+End Cumancaya,1750,200,0.00150298,0.97846
+End Cumancaya,1755,195,0.0014499,0.979936
+End Cumancaya,1760,190,0.00133855,0.981331
+End Cumancaya,1765,185,0.0012562,0.982628
+End Cumancaya,1770,180,0.00118005,0.983846
+End Cumancaya,1775,175,0.00112326,0.984998
+End Cumancaya,1780,170,0.00109077,0.986105
+End Cumancaya,1785,165,0.000999247,0.98715
+End Cumancaya,1790,160,0.000950386,0.988125
+End Cumancaya,1795,155,0.000878731,0.989039
+End Cumancaya,1800,150,0.000848214,0.989903
+End Cumancaya,1805,145,0.000810275,0.990732
+End Cumancaya,1810,140,0.000748267,0.991511
+End Cumancaya,1815,135,0.000698906,0.992235
+End Cumancaya,1820,130,0.000676587,0.992922
+End Cumancaya,1825,125,0.000623252,0.993572
+End Cumancaya,1830,120,0.000571416,0.99417
+End Cumancaya,1835,115,0.000527778,0.994719
+End Cumancaya,1840,110,0.00050521,0.995236
+End Cumancaya,1845,105,0.000478167,0.995727
+End Cumancaya,1850,100,0.000429056,0.996181
+End Cumancaya,1855,95,0.000419883,0.996606
+End Cumancaya,1860,90,0.000376495,0.997004
+End Cumancaya,1865,85,0.000346979,0.997365
+End Cumancaya,1870,80,0.000315237,0.997697
+End Cumancaya,1875,75,0.000302816,0.998006
+End Cumancaya,1880,70,0.000260903,0.998287
+End Cumancaya,1885,65,0.000241808,0.998539
+End Cumancaya,1890,60,0.00021454,0.998767
+End Cumancaya,1895,55,0.000193446,0.998971
+End Cumancaya,1900,50,0.000174601,0.999155
+End Cumancaya,1905,45,0.000158731,0.999322
+End Cumancaya,1910,40,0.000142111,0.999472
+End Cumancaya,1915,35,0.000115568,0.999601
+End Cumancaya,1920,30,0.000102422,0.99971
+End Cumancaya,1925,25,7.26798e-05,0.999798
+End Cumancaya,1930,20,6.37323e-05,0.999866
+End Cumancaya,1935,15,5.20855e-05,0.999924
+End Cumancaya,1940,10,3.17412e-05,0.999966
+End Cumancaya,1945,5,1.58706e-05,0.999989
+End Cumancaya,1950,0,2.72424e-06,0.999999
+Start Caimito,0,1950,0,0
+Start Caimito,5,1945,4.82407e-07,2.41203e-07
+Start Caimito,10,1940,9.96974e-07,9.80894e-07
+Start Caimito,15,1935,9.96974e-07,1.97787e-06
+Start Caimito,20,1930,2.47636e-06,3.71453e-06
+Start Caimito,25,1925,9.96974e-07,5.4512e-06
+Start Caimito,30,1920,2.21907e-06,7.05922e-06
+Start Caimito,35,1915,1.47938e-06,8.90845e-06
+Start Caimito,40,1910,1.25426e-06,1.02753e-05
+Start Caimito,45,1905,9.96974e-07,1.14009e-05
+Start Caimito,50,1900,1.99395e-06,1.28963e-05
+Start Caimito,55,1895,2.21907e-06,1.50029e-05
+Start Caimito,60,1890,4.21302e-06,1.82189e-05
+Start Caimito,65,1885,3.47333e-06,2.20621e-05
+Start Caimito,70,1880,2.47636e-06,2.50369e-05
+Start Caimito,75,1875,4.72759e-06,2.86389e-05
+Start Caimito,80,1870,2.99092e-06,3.24981e-05
+Start Caimito,85,1865,4.95271e-06,3.647e-05
+Start Caimito,90,1860,3.73061e-06,4.08116e-05
+Start Caimito,95,1855,5.46728e-06,4.54106e-05
+Start Caimito,100,1850,4.95271e-06,5.06206e-05
+Start Caimito,105,1845,4.21302e-06,5.52034e-05
+Start Caimito,110,1840,5.20999e-06,5.99149e-05
+Start Caimito,115,1835,4.4703e-06,6.47551e-05
+Start Caimito,120,1830,4.72759e-06,6.9354e-05
+Start Caimito,125,1825,6.46425e-06,7.495e-05
+Start Caimito,130,1820,6.20697e-06,8.12856e-05
+Start Caimito,135,1815,6.46425e-06,8.76212e-05
+Start Caimito,140,1810,7.94363e-06,9.48251e-05
+Start Caimito,145,1805,7.42907e-06,0.000102511
+Start Caimito,150,1800,8.94061e-06,0.000110696
+Start Caimito,155,1795,7.94363e-06,0.000119138
+Start Caimito,160,1790,9.6803e-06,0.00012795
+Start Caimito,165,1785,7.94363e-06,0.000136762
+Start Caimito,170,1780,1.41506e-05,0.000147809
+Start Caimito,175,1775,1.28963e-05,0.000161333
+Start Caimito,180,1770,1.43757e-05,0.000174969
+Start Caimito,185,1765,1.38933e-05,0.000189104
+Start Caimito,190,1760,1.53727e-05,0.000203737
+Start Caimito,195,1755,1.38933e-05,0.00021837
+Start Caimito,200,1750,1.85887e-05,0.000234611
+Start Caimito,205,1745,1.71094e-05,0.00025246
+Start Caimito,210,1740,1.51154e-05,0.000268572
+Start Caimito,215,1735,1.53727e-05,0.000283816
+Start Caimito,220,1730,2.20621e-05,0.000302533
+Start Caimito,225,1725,2.084e-05,0.000323984
+Start Caimito,230,1720,2.03254e-05,0.000344567
+Start Caimito,235,1715,2.25766e-05,0.000366018
+Start Caimito,240,1710,2.65324e-05,0.000390573
+Start Caimito,245,1705,3.126e-05,0.000419469
+Start Caimito,250,1700,2.605e-05,0.000448124
+Start Caimito,255,1695,2.75294e-05,0.000474914
+Start Caimito,260,1690,3.27393e-05,0.000505048
+Start Caimito,265,1685,3.07454e-05,0.00053679
+Start Caimito,270,1680,3.29966e-05,0.000568661
+Start Caimito,275,1675,3.0263e-05,0.000600291
+Start Caimito,280,1670,3.59554e-05,0.0006334
+Start Caimito,285,1665,3.62127e-05,0.000669484
+Start Caimito,290,1660,3.647e-05,0.000705826
+Start Caimito,295,1655,4.3899e-05,0.00074601
+Start Caimito,300,1650,4.0683e-05,0.000788301
+Start Caimito,305,1645,4.61181e-05,0.000831702
+Start Caimito,310,1640,4.71151e-05,0.000878318
+Start Caimito,315,1635,5.40617e-05,0.000928907
+Start Caimito,320,1630,5.0106e-05,0.00098099
+Start Caimito,325,1625,5.25824e-05,0.00103233
+Start Caimito,330,1620,5.45763e-05,0.00108591
+Start Caimito,335,1615,5.72778e-05,0.00114184
+Start Caimito,340,1610,6.00114e-05,0.00120049
+Start Caimito,345,1605,5.3322e-05,0.00125715
+Start Caimito,350,1600,6.0526e-05,0.00131408
+Start Caimito,355,1595,6.17481e-05,0.00137521
+Start Caimito,360,1590,6.20054e-05,0.00143709
+Start Caimito,365,1585,6.79551e-05,0.00150207
+Start Caimito,370,1580,6.92093e-05,0.00157065
+Start Caimito,375,1575,7.66384e-05,0.00164358
+Start Caimito,380,1570,8.11087e-05,0.00172245
+Start Caimito,385,1565,8.90523e-05,0.00180753
+Start Caimito,390,1560,7.78926e-05,0.001891
+Start Caimito,395,1555,8.4582e-05,0.00197224
+Start Caimito,400,1550,8.85377e-05,0.0020588
+Start Caimito,405,1545,8.90523e-05,0.0021476
+Start Caimito,410,1540,9.32653e-05,0.00223875
+Start Caimito,415,1535,9.64814e-05,0.00233363
+Start Caimito,420,1530,0.000103685,0.00243371
+Start Caimito,425,1525,0.00011433,0.00254272
+Start Caimito,430,1520,0.000102913,0.00265134
+Start Caimito,435,1515,0.00011954,0.00276257
+Start Caimito,440,1510,0.00011507,0.00287987
+Start Caimito,445,1505,0.000109635,0.00299223
+Start Caimito,450,1500,0.000128706,0.0031114
+Start Caimito,455,1495,0.000133176,0.00324234
+Start Caimito,460,1490,0.000138386,0.00337812
+Start Caimito,465,1485,0.000140123,0.00351737
+Start Caimito,470,1480,0.000142117,0.00365849
+Start Caimito,475,1475,0.000145076,0.00380209
+Start Caimito,480,1470,0.000144336,0.0039468
+Start Caimito,485,1465,0.00015154,0.00409473
+Start Caimito,490,1460,0.000150061,0.00424553
+Start Caimito,495,1455,0.000176336,0.00440873
+Start Caimito,500,1450,0.000169132,0.00458147
+Start Caimito,505,1445,0.0001627,0.00474738
+Start Caimito,510,1440,0.000169132,0.0049133
+Start Caimito,515,1435,0.000181546,0.00508864
+Start Caimito,520,1430,0.000182543,0.00527068
+Start Caimito,525,1425,0.000182543,0.00545322
+Start Caimito,530,1420,0.000195922,0.00564246
+Start Caimito,535,1415,0.000195439,0.00583814
+Start Caimito,540,1410,0.000203608,0.00603766
+Start Caimito,545,1405,0.000212806,0.00624587
+Start Caimito,550,1400,0.000213803,0.00645917
+Start Caimito,555,1395,0.000220492,0.00667632
+Start Caimito,560,1390,0.000220749,0.00689694
+Start Caimito,565,1385,0.000243808,0.00712922
+Start Caimito,570,1380,0.000240335,0.00737129
+Start Caimito,575,1375,0.000247764,0.00761534
+Start Caimito,580,1370,0.000247764,0.0078631
+Start Caimito,585,1365,0.000249501,0.00811174
+Start Caimito,590,1360,0.00027182,0.0083724
+Start Caimito,595,1355,0.000276548,0.00864658
+Start Caimito,600,1350,0.000284717,0.00892721
+Start Caimito,605,1345,0.000297613,0.00921838
+Start Caimito,610,1340,0.00030382,0.00951909
+Start Caimito,615,1335,0.000296616,0.00981931
+Start Caimito,620,1330,0.000312503,0.0101239
+Start Caimito,625,1325,0.000324145,0.0104422
+Start Caimito,630,1320,0.000327876,0.0107682
+Start Caimito,635,1315,0.000349198,0.0111067
+Start Caimito,640,1310,0.00034103,0.0114519
+Start Caimito,645,1305,0.000355148,0.0117999
+Start Caimito,650,1300,0.000371775,0.0121634
+Start Caimito,655,1295,0.000369556,0.0125341
+Start Caimito,660,1290,0.000365825,0.0129018
+Start Caimito,665,1285,0.00040773,0.0132885
+Start Caimito,670,1280,0.000389881,0.0136873
+Start Caimito,675,1275,0.000416928,0.0140908
+Start Caimito,680,1270,0.000416414,0.0145074
+Start Caimito,685,1265,0.000422138,0.0149267
+Start Caimito,690,1260,0.000456582,0.0153661
+Start Caimito,695,1255,0.000456357,0.0158225
+Start Caimito,700,1250,0.000479898,0.0162907
+Start Caimito,705,1245,0.000451404,0.0167563
+Start Caimito,710,1240,0.000489836,0.0172269
+Start Caimito,715,1235,0.000501735,0.0177227
+Start Caimito,720,1230,0.000527046,0.0182371
+Start Caimito,725,1225,0.000511416,0.0187563
+Start Caimito,730,1220,0.00053322,0.0192787
+Start Caimito,735,1215,0.000529265,0.0198099
+Start Caimito,740,1210,0.000566732,0.0203579
+Start Caimito,745,1205,0.000542643,0.0209126
+Start Caimito,750,1200,0.000586317,0.0214771
+Start Caimito,755,1195,0.00057117,0.0220558
+Start Caimito,760,1190,0.000608894,0.0226458
+Start Caimito,765,1185,0.00062179,0.0232612
+Start Caimito,770,1180,0.000599439,0.0238718
+Start Caimito,775,1175,0.000624492,0.0244838
+Start Caimito,780,1170,0.000652278,0.0251221
+Start Caimito,785,1165,0.000691225,0.0257939
+Start Caimito,790,1160,0.000663438,0.0264712
+Start Caimito,795,1155,0.000715763,0.0271608
+Start Caimito,800,1150,0.000703864,0.0278706
+Start Caimito,805,1145,0.000713544,0.0285793
+Start Caimito,810,1140,0.000722967,0.0292976
+Start Caimito,815,1135,0.000743293,0.0300307
+Start Caimito,820,1130,0.000779505,0.0307921
+Start Caimito,825,1125,0.00076812,0.0315659
+Start Caimito,830,1120,0.000797129,0.0323486
+Start Caimito,835,1115,0.000824659,0.0331595
+Start Caimito,840,1110,0.000821442,0.0339825
+Start Caimito,845,1105,0.000816972,0.0348017
+Start Caimito,850,1100,0.000845981,0.0356332
+Start Caimito,855,1095,0.000862351,0.0364874
+Start Caimito,860,1090,0.000871774,0.0373544
+Start Caimito,865,1085,0.000903034,0.0382418
+Start Caimito,870,1080,0.000957095,0.0391719
+Start Caimito,875,1075,0.000972725,0.0401368
+Start Caimito,880,1070,0.00093156,0.0410889
+Start Caimito,885,1065,0.000952143,0.0420308
+Start Caimito,890,1060,0.00101315,0.0430134
+Start Caimito,895,1055,0.001031,0.0440355
+Start Caimito,900,1050,0.00105332,0.0450777
+Start Caimito,905,1045,0.00110217,0.0461554
+Start Caimito,910,1040,0.00107291,0.047243
+Start Caimito,915,1035,0.00110217,0.0483305
+Start Caimito,920,1030,0.00113391,0.0494485
+Start Caimito,925,1025,0.00110986,0.0505704
+Start Caimito,930,1020,0.00117386,0.0517123
+Start Caimito,935,1015,0.00120785,0.0529031
+Start Caimito,940,1010,0.00120113,0.0541076
+Start Caimito,945,1005,0.00124329,0.0553298
+Start Caimito,950,1000,0.00126539,0.0565842
+Start Caimito,955,995,0.00130555,0.0578696
+Start Caimito,960,990,0.00133035,0.0591876
+Start Caimito,965,985,0.00137103,0.0605383
+Start Caimito,970,980,0.00136856,0.0619081
+Start Caimito,975,975,0.00148562,0.0633352
+Start Caimito,980,970,0.00142831,0.0647921
+Start Caimito,985,965,0.0014762,0.0662444
+Start Caimito,990,960,0.00153547,0.0677502
+Start Caimito,995,955,0.00155358,0.0692947
+Start Caimito,1000,950,0.00158406,0.0708636
+Start Caimito,1005,945,0.00168032,0.0724958
+Start Caimito,1010,940,0.00169743,0.0741846
+Start Caimito,1015,935,0.00178497,0.0759258
+Start Caimito,1020,930,0.00178545,0.077711
+Start Caimito,1025,925,0.00188666,0.0795471
+Start Caimito,1030,920,0.00194072,0.0814608
+Start Caimito,1035,915,0.00196777,0.083415
+Start Caimito,1040,910,0.00202283,0.0854103
+Start Caimito,1045,905,0.00204389,0.0874437
+Start Caimito,1050,900,0.00216617,0.0895487
+Start Caimito,1055,895,0.00215822,0.0917109
+Start Caimito,1060,890,0.00225297,0.0939165
+Start Caimito,1065,885,0.00236235,0.0962242
+Start Caimito,1070,880,0.0023993,0.098605
+Start Caimito,1075,875,0.00258731,0.101098
+Start Caimito,1080,870,0.0025739,0.103679
+Start Caimito,1085,865,0.00268328,0.106307
+Start Caimito,1090,860,0.0027485,0.109023
+Start Caimito,1095,855,0.00290078,0.111848
+Start Caimito,1100,850,0.00294419,0.114771
+Start Caimito,1105,845,0.00307193,0.117779
+Start Caimito,1110,840,0.00321232,0.120921
+Start Caimito,1115,835,0.00332513,0.124189
+Start Caimito,1120,830,0.00346577,0.127585
+Start Caimito,1125,825,0.00361532,0.131125
+Start Caimito,1130,820,0.00376933,0.134818
+Start Caimito,1135,815,0.00390576,0.138655
+Start Caimito,1140,810,0.00412747,0.142672
+Start Caimito,1145,805,0.00426859,0.14687
+Start Caimito,1150,800,0.00438965,0.151199
+Start Caimito,1155,795,0.00461088,0.155699
+Start Caimito,1160,790,0.00478474,0.160397
+Start Caimito,1165,785,0.00507788,0.165328
+Start Caimito,1170,780,0.00541566,0.170575
+Start Caimito,1175,775,0.00569867,0.176132
+Start Caimito,1180,770,0.00580828,0.181886
+Start Caimito,1185,765,0.00611782,0.187849
+Start Caimito,1190,760,0.00663888,0.194227
+Start Caimito,1195,755,0.00676589,0.20093
+Start Caimito,1200,750,0.00719642,0.207911
+Start Caimito,1205,745,0.00756051,0.215289
+Start Caimito,1210,740,0.00804192,0.22309
+Start Caimito,1215,735,0.00864361,0.231433
+Start Caimito,1220,730,0.0091932,0.240352
+Start Caimito,1225,725,0.00995164,0.249924
+Start Caimito,1230,720,0.010531,0.260165
+Start Caimito,1235,715,0.0111991,0.27103
+Start Caimito,1240,710,0.0119186,0.282589
+Start Caimito,1245,705,0.012684,0.294891
+Start Caimito,1250,700,0.0138331,0.308149
+Start Caimito,1255,695,0.0146146,0.322373
+Start Caimito,1260,690,0.0159353,0.337648
+Start Caimito,1265,685,0.0178547,0.354543
+Start Caimito,1270,680,0.0196106,0.373276
+Start Caimito,1275,675,0.0215637,0.393863
+Start Caimito,1280,670,0.0237887,0.416539
+Start Caimito,1285,665,0.0263378,0.441602
+Start Caimito,1290,660,0.0280305,0.468786
+Start Caimito,1295,655,0.0297324,0.497668
+Start Caimito,1300,650,0.0314157,0.528242
+Start Caimito,1305,645,0.0319553,0.559927
+Start Caimito,1310,640,0.0321605,0.591985
+Start Caimito,1315,635,0.0317282,0.623929
+Start Caimito,1320,630,0.0317004,0.655644
+Start Caimito,1325,625,0.0309043,0.686946
+Start Caimito,1330,620,0.0290022,0.716899
+Start Caimito,1335,615,0.0273643,0.745083
+Start Caimito,1340,610,0.0259501,0.77174
+Start Caimito,1345,605,0.0238626,0.796646
+Start Caimito,1350,600,0.0218681,0.819512
+Start Caimito,1355,595,0.0197932,0.840342
+Start Caimito,1360,590,0.0175154,0.858996
+Start Caimito,1365,585,0.016184,0.875846
+Start Caimito,1370,580,0.0154529,0.891665
+Start Caimito,1375,575,0.015463,0.907122
+Start Caimito,1380,570,0.0156575,0.922683
+Start Caimito,1385,565,0.0153266,0.938175
+Start Caimito,1390,560,0.0139298,0.952803
+Start Caimito,1395,555,0.0110632,0.9653
+Start Caimito,1400,550,0.00904365,0.975353
+Start Caimito,1405,545,0.00649776,0.983124
+Start Caimito,1410,540,0.00456424,0.988655
+Start Caimito,1415,535,0.00340476,0.992639
+Start Caimito,1420,530,0.0022485,0.995466
+Start Caimito,1425,525,0.00140451,0.997292
+Start Caimito,1430,520,0.000903259,0.998446
+Start Caimito,1435,515,0.000495786,0.999146
+Start Caimito,1440,510,0.000283977,0.999536
+Start Caimito,1445,505,0.000139126,0.999747
+Start Caimito,1450,500,7.3165e-05,0.999853
+Start Caimito,1455,495,4.09081e-05,0.99991
+Start Caimito,1460,490,2.85263e-05,0.999945
+Start Caimito,1465,485,1.61124e-05,0.999967
+Start Caimito,1470,480,1.51154e-05,0.999983
+Start Caimito,1475,475,9.42301e-06,0.999995
+End Caimito,1260,690,0,0
+End Caimito,1265,685,1.83614e-05,9.18072e-06
+End Caimito,1270,680,4.61275e-05,4.14252e-05
+End Caimito,1275,675,9.17753e-05,0.000110377
+End Caimito,1280,670,0.000215539,0.000264034
+End Caimito,1285,665,0.00051041,0.000627008
+End Caimito,1290,660,0.00107789,0.00142116
+End Caimito,1295,655,0.00193972,0.00292996
+End Caimito,1300,650,0.00324083,0.00552024
+End Caimito,1305,645,0.00511309,0.0096972
+End Caimito,1310,640,0.00703547,0.0157715
+End Caimito,1315,635,0.00914112,0.0238598
+End Caimito,1320,630,0.0113623,0.0341115
+End Caimito,1325,625,0.0140305,0.0468079
+End Caimito,1330,620,0.016654,0.0621502
+End Caimito,1335,615,0.0184236,0.079689
+End Caimito,1340,610,0.0205409,0.0991713
+End Caimito,1345,605,0.0225982,0.120741
+End Caimito,1350,600,0.024256,0.144168
+End Caimito,1355,595,0.0258361,0.169214
+End Caimito,1360,590,0.0268621,0.195563
+End Caimito,1365,585,0.0264182,0.222203
+End Caimito,1370,580,0.0262847,0.248555
+End Caimito,1375,575,0.0254186,0.274406
+End Caimito,1380,570,0.0251555,0.299693
+End Caimito,1385,565,0.0259616,0.325252
+End Caimito,1390,560,0.0279849,0.352225
+End Caimito,1395,555,0.0302537,0.381344
+End Caimito,1400,550,0.0315394,0.412241
+End Caimito,1405,545,0.0319675,0.443994
+End Caimito,1410,540,0.0319886,0.475972
+End Caimito,1415,535,0.0308296,0.507382
+End Caimito,1420,530,0.029941,0.537767
+End Caimito,1425,525,0.0285494,0.567012
+End Caimito,1430,520,0.0269678,0.594771
+End Caimito,1435,515,0.0252748,0.620892
+End Caimito,1440,510,0.023527,0.645293
+End Caimito,1445,505,0.0221054,0.668109
+End Caimito,1450,500,0.0204092,0.689366
+End Caimito,1455,495,0.0189863,0.709064
+End Caimito,1460,490,0.0175903,0.727352
+End Caimito,1465,485,0.0161619,0.744229
+End Caimito,1470,480,0.0150191,0.759819
+End Caimito,1475,475,0.0138755,0.774266
+End Caimito,1480,470,0.0130203,0.787714
+End Caimito,1485,465,0.0120751,0.800262
+End Caimito,1490,460,0.011306,0.811953
+End Caimito,1495,455,0.0105075,0.822859
+End Caimito,1500,450,0.00986211,0.833044
+End Caimito,1505,445,0.00925519,0.842603
+End Caimito,1510,440,0.00869421,0.851577
+End Caimito,1515,435,0.00801861,0.859934
+End Caimito,1520,430,0.00752058,0.867703
+End Caimito,1525,425,0.00710316,0.875015
+End Caimito,1530,420,0.00657564,0.881855
+End Caimito,1535,415,0.00633208,0.888309
+End Caimito,1540,410,0.00584352,0.894396
+End Caimito,1545,405,0.00558431,0.90011
+End Caimito,1550,400,0.00514236,0.905474
+End Caimito,1555,395,0.00496479,0.910527
+End Caimito,1560,390,0.00459103,0.915305
+End Caimito,1565,385,0.00432812,0.919765
+End Caimito,1570,380,0.00417685,0.924017
+End Caimito,1575,375,0.00386905,0.92804
+End Caimito,1580,370,0.00363243,0.931791
+End Caimito,1585,365,0.00353746,0.935376
+End Caimito,1590,360,0.00331795,0.938804
+End Caimito,1595,355,0.00317634,0.942051
+End Caimito,1600,350,0.00302132,0.94515
+End Caimito,1605,345,0.00286333,0.948092
+End Caimito,1610,340,0.00270735,0.950877
+End Caimito,1615,335,0.00256971,0.953516
+End Caimito,1620,330,0.00244146,0.956021
+End Caimito,1625,325,0.00234995,0.958417
+End Caimito,1630,320,0.00220907,0.960697
+End Caimito,1635,315,0.00207117,0.962837
+End Caimito,1640,310,0.00200421,0.964874
+End Caimito,1645,305,0.0018673,0.96681
+End Caimito,1650,300,0.00177556,0.968632
+End Caimito,1655,295,0.00171827,0.970378
+End Caimito,1660,290,0.00159054,0.972033
+End Caimito,1665,285,0.00151636,0.973586
+End Caimito,1670,280,0.00147247,0.975081
+End Caimito,1675,275,0.00135763,0.976496
+End Caimito,1680,270,0.00128399,0.977817
+End Caimito,1685,265,0.00121825,0.979068
+End Caimito,1690,260,0.00119916,0.980276
+End Caimito,1695,255,0.0010997,0.981426
+End Caimito,1700,250,0.00106448,0.982508
+End Caimito,1705,245,0.00100198,0.983541
+End Caimito,1710,240,0.000938737,0.984511
+End Caimito,1715,235,0.000890882,0.985426
+End Caimito,1720,230,0.000830104,0.986287
+End Caimito,1725,225,0.000820923,0.987112
+End Caimito,1730,220,0.000775307,0.98791
+End Caimito,1735,215,0.000748021,0.988672
+End Caimito,1740,210,0.000706116,0.989399
+End Caimito,1745,205,0.000673616,0.990089
+End Caimito,1750,200,0.000629727,0.990741
+End Caimito,1755,195,0.00058779,0.991349
+End Caimito,1760,190,0.000561496,0.991924
+End Caimito,1765,185,0.000525061,0.992467
+End Caimito,1770,180,0.00050993,0.992985
+End Caimito,1775,175,0.000483891,0.993482
+End Caimito,1780,170,0.000456861,0.993952
+End Caimito,1785,165,0.000445441,0.994403
+End Caimito,1790,160,0.000388629,0.99482
+End Caimito,1795,155,0.000378233,0.995204
+End Caimito,1800,150,0.000359616,0.995573
+End Caimito,1805,145,0.000352674,0.995929
+End Caimito,1810,140,0.000318958,0.996265
+End Caimito,1815,135,0.000313744,0.996581
+End Caimito,1820,130,0.0002815,0.996879
+End Caimito,1825,125,0.0002815,0.99716
+End Caimito,1830,120,0.000257444,0.99743
+End Caimito,1835,115,0.00023662,0.997677
+End Caimito,1840,110,0.000218002,0.997904
+End Caimito,1845,105,0.000193947,0.99811
+End Caimito,1850,100,0.000180544,0.998297
+End Caimito,1855,95,0.000175106,0.998475
+End Caimito,1860,90,0.000167652,0.998646
+End Caimito,1865,85,0.000154505,0.998807
+End Caimito,1870,80,0.000142605,0.998956
+End Caimito,1875,75,0.000137391,0.999096
+End Caimito,1880,70,0.000120053,0.999225
+End Caimito,1885,65,0.000117302,0.999343
+End Caimito,1890,60,0.000101692,0.999453
+End Caimito,1895,55,8.35862e-05,0.999546
+End Caimito,1900,50,7.8372e-05,0.999627
+End Caimito,1905,45,6.49688e-05,0.999698
+End Caimito,1910,40,6.7208e-05,0.999764
+End Caimito,1915,35,5.53083e-05,0.999826
+End Caimito,1920,30,4.73751e-05,0.999877
+End Caimito,1925,25,3.52194e-05,0.999918
+End Caimito,1930,20,2.70304e-05,0.999949
+End Caimito,1935,15,1.66021e-05,0.999971
+End Caimito,1940,10,1.4139e-05,0.999986
+End Caimito,1945,5,6.20579e-06,0.999997
+End Caimito,1950,0,2.55909e-07,1

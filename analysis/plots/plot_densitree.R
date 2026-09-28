@@ -15,8 +15,12 @@ library(ape)
 library(ggtree)
 
 
-#remotes::install_github("SimonGreenhill/lachesis_src")
-library(lachesis)   # only for get_rootheight
+# root height = distance from root to the furthest tip
+# (replaces lachesis::get_rootheight)
+get_rootheight <- function(tree) {
+    if (inherits(tree, "treedata")) tree <- tree@phylo
+    max(ape::node.depth.edgelength(tree))
+}
 
 
 add_clade <- function(p, tree, clade, members, color, offset=500) {
@@ -35,6 +39,43 @@ add_clade <- function(p, tree, clade, members, color, offset=500) {
         extend=0.4,
         barsize=2
     )
+    p
+}
+
+transitions <- data.frame(
+    parameter = c("Start Yarinacocha", "Start of post-Yarinacocha period",
+                  "Start Cumancaya", "Start Caimito"),
+    label = c("Yarinacocha", "Pacacocha", "Cumancaya", "Caimito"),
+    color = c("#b4b4b4", "#fa73bf", "#a1e573", "#ffa300"),
+    label_x = c(-1550, NA, NA, NA)
+)
+
+add_transitions <- function(p, file, transitions, height=1, scale=750, spacing=1.5,
+                            overlap=6, label.x=-2600, bp_offset=50) {
+    post <- read.csv(file)
+    resolution <- diff(sort(unique(post$cal_BP)))[1]
+    bottom <- max(p$data$y, na.rm = TRUE) - overlap
+    for (i in seq_len(nrow(transitions))) {
+        d <- subset(post, parameter == transitions$parameter[i])
+        if (nrow(d) == 0) stop("no posterior for ", transitions$parameter[i])
+        d$x <- -(d$cal_BP + bp_offset)
+        d$base <- bottom + spacing * (i - 1)
+        if (is.na(height)) {
+            d$y <- d$base + d$density / resolution * scale
+        } else {
+            d$y <- d$base + d$density / max(d$density) * height
+        }
+        lx <- transitions$label_x[i]
+        if (is.null(lx) || is.na(lx)) lx <- label.x
+        p <- p +
+            geom_ribbon(
+                data = d, aes(x = x, ymin = base, ymax = y), inherit.aes = FALSE,
+                fill = transitions$color[i], color = "#333333",
+                linewidth = 0.2, alpha = 0.8
+            ) +
+            annotate("text", x = lx, y = d$base[1] + 0.8,
+                     label = transitions$label[i], hjust = 0, color = "#333333")
+    }
     p
 }
 
@@ -65,7 +106,7 @@ colors <- c(
 )
 
 
-trees <- treeio::read.beast("../beast/pano_covarion_relaxed.trees.gz")
+trees <- treeio::read.beast("../beast/models/pano_covarion_relaxed.trees.gz")
 
 # remove burn-in
 trees.subsample <- trees[1701:2001]
@@ -82,8 +123,8 @@ trees.subsample <- lapply(
 p <- ggdensitree(trees.subsample, aes(color=group), alpha=0.2) +
     geom_tiplab(color="#333333") +
     scale_x_continuous(
-        breaks = seq(-2000, 0, by = 500),
-        limits = c(-2100.0, 1000.0)
+        breaks = seq(-2500, 0, by = 500),
+        limits = c(-2700.0, 1000.0)
     ) +
     theme_tree2() +
     scale_color_manual(values=colors) +
@@ -107,5 +148,7 @@ p <- p + geom_density(
     alpha = 0.5
 )
 
+p <- add_transitions(p, "posteriors_primary.csv", transitions)
+
 p
-ggsave('fig_densitree.pdf', p, width=8, height=10, dpi=500)
+ggsave('fig_densitree.pdf', p, width=9, height=10, dpi=500)

@@ -11,7 +11,7 @@ ggplot2::theme_set(theme_classic(base_size=18))
 
 
 results <- NULL
-for (logfile in list.files('../models/', pattern="^[a-zA-Z0-9_\\-]+\\.log$")) {
+for (logfile in list.files('..beast//models/', pattern="^[a-zA-Z0-9_\\-]+\\.log$")) {
     results <- rbind(
         results,
         readr::read_delim(
@@ -40,4 +40,4 @@ o <- ggplot(results, aes(x=`Tree.t:tree.height`, y=Label, fill=Label, alpha=0.2)
     xlim(0, 2500) +
     scale_fill_manual(values=colors)
 
-ggsave('rootheights.pdf')
+ggsave('fig_rootheights.pdf')
