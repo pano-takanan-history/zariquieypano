@@ -27,7 +27,7 @@ est <- as.data.frame(sapply(trees, get_rootheight, simplify=TRUE, USE.NAMES=FALS
 rownames(est) <- NULL
 colnames(est) <- c("age")
 
-est$cal_BP <- est$age - 50  # convert to bp
+est$cal_BP <- est$age - 50  # convert to BP standard (1950)
 est$parameter <- 'Phylogeny'
 
 df <- rbind(est[c('parameter', 'cal_BP')], pac[c('parameter', 'cal_BP')])
@@ -57,19 +57,19 @@ ggplot(both, aes(cal_BP, density, fill = parameter)) +
     labs(x = "cal BP", y = "Density") +
     theme_classic() +
     scale_fill_manual(values=c("steelblue", "tomato"))
-
+ggsave('fig_overlap.pdf', dpi=500)
 
 p1 <- approx(pac_d$cal_BP, pac_d$density, xout = grid, yleft = 0, yright = 0)$y
 p2 <- approx(est_d$cal_BP, est_d$density, xout = grid, yleft = 0, yright = 0)$y
 
 ovl <- sum(pmin(p1, p2)) * 5    # 5 = 5 year grid
-# => 0.8639442
 
+###############################
 # try another approach with bayestestR
 library(bayestestR)
 
 n <- 1e5
-s_pac <- sample(pac_d$cal_BP, n, replace = TRUE, prob = pac_d$density)
+s_pac <- sample(pac_d$cal_BP, n, replace=TRUE, prob=pac_d$density)
 s_pac <- s_pac + runif(n, -2.5, 2.5)   # jitter within the 5-yr bins
 
 overlap(est$cal_BP, s_pac)
