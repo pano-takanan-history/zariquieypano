@@ -73,3 +73,8 @@ s_pac <- sample(pac_d$cal_BP, n, replace=TRUE, prob=pac_d$density)
 s_pac <- s_pac + runif(n, -2.5, 2.5)   # jitter within the 5-yr bins
 
 overlap(est$cal_BP, s_pac)
+
+# Compute values larger than archaeological tradition
+est_d |> 
+  filter(cal_BP > max(s_pac)) |> 
+  summarise(total = sum(density))
