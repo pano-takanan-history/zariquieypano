@@ -1,9 +1,10 @@
 library(patchwork)
 library(xml2)
 library(ggthemes)
+library(ggplot2)
 
 # Library that is work in progress
-#remotes::install_github("SimonGreenhill/lachesis_src")
+# remotes::install_github("SimonGreenhill/lachesis_src")
 library(lachesis)
 
 ticking <-c(0, 200, 400, 600, 800)
@@ -16,7 +17,7 @@ np <- beauti(distribution(cal), color='black', fill='#e000db', title=sprintf('No
   coord_cartesian(xlim=c(250, 900)) +  
   scale_x_continuous(breaks=ticking, labels=ticking) +
   scale_y_continuous(breaks = c(0.00, 0.005), labels = c(0.000, 0.005)) +
-  theme_grey(base_size=20) +
+  theme_classic(base_size=20) +
   theme(
     axis.text = element_text(size = 22),
     axis.title = element_text(size = 24)
@@ -29,7 +30,7 @@ cu <- beauti(distribution(cal), color='black', fill='#d1803f', title=sprintf('Ce
   coord_cartesian(xlim=c(250, 900)) +
   scale_x_continuous(breaks=ticking, labels=ticking) +
   scale_y_continuous(breaks = c(0.00, 0.005), labels = c(0.000, 0.005)) +
-  theme_grey(base_size=20) +
+  theme_classic(base_size=20) +
   theme(
     axis.text = element_text(size = 22),
     axis.title = element_text(size = 24)
@@ -42,7 +43,7 @@ cp <- beauti(distribution(cal), color='black', fill='#b08258', title=sprintf('Ch
   coord_cartesian(xlim=c(250, 900)) +
   scale_x_continuous(breaks=ticking, labels=ticking) +
   scale_y_continuous(breaks = c(0.00, 0.005), labels = c(0.000, 0.005)) +
-  theme_grey(base_size=20) +
+  theme_classic(base_size=20) +
   theme(
     axis.text = element_text(size = 22),
     axis.title = element_text(size = 24)
@@ -53,7 +54,7 @@ cp <- beauti(distribution(cal), color='black', fill='#b08258', title=sprintf('Ch
 cal <- calibration('Normal(80, 5)')
 ka <- beauti(distribution(cal), color='black', fill='#f8d56a', title=sprintf("Kashinawa: %s", format(cal))) +
   scale_y_continuous(breaks = c(0.00, 0.05, 0.1), labels = c(0.000, 0.05, 0.1)) +
-  theme_grey(base_size=20) +
+  theme_classic(base_size=20) +
   theme(
     axis.text = element_text(size = 22),
     axis.title = element_text(size = 24)
