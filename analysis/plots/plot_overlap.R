@@ -57,6 +57,7 @@ ggplot(both, aes(cal_BP, density, fill = parameter)) +
     labs(x = "cal BP", y = "Density") +
     theme_classic() +
     scale_fill_manual(values=c("steelblue", "tomato"))
+
 ggsave('fig_overlap.pdf', dpi=500)
 
 p1 <- approx(pac_d$cal_BP, pac_d$density, xout = grid, yleft = 0, yright = 0)$y
