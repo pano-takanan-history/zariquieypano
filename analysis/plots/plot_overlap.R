@@ -1,81 +1,79 @@
-#!/usr/bin/env Rscript
-
+# Compute the overlap beetween the transition of Pacacocha and the phylogeny
 library(ggplot2)
 library(dplyr)
 library(treeio)
 library(lachesis)
+library(bayestestR)
 
-# How small is "a small part of the posterior" “A “small part of the posterior”
-# fits with “a split prior to the development of Pacacocha”.
-# Can you please quantify “small”? Perhaps I'm not reading Fig3 correctly here,
-# but it looks to me as if about half the HPDI precedes the actual evidence for
-# Pacacocha, starting around 1400BP."
+# 95.4% 
+pac <- subset(read.csv("posteriors_primary.csv"), parameter == "Start of post-Yarinacocha period")
+pac <- pac[order(-pac$density), ]
 
+# Print 95.45% HPDI
+limits <- range(pac$cal_BP[cumsum(pac$density) - pac$density < 0.954])
 
-pac <- readr::read_csv('posterior_start_pacacocha.csv', show_col_types=FALSE)
-pac$parameter <- 'Pacachocha'
-
+# Read trees after burn-in
 trees <- treeio::read.beast('../beast/models/pano_covarion_relaxed_p5.trees')
-# remove burnin
 trees <- trees[1002:2001]
 
-# Pacacocha is root
-trees[[1]]@data
-
-
-est <- as.data.frame(sapply(trees, get_rootheight, simplify=TRUE, USE.NAMES=FALSE))
-rownames(est) <- NULL
-colnames(est) <- c("age")
-
-est$cal_BP <- est$age - 50  # convert to BP standard (1950)
-est$parameter <- 'Phylogeny'
+# trees[[1]]@data
+est <- tibble(
+  parameter="Phylogeny",
+  cal_BP=sapply(trees, get_rootheight) - 50  # Convert to BP standard: 1950
+)
 
 df <- rbind(est[c('parameter', 'cal_BP')], pac[c('parameter', 'cal_BP')])
-
-ggplot(df, aes(x=cal_BP, group=parameter, fill=parameter)) + geom_density(alpha=0.7) +
-    theme_classic() + scale_fill_manual(values=c("steelblue", "tomato"))
-
 
 # Convert estimated (phylogenetic) data onto same grid.
 # common 5-year grid spanning both
 grid <- seq(min(c(pac$cal_BP, est$cal_BP)) - 100,
-            max(c(pac$cal_BP, est$cal_BP)) + 100, by = 5)
+            max(c(pac$cal_BP, est$cal_BP)) + 100, by=5)
 
 # KDE of phylogenetic samples on that grid
-d <- density(est$cal_BP, from = min(grid), to = max(grid), n = length(grid))
-est_d <- tibble(parameter = "Phylogeny", cal_BP = d$x, density = d$y)
+d <- density(est$cal_BP, from=min(grid), to=max(grid), n=length(grid))
+
+est_d <- tibble(parameter="Phylogeny", cal_BP=d$x, density=d$y)
 
 # normalise pac so both integrate to 1
 pac_d <- pac |>
     select(parameter, cal_BP, density) |>
-    mutate(density = density / sum(density * 5))
+    mutate(density=density / sum(density * 5))
 
 both <- bind_rows(pac_d, est_d)
 
-ggplot(both, aes(cal_BP, density, fill = parameter)) +
-    geom_area(alpha = 0.5, position = "identity") +
-    labs(x = "cal BP", y = "Density") +
+ggplot(both, aes(cal_BP, density, fill=parameter)) +
+    geom_area(alpha=0.4, position="identity", color="black", outline.type="both") +
+    labs(x="cal BP", y="Density") +
     theme_classic() +
     scale_fill_manual(values=c("steelblue", "tomato"))
 
 ggsave('fig_overlap.pdf', dpi=500)
 
-p1 <- approx(pac_d$cal_BP, pac_d$density, xout = grid, yleft = 0, yright = 0)$y
-p2 <- approx(est_d$cal_BP, est_d$density, xout = grid, yleft = 0, yright = 0)$y
+p1 <- approx(pac_d$cal_BP, pac_d$density, xout=grid, yleft=0, yright=0)$y
+p2 <- approx(est_d$cal_BP, est_d$density, xout=grid, yleft=0, yright=0)$y
 
-ovl <- sum(pmin(p1, p2)) * 5    # 5 = 5 year grid
+ovl <- sum(pmin(p1, p2)) * 5    # 5=5 year grid
+ovl
 
 ###############################
-# try another approach with bayestestR
-library(bayestestR)
+# Simpler approach with bayestestR
+n <- 1e6
 
-n <- 1e5
+# Sample from density distribution
 s_pac <- sample(pac_d$cal_BP, n, replace=TRUE, prob=pac_d$density)
 s_pac <- s_pac + runif(n, -2.5, 2.5)   # jitter within the 5-yr bins
 
+hdi(s_pac, prob=0.954)
+mean(s_pac)
+
 overlap(est$cal_BP, s_pac)
 
-# Compute values larger than archaeological tradition
-est_d |> 
-  filter(cal_BP > max(s_pac)) |> 
-  summarise(total = sum(density))
+# Sample from the phylogeny posterior
+s_phy <- sample(est_d$cal_BP, n, replace=TRUE, prob=est_d$density)
+s_phy <- s_phy + runif(n, -2.5, 2.5)
+
+hdi(s_phy, prob=0.954)
+mean(s_phy)
+
+( sum(s_phy > max(s_pac)) / length(s_phy) ) * 100
+
