@@ -11,7 +11,7 @@ property | value
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF Wordlist](http://cldf.clld.org/v1.0/terms.rdf#Wordlist)
 [dc:license](http://purl.org/dc/terms/license) | https://creativecommons.org/licenses/by/4.0/
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/pano-takanan-history/zariquieypano
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/pano-takanan-history/zariquieypano/tree/872df3d">pano-takanan-history/zariquieypano  v0.4-12-g872df3d</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v5.3">Glottolog  v5.3</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/v3.4.0">Concepticon  v3.4.0</a></li><li><a href="https://github.com/cldf-clts/clts/tree/v2.3.0">CLTS  v2.3.0</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/pano-takanan-history/zariquieypano/tree/9bd74ed">pano-takanan-history/zariquieypano  v0.4-13-g9bd74ed</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v5.3">Glottolog  v5.3</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/v3.4.0">Concepticon  v3.4.0</a></li><li><a href="https://github.com/cldf-clts/clts/tree/v2.3.0">CLTS  v2.3.0</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>lingpy-rcParams</strong>: <a href="./lingpy-rcParams.json">lingpy-rcParams.json</a></li><li><strong>python</strong>: 3.14.8</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | zariquieypano
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
@@ -56,7 +56,7 @@ CustomLanguage(ID: str = '', Name: str | None = None, ISO639P3code: str | None =
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF LanguageTable](http://cldf.clld.org/v1.0/terms.rdf#LanguageTable)
-[dc:extent](http://purl.org/dc/terms/extent) | 30
+[dc:extent](http://purl.org/dc/terms/extent) | 26
 
 
 ### Columns

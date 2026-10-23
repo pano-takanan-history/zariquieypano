@@ -38,6 +38,7 @@ def desegment(sequence):
 class Dataset(BaseDataset):
     dir = Path(__file__).parent
     id = "zariquieypano"
+    writer_options = dict(keep_languages=False, keep_parameters=False)
     lexeme_class = CustomLexeme
     concept_class = CustomConcept
     language_class = CustomLanguage

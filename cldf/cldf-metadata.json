@@ -10,7 +10,7 @@
         {
             "rdf:about": "https://github.com/pano-takanan-history/zariquieypano",
             "rdf:type": "prov:Entity",
-            "dc:created": "v0.4-12-g872df3d",
+            "dc:created": "v0.4-13-g9bd74ed",
             "dc:title": "Repository"
         },
         {
@@ -172,7 +172,7 @@
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
             "dc:description": "CustomLanguage(ID: str = '', Name: str | None = None, ISO639P3code: str | None = None, Glottocode: str | None = None, Macroarea: str | None = None, Latitude: float | None = None, Longitude: float | None = None, Glottolog_Name: str | None = None, Family: str | None = None, SubGroup: Optional[__annotationlib_name_1__] = None, SourceDate: Optional[__annotationlib_name_2__] = None, Source: Optional[__annotationlib_name_3__] = None)",
-            "dc:extent": 30,
+            "dc:extent": 26,
             "tableSchema": {
                 "columns": [
                     {
