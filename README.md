@@ -1,5 +1,7 @@
 # CLDF dataset for Pano languages.
 
+[![CLDF validation](https://github.com/pano-takanan-history/zariquieypano/workflows/CLDF-validation/badge.svg)](https://github.com/pano-takanan-history/zariquieypano/actions?query=workflow%3ACLDF-validation)
+
 ## How to cite
 
 If you use these data please cite

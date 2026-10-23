@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=84.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zariquieypano"
+version = "0.5"
+dependencies = [
+    "pylexibank==4.2.0",
+    "cldfbench==2.0.1",
+    "pycldf==2.1.1",
+    "csvw==4.1.1",
+    "pyconcepticon==4.0.0",
+    "lingpy==2.6.13",
+    "edictor==3.2"
+]
+
+[project.optional-dependencies]
+test = ["pytest-cldf"]
+
+[project.entry-points."lexibank.dataset"]
+zariquieypano = "lexibank_zariquieypano:Dataset"
+
+[tool.setuptools]
+py-modules = ["zariquieypano"]
+include-package-data = true
+zip-safe = false
