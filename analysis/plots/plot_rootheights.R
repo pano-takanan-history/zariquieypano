@@ -9,14 +9,14 @@ require(RColorBrewer, quietly=TRUE)
 
 ggplot2::theme_set(theme_classic(base_size=18))
 
-
 results <- NULL
-for (logfile in list.files('..beast//models/', pattern="^[a-zA-Z0-9_\\-]+\\.log$")) {
+for (logfile in list.files('../beast/models/', pattern="^[a-zA-Z0-9_\\-]+\\.log$")) {
+  file_path <- paste0('../beast/models/', logfile)
     results <- rbind(
         results,
         readr::read_delim(
-            logfile, 
-            id="filename",
+          file_path, 
+            id='filename',
             comment="#",
             col_select=c('Sample', 'posterior', 'Tree.t:tree.height', 'Tree.t:tree.treeLength'),
             show_col_types=FALSE)

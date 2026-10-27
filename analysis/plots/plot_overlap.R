@@ -44,8 +44,12 @@ both <- bind_rows(pac_d, est_d)
 ggplot(both, aes(cal_BP, density, fill=parameter)) +
     geom_area(alpha=0.4, position="identity", color="black", outline.type="both") +
     labs(x="cal BP", y="Density") +
-    theme_classic() +
-    scale_fill_manual(values=c("steelblue", "tomato"))
+  theme_classic(base_size = 16) +
+  scale_fill_manual(values = c("steelblue", "tomato")) +
+  theme(
+    legend.position = "bottom",
+    legend.title = element_blank()
+  )
 
 ggsave('fig_overlap.pdf', dpi=500)
 

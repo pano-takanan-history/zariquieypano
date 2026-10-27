@@ -1,0 +1,71 @@
+Options(){kIterations=200;BCAD=TRUE;};
+Plot()
+{
+ Curve("SHCal20","shcal20.14c");
+ Curve("IntCal20","intcal20.14c");
+ Mix_Curves("Mixed","IntCal20","SHCal20",50,10);
+
+ Outlier_Model("Charcoal",Exp(1,-10,0),U(0,2),"t");
+ Outlier_Model("General",T(5),U(0,4),"t");
+
+ Sequence("Ucayali")
+ {
+  Boundary("Start Jose's Hill sequence",U(-3000,1950));
+  Phase("Early Shakimu")
+  {
+   R_Date("Jose's Hill Early Shakimu (Y-1543)",2600,100){Outlier("General",0.05);};
+  };
+  Boundary("Start Hupa-iya");
+  Boundary("Start Yarinacocha");
+  Phase("Yarinacocha")
+  {
+   R_Date("Jose's Hill (N-313)",1860,110){Outlier("General",0.05);};
+  };
+  Boundary("Start Pacacocha");
+  Phase("Pacacocha onwards")
+  {
+   R_Date("Nueva Esperanza (N-312)",1180,105){Outlier("Charcoal",1);};
+
+   Sequence("Cumancaya")
+   {
+    Boundary("Start Cumancaya");
+    Phase("Cumancaya")
+    {
+     R_Date("Naneini (P-996)",1249,51){Outlier("Charcoal",1);};
+     R_Date("Caimito site (Y-1545)",1140,80){Outlier("Charcoal",1);};
+     R_Date("Sonochenea (GX-2615)",1120,100){Outlier("Charcoal",1);};
+     R_Date("Contamanilla (ISGS-272)",670,120){Outlier("General",0.05);};
+     R_Date("Piyuya (ISGS-273)",500,80){Outlier("General",0.05);};
+    };
+    Boundary("End Cumancaya");
+   };
+
+   Sequence("Caimito")
+   {
+    Boundary("Start Caimito");
+    Phase("Caimito")
+    {
+     R_Date("TAM-2 (Y-1544)",630,60){Outlier("General",0.05);};
+     R_Date("TAM-1 (N-310)",575,105){Outlier("General",0.05);};
+    };
+    Boundary("End Caimito");
+   };
+  };
+  Boundary("End Ucayali",U(-1000,1950));
+ };
+
+ Sequence("TAM-2 stratigraphy")
+ {
+  Date("=Caimito site (Y-1545)");
+  Date("=TAM-2 (Y-1544)");
+ };
+
+ Order("Order - Ucayali sequence","Jose's Hill (N-313)","Start Pacacocha","Nueva Esperanza (N-312)","Start Cumancaya","Start Caimito","End Cumancaya");
+ Difference("Pacacocha start - N-313","Start Pacacocha","Jose's Hill (N-313)");
+ Difference("Yarinacocha start - Y-1543","Start Yarinacocha","Jose's Hill Early Shakimu (Y-1543)");
+ Difference("Cum start - N-312","Start Cumancaya","Nueva Esperanza (N-312)");
+ Difference("Caimito start - N-312","Start Caimito","Nueva Esperanza (N-312)");
+ Difference("Caimito start - Cum end","Start Caimito","End Cumancaya");
+ Difference("Caimito start - Cum start","Start Caimito","Start Cumancaya");
+ Difference("TAM-2 order check","TAM-2 (Y-1544)","Caimito site (Y-1545)");
+};
